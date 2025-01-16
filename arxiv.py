@@ -75,6 +75,19 @@ def send_wechat_message(title, content, SERVERCHAN_API_KEY):
         'desp': content,
     }
     requests.post(url, params=params)
+def send_dingtalk_message(title, content, webhook_url):
+    headers = {'Content-Type': 'application/json'}
+    data = {
+             "msgtype": "markdown",
+             "markdown": {
+                 "title": title,
+                 "text": content
+             }
+         }
+    response = requests.post(webhook_url, headers=headers, data=json.dumps(data))
+    if response.status_code != 200:
+        print(f"Failed to send message: {response.text}")
+
 
 def send_feishu_message(title, content, url=FEISHU_URL):
     card_data = {
