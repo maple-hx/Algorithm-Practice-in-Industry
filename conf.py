@@ -185,8 +185,8 @@ def cronjob(error_cnt):
         push_title = f'{conf}[{ii}]@{today}'
         msg_content = f"[{msg_title}]({url})\n\n{msg_author}\n\n{msg_org}\n\n{msg_url}\n\n{msg_translated}\n\n{msg_summary}\n\n"
 
-        # send_wechat_message(push_title, msg_content, SERVERCHAN_API_KEY)
-        send_dingtalk_message(push_title, msg_content, FEISHU_URL)
+        send_wechat_message(push_title, msg_content, SERVERCHAN_API_KEY)
+        # send_dingtalk_message(push_title, msg_content, FEISHU_URL)
 
         time.sleep(12)
 
