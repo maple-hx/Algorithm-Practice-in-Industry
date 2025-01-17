@@ -147,9 +147,9 @@ def update_message(args):
             "href": "https://github.com/Doragd/Algorithm-Practice-in-Industry"
         }]
     )
-    send_feishu_message(title, content, url=FEISHU_URL)
+    send_dingtalk_message(title, content, url=FEISHU_URL)
 
-def send_feishu_message(title, content, url=FEISHU_URL):
+def send_dingtalk_message(title, content, url=FEISHU_URL):
     raw_data = {
         "msg_type": "post",
         "content": {
