@@ -147,7 +147,7 @@ def update_message(args):
             "href": "https://github.com/Doragd/Algorithm-Practice-in-Industry"
         }]
     )
-    send_dingtalk_message(title, content, url=FEISHU_URL)
+    send_wechat_message(title, content, url=FEISHU_URL)
 
 def send_dingtalk_message(title, content, url=FEISHU_URL):
     raw_data = {
@@ -165,6 +165,21 @@ def send_dingtalk_message(title, content, url=FEISHU_URL):
     headers = {"Content-Type":"application/json"}
     ret = requests.post(url=url, data=body, headers=headers)
     print(ret.text)
+
+def send_wechat_message(title, content, SERVERCHAN_API_KEY):
+    raw_data = {
+        "msg_type": "post",
+        "content": {
+            "post": {
+                "zh_cn": {
+                    "title": title,
+                    "content": content
+                }
+            }
+        }
+    }  
+    url = f'https://sctapi.ftqq.com/{SERVERCHAN_API_KEY}.send'
+    requests.post(url, params=raw_data)
 
 
 
