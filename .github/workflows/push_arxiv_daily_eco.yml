@@ -1,4 +1,4 @@
-name: push_arxiv_daily_cl
+name: push_arxiv_daily_eco
 
 env:
   PYTHON_VERSION: "3.8" # set this to the Python version to use
