@@ -41977,5 +41977,33 @@
         "pub_date": "2025-02-22",
         "summary": "This paper presents a novel semiparametric method to study the effects of extreme events on binary outcomes and subsequently forecast future outcomes. Our approach, based on Bayes' theorem and regularly varying (RV) functions, facilitates a Pareto approximation in the tail without imposing parametric assumptions beyond the tail. We analyze cross-sectional as well as static and dynamic panel data models, incorporate additional covariates, and accommodate the unobserved unit-specific tail thickness and RV functions in panel data. We establish consistency and asymptotic normality of our tail estimator, and show that our objective function converges to that of a panel Logit regression on tail observations with the log extreme covariate as a regressor, thereby simplifying implementation. The empirical application assesses whether small banks become riskier when local housing prices sharply decline, a crucial channel in the 2007--2008 financial crisis.",
         "translated": ""
+    },
+    {
+        "title": "DRAMA: Diverse Augmentation from Large Language Models to Smaller Dense\n  Retrievers",
+        "url": "http://arxiv.org/abs/2502.18460v1",
+        "pub_date": "2025-02-25",
+        "summary": "Large language models (LLMs) have demonstrated strong effectiveness and robustness while fine-tuned as dense retrievers. However, their large parameter size brings significant inference time computational challenges, including high encoding costs for large-scale corpora and increased query latency, limiting their practical deployment. While smaller retrievers offer better efficiency, they often fail to generalize effectively with limited supervised fine-tuning data. In this work, we introduce DRAMA, a training framework that leverages LLMs to train smaller generalizable dense retrievers. In particular, we adopt pruned LLMs as the backbone and train on diverse LLM-augmented data in a single-stage contrastive learning setup. Experiments show that DRAMA offers better multilingual and long-context capabilities than traditional encoder-based retrievers, and achieves strong performance across multiple tasks and languages. These highlight the potential of connecting the training of smaller retrievers with the growing advancements in LLMs, bridging the gap between efficiency and generalization.",
+        "translated": ""
+    },
+    {
+        "title": "Rank1: Test-Time Compute for Reranking in Information Retrieval",
+        "url": "http://arxiv.org/abs/2502.18418v1",
+        "pub_date": "2025-02-25",
+        "summary": "We introduce Rank1, the first reranking model trained to take advantage of test-time compute. Rank1 demonstrates the applicability within retrieval of using a reasoning language model (i.e. OpenAI's o1, Deepseek's R1, etc.) for distillation in order to rapidly improve the performance of a smaller model. We gather and open-source a dataset of more than 600,000 examples of R1 reasoning traces from queries and passages in MS MARCO. Models trained on this dataset show: (1) state-of-the-art performance on advanced reasoning and instruction following datasets; (2) work remarkably well out of distribution due to the ability to respond to user-input prompts; and (3) have explainable reasoning chains that can be given to users or RAG-based systems. Further, we demonstrate that quantized versions of these models retain strong performance while using less compute/memory. Overall, Rank1 shows that test-time compute allows for a fundamentally new type of explainable and performant reranker model for search.",
+        "translated": ""
+    },
+    {
+        "title": "A Unified Bayesian Perspective for Conventional and Robust Adaptive\n  Filters",
+        "url": "http://arxiv.org/abs/2502.18325v1",
+        "pub_date": "2025-02-25",
+        "summary": "In this work, we present a new perspective on the origin and interpretation of adaptive filters. By applying Bayesian principles of recursive inference from the state-space model and using a series of simplifications regarding the structure of the solution, we can present, in a unified framework, derivations of many adaptive filters which depend on the probabilistic model of the observational noise. In particular, under a Gaussian model, we obtain solutions well-known in the literature (such as LMS, NLMS, or Kalman filter), while using non-Gaussian noise, we obtain new families of adaptive filter. Notably, under assumption of Laplacian noise, we obtain a family of robust filters of which the signed-error algorithm is a well-known member, while other algorithms, derived effortlessly in the proposed framework, are entirely new. Numerical examples are shown to illustrate the properties and provide a better insight into the performance of the derived adaptive filters.",
+        "translated": ""
+    },
+    {
+        "title": "How Vital is the Jurisprudential Relevance: Law Article Intervened Legal\n  Case Retrieval and Matching",
+        "url": "http://arxiv.org/abs/2502.18292v1",
+        "pub_date": "2025-02-25",
+        "summary": "Legal case retrieval (LCR) aims to automatically scour for comparable legal cases based on a given query, which is crucial for offering relevant precedents to support the judgment in intelligent legal systems. Due to similar goals, it is often associated with a similar case matching (LCM) task. To address them, a daunting challenge is assessing the uniquely defined legal-rational similarity within the judicial domain, which distinctly deviates from the semantic similarities in general text retrieval. Past works either tagged domain-specific factors or incorporated reference laws to capture legal-rational information. However, their heavy reliance on expert or unrealistic assumptions restricts their practical applicability in real-world scenarios. In this paper, we propose an end-to-end model named LCM-LAI to solve the above challenges. Through meticulous theoretical analysis, LCM-LAI employs a dependent multi-task learning framework to capture legal-rational information within legal cases by a law article prediction (LAP) sub-task, without any additional assumptions in inference. Besides, LCM-LAI proposes an article-aware attention mechanism to evaluate the legal-rational similarity between across-case sentences based on law distribution, which is more effective than conventional semantic similarity. Weperform a series of exhaustive experiments including two different tasks involving four real-world datasets. Results demonstrate that LCM-LAI achieves state-of-the-art performance.",
+        "translated": ""
     }
 ]
