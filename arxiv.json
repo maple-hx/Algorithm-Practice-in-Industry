@@ -41956,5 +41956,26 @@
         "pub_date": "2025-02-24",
         "summary": "The safety alignment of large language models (LLMs) can be circumvented through adversarially crafted inputs, yet the mechanisms by which these attacks bypass safety barriers remain poorly understood. Prior work suggests that a single refusal direction in the model's activation space determines whether an LLM refuses a request. In this study, we propose a novel gradient-based approach to representation engineering and use it to identify refusal directions. Contrary to prior work, we uncover multiple independent directions and even multi-dimensional concept cones that mediate refusal. Moreover, we show that orthogonality alone does not imply independence under intervention, motivating the notion of representational independence that accounts for both linear and non-linear effects. Using this framework, we identify mechanistically independent refusal directions. We show that refusal mechanisms in LLMs are governed by complex spatial structures and identify functionally independent directions, confirming that multiple distinct mechanisms drive refusal behavior. Our gradient-based approach uncovers these mechanisms and can further serve as a foundation for future work on understanding LLMs.",
         "translated": ""
+    },
+    {
+        "title": "Optimal Salaries of Researchers with Motivational Emergence",
+        "url": "http://arxiv.org/abs/2502.17271v1",
+        "pub_date": "2025-02-24",
+        "summary": "In the context of scientific policy and science management, this study examines the system of nonuniform wage distribution for researchers. A nonlinear mathematical model of optimal remuneration for scientific workers has been developed, considering key and additive aspects of scientific activity: basic qualifications, research productivity, collaborative projects, skill enhancement, distinctions, and international collaborations. Unlike traditional linear schemes, the proposed approach is based on exponential and logarithmic dependencies, allowing for the consideration of saturation effects and preventing artificial wage growth due to mechanical increases in scientific productivity indicators.   The study includes detailed calculations of optimal, minimum, and maximum wages, demonstrating a fair distribution of remuneration on the basis of researcher productivity. A linear increase in publication activity or grant funding should not lead to uncontrolled salary growth, thus avoiding distortions in the motivational system. The results of this study can be used to reform and modernize the wage system for researchers in Kazakhstan and other countries, as well as to optimize grant-based science funding mechanisms. The proposed methodology fosters scientific motivation, long-term productivity, and the internationalization of research while also promoting self-actualization and ultimately forming an adequate and authentic reward system for the research community.   Specifically, in resource-limited scientific systems, science policy should focus on the qualitative development of individual researchers rather than quantitative expansion (e.g., increasing the number of scientists). This can be achieved through the productive progress of their motivation and self-actualization.",
+        "translated": ""
+    },
+    {
+        "title": "Conditional Triple Difference-in-Differences",
+        "url": "http://arxiv.org/abs/2502.16126v2",
+        "pub_date": "2025-02-22",
+        "summary": "Triple difference-in-differences (TDID) designs are widely used in empirical research to estimate causal effects. In practice, most implementations rely on a specification with controls. However, we show that such approaches introduce bias due to differences in covariate distributions across groups. To address this issue, we propose a re-weighted estimator that correctly identifies a causal estimand of interest by aligning covariate distributions across groups. For estimation we develop a double-robust approach. A R package is provided for general use.",
+        "translated": ""
+    },
+    {
+        "title": "Binary Outcome Models with Extreme Covariates: Estimation and Prediction",
+        "url": "http://arxiv.org/abs/2502.16041v1",
+        "pub_date": "2025-02-22",
+        "summary": "This paper presents a novel semiparametric method to study the effects of extreme events on binary outcomes and subsequently forecast future outcomes. Our approach, based on Bayes' theorem and regularly varying (RV) functions, facilitates a Pareto approximation in the tail without imposing parametric assumptions beyond the tail. We analyze cross-sectional as well as static and dynamic panel data models, incorporate additional covariates, and accommodate the unobserved unit-specific tail thickness and RV functions in panel data. We establish consistency and asymptotic normality of our tail estimator, and show that our objective function converges to that of a panel Logit regression on tail observations with the log extreme covariate as a regressor, thereby simplifying implementation. The empirical application assesses whether small banks become riskier when local housing prices sharply decline, a crucial channel in the 2007--2008 financial crisis.",
+        "translated": ""
     }
 ]
