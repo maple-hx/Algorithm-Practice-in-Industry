@@ -42026,5 +42026,19 @@
         "pub_date": "2025-02-25",
         "summary": "Handling ambiguity and underspecification is an important challenge in natural language interfaces, particularly for tasks like text-to-SQL semantic parsing. We propose a modular approach that resolves ambiguity using natural language interpretations before mapping these to logical forms (e.g., SQL queries). Although LLMs excel at parsing unambiguous utterances, they show strong biases for ambiguous ones, typically predicting only preferred interpretations. We constructively exploit this bias to generate an initial set of preferred disambiguations and then apply a specialized infilling model to identify and generate missing interpretations. To train the infilling model, we introduce an annotation method that uses SQL execution to validate different meanings. Our approach improves interpretation coverage and generalizes across datasets with different annotation styles, database structures, and ambiguity types.",
         "translated": ""
+    },
+    {
+        "title": "Minimum Distance Estimation of Quantile Panel Data Models",
+        "url": "http://arxiv.org/abs/2502.18242v1",
+        "pub_date": "2025-02-25",
+        "summary": "We propose a minimum distance estimation approach for quantile panel data models where unit effects may be correlated with covariates. This computationally efficient method involves two stages: first, computing quantile regression within each unit, then applying GMM to the first-stage fitted values. Our estimators apply to (i) classical panel data, tracking units over time, and (ii) grouped data, where individual-level data are available, but treatment varies at the group level. Depending on the exogeneity assumptions, this approach provides quantile analogs of classic panel data estimators, including fixed effects, random effects, between, and Hausman-Taylor estimators. In addition, our method offers improved precision for grouped (instrumental) quantile regression compared to existing estimators. We establish asymptotic properties as the number of units and observations per unit jointly diverge to infinity. Additionally, we introduce an inference procedure that automatically adapts to the potentially unknown convergence rate of the estimator. Monte Carlo simulations demonstrate that our estimator and inference procedure perform well in finite samples, even when the number of observations per unit is moderate. In an empirical application, we examine the impact of the food stamp program on birth weights. We find that the program's introduction increased birth weights predominantly at the lower end of the distribution, highlighting the ability of our method to capture heterogeneous effects across the outcome distribution.",
+        "translated": ""
+    },
+    {
+        "title": "Certified Decisions",
+        "url": "http://arxiv.org/abs/2502.17830v1",
+        "pub_date": "2025-02-25",
+        "summary": "Hypothesis tests and confidence intervals are ubiquitous in empirical research, yet their connection to subsequent decision-making is often unclear. We develop a theory of certified decisions that pairs recommended decisions with inferential guarantees. Specifically, we attach P-certificates -- upper bounds on loss that hold with probability at least $1-\\alpha$ -- to recommended actions. We show that such certificates allow \"safe,\" risk-controlling adoption decisions for ambiguity-averse downstream decision-makers. We further prove that it is without loss to limit attention to P-certificates arising as minimax decisions over confidence sets, or what Manski (2021) terms \"as-if decisions with a set estimate.\" A parallel argument applies to E-certified decisions obtained from e-values in settings with unbounded loss.",
+        "translated": ""
     }
 ]
