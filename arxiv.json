@@ -42166,5 +42166,26 @@
         "pub_date": "2025-02-26",
         "summary": "Triple difference designs have become increasingly popular in empirical economics. The advantage of a triple difference design is that, within treatment group, it allows for another subgroup of the population -- potentially less impacted by the treatment -- to serve as a control for the subgroup of interest. While literature on difference-in-differences has discussed heterogeneity in treatment effects between treated and control groups or over time, little attention has been given to the implications of heterogeneity in treatment effects between subgroups. In this paper, I show that interpretation of the usual triple difference parameter of interest, the difference in average treatment effects on the treated between subgroups, may be affected by this kind of heterogeneity. I propose a new parameter of interest, the causal difference in average treatment effects on the treated, which makes causal comparisons between subgroups. I discuss assumptions for identification and derive the semiparametric efficiency bounds for this parameter. I then propose doubly-robust, efficient estimators for this parameter. I use a simulation study to highlight the desirable finite-sample properties of these estimators, as well as to show the difference between this parameter and the usual triple difference parameter of interest. An empirical application shows the importance of considering treatment effect heterogeneity in practical applications.",
         "translated": ""
+    },
+    {
+        "title": "LangProBe: a Language Programs Benchmark",
+        "url": "http://arxiv.org/abs/2502.20315v1",
+        "pub_date": "2025-02-27",
+        "summary": "Composing language models (LMs) into multi-step language programs and automatically optimizing their modular prompts is now a mainstream paradigm for building AI systems, but the tradeoffs in this space have only scarcely been studied before. We introduce LangProBe, the first large-scale benchmark for evaluating the architectures and optimization strategies for language programs, with over 2000 combinations of tasks, architectures, optimizers, and choices of LMs. Using LangProBe, we are the first to study the impact of program architectures and optimizers (and their compositions together and with different models) on tradeoffs of quality and cost. We find that optimized language programs offer strong cost--quality Pareto improvement over raw calls to models, but simultaneously demonstrate that human judgment (or empirical decisions) about which compositions to pursue is still necessary for best performance. We will open source the code and evaluation data for LangProBe.",
+        "translated": ""
+    },
+    {
+        "title": "Granite Embedding Models",
+        "url": "http://arxiv.org/abs/2502.20204v1",
+        "pub_date": "2025-02-27",
+        "summary": "We introduce the Granite Embedding models, a family of encoder-based embedding models designed for retrieval tasks, spanning dense-retrieval and sparse retrieval architectures, with both English and Multilingual capabilities. This report provides the technical details of training these highly effective 12 layer embedding models, along with their efficient 6 layer distilled counterparts. Extensive evaluations show that the models, developed with techniques like retrieval oriented pretraining, contrastive finetuning, knowledge distillation, and model merging significantly outperform publicly available models of similar sizes on both internal IBM retrieval and search tasks, and have equivalent performance on widely used information retrieval benchmarks, while being trained on high-quality data suitable for enterprise use. We publicly release all our Granite Embedding models under the Apache 2.0 license, allowing both research and commercial use at https://huggingface.co/collections/ibm-granite.",
+        "translated": ""
+    },
+    {
+        "title": "Bisecting K-Means in RAG for Enhancing Question-Answering Tasks\n  Performance in Telecommunications",
+        "url": "http://arxiv.org/abs/2502.20188v1",
+        "pub_date": "2025-02-27",
+        "summary": "Question-answering tasks in the telecom domain are still reasonably unexplored in the literature, primarily due to the field's rapid changes and evolving standards. This work presents a novel Retrieval-Augmented Generation framework explicitly designed for the telecommunication domain, focusing on datasets composed of 3GPP documents. The framework introduces the use of the Bisecting K-Means clustering technique to organize the embedding vectors by contents, facilitating more efficient information retrieval. By leveraging this clustering technique, the system pre-selects a subset of clusters that are most similar to the user's query, enhancing the relevance of the retrieved information. Aiming for models with lower computational cost for inference, the framework was tested using Small Language Models, demonstrating improved performance with an accuracy of 66.12% on phi-2 and 72.13% on phi-3 fine-tuned models, and reduced training time.",
+        "translated": ""
     }
 ]
