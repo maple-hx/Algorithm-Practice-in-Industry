@@ -42369,5 +42369,33 @@
         "pub_date": "2025-02-28",
         "summary": "Multimodal large language models (MLLMs) have enabled open-world visual understanding by injecting visual input as extra tokens into large language models (LLMs) as contexts. However, when the visual input changes from a single image to a long video, the above paradigm encounters difficulty because the vast amount of video tokens has significantly exceeded the maximal capacity of MLLMs. Therefore, existing video-based MLLMs are mostly established upon sampling a small portion of tokens from input data, which can cause key information to be lost and thus produce incorrect answers. This paper presents a simple yet effective algorithm named Adaptive Keyframe Sampling (AKS). It inserts a plug-and-play module known as keyframe selection, which aims to maximize the useful information with a fixed number of video tokens. We formulate keyframe selection as an optimization involving (1) the relevance between the keyframes and the prompt, and (2) the coverage of the keyframes over the video, and present an adaptive algorithm to approximate the best solution. Experiments on two long video understanding benchmarks validate that Adaptive Keyframe Sampling improves video QA accuracy (beyond strong baselines) upon selecting informative keyframes. Our study reveals the importance of information pre-filtering in video-based MLLMs. Code is available at https://github.com/ncTimTang/AKS.",
         "translated": ""
+    },
+    {
+        "title": "Zero-Shot Complex Question-Answering on Long Scientific Documents",
+        "url": "http://arxiv.org/abs/2503.02695v1",
+        "pub_date": "2025-03-04",
+        "summary": "With the rapid development in Transformer-based language models, the reading comprehension tasks on short documents and simple questions have been largely addressed. Long documents, specifically the scientific documents that are densely packed with knowledge discovered and developed by humans, remain relatively unexplored. These documents often come with a set of complex and more realistic questions, adding to their complexity. We present a zero-shot pipeline framework that enables social science researchers to perform question-answering tasks that are complex yet of predetermined question formats on full-length research papers without requiring machine learning expertise. Our approach integrates pre-trained language models to handle challenging scenarios including multi-span extraction, multi-hop reasoning, and long-answer generation. Evaluating on MLPsych, a novel dataset of social psychology papers with annotated complex questions, we demonstrate that our framework achieves strong performance through combination of extractive and generative models. This work advances document understanding capabilities for social sciences while providing practical tools for researchers.",
+        "translated": ""
+    },
+    {
+        "title": "Towards Robust Expert Finding in Community Question Answering Platforms",
+        "url": "http://arxiv.org/abs/2503.02674v1",
+        "pub_date": "2025-03-04",
+        "summary": "This paper introduces TUEF, a topic-oriented user-interaction model for fair Expert Finding in Community Question Answering (CQA) platforms. The Expert Finding task in CQA platforms involves identifying proficient users capable of providing accurate answers to questions from the community. To this aim, TUEF improves the robustness and credibility of the CQA platform through a more precise Expert Finding component. The key idea of TUEF is to exploit diverse types of information, specifically, content and social information, to identify more precisely experts thus improving the robustness of the task. We assess TUEF through reproducible experiments conducted on a large-scale dataset from StackOverflow. The results consistently demonstrate that TUEF outperforms state-of-the-art competitors while promoting transparent expert identification.",
+        "translated": ""
+    },
+    {
+        "title": "Are some books better than others?",
+        "url": "http://arxiv.org/abs/2503.02671v1",
+        "pub_date": "2025-03-04",
+        "summary": "Scholars, awards committees, and laypeople frequently discuss the merit of written works. Literary professionals and journalists differ in how much perspectivism they concede in their book reviews. Here, we quantify how strongly book reviews are determined by the actual book contents vs. idiosyncratic reader tendencies. In our analysis of 624,320 numerical and textual book reviews, we find that the contents of professionally published books are not predictive of a random reader's reading enjoyment. Online reviews of popular fiction and non-fiction books carry up to ten times more information about the reviewer than about the book. For books of a preferred genre, readers might be less likely to give low ratings, but still struggle to converge in their relative assessments. We find that book evaluations generalize more across experienced review writers than casual readers. When discussing specific issues with a book, one review text had poor predictability of issues brought up in another review of the same book. We conclude that extreme perspectivism is a justifiable position when researching literary quality, bestowing literary awards, and designing recommendation systems.",
+        "translated": ""
+    },
+    {
+        "title": "Personalized Generation In Large Model Era: A Survey",
+        "url": "http://arxiv.org/abs/2503.02614v1",
+        "pub_date": "2025-03-04",
+        "summary": "In the era of large models, content generation is gradually shifting to Personalized Generation (PGen), tailoring content to individual preferences and needs. This paper presents the first comprehensive survey on PGen, investigating existing research in this rapidly growing field. We conceptualize PGen from a unified perspective, systematically formalizing its key components, core objectives, and abstract workflows. Based on this unified perspective, we propose a multi-level taxonomy, offering an in-depth review of technical advancements, commonly used datasets, and evaluation metrics across multiple modalities, personalized contexts, and tasks. Moreover, we envision the potential applications of PGen and highlight open challenges and promising directions for future exploration. By bridging PGen research across multiple modalities, this survey serves as a valuable resource for fostering knowledge sharing and interdisciplinary collaboration, ultimately contributing to a more personalized digital landscape.",
+        "translated": ""
     }
 ]
