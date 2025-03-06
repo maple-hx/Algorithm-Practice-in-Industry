@@ -42397,5 +42397,33 @@
         "pub_date": "2025-03-04",
         "summary": "In the era of large models, content generation is gradually shifting to Personalized Generation (PGen), tailoring content to individual preferences and needs. This paper presents the first comprehensive survey on PGen, investigating existing research in this rapidly growing field. We conceptualize PGen from a unified perspective, systematically formalizing its key components, core objectives, and abstract workflows. Based on this unified perspective, we propose a multi-level taxonomy, offering an in-depth review of technical advancements, commonly used datasets, and evaluation metrics across multiple modalities, personalized contexts, and tasks. Moreover, we envision the potential applications of PGen and highlight open challenges and promising directions for future exploration. By bridging PGen research across multiple modalities, this survey serves as a valuable resource for fostering knowledge sharing and interdisciplinary collaboration, ultimately contributing to a more personalized digital landscape.",
         "translated": ""
+    },
+    {
+        "title": "Wikipedia in the Era of LLMs: Evolution and Risks",
+        "url": "http://arxiv.org/abs/2503.02879v1",
+        "pub_date": "2025-03-04",
+        "summary": "In this paper, we present a thorough analysis of the impact of Large Language Models (LLMs) on Wikipedia, examining the evolution of Wikipedia through existing data and using simulations to explore potential risks. We begin by analyzing page views and article content to study Wikipedia's recent changes and assess the impact of LLMs. Subsequently, we evaluate how LLMs affect various Natural Language Processing (NLP) tasks related to Wikipedia, including machine translation and retrieval-augmented generation (RAG). Our findings and simulation results reveal that Wikipedia articles have been influenced by LLMs, with an impact of approximately 1%-2% in certain categories. If the machine translation benchmark based on Wikipedia is influenced by LLMs, the scores of the models may become inflated, and the comparative results among models might shift as well. Moreover, the effectiveness of RAG might decrease if the knowledge base becomes polluted by LLM-generated content. While LLMs have not yet fully changed Wikipedia's language and knowledge structures, we believe that our empirical findings signal the need for careful consideration of potential future risks.",
+        "translated": ""
+    },
+    {
+        "title": "Language Models can Self-Improve at State-Value Estimation for Better\n  Search",
+        "url": "http://arxiv.org/abs/2503.02878v1",
+        "pub_date": "2025-03-04",
+        "summary": "Collecting ground truth task completion rewards or human demonstrations for multi-step reasoning tasks is often cost-prohibitive and time-consuming, especially in interactive domains like web tasks. To address this bottleneck, we present self-taught lookahead, a self-supervised method that leverages state-transition dynamics to train a value model capable of effectively guiding language model-controlled search. We find that moderately sized (8 billion parameters) open-weight value models improved with self-taught lookahead can match the performance of using a frontier LLM such as gpt-4o as the value model. Furthermore, we find that self-taught lookahead improves performance by 20% while reducing costs 37x compared to previous LLM-based tree search, without relying on ground truth rewards.",
+        "translated": ""
+    },
+    {
+        "title": "The First Few Tokens Are All You Need: An Efficient and Effective\n  Unsupervised Prefix Fine-Tuning Method for Reasoning Models",
+        "url": "http://arxiv.org/abs/2503.02875v1",
+        "pub_date": "2025-03-04",
+        "summary": "Improving the reasoning capabilities of large language models (LLMs) typically requires supervised fine-tuning with labeled data or computationally expensive sampling. We introduce Unsupervised Prefix Fine-Tuning (UPFT), which leverages the observation of Prefix Self-Consistency -- the shared initial reasoning steps across diverse solution trajectories -- to enhance LLM reasoning efficiency. By training exclusively on the initial prefix substrings (as few as 8 tokens), UPFT removes the need for labeled data or exhaustive sampling. Experiments on reasoning benchmarks show that UPFT matches the performance of supervised methods such as Rejection Sampling Fine-Tuning, while reducing training time by 75% and sampling cost by 99%. Further analysis reveals that errors tend to appear in later stages of the reasoning process and that prefix-based training preserves the model's structural knowledge. This work demonstrates how minimal unsupervised fine-tuning can unlock substantial reasoning gains in LLMs, offering a scalable and resource-efficient alternative to conventional approaches.",
+        "translated": ""
+    },
+    {
+        "title": "FairSense-AI: Responsible AI Meets Sustainability",
+        "url": "http://arxiv.org/abs/2503.02865v1",
+        "pub_date": "2025-03-04",
+        "summary": "In this paper, we introduce FairSense-AI: a multimodal framework designed to detect and mitigate bias in both text and images. By leveraging Large Language Models (LLMs) and Vision-Language Models (VLMs), FairSense-AI uncovers subtle forms of prejudice or stereotyping that can appear in content, providing users with bias scores, explanatory highlights, and automated recommendations for fairness enhancements. In addition, FairSense-AI integrates an AI risk assessment component that aligns with frameworks like the MIT AI Risk Repository and NIST AI Risk Management Framework, enabling structured identification of ethical and safety concerns. The platform is optimized for energy efficiency via techniques such as model pruning and mixed-precision computation, thereby reducing its environmental footprint. Through a series of case studies and applications, we demonstrate how FairSense-AI promotes responsible AI use by addressing both the social dimension of fairness and the pressing need for sustainability in large-scale AI deployments. https://vectorinstitute.github.io/FairSense-AI, https://pypi.org/project/fair-sense-ai/",
+        "translated": ""
     }
 ]
