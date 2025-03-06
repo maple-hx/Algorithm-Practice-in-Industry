@@ -42425,5 +42425,75 @@
         "pub_date": "2025-03-04",
         "summary": "In this paper, we introduce FairSense-AI: a multimodal framework designed to detect and mitigate bias in both text and images. By leveraging Large Language Models (LLMs) and Vision-Language Models (VLMs), FairSense-AI uncovers subtle forms of prejudice or stereotyping that can appear in content, providing users with bias scores, explanatory highlights, and automated recommendations for fairness enhancements. In addition, FairSense-AI integrates an AI risk assessment component that aligns with frameworks like the MIT AI Risk Repository and NIST AI Risk Management Framework, enabling structured identification of ethical and safety concerns. The platform is optimized for energy efficiency via techniques such as model pruning and mixed-precision computation, thereby reducing its environmental footprint. Through a series of case studies and applications, we demonstrate how FairSense-AI promotes responsible AI use by addressing both the social dimension of fairness and the pressing need for sustainability in large-scale AI deployments. https://vectorinstitute.github.io/FairSense-AI, https://pypi.org/project/fair-sense-ai/",
         "translated": ""
+    },
+    {
+        "title": "Extrapolating the long-term seasonal component of electricity prices for\n  forecasting in the day-ahead market",
+        "url": "http://arxiv.org/abs/2503.02518v1",
+        "pub_date": "2025-03-04",
+        "summary": "Recent studies provide evidence that decomposing the electricity price into the long-term seasonal component (LTSC) and the remaining part, predicting both separately, and then combining their forecasts can bring significant accuracy gains in day-ahead electricity price forecasting. However, not much attention has been paid to predicting the LTSC, and the last 24 hourly values of the estimated pattern are typically copied for the target day. To address this gap, we introduce a novel approach which extracts the trend-seasonal pattern from a price series extrapolated using price forecasts for the next 24 hours. We assess it using two 5-year long test periods from the German and Spanish power markets, covering the Covid-19 pandemic, the 2021/2022 energy crisis, and the war in Ukraine. Considering parsimonious autoregressive and LASSO-estimated models, we find that improvements in predictive accuracy range from 3\\% to 15\\% in terms of the root mean squared error and exceed 1\\% in terms of profits from a realistic trading strategy involving day-ahead bidding and battery storage.",
+        "translated": ""
+    },
+    {
+        "title": "On the Realized Joint Laplace Transform of Volatilities with Application\n  to Test the Volatility Dependence",
+        "url": "http://arxiv.org/abs/2503.02283v1",
+        "pub_date": "2025-03-04",
+        "summary": "In this paper, we first investigate the estimation of the empirical joint Laplace transform of volatilities of two semi-martingales within a fixed time interval [0, T] by using overlapped increments of high-frequency data. The proposed estimator is robust to the presence of finite variation jumps in price processes. The related functional central limit theorem for the proposed estimator has been established. Compared with the estimator with non-overlapped increments, the estimator with overlapped increments improves the asymptotic estimation efficiency. Moreover, we study the asymptotic theory of estimator under a long-span setting and employ it to create a feasible test for the dependence between volatilities. Finally, simulation and empirical studies demonstrate the performance of proposed estimators.",
+        "translated": ""
+    },
+    {
+        "title": "Enhancing Efficiency of Local Projections Estimation with Volatility\n  Clustering in High-Frequency Data",
+        "url": "http://arxiv.org/abs/2503.02217v1",
+        "pub_date": "2025-03-04",
+        "summary": "This paper advances the local projections (LP) method by addressing its inefficiency in high-frequency economic and financial data with volatility clustering. We incorporate a generalized autoregressive conditional heteroskedasticity (GARCH) process to resolve serial correlation issues and extend the model with GARCH-X and GARCH-HAR structures. Monte Carlo simulations show that exploiting serial dependence in LP error structures improves efficiency across forecast horizons, remains robust to persistent volatility, and yields greater gains as sample size increases. Our findings contribute to refining LP estimation, enhancing its applicability in analyzing economic interventions and financial market dynamics.",
+        "translated": ""
+    },
+    {
+        "title": "Dynamic Factor Correlation Model",
+        "url": "http://arxiv.org/abs/2503.01080v1",
+        "pub_date": "2025-03-03",
+        "summary": "We introduce a new dynamic factor correlation model with a novel variation-free parametrization of factor loadings. The model is applicable to high dimensions and can accommodate time-varying correlations, heterogeneous heavy-tailed distributions, and dependent idiosyncratic shocks, such as those observed in returns on stocks in the same subindustry. We apply the model to a \"small universe\" with 12 asset returns and to a \"large universe\" with 323 asset returns. The former facilitates a comprehensive empirical analysis and comparisons and the latter demonstrates the flexibility and scalability of the model.",
+        "translated": ""
+    },
+    {
+        "title": "Vector Copula Variational Inference and Dependent Block Posterior\n  Approximations",
+        "url": "http://arxiv.org/abs/2503.01072v1",
+        "pub_date": "2025-03-03",
+        "summary": "Variational inference (VI) is a popular method to estimate statistical and econometric models. The key to VI is the selection of a tractable density to approximate the Bayesian posterior. For large and complex models a common choice is to assume independence between multivariate blocks in a partition of the parameter space. While this simplifies the problem it can reduce accuracy. This paper proposes using vector copulas to capture dependence between the blocks parsimoniously. Tailored multivariate marginals are constructed using learnable cyclically monotone transformations. We call the resulting joint distribution a ``dependent block posterior'' approximation. Vector copula models are suggested that make tractable and flexible variational approximations. They allow for differing marginals, numbers of blocks, block sizes and forms of between block dependence. They also allow for solution of the variational optimization using fast and efficient stochastic gradient methods. The efficacy and versatility of the approach is demonstrated using four different statistical models and 16 datasets which have posteriors that are challenging to approximate. In all cases, our method produces more accurate posterior approximations than benchmark VI methods that either assume block independence or factor-based dependence, at limited additional computational cost.",
+        "translated": ""
+    },
+    {
+        "title": "Bayesian inference for dynamic spatial quantile models with interactive\n  effects",
+        "url": "http://arxiv.org/abs/2503.00772v1",
+        "pub_date": "2025-03-02",
+        "summary": "With the rapid advancement of information technology and data collection systems, large-scale spatial panel data presents new methodological and computational challenges. This paper introduces a dynamic spatial panel quantile model that incorporates unobserved heterogeneity. The proposed model captures the dynamic structure of panel data, high-dimensional cross-sectional dependence, and allows for heterogeneous regression coefficients. To estimate the model, we propose a novel Bayesian Markov Chain Monte Carlo (MCMC) algorithm. Contributions to Bayesian computation include the development of quantile randomization, a new Gibbs sampler for structural parameters, and stabilization of the tail behavior of the inverse Gaussian random generator. We establish Bayesian consistency for the proposed estimation method as both the time and cross-sectional dimensions of the panel approach infinity. Monte Carlo simulations demonstrate the effectiveness of the method. Finally, we illustrate the applicability of the approach through a case study on the quantile co-movement structure of the gasoline market.",
+        "translated": ""
+    },
+    {
+        "title": "Wikipedia Contributions in the Wake of ChatGPT",
+        "url": "http://arxiv.org/abs/2503.00757v1",
+        "pub_date": "2025-03-02",
+        "summary": "How has Wikipedia activity changed for articles with content similar to ChatGPT following its introduction? We estimate the impact using differences-in-differences models, with dissimilar Wikipedia articles as a baseline for comparison, to examine how changes in voluntary knowledge contributions and information-seeking behavior differ by article content. Our analysis reveals that newly created, popular articles whose content overlaps with ChatGPT 3.5 saw a greater decline in editing and viewership after the November 2022 launch of ChatGPT than dissimilar articles did. These findings indicate heterogeneous substitution effects, where users selectively engage less with existing platforms when AI provides comparable content. This points to potential uneven impacts on the future of human-driven online knowledge contributions.",
+        "translated": ""
+    },
+    {
+        "title": "Causal Inference on Outcomes Learned from Text",
+        "url": "http://arxiv.org/abs/2503.00725v1",
+        "pub_date": "2025-03-02",
+        "summary": "We propose a machine-learning tool that yields causal inference on text in randomized trials. Based on a simple econometric framework in which text may capture outcomes of interest, our procedure addresses three questions: First, is the text affected by the treatment? Second, which outcomes is the effect on? And third, how complete is our description of causal effects? To answer all three questions, our approach uses large language models (LLMs) that suggest systematic differences across two groups of text documents and then provides valid inference based on costly validation. Specifically, we highlight the need for sample splitting to allow for statistical validation of LLM outputs, as well as the need for human labeling to validate substantive claims about how documents differ across groups. We illustrate the tool in a proof-of-concept application using abstracts of academic manuscripts.",
+        "translated": ""
+    },
+    {
+        "title": "The Uncertainty of Machine Learning Predictions in Asset Pricing",
+        "url": "http://arxiv.org/abs/2503.00549v1",
+        "pub_date": "2025-03-01",
+        "summary": "Machine learning in asset pricing typically predicts expected returns as point estimates, ignoring uncertainty. We develop new methods to construct forecast confidence intervals for expected returns obtained from neural networks. We show that neural network forecasts of expected returns share the same asymptotic distribution as classic nonparametric methods, enabling a closed-form expression for their standard errors. We also propose a computationally feasible bootstrap to obtain the asymptotic distribution. We incorporate these forecast confidence intervals into an uncertainty-averse investment framework. This provides an economic rationale for shrinkage implementations of portfolio selection. Empirically, our methods improve out-of-sample performance.",
+        "translated": ""
+    },
+    {
+        "title": "Uniform Limit Theory for Network Data",
+        "url": "http://arxiv.org/abs/2503.00290v1",
+        "pub_date": "2025-03-01",
+        "summary": "I present a novel uniform law of large numbers (ULLN) for network-dependent data. While Kojevnikov, Marmer, and Song (KMS, 2021) provide a comprehensive suite of limit theorems and a robust variance estimator for network-dependent processes, their analysis focuses on pointwise convergence. On the other hand, uniform convergence is essential for nonlinear estimators such as M and GMM estimators (e.g., Newey and McFadden, 1994, Section 2). Building on KMS, I establish the ULLN under network dependence and demonstrate its utility by proving the consistency of both M and GMM estimators. A byproduct of this work is a novel maximal inequality for network data, which may prove useful for future research beyond the scope of this paper.",
+        "translated": ""
     }
 ]
