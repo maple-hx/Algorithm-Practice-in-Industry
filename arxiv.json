@@ -42600,5 +42600,33 @@
         "pub_date": "2025-03-05",
         "summary": "Policymakers often make changes to policies whose benefits and costs are unknown and must be inferred from statistical estimates in empirical studies. The sample estimates are noisier for some policies than for others, which should be adjusted for when comparing policy changes in decision-making. In this paper I consider the problem of a planner who makes changes to upfront spending on a set of policies to maximize social welfare but faces statistical uncertainty about the impact of those changes. I set up an optimization problem that is tractable under statistical uncertainty and solve for the Bayes risk-minimizing decision rule. I propose an empirical Bayes approach to approximating the optimal decision rule when the planner does not know a prior. I show theoretically that the empirical Bayes decision rule can approximate the optimal decision rule well, including in cases where a sample plug-in rule does not.",
         "translated": ""
+    },
+    {
+        "title": "L$^2$M: Mutual Information Scaling Law for Long-Context Language\n  Modeling",
+        "url": "http://arxiv.org/abs/2503.04725v1",
+        "pub_date": "2025-03-06",
+        "summary": "We rigorously establish a bipartite mutual information scaling law in natural language that governs long-range dependencies. This scaling law, which we show is distinct from and scales independently of the conventional two-point mutual information, is the key to understanding long-context language modeling. Using this scaling law, we formulate the Long-context Language Modeling (L$^2$M) condition, which relates a model's capacity for effective long context length modeling to the scaling of its latent state size for storing past information. Our results are validated through experiments on both transformers and state space models. This work establishes a theoretical foundation that guides the development of large language models toward longer context lengths.",
+        "translated": ""
+    },
+    {
+        "title": "LLMVoX: Autoregressive Streaming Text-to-Speech Model for Any LLM",
+        "url": "http://arxiv.org/abs/2503.04724v1",
+        "pub_date": "2025-03-06",
+        "summary": "Recent advancements in speech-to-speech dialogue systems leverage LLMs for multimodal interactions, yet they remain hindered by fine-tuning requirements, high computational overhead, and text-speech misalignment. Existing speech-enabled LLMs often degrade conversational quality by modifying the LLM, thereby compromising its linguistic capabilities. In contrast, we propose LLMVoX, a lightweight 30M-parameter, LLM-agnostic, autoregressive streaming TTS system that generates high-quality speech with low latency, while fully preserving the capabilities of the base LLM. Our approach achieves a significantly lower Word Error Rate compared to speech-enabled LLMs, while operating at comparable latency and UTMOS score. By decoupling speech synthesis from LLM processing via a multi-queue token streaming system, LLMVoX supports seamless, infinite-length dialogues. Its plug-and-play design also facilitates extension to various tasks with different backbones. Furthermore, LLMVoX generalizes to new languages with only dataset adaptation, attaining a low Character Error Rate on an Arabic speech task. Additionally, we have integrated LLMVoX with a Vision-Language Model to create an omni-model with speech, text, and vision capabilities, without requiring additional multimodal training. Our code base and project page is available at https://mbzuai-oryx.github.io/LLMVoX .",
+        "translated": ""
+    },
+    {
+        "title": "Shifting Long-Context LLMs Research from Input to Output",
+        "url": "http://arxiv.org/abs/2503.04723v1",
+        "pub_date": "2025-03-06",
+        "summary": "Recent advancements in long-context Large Language Models (LLMs) have primarily concentrated on processing extended input contexts, resulting in significant strides in long-context comprehension. However, the equally critical aspect of generating long-form outputs has received comparatively less attention. This paper advocates for a paradigm shift in NLP research toward addressing the challenges of long-output generation. Tasks such as novel writing, long-term planning, and complex reasoning require models to understand extensive contexts and produce coherent, contextually rich, and logically consistent extended text. These demands highlight a critical gap in current LLM capabilities. We underscore the importance of this under-explored domain and call for focused efforts to develop foundational LLMs tailored for generating high-quality, long-form outputs, which hold immense potential for real-world applications.",
+        "translated": ""
+    },
+    {
+        "title": "Enough Coin Flips Can Make LLMs Act Bayesian",
+        "url": "http://arxiv.org/abs/2503.04722v1",
+        "pub_date": "2025-03-06",
+        "summary": "Large language models (LLMs) exhibit the ability to generalize given few-shot examples in their input prompt, an emergent capability known as in-context learning (ICL). We investigate whether LLMs utilize ICL to perform structured reasoning in ways that are consistent with a Bayesian framework or rely on pattern matching. Using a controlled setting of biased coin flips, we find that: (1) LLMs often possess biased priors, causing initial divergence in zero-shot settings, (2) in-context evidence outweighs explicit bias instructions, (3) LLMs broadly follow Bayesian posterior updates, with deviations primarily due to miscalibrated priors rather than flawed updates, and (4) attention magnitude has negligible effect on Bayesian inference. With sufficient demonstrations of biased coin flips via ICL, LLMs update their priors in a Bayesian manner.",
+        "translated": ""
     }
 ]
