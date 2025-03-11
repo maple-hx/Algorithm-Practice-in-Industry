@@ -42754,5 +42754,33 @@
         "pub_date": "2025-03-07",
         "summary": "The use of the two-way fixed effects regression in empirical social science was historically motivated by folk wisdom that it uncovers the Average Treatment effect on the Treated (ATT) as in the canonical two-period two-group case. This belief has come under scrutiny recently due to recent results in applied econometrics showing that it fails to uncover meaningful averages of heterogeneous treatment effects in the presence of effect heterogeneity over time and across adoption cohorts, and several heterogeneity-robust alternatives have been proposed. However, these estimators often have higher variance and are therefore under-powered for many applications, which poses a bias-variance tradeoff that is challenging for researchers to navigate. In this paper, we propose simple tests of linear restrictions that can be used to test for differences in dynamic treatment effects over cohorts, which allows us to test for when the two-way fixed effects regression is likely to yield biased estimates of the ATT. These tests are implemented as methods in the pyfixest python library.",
         "translated": ""
+    },
+    {
+        "title": "Advancing Vietnamese Information Retrieval with Learning Objective and\n  Benchmark",
+        "url": "http://arxiv.org/abs/2503.07470v1",
+        "pub_date": "2025-03-10",
+        "summary": "With the rapid development of natural language processing, many language models have been invented for multiple tasks. One important task is information retrieval (IR), which requires models to retrieve relevant documents. Despite its importance in many real-life applications, especially in retrieval augmented generation (RAG) systems, this task lacks Vietnamese benchmarks. This situation causes difficulty in assessing and comparing many existing Vietnamese embedding language models on the task and slows down the advancement of Vietnamese natural language processing (NLP) research. In this work, we aim to provide the Vietnamese research community with a new benchmark for information retrieval, which mainly focuses on retrieval and reranking tasks. Furthermore, we also present a new objective function based on the InfoNCE loss function, which is used to train our Vietnamese embedding model. Our function aims to be better than the origin in information retrieval tasks. Finally, we analyze the effect of temperature, a hyper-parameter in both objective functions, on the performance of text embedding models.",
+        "translated": ""
+    },
+    {
+        "title": "Process-Supervised LLM Recommenders via Flow-guided Tuning",
+        "url": "http://arxiv.org/abs/2503.07377v1",
+        "pub_date": "2025-03-10",
+        "summary": "While large language models (LLMs) are increasingly adapted for recommendation systems via supervised fine-tuning (SFT), this approach amplifies popularity bias due to its likelihood maximization objective, compromising recommendation diversity and fairness. To address this, we present Flow-guided fine-tuning recommender (Flower), which replaces SFT with a Generative Flow Network (GFlowNet) framework that enacts process supervision through token-level reward propagation. Flower's key innovation lies in decomposing item-level rewards into constituent token rewards, enabling direct alignment between token generation probabilities and their reward signals. This mechanism achieves three critical advancements: (1) popularity bias mitigation and fairness enhancement through empirical distribution matching, (2) preservation of diversity through GFlowNet's proportional sampling, and (3) flexible integration of personalized preferences via adaptable token rewards. Experiments demonstrate Flower's superior distribution-fitting capability and its significant advantages over traditional SFT in terms of fairness, diversity, and accuracy, highlighting its potential to improve LLM-based recommendation systems. The implementation is available via https://github.com/Mr-Peach0301/Flower",
+        "translated": ""
+    },
+    {
+        "title": "Zero-Shot Hashing Based on Reconstruction With Part Alignment",
+        "url": "http://arxiv.org/abs/2503.07037v1",
+        "pub_date": "2025-03-10",
+        "summary": "Hashing algorithms have been widely used in large-scale image retrieval tasks, especially for seen class data. Zero-shot hashing algorithms have been proposed to handle unseen class data. The key technique in these algorithms involves learning features from seen classes and transferring them to unseen classes, that is, aligning the feature embeddings between the seen and unseen classes. Most existing zero-shot hashing algorithms use the shared attributes between the two classes of interest to complete alignment tasks. However, the attributes are always described for a whole image, even though they represent specific parts of the image. Hence, these methods ignore the importance of aligning attributes with the corresponding image parts, which explicitly introduces noise and reduces the accuracy achieved when aligning the features of seen and unseen classes. To address this problem, we propose a new zero-shot hashing method called RAZH. We first use a clustering algorithm to group similar patches to image parts for attribute matching and then replace the image parts with the corresponding attribute vectors, gradually aligning each part with its nearest attribute. Extensive evaluation results demonstrate the superiority of the RAZH method over several state-of-the-art methods.",
+        "translated": ""
+    },
+    {
+        "title": "Weak Supervision for Improved Precision in Search Systems",
+        "url": "http://arxiv.org/abs/2503.07025v1",
+        "pub_date": "2025-03-10",
+        "summary": "Labeled datasets are essential for modern search engines, which increasingly rely on supervised learning methods like Learning to Rank and massive amounts of data to power deep learning models. However, creating these datasets is both time-consuming and costly, leading to the common use of user click and activity logs as proxies for relevance. In this paper, we present a weak supervision approach to infer the quality of query-document pairs and apply it within a Learning to Rank framework to enhance the precision of a large-scale search system.",
+        "translated": ""
     }
 ]
