@@ -42782,5 +42782,19 @@
         "pub_date": "2025-03-10",
         "summary": "Labeled datasets are essential for modern search engines, which increasingly rely on supervised learning methods like Learning to Rank and massive amounts of data to power deep learning models. However, creating these datasets is both time-consuming and costly, leading to the common use of user click and activity logs as proxies for relevance. In this paper, we present a weak supervision approach to infer the quality of query-document pairs and apply it within a Learning to Rank framework to enhance the precision of a large-scale search system.",
         "translated": ""
+    },
+    {
+        "title": "Janus and RG-flow interfaces from 5D N=4 gauged supergravity",
+        "url": "http://arxiv.org/abs/2503.06704v1",
+        "pub_date": "2025-03-09",
+        "summary": "We study five-dimensional $N=4$ gauged supergravity coupled to three vector multiplets with $SO(2)_D\\times SO(3)$ gauge group. The gauged supergravity admits two supersymmetric $AdS_5$ vacua. One of the vacua, at the origin of the scalar manifold $\\mathbb{R}^+\\times SO(5,3)/SO(5)\\times SO(3)$, preserves $N=4$ supersymmetry and the full $SO(2)_D\\times SO(3)$ gauge symmetry. The second $AdS_5$ vacuum is $N=2$ supersymmetric and invariant under $SO(2)_{\\textrm{diag}}$ which is a diagonal subgroup of $SO(2)_D$ and $SO(2)\\subset SO(3)$. By considering a truncation to $SO(2)_{\\textrm{diag}}$ invariant scalars, we find a class of Janus solutions interpolating among these vacua. These solutions should be holographically dual to conformal interfaces within the dual $N=1$ and $N=2$ SCFTs in four dimensions. In addition, we also find examples of solutions describing RG-flow interfaces between $N=1$ and $N=2$ SCFTs on each side of the interfaces. All of the solutions could possibly be uplifted to eleven dimensions by a consistent truncation of M-theory on $M_3\\times S^2\\times S^1$ with a 3-manifold $M_3$.",
+        "translated": ""
+    },
+    {
+        "title": "Linearized Coxeter Higher-Spin Theories",
+        "url": "http://arxiv.org/abs/2503.05948v1",
+        "pub_date": "2025-03-07",
+        "summary": "A class of higher-spin gauge theories on $AdS_4$ associated with various Coxeter groups $\\mathcal{C}$ is analyzed at the linear order. For a general $\\mathcal{C}$, a solution corresponding to the $AdS_4$ space and the form of the free unfolded equations are established. A disentanglement criterion has been formulated for Coxeter HS modules. The shifted homotopy technique is uplifted to the general Coxeter HS models. In case of the Coxeter group $B_2$ classification of unitary HS modules and a consistent truncation to them are determined, the dynamical content is discussed briefly.",
+        "translated": ""
     }
 ]
