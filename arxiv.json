@@ -42908,5 +42908,12 @@
         "pub_date": "2025-03-12",
         "summary": "In the current literature, most embedding models are based on the encoder-only transformer architecture to extract a dense and meaningful representation of the given input, which can be a text, an image, and more. With the recent advances in language modeling thanks to the introduction of Large Language Models, the possibility of extracting embeddings from these large and extensively trained models has been explored. However, current studies focus on textual embeddings in English, which is also the main language on which these models have been trained. Furthermore, there are very few models that consider multimodal and multilingual input. In light of this, we propose an adaptation methodology for Large Vision-Language Models trained on English language data to improve their performance in extracting multilingual and multimodal embeddings. Finally, we design and introduce a benchmark to evaluate the effectiveness of multilingual and multimodal embedding models.",
         "translated": ""
+    },
+    {
+        "title": "Holography for the IKKT matrix model",
+        "url": "http://arxiv.org/abs/2503.08771v1",
+        "pub_date": "2025-03-11",
+        "summary": "Holographic dualities that relate type II strings on near-horizon Dp brane geometries to super Yang-Mills theories with sixteen supercharges in p+1 dimensions provide non-conformal generalizations of the famous AdS/CFT correspondence. For the extremal case p=-1, this suggests a holographic duality for the IKKT matrix model - super Yang-Mills theory reduced to zero dimensions. Despite intriguing and highly non-trivial results in the IKKT model, this duality has remained largely unexplored so far. In this letter, we consider the lowest supermultiplet of gauge invariant operators of the model and identify its states with the lowest Kaluza-Klein fluctuations of (Euclidean) IIB supergravity on the D(-1) instanton background. We construct its holographic bulk realization as a one-dimensional maximal supergravity with 32 supercharges and local SO(10) invariance, capturing the full non-linear dynamics. Analyzing the bulk Killing spinor equations, we construct the most general half-supersymmetric solutions, which typically break SO(10). We present their uplifts to IIB supergravity, and furthermore to pp-waves in twelve dimensions. These results provide the minimal setup for conducting precision tests of holography involving Einstein gravity.",
+        "translated": ""
     }
 ]
