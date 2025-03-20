@@ -43202,5 +43202,33 @@
         "pub_date": "2025-03-18",
         "summary": "Recommender systems (RS) have become crucial tools for information filtering in various real world scenarios. And cross domain recommendation (CDR) has been widely explored in recent years in order to provide better recommendation results in the target domain with the help of other domains. The CDR technology has developed rapidly, yet there is a lack of a comprehensive survey summarizing recent works. Therefore, in this paper, we will summarize the progress and prospects based on the main procedure of CDR, including Cross Domain Relevance, Cross Domain Interaction, Cross Domain Representation Enhancement and Model Optimization. To help researchers better understand and engage in this field, we also organize the applications and resources, and highlight several current important challenges and future directions of CDR. More details of the survey articles are available at https://github.com/USTCAGI/Awesome-Cross-Domain Recommendation-Papers-and-Resources.",
         "translated": ""
+    },
+    {
+        "title": "Temporal Consistency for LLM Reasoning Process Error Identification",
+        "url": "http://arxiv.org/abs/2503.14495v1",
+        "pub_date": "2025-03-18",
+        "summary": "Verification is crucial for effective mathematical reasoning. We present a new temporal consistency method where verifiers iteratively refine their judgments based on the previous assessment. Unlike one-round verification or multi-model debate approaches, our method leverages consistency in a sequence of self-reflection actions to improve verification accuracy. Empirical evaluations across diverse mathematical process error identification benchmarks (Mathcheck, ProcessBench, and PRM800K) show consistent performance improvements over baseline methods. When applied to the recent DeepSeek R1 distilled models, our method demonstrates strong performance, enabling 7B/8B distilled models to outperform all 70B/72B models and GPT-4o on ProcessBench. Notably, the distilled 14B model with our method achieves performance comparable to Deepseek-R1. Our codes are available at https://github.com/jcguo123/Temporal-Consistency",
+        "translated": ""
+    },
+    {
+        "title": "Gricean Norms as a Basis for Effective Collaboration",
+        "url": "http://arxiv.org/abs/2503.14484v1",
+        "pub_date": "2025-03-18",
+        "summary": "Effective human-AI collaboration hinges not only on the AI agent's ability to follow explicit instructions but also on its capacity to navigate ambiguity, incompleteness, invalidity, and irrelevance in communication. Gricean conversational and inference norms facilitate collaboration by aligning unclear instructions with cooperative principles. We propose a normative framework that integrates Gricean norms and cognitive frameworks -- common ground, relevance theory, and theory of mind -- into large language model (LLM) based agents. The normative framework adopts the Gricean maxims of quantity, quality, relation, and manner, along with inference, as Gricean norms to interpret unclear instructions, which are: ambiguous, incomplete, invalid, or irrelevant. Within this framework, we introduce Lamoids, GPT-4 powered agents designed to collaborate with humans. To assess the influence of Gricean norms in human-AI collaboration, we evaluate two versions of a Lamoid: one with norms and one without. In our experiments, a Lamoid collaborates with a human to achieve shared goals in a grid world (Doors, Keys, and Gems) by interpreting both clear and unclear natural language instructions. Our results reveal that the Lamoid with Gricean norms achieves higher task accuracy and generates clearer, more accurate, and contextually relevant responses than the Lamoid without norms. This improvement stems from the normative framework, which enhances the agent's pragmatic reasoning, fostering effective human-AI collaboration and enabling context-aware communication in LLM-based agents.",
+        "translated": ""
+    },
+    {
+        "title": "Don't lie to your friends: Learning what you know from collaborative\n  self-play",
+        "url": "http://arxiv.org/abs/2503.14481v1",
+        "pub_date": "2025-03-18",
+        "summary": "To be helpful assistants, AI agents must be aware of their own capabilities and limitations. This includes knowing when to answer from parametric knowledge versus using tools, when to trust tool outputs, and when to abstain or hedge. Such capabilities are hard to teach through supervised fine-tuning because they require constructing examples that reflect the agent's specific capabilities. We therefore propose a radically new approach to teaching agents what they know: \\emph{collaborative self-play}. We construct multi-agent collaborations in which the group is rewarded for collectively arriving at correct answers. The desired meta-knowledge emerges from the incentives built into the structure of the interaction. We focus on small societies of agents that have access to heterogeneous tools (corpus-specific retrieval), and therefore must collaborate to maximize their success while minimizing their effort. Experiments show that group-level rewards for multi-agent communities can induce policies that \\emph{transfer} to improve tool use and selective prediction in settings where individual agents are deployed in isolation.",
+        "translated": ""
+    },
+    {
+        "title": "Calibrating Verbal Uncertainty as a Linear Feature to Reduce\n  Hallucinations",
+        "url": "http://arxiv.org/abs/2503.14477v1",
+        "pub_date": "2025-03-18",
+        "summary": "LLMs often adopt an assertive language style also when making false claims. Such ``overconfident hallucinations'' mislead users and erode trust. Achieving the ability to express in language the actual degree of uncertainty around a claim is therefore of great importance. We find that ``verbal uncertainty'' is governed by a single linear feature in the representation space of LLMs, and show that this has only moderate correlation with the actual ``semantic uncertainty'' of the model. We apply this insight and show that (1) the mismatch between semantic and verbal uncertainty is a better predictor of hallucinations than semantic uncertainty alone and (2) we can intervene on verbal uncertainty at inference time and reduce hallucinations on short-form answers, achieving an average relative reduction of 32%.",
+        "translated": ""
     }
 ]
