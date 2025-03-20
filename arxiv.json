@@ -43230,5 +43230,40 @@
         "pub_date": "2025-03-18",
         "summary": "LLMs often adopt an assertive language style also when making false claims. Such ``overconfident hallucinations'' mislead users and erode trust. Achieving the ability to express in language the actual degree of uncertainty around a claim is therefore of great importance. We find that ``verbal uncertainty'' is governed by a single linear feature in the representation space of LLMs, and show that this has only moderate correlation with the actual ``semantic uncertainty'' of the model. We apply this insight and show that (1) the mismatch between semantic and verbal uncertainty is a better predictor of hallucinations than semantic uncertainty alone and (2) we can intervene on verbal uncertainty at inference time and reduce hallucinations on short-form answers, achieving an average relative reduction of 32%.",
         "translated": ""
+    },
+    {
+        "title": "Bounds for within-household encouragement designs with interference",
+        "url": "http://arxiv.org/abs/2503.14314v1",
+        "pub_date": "2025-03-18",
+        "summary": "We obtain partial identification of direct and spillover effects in settings with strategic interaction and discrete treatments, outcome and independent instruments. We consider a framework with two decision-makers who play pure-strategy Nash equilibria in treatment take-up, whose outcomes are determined by their joint take-up decisions. We obtain a latent-type representation at the pair level. We enumerate all types that are consistent with pure-strategy Nash equilibria and exclusion restrictions, and then impose conditions such as symmetry, strategic complementarity/substitution, several notions of monotonicity, and homogeneity. Under any combination of the above restrictions, we provide sharp bounds for our parameters of interest via a simple Python optimization routine. Our framework allows the empirical researcher to tailor the above menu of assumptions to their empirical application and to assess their individual and joint identifying power.",
+        "translated": ""
+    },
+    {
+        "title": "How does Bike Absence Influence Mode Shifts Among Dockless Bike-Sharing\n  Users? Evidence From Nanjing, China",
+        "url": "http://arxiv.org/abs/2503.14265v1",
+        "pub_date": "2025-03-18",
+        "summary": "Dockless bike-sharing (DBS) users often encounter difficulties in finding available bikes at their preferred times and locations. This study examines the determinants of the users' mode shifts in the context of bike absence, using survey data from Nanjing, China. An integrated choice and latent variable based on multinomial logit was employed to investigate the impact of socio-demographic, trip characteristics, and psychological factors on travel mode choices. Mode choice models were estimated with seven mode alternatives, including bike-sharing related choices (waiting in place, picking up bikes on the way, and picking up bikes on a detour), bus, taxi, riding hailing, and walk. The findings show that under shared-bike unavailability, users prefer to pick up bikes on the way rather than take detours, with buses and walking as favored alternatives to shared bikes. Lower-educated users tend to wait in place, showing greater concern for waiting time compared to riding time. Lower-income users, commuters, and females prefer picking up bikes on the way, while non-commuters and males opt for detours. The insights gained in this study can provide ideas for solving the problems of demand estimation, parking area siting, and multi-modal synergies of bike sharing to enhance utilization and user satisfaction.",
+        "translated": ""
+    },
+    {
+        "title": "A Note on the Asymptotic Properties of the GLS Estimator in Multivariate\n  Regression with Heteroskedastic and Autocorrelated Errors",
+        "url": "http://arxiv.org/abs/2503.13950v1",
+        "pub_date": "2025-03-18",
+        "summary": "We study the asymptotic properties of the GLS estimator in multivariate regression with heteroskedastic and autocorrelated errors. We derive Wald statistics for linear restrictions and assess their performance. The statistics remains robust to heteroskedasticity and autocorrelation.",
+        "translated": ""
+    },
+    {
+        "title": "Minnesota BART",
+        "url": "http://arxiv.org/abs/2503.13759v1",
+        "pub_date": "2025-03-17",
+        "summary": "Vector autoregression (VAR) models are widely used for forecasting and macroeconomic analysis, yet they remain limited by their reliance on a linear parameterization. Recent research has introduced nonparametric alternatives, such as Bayesian additive regression trees (BART), which provide flexibility without strong parametric assumptions. However, existing BART-based frameworks do not account for time dependency or allow for sparse estimation in the construction of regression tree priors, leading to noisy and inefficient high-dimensional representations. This paper introduces a sparsity-inducing Dirichlet hyperprior on the regression tree's splitting probabilities, allowing for automatic variable selection and high-dimensional VARs. Additionally, we propose a structured shrinkage prior that decreases the probability of splitting on higher-order lags, aligning with the Minnesota prior's principles. Empirical results demonstrate that our approach improves predictive accuracy over the baseline BART prior and Bayesian VAR (BVAR), particularly in capturing time-dependent relationships and enhancing density forecasts. These findings highlight the potential of developing domain-specific nonparametric methods in macroeconomic forecasting.",
+        "translated": ""
+    },
+    {
+        "title": "Heterogeneous Treatment Effects in Regression Discontinuity Designs",
+        "url": "http://arxiv.org/abs/2503.13696v1",
+        "pub_date": "2025-03-17",
+        "summary": "Empirical studies using Regression Discontinuity (RD) designs often explore heterogeneous treatment effects based on pretreatment covariates. However, the lack of formal statistical methods has led to the widespread use of ad hoc approaches in applications. Motivated by common empirical practice, we develop a unified, theoretically grounded framework for RD heterogeneity analysis. We show that a fully interacted local linear (in functional parameters) model effectively captures heterogeneity while still being tractable and interpretable in applications. The model structure holds without loss of generality for discrete covariates, while for continuous covariates our proposed (local functional linear-in-parameters) model can be potentially restrictive, but it nonetheless naturally matches standard empirical practice and offers a causal interpretation for RD applications. We establish principled bandwidth selection and robust bias-corrected inference methods to analyze heterogeneous treatment effects and test group differences. We provide companion software to facilitate implementation of our results. An empirical application illustrates the practical relevance of our methods.",
+        "translated": ""
     }
 ]
