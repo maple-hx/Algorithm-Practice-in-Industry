@@ -43370,5 +43370,12 @@
         "pub_date": "2025-03-20",
         "summary": "Multimodal Language Models have gained significant traction for their ability to process diverse input data types and generate coherent, contextually relevant outputs across various applications. While supervised fine-tuning (SFT) has been the predominant approach to enhance MLLM capabilities in task-specific optimization, it often falls short in fostering crucial generalized reasoning abilities. Despite the potential of reinforcement learning (RL) to address these limitations, it faces two issues: (1) its generalized capabilities in multimodal tasks remain underexplored. (2) its training constraints such as constant Kullback-Leibler or clamp strategy easily lead to suboptimal bottleneck. To adress these issues, we introduce OThink-MR1, a framework that extends RL to MLLMs, enabling them to achieve deeper understanding and reasoning across multimodal tasks. We design a dynamic Kullback-Leibler strategy that significantly enhances RL performance, surpassing SFT in same-task evaluations. Also, we are the first to reveal that RL exhibits remarkable cross-task generalization capabilities, which shows that models post-trained with RL on one multimodal task can be effectively transfered to another tasks. Finally, extensive experiments demonstrate the great reasoning ability of our proposed OThink-MR1.",
         "translated": ""
+    },
+    {
+        "title": "Holographic deformations of matrix models",
+        "url": "http://arxiv.org/abs/2503.15954v1",
+        "pub_date": "2025-03-20",
+        "summary": "We study maximal supergravity in two dimensions, obtained from reduction of IIA supergravity on an $S^8$ sphere. The theory captures the low-lying fluctuations around the non-conformal D0-brane near-horizon geometry, dual to operators in the BFSS matrix model. Upon exciting some of the supergravity scalars, we construct half-supersymmetric domain wall solutions preserving $SO(p)\\times SO(9-p)$ subgroups of the original $SO(9)$ symmetry. We determine their uplift to ten dimensions and the corresponding distributions of D0-branes. Finally, we compute the fluctuations around these domain wall backgrounds, corresponding to holographic two-point correlation functions in the Coulomb branch of the matrix model.",
+        "translated": ""
     }
 ]
