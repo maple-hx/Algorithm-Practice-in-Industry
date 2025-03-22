@@ -43377,5 +43377,12 @@
         "pub_date": "2025-03-20",
         "summary": "We study maximal supergravity in two dimensions, obtained from reduction of IIA supergravity on an $S^8$ sphere. The theory captures the low-lying fluctuations around the non-conformal D0-brane near-horizon geometry, dual to operators in the BFSS matrix model. Upon exciting some of the supergravity scalars, we construct half-supersymmetric domain wall solutions preserving $SO(p)\\times SO(9-p)$ subgroups of the original $SO(9)$ symmetry. We determine their uplift to ten dimensions and the corresponding distributions of D0-branes. Finally, we compute the fluctuations around these domain wall backgrounds, corresponding to holographic two-point correlation functions in the Coulomb branch of the matrix model.",
         "translated": ""
+    },
+    {
+        "title": "Partial Identification in Moment Models with Incomplete Data via Optimal\n  Transport",
+        "url": "http://arxiv.org/abs/2503.16098v1",
+        "pub_date": "2025-03-20",
+        "summary": "In this paper, we develop a unified approach to study partial identification of a finite-dimensional parameter defined by a moment equality model with incomplete data. We establish a novel characterization of the identified set for the true parameter in terms of a continuum of inequalities defined by optimal transport costs. For a special class of moment functions, we show that the identified set is convex, and its support function can be easily computed by solving an optimal transport problem. We demonstrate the generality and effectiveness of our approach through several running examples, including the linear projection model and two algorithmic fairness measures.",
+        "translated": ""
     }
 ]
