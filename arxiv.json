@@ -43524,5 +43524,19 @@
         "pub_date": "2025-03-21",
         "summary": "In this paper, we propose \\textbf{\\textsc{FastCuRL}}, a simple yet efficient \\textbf{Cu}rriculum \\textbf{R}einforcement \\textbf{L}earning approach with context window extending strategy to accelerate the reinforcement learning training efficiency for R1-like reasoning models while enhancing their performance in tackling complex reasoning tasks with long chain-of-thought rationales, particularly with a 1.5B parameter language model. \\textbf{\\textsc{FastCuRL}} consists of two main procedures: length-aware training data segmentation and context window extension training. Specifically, the former first splits the original training data into three different levels by the input prompt length, and then the latter leverages segmented training datasets with a progressively increasing context window length to train the reasoning model. Experimental results demonstrate that \\textbf{\\textsc{FastCuRL}}-1.5B-Preview surpasses DeepScaleR-1.5B-Preview across all five datasets (including MATH 500, AIME 2024, AMC 2023, Minerva Math, and OlympiadBench) while only utilizing 50\\% of training steps. Furthermore, all training stages for FastCuRL-1.5B-Preview are completed using just a single node with 8 GPUs.",
         "translated": ""
+    },
+    {
+        "title": "Calibration Strategies for Robust Causal Estimation: Theoretical and\n  Empirical Insights on Propensity Score Based Estimators",
+        "url": "http://arxiv.org/abs/2503.17290v1",
+        "pub_date": "2025-03-21",
+        "summary": "The partitioning of data for estimation and calibration critically impacts the performance of propensity score based estimators like inverse probability weighting (IPW) and double/debiased machine learning (DML) frameworks. We extend recent advances in calibration techniques for propensity score estimation, improving the robustness of propensity scores in challenging settings such as limited overlap, small sample sizes, or unbalanced data. Our contributions are twofold: First, we provide a theoretical analysis of the properties of calibrated estimators in the context of DML. To this end, we refine existing calibration frameworks for propensity score models, with a particular emphasis on the role of sample-splitting schemes in ensuring valid causal inference. Second, through extensive simulations, we show that calibration reduces variance of inverse-based propensity score estimators while also mitigating bias in IPW, even in small-sample regimes. Notably, calibration improves stability for flexible learners (e.g., gradient boosting) while preserving the doubly robust properties of DML. A key insight is that, even when methods perform well without calibration, incorporating a calibration step does not degrade performance, provided that an appropriate sample-splitting approach is chosen.",
+        "translated": ""
+    },
+    {
+        "title": "Local Projections or VARs? A Primer for Macroeconomists",
+        "url": "http://arxiv.org/abs/2503.17144v1",
+        "pub_date": "2025-03-21",
+        "summary": "What should applied macroeconomists know about local projection (LP) and vector autoregression (VAR) impulse response estimators? The two methods share the same estimand, but in finite samples lie on opposite ends of a bias-variance trade-off. While the low bias of LPs comes at a quite steep variance cost, this cost must be paid to achieve robust uncertainty assessments. VARs should thus only be used with long lag lengths, ensuring equivalence with LP. For LP estimation, we provide guidance on selection of lag length and controls, bias correction, and confidence interval construction.",
+        "translated": ""
     }
 ]
