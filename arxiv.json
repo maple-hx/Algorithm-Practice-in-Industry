@@ -43538,5 +43538,33 @@
         "pub_date": "2025-03-21",
         "summary": "What should applied macroeconomists know about local projection (LP) and vector autoregression (VAR) impulse response estimators? The two methods share the same estimand, but in finite samples lie on opposite ends of a bias-variance trade-off. While the low bias of LPs comes at a quite steep variance cost, this cost must be paid to achieve robust uncertainty assessments. VARs should thus only be used with long lag lengths, ensuring equivalence with LP. For LP estimation, we provide guidance on selection of lag length and controls, bias correction, and confidence interval construction.",
         "translated": ""
+    },
+    {
+        "title": "Exploring Training and Inference Scaling Laws in Generative Retrieval",
+        "url": "http://arxiv.org/abs/2503.18941v1",
+        "pub_date": "2025-03-24",
+        "summary": "Generative retrieval has emerged as a novel paradigm that leverages large language models (LLMs) to autoregressively generate document identifiers. Although promising, the mechanisms that underpin its performance and scalability remain largely unclear. We conduct a systematic investigation of training and inference scaling laws in generative retrieval, exploring how model size, training data scale, and inference-time compute jointly influence retrieval performance. To address the lack of suitable metrics, we propose a novel evaluation measure inspired by contrastive entropy and generation loss, providing a continuous performance signal that enables robust comparisons across diverse generative retrieval methods. Our experiments show that n-gram-based methods demonstrate strong alignment with both training and inference scaling laws, especially when paired with larger LLMs. Furthermore, increasing inference computation yields substantial performance gains, revealing that generative retrieval can significantly benefit from higher compute budgets at inference. Across these settings, LLaMA models consistently outperform T5 models, suggesting a particular advantage for larger decoder-only models in generative retrieval. Taken together, our findings underscore that model sizes, data availability, and inference computation interact to unlock the full potential of generative retrieval, offering new insights for designing and optimizing future systems.",
+        "translated": ""
+    },
+    {
+        "title": "Toward building next-generation Geocoding systems: a systematic review",
+        "url": "http://arxiv.org/abs/2503.18888v1",
+        "pub_date": "2025-03-24",
+        "summary": "Geocoding systems are widely used in both scientific research for spatial analysis and everyday life through location-based services. The quality of geocoded data significantly impacts subsequent processes and applications, underscoring the need for next-generation systems. In response to this demand, this review first examines the evolving requirements for geocoding inputs and outputs across various scenarios these systems must address. It then provides a detailed analysis of how to construct such systems by breaking them down into key functional components and reviewing a broad spectrum of existing approaches, from traditional rule-based methods to advanced techniques in information retrieval, natural language processing, and large language models. Finally, we identify opportunities to improve next-generation geocoding systems in light of recent technological advances.",
+        "translated": ""
+    },
+    {
+        "title": "CCMusic: An Open and Diverse Database for Chinese Music Information\n  Retrieval Research",
+        "url": "http://arxiv.org/abs/2503.18802v1",
+        "pub_date": "2025-03-24",
+        "summary": "Data are crucial in various computer-related fields, including music information retrieval (MIR), an interdisciplinary area bridging computer science and music. This paper introduces CCMusic, an open and diverse database comprising multiple datasets specifically designed for tasks related to Chinese music, highlighting our focus on this culturally rich domain. The database integrates both published and unpublished datasets, with steps taken such as data cleaning, label refinement, and data structure unification to ensure data consistency and create ready-to-use versions. We conduct benchmark evaluations for all datasets using a unified evaluation framework developed specifically for this purpose. This publicly available framework supports both classification and detection tasks, ensuring standardized and reproducible results across all datasets. The database is hosted on HuggingFace and ModelScope, two open and multifunctional data and model hosting platforms, ensuring ease of accessibility and usability.",
+        "translated": ""
+    },
+    {
+        "title": "ArchSeek: Retrieving Architectural Case Studies Using Vision-Language\n  Models",
+        "url": "http://arxiv.org/abs/2503.18680v1",
+        "pub_date": "2025-03-24",
+        "summary": "Efficiently searching for relevant case studies is critical in architectural design, as designers rely on precedent examples to guide or inspire their ongoing projects. However, traditional text-based search tools struggle to capture the inherently visual and complex nature of architectural knowledge, often leading to time-consuming and imprecise exploration. This paper introduces ArchSeek, an innovative case study search system with recommendation capability, tailored for architecture design professionals. Powered by the visual understanding capabilities from vision-language models and cross-modal embeddings, it enables text and image queries with fine-grained control, and interaction-based design case recommendations. It offers architects a more efficient, personalized way to discover design inspirations, with potential applications across other visually driven design fields. The source code is available at https://github.com/danruili/ArchSeek.",
+        "translated": ""
     }
 ]
