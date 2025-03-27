@@ -43685,5 +43685,40 @@
         "pub_date": "2025-03-25",
         "summary": "We present a method for learning 3D spatial relationships between object pairs, referred to as object-object spatial relationships (OOR), by leveraging synthetically generated 3D samples from pre-trained 2D diffusion models. We hypothesize that images synthesized by 2D diffusion models inherently capture plausible and realistic OOR cues, enabling efficient ways to collect a 3D dataset to learn OOR for various unbounded object categories. Our approach begins by synthesizing diverse images that capture plausible OOR cues, which we then uplift into 3D samples. Leveraging our diverse collection of plausible 3D samples for the object pairs, we train a score-based OOR diffusion model to learn the distribution of their relative spatial relationships. Additionally, we extend our pairwise OOR to multi-object OOR by enforcing consistency across pairwise relations and preventing object collisions. Extensive experiments demonstrate the robustness of our method across various object-object spatial relationships, along with its applicability to real-world 3D scene arrangement tasks using the OOR diffusion model.",
         "translated": ""
+    },
+    {
+        "title": "Identification of Average Treatment Effects in Nonparametric Panel\n  Models",
+        "url": "http://arxiv.org/abs/2503.19873v1",
+        "pub_date": "2025-03-25",
+        "summary": "This paper studies identification of average treatment effects in a panel data setting. It introduces a novel nonparametric factor model and proves identification of average treatment effects. The identification proof is based on the introduction of a consistent estimator. Underlying the proof is a result that there is a consistent estimator for the expected outcome in the absence of the treatment for each unit and time period; this result can be applied more broadly, for example in problems of decompositions of group-level differences in outcomes, such as the much-studied gender wage gap.",
+        "translated": ""
+    },
+    {
+        "title": "Bayesian Outlier Detection for Matrix-variate Models",
+        "url": "http://arxiv.org/abs/2503.19515v1",
+        "pub_date": "2025-03-25",
+        "summary": "Bayes Factor (BF) is one of the tools used in Bayesian analysis for model selection. The predictive BF finds application in detecting outliers, which are relevant sources of estimation and forecast errors. An efficient framework for outlier detection is provided and purposely designed for large multidimensional datasets. Online detection and analytical tractability guarantee the procedure's efficiency. The proposed sequential Bayesian monitoring extends the univariate setup to a matrix--variate one. Prior perturbation based on power discounting is applied to obtain tractable predictive BFs. This way, computationally intensive procedures used in Bayesian Analysis are not required. The conditions leading to inconclusive responses in outlier identification are derived, and some robust approaches are proposed that exploit the predictive BF's variability to improve the standard discounting method. The effectiveness of the procedure is studied using simulated data. An illustration is provided through applications to relevant benchmark datasets from macroeconomics and finance.",
+        "translated": ""
+    },
+    {
+        "title": "Automatic Inference for Value-Added Regressions",
+        "url": "http://arxiv.org/abs/2503.19178v1",
+        "pub_date": "2025-03-24",
+        "summary": "It is common to use shrinkage methods such as empirical Bayes to improve estimates of teacher value-added. However, when the goal is to perform inference on coefficients in the regression of long-term outcomes on value-added, it's unclear whether shrinking the value-added estimators can help or hurt. In this paper, we consider a general class of value-added estimators and the properties of their corresponding regression coefficients. Our main finding is that regressing long-term outcomes on shrinkage estimates of value-added performs an automatic bias correction: the associated regression estimator is asymptotically unbiased, asymptotically normal, and efficient in the sense that it is asymptotically equivalent to regressing on the true (latent) value-added. Further, OLS standard errors from regressing on shrinkage estimates are consistent. As such, efficient inference is easy for practitioners to implement: simply regress outcomes on shrinkage estimates of value added.",
+        "translated": ""
+    },
+    {
+        "title": "Empirical Bayes shrinkage (mostly) does not correct the measurement\n  error in regression",
+        "url": "http://arxiv.org/abs/2503.19095v1",
+        "pub_date": "2025-03-24",
+        "summary": "In the value-added literature, it is often claimed that regressing on empirical Bayes shrinkage estimates corrects for the measurement error problem in linear regression. We clarify the conditions needed; we argue that these conditions are stronger than the those needed for classical measurement error correction, which we advocate for instead. Moreover, we show that the classical estimator cannot be improved without stronger assumptions. We extend these results to regressions on nonlinear transformations of the latent attribute and find generically slow minimax estimation rates.",
+        "translated": ""
+    },
+    {
+        "title": "Forecasting Labor Demand: Predicting JOLT Job Openings using Deep\n  Learning Model",
+        "url": "http://arxiv.org/abs/2503.19048v1",
+        "pub_date": "2025-03-24",
+        "summary": "This thesis studies the effectiveness of Long Short Term Memory model in forecasting future Job Openings and Labor Turnover Survey data in the United States. Drawing on multiple economic indicators from various sources, the data are fed directly into LSTM model to predict JOLT job openings in subsequent periods. The performance of the LSTM model is compared with conventional autoregressive approaches, including ARIMA, SARIMA, and Holt-Winters. Findings suggest that the LSTM model outperforms these traditional models in predicting JOLT job openings, as it not only captures the dependent variables trends but also harmonized with key economic factors. These results highlight the potential of deep learning techniques in capturing complex temporal dependencies in economic data, offering valuable insights for policymakers and stakeholders in developing data-driven labor market strategies",
+        "translated": ""
     }
 ]
