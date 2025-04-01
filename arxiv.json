@@ -43993,5 +43993,33 @@
         "pub_date": "2025-03-27",
         "summary": "In recent years, the use of databases that analyze trends, sentiments or news to make economic projections or create indicators has gained significant popularity, particularly with the Google Trends platform. This article explores the potential of Google search data to develop a new index that improves economic forecasts, with a particular focus on one of the key components of economic activity: private consumption (64\\% of GDP in Peru). By selecting and estimating categorized variables, machine learning techniques are applied, demonstrating that Google data can identify patterns to generate a leading indicator in real time and improve the accuracy of forecasts. Finally, the results show that Google's \"Food\" and \"Tourism\" categories significantly reduce projection errors, highlighting the importance of using this information in a segmented manner to improve macroeconomic forecasts.",
         "translated": ""
+    },
+    {
+        "title": "A Systematic Evaluation of LLM Strategies for Mental Health Text\n  Analysis: Fine-tuning vs. Prompt Engineering vs. RAG",
+        "url": "http://arxiv.org/abs/2503.24307v1",
+        "pub_date": "2025-03-31",
+        "summary": "This study presents a systematic comparison of three approaches for the analysis of mental health text using large language models (LLMs): prompt engineering, retrieval augmented generation (RAG), and fine-tuning. Using LLaMA 3, we evaluate these approaches on emotion classification and mental health condition detection tasks across two datasets. Fine-tuning achieves the highest accuracy (91% for emotion classification, 80% for mental health conditions) but requires substantial computational resources and large training sets, while prompt engineering and RAG offer more flexible deployment with moderate performance (40-68% accuracy). Our findings provide practical insights for implementing LLM-based solutions in mental health applications, highlighting the trade-offs between accuracy, computational requirements, and deployment flexibility.",
+        "translated": ""
+    },
+    {
+        "title": "Rec-R1: Bridging Generative Large Language Models and User-Centric\n  Recommendation Systems via Reinforcement Learning",
+        "url": "http://arxiv.org/abs/2503.24289v1",
+        "pub_date": "2025-03-31",
+        "summary": "We propose Rec-R1, a general reinforcement learning framework that bridges large language models (LLMs) with recommendation systems through closed-loop optimization. Unlike prompting and supervised fine-tuning (SFT), Rec-R1 directly optimizes LLM generation using feedback from a fixed black-box recommendation model, without relying on synthetic SFT data from proprietary models such as GPT-4o. This avoids the substantial cost and effort required for data distillation. To verify the effectiveness of Rec-R1, we evaluate it on two representative tasks: product search and sequential recommendation. Experimental results demonstrate that Rec-R1 not only consistently outperforms prompting- and SFT-based methods, but also achieves significant gains over strong discriminative baselines, even when used with simple retrievers such as BM25. Moreover, Rec-R1 preserves the general-purpose capabilities of the LLM, unlike SFT, which often impairs instruction-following and reasoning. These findings suggest Rec-R1 as a promising foundation for continual task-specific adaptation without catastrophic forgetting.",
+        "translated": ""
+    },
+    {
+        "title": "Combining Query Performance Predictors: A Reproducibility Study",
+        "url": "http://arxiv.org/abs/2503.24251v1",
+        "pub_date": "2025-03-31",
+        "summary": "A large number of approaches to Query Performance Prediction (QPP) have been proposed over the last two decades. As early as 2009, Hauff et al. [28] explored whether different QPP methods may be combined to improve prediction quality. Since then, significant research has been done both on QPP approaches, as well as their evaluation. This study revisits Hauff et al.s work to assess the reproducibility of their findings in the light of new prediction methods, evaluation metrics, and datasets. We expand the scope of the earlier investigation by: (i) considering post-retrieval methods, including supervised neural techniques (only pre-retrieval techniques were studied in [28]); (ii) using sMARE for evaluation, in addition to the traditional correlation coefficients and RMSE; and (iii) experimenting with additional datasets (Clueweb09B and TREC DL). Our results largely support previous claims, but we also present several interesting findings. We interpret these findings by taking a more nuanced look at the correlation between QPP methods, examining whether they capture diverse information or rely on overlapping factors.",
+        "translated": ""
+    },
+    {
+        "title": "Music Information Retrieval on Representative Mexican Folk Vocal\n  Melodies Through MIDI Feature Extraction",
+        "url": "http://arxiv.org/abs/2503.24243v1",
+        "pub_date": "2025-03-31",
+        "summary": "This study analyzes representative Mexican folk vocal melodies using MIDI feature extraction, examining ambitus, pitch-class entropy, and interval distribution. It also explores the relationship between these features and song popularity, as measured by Spotify plays. The study employs MATLAB and the MIDI Toolbox for extracting musical features and performing statistical analysis. The findings reveal a significant variation in ambitus, with values ranging from 8 to 27 semitones, indicating a diverse compositional style and vocal demand across the genre. The analysis of pitch-class entropy showcases a broad spectrum of melodic complexity, with Armando Manzanero's `Somos Novios' displaying the highest entropy, suggesting varied and complex melodic structures, while traditional pieces like `La Bamba' exhibit lower entropy, indicating simpler, more repetitive patterns. The interval distribution predominantly features prime intervals (P1), major and minor seconds (M2, m2), pointing to a compositional preference for close, contiguous intervals that contribute to the melodies' accessibility and appeal. Statistical analysis do not establish a significant correlation between the ambitus or entropy and the number of Spotify plays.",
+        "translated": ""
     }
 ]
