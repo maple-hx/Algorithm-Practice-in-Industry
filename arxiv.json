@@ -43972,5 +43972,26 @@
         "pub_date": "2025-03-28",
         "summary": "Action models are essential for enabling autonomous agents to perform complex tasks. However, training large action models remains challenging due to the diversity of agent environments and the complexity of agentic data. Despite growing interest, existing infrastructure provides limited support for scalable, agent-specific fine-tuning. We present ActionStudio, a lightweight and extensible data and training framework designed for action models. ActionStudio unifies heterogeneous agent trajectories through a standardized format, supports diverse training paradigms including LoRA, full fine-tuning, and distributed setups, and integrates robust preprocessing and verification tools. We validate its effectiveness across both public and realistic industry benchmarks, demonstrating strong performance and practical scalability. We open-sourced code and data at https://github.com/SalesforceAIResearch/xLAM to facilitate research in the community.",
         "translated": ""
+    },
+    {
+        "title": "Inference on effect size after multiple hypothesis testing",
+        "url": "http://arxiv.org/abs/2503.22369v1",
+        "pub_date": "2025-03-28",
+        "summary": "Significant treatment effects are often emphasized when interpreting and summarizing empirical findings in studies that estimate multiple, possibly many, treatment effects. Under this kind of selective reporting, conventional treatment effect estimates may be biased and their corresponding confidence intervals may undercover the true effect sizes. We propose new estimators and confidence intervals that provide valid inferences on the effect sizes of the significant effects after multiple hypothesis testing. Our methods are based on the principle of selective conditional inference and complement a wide range of tests, including step-up tests and bootstrap-based step-down tests. Our approach is scalable, allowing us to study an application with over 370 estimated effects. We justify our procedure for asymptotically normal treatment effect estimators. We provide two empirical examples that demonstrate bias correction and confidence interval adjustments for significant effects. The magnitude and direction of the bias correction depend on the correlation structure of the estimated effects and whether the interpretation of the significant effects depends on the (in)significance of other effects.",
+        "translated": ""
+    },
+    {
+        "title": "tempdisagg: A Python Framework for Temporal Disaggregation of Time\n  Series Data",
+        "url": "http://arxiv.org/abs/2503.22054v1",
+        "pub_date": "2025-03-28",
+        "summary": "tempdisagg is a modern, extensible, and production-ready Python framework for temporal disaggregation of time series data. It transforms low-frequency aggregates into consistent, high-frequency estimates using a wide array of econometric techniques-including Chow-Lin, Denton, Litterman, Fernandez, and uniform interpolation-as well as enhanced variants with automated estimation of key parameters such as the autocorrelation coefficient rho. The package introduces features beyond classical methods, including robust ensemble modeling via non-negative least squares optimization, post-estimation correction of negative values under multiple aggregation rules, and optional regression-based imputation of missing values through a dedicated Retropolarizer module. Architecturally, it follows a modular design inspired by scikit-learn, offering a clean API for validation, modeling, visualization, and result interpretation.",
+        "translated": ""
+    },
+    {
+        "title": "An Artificial Trend Index for Private Consumption Using Google Trends",
+        "url": "http://arxiv.org/abs/2503.21981v1",
+        "pub_date": "2025-03-27",
+        "summary": "In recent years, the use of databases that analyze trends, sentiments or news to make economic projections or create indicators has gained significant popularity, particularly with the Google Trends platform. This article explores the potential of Google search data to develop a new index that improves economic forecasts, with a particular focus on one of the key components of economic activity: private consumption (64\\% of GDP in Peru). By selecting and estimating categorized variables, machine learning techniques are applied, demonstrating that Google data can identify patterns to generate a leading indicator in real time and improve the accuracy of forecasts. Finally, the results show that Google's \"Food\" and \"Tourism\" categories significantly reduce projection errors, highlighting the importance of using this information in a segmented manner to improve macroeconomic forecasts.",
+        "translated": ""
     }
 ]
