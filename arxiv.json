@@ -44049,5 +44049,33 @@
         "pub_date": "2025-03-31",
         "summary": "Reasoning-enhanced large language models (LLMs) explicitly generate intermediate reasoning steps prior to generating final answers, helping the model excel in complex problem-solving. In this paper, we demonstrate that this emerging generation framework offers a unique opportunity for more fine-grained control over model behavior. We propose Thinking Intervention, a novel paradigm designed to explicitly guide the internal reasoning processes of LLMs by strategically inserting or revising specific thinking tokens. We conduct comprehensive evaluations across multiple tasks, including instruction following on IFEval, instruction hierarchy on SEP, and safety alignment on XSTest and SORRY-Bench. Our results demonstrate that Thinking Intervention significantly outperforms baseline prompting approaches, achieving up to 6.7% accuracy gains in instruction-following scenarios, 15.4% improvements in reasoning about instruction hierarchies, and a 40.0% increase in refusal rates for unsafe prompts using open-source DeepSeek R1 models. Overall, our work opens a promising new research avenue for controlling reasoning LLMs.",
         "translated": ""
+    },
+    {
+        "title": "Forecasting Impacts to the Forest Sector: An Analysis of Key U.S. States\n  and Industries",
+        "url": "http://arxiv.org/abs/2503.23569v1",
+        "pub_date": "2025-03-30",
+        "summary": "Several key states in various regions have experienced recent sawtimber as well as pulp and paper mill closures, which have resulted in harmful effects to rural, natural-resource dependent communities. This raises an important research question, how will key macroeconomic and related variables for the U.S. forest sector change in the future for highly forest-dependent states? To address this, we employ a vector error correction (VEC) model to forecast economic trends in three major industries - forestry and logging, wood manufacturing, and paper manufacturing - across six of the most forest-dependent states in the U.S.: Alabama, Arkansas, Maine, Mississippi, Oregon, and Wisconsin. The forecasting results imply that the forestry and logging industry will largely experience decreases in employment and the number of firms. Wood manufacturing has similar findings, but employment is forecasted to increase in general. Paper manufacturing is forecasted to decrease employment, output, and the number of firms, while wages will remain constant. The analysis highlights how timber-based manufacturing communities may be more resilient than other forestry-based industries in the face of economic disruptions. This type of regional forecasting provides valuable insights for regional policy makers and industry stakeholders, helping them anticipate economic shifts and implement strategies to support affected communities. In addition, the methodology applied in this study can be extended to other non-forestry industries that serve as economic pillars for specific regions such as mining, agriculture, and energy production, offering a framework for assessing economic resilience in resource-dependent communities.",
+        "translated": ""
+    },
+    {
+        "title": "Reinterpreting demand estimation",
+        "url": "http://arxiv.org/abs/2503.23524v1",
+        "pub_date": "2025-03-30",
+        "summary": "This paper connects the literature on demand estimation to the literature on causal inference by interpreting nonparametric structural assumptions as restrictions on counterfactual outcomes. It offers nontrivial and equivalent restatements of key demand estimation assumptions in the Neyman-Rubin potential outcomes model, for both settings with market-level data (Berry and Haile, 2014) and settings with demographic-specific market shares (Berry and Haile, 2024). This exercise helps bridge the literatures on structural estimation and on causal inference by separating notational and linguistic differences from substantive ones.",
+        "translated": ""
+    },
+    {
+        "title": "Forward Selection Fama-MacBeth Regression with Higher-Order Asset\n  Pricing Factors",
+        "url": "http://arxiv.org/abs/2503.23501v1",
+        "pub_date": "2025-03-30",
+        "summary": "We show that the higher-orders and their interactions of the common sparse linear factors can effectively subsume the factor zoo. To this extend, we propose a forward selection Fama-MacBeth procedure as a method to estimate a high-dimensional stochastic discount factor model, isolating the most relevant higher-order factors. Applying this approach to terms derived from six widely used factors (the Fama-French five-factor model and the momentum factor), we show that the resulting higher-order model with only a small number of selected higher-order terms significantly outperforms traditional benchmarks both in-sample and out-of-sample. Moreover, it effectively subsumes a majority of the factors from the extensive factor zoo, suggesting that the pricing power of most zoo factors is attributable to their exposure to higher-order terms of common linear factors.",
+        "translated": ""
+    },
+    {
+        "title": "Estimation of Latent Group Structures in Time-Varying Panel Data Models",
+        "url": "http://arxiv.org/abs/2503.23165v1",
+        "pub_date": "2025-03-29",
+        "summary": "We introduce a panel data model where coefficients vary both over time and the cross-section. Slope coefficients change smoothly over time and follow a latent group structure, being homogeneous within but heterogeneous across groups. The group structure is identified using a pairwise adaptive group fused-Lasso penalty. The trajectories of time-varying coefficients are estimated via polynomial spline functions. We derive the asymptotic distributions of the penalized and post-selection estimators and show their oracle efficiency. A simulation study demonstrates excellent finite sample properties. An application to the emission intensity of GDP highlights the relevance of addressing cross-sectional heterogeneity and time-variance in empirical settings.",
+        "translated": ""
     }
 ]
