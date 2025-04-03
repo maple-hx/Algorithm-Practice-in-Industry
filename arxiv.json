@@ -44077,5 +44077,54 @@
         "pub_date": "2025-03-29",
         "summary": "We introduce a panel data model where coefficients vary both over time and the cross-section. Slope coefficients change smoothly over time and follow a latent group structure, being homogeneous within but heterogeneous across groups. The group structure is identified using a pairwise adaptive group fused-Lasso penalty. The trajectories of time-varying coefficients are estimated via polynomial spline functions. We derive the asymptotic distributions of the penalized and post-selection estimators and show their oracle efficiency. A simulation study demonstrates excellent finite sample properties. An application to the emission intensity of GDP highlights the relevance of addressing cross-sectional heterogeneity and time-variance in empirical settings.",
         "translated": ""
+    },
+    {
+        "title": "UniOcc: A Unified Benchmark for Occupancy Forecasting and Prediction in\n  Autonomous Driving",
+        "url": "http://arxiv.org/abs/2503.24381v1",
+        "pub_date": "2025-03-31",
+        "summary": "We introduce UniOcc, a comprehensive, unified benchmark for occupancy forecasting (i.e., predicting future occupancies based on historical information) and current-frame occupancy prediction from camera images. UniOcc unifies data from multiple real-world datasets (i.e., nuScenes, Waymo) and high-fidelity driving simulators (i.e., CARLA, OpenCOOD), which provides 2D/3D occupancy labels with per-voxel flow annotations and support for cooperative autonomous driving. In terms of evaluation, unlike existing studies that rely on suboptimal pseudo labels for evaluation, UniOcc incorporates novel metrics that do not depend on ground-truth occupancy, enabling robust assessment of additional aspects of occupancy quality. Through extensive experiments on state-of-the-art models, we demonstrate that large-scale, diverse training data and explicit flow information significantly enhance occupancy prediction and forecasting performance.",
+        "translated": ""
+    },
+    {
+        "title": "Policy Gradient for LQR with Domain Randomization",
+        "url": "http://arxiv.org/abs/2503.24371v1",
+        "pub_date": "2025-03-31",
+        "summary": "Domain randomization (DR) enables sim-to-real transfer by training controllers on a distribution of simulated environments, with the goal of achieving robust performance in the real world. Although DR is widely used in practice and is often solved using simple policy gradient (PG) methods, understanding of its theoretical guarantees remains limited. Toward addressing this gap, we provide the first convergence analysis of PG methods for domain-randomized linear quadratic regulation (LQR). We show that PG converges globally to the minimizer of a finite-sample approximation of the DR objective under suitable bounds on the heterogeneity of the sampled systems. We also quantify the sample-complexity associated with achieving a small performance gap between the sample-average and population-level objectives. Additionally, we propose and analyze a discount-factor annealing algorithm that obviates the need for an initial jointly stabilizing controller, which may be challenging to find. Empirical results support our theoretical findings and highlight promising directions for future work, including risk-sensitive DR formulations and stochastic PG algorithms.",
+        "translated": ""
+    },
+    {
+        "title": "Which LIME should I trust? Concepts, Challenges, and Solutions",
+        "url": "http://arxiv.org/abs/2503.24365v1",
+        "pub_date": "2025-03-31",
+        "summary": "As neural networks become dominant in essential systems, Explainable Artificial Intelligence (XAI) plays a crucial role in fostering trust and detecting potential misbehavior of opaque models. LIME (Local Interpretable Model-agnostic Explanations) is among the most prominent model-agnostic approaches, generating explanations by approximating the behavior of black-box models around specific instances. Despite its popularity, LIME faces challenges related to fidelity, stability, and applicability to domain-specific problems. Numerous adaptations and enhancements have been proposed to address these issues, but the growing number of developments can be overwhelming, complicating efforts to navigate LIME-related research. To the best of our knowledge, this is the first survey to comprehensively explore and collect LIME's foundational concepts and known limitations. We categorize and compare its various enhancements, offering a structured taxonomy based on intermediate steps and key issues. Our analysis provides a holistic overview of advancements in LIME, guiding future research and helping practitioners identify suitable approaches. Additionally, we provide a continuously updated interactive website (https://patrick-knab.github.io/which-lime-to-trust/), offering a concise and accessible overview of the survey.",
+        "translated": ""
+    },
+    {
+        "title": "Sim-and-Real Co-Training: A Simple Recipe for Vision-Based Robotic\n  Manipulation",
+        "url": "http://arxiv.org/abs/2503.24361v1",
+        "pub_date": "2025-03-31",
+        "summary": "Large real-world robot datasets hold great potential to train generalist robot models, but scaling real-world human data collection is time-consuming and resource-intensive. Simulation has great potential in supplementing large-scale data, especially with recent advances in generative AI and automated data generation tools that enable scalable creation of robot behavior datasets. However, training a policy solely in simulation and transferring it to the real world often demands substantial human effort to bridge the reality gap. A compelling alternative is to co-train the policy on a mixture of simulation and real-world datasets. Preliminary studies have recently shown this strategy to substantially improve the performance of a policy over one trained on a limited amount of real-world data. Nonetheless, the community lacks a systematic understanding of sim-and-real co-training and what it takes to reap the benefits of simulation data for real-robot learning. This work presents a simple yet effective recipe for utilizing simulation data to solve vision-based robotic manipulation tasks. We derive this recipe from comprehensive experiments that validate the co-training strategy on various simulation and real-world datasets. Using two domains--a robot arm and a humanoid--across diverse tasks, we demonstrate that simulation data can enhance real-world task performance by an average of 38%, even with notable differences between the simulation and real-world data. Videos and additional results can be found at https://co-training.github.io/",
+        "translated": ""
+    },
+    {
+        "title": "SQuat: Subspace-orthogonal KV Cache Quantization",
+        "url": "http://arxiv.org/abs/2503.24358v1",
+        "pub_date": "2025-03-31",
+        "summary": "The key-value (KV) cache accelerates LLMs decoding by storing KV tensors from previously generated tokens. It reduces redundant computation at the cost of increased memory usage. To mitigate this overhead, existing approaches compress KV tensors into lower-bit representations; however, quantization errors can accumulate as more tokens are generated, potentially resulting in undesired outputs. In this paper, we introduce SQuat (Subspace-orthogonal KV cache quantization). It first constructs a subspace spanned by query tensors to capture the most critical task-related information. During key tensor quantization, it enforces that the difference between the (de)quantized and original keys remains orthogonal to this subspace, minimizing the impact of quantization errors on the attention mechanism's outputs. SQuat requires no model fine-tuning, no additional calibration dataset for offline learning, and is grounded in a theoretical framework we develop. Through numerical experiments, we show that our method reduces peak memory by 2.17 to 2.82, improves throughput by 2.45 to 3.60, and achieves more favorable benchmark scores than existing KV cache quantization algorithms.",
+        "translated": ""
+    },
+    {
+        "title": "ORAL: Prompting Your Large-Scale LoRAs via Conditional Recurrent\n  Diffusion",
+        "url": "http://arxiv.org/abs/2503.24354v1",
+        "pub_date": "2025-03-31",
+        "summary": "Parameter generation has emerged as a novel paradigm for neural network development, offering an alternative to traditional neural network training by synthesizing high-quality model weights directly. In the context of Low-Rank Adaptation (LoRA) for evolving ($\\textit{i.e.}$, constantly updated) large language models (LLMs), this approach promises efficient adaptation without costly retraining. However, existing methods face critical limitations in simultaneously achieving scalability and controllability. In this paper, we introduce $\\texttt{ORAL}$, a novel $\\textbf{conditional recurrent diffusion}$ framework that addresses these challenges. $\\texttt{ORAL}$ incorporates a novel conditioning mechanism that integrates model architecture and textual task specifications, enabling the generation of task-specific LoRA parameters that can seamlessly transfer across evolving foundation models. Our approach successfully scales to billions-of-parameter LLMs and maintains controllability. Through extensive experiments across seven language tasks, four vision tasks, and three multimodal tasks using five pre-trained LLMs, we demonstrate that $\\texttt{ORAL}$ generates high-quality LoRA parameters that achieve comparable or superior performance to vanilla trained counterparts.",
+        "translated": ""
+    },
+    {
+        "title": "Faster Rates for No-Regret Learning in General Games via Cautious\n  Optimism",
+        "url": "http://arxiv.org/abs/2503.24340v1",
+        "pub_date": "2025-03-31",
+        "summary": "We establish the first uncoupled learning algorithm that attains $O(n \\log^2 d \\log T)$ per-player regret in multi-player general-sum games, where $n$ is the number of players, $d$ is the number of actions available to each player, and $T$ is the number of repetitions of the game. Our results exponentially improve the dependence on $d$ compared to the $O(n\\, d \\log T)$ regret attainable by Log-Regularized Lifted Optimistic FTRL [Far+22c], and also reduce the dependence on the number of iterations $T$ from $\\log^4 T$ to $\\log T$ compared to Optimistic Hedge, the previously well-studied algorithm with $O(n \\log d \\log^4 T)$ regret [DFG21]. Our algorithm is obtained by combining the classic Optimistic Multiplicative Weights Update (OMWU) with an adaptive, non-monotonic learning rate that paces the learning process of the players, making them more cautious when their regret becomes too negative.",
+        "translated": ""
     }
 ]
