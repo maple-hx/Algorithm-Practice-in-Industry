@@ -44182,5 +44182,61 @@
         "pub_date": "2025-04-02",
         "summary": "Automatic text classification (ATC) has experienced remarkable advancements in the past decade, best exemplified by recent small and large language models (SLMs and LLMs), leveraged by Transformer architectures. Despite recent effectiveness improvements, a comprehensive cost-benefit analysis investigating whether the effectiveness gains of these recent approaches compensate their much higher costs when compared to more traditional text classification approaches such as SVMs and Logistic Regression is still missing in the literature. In this context, this work's main contributions are twofold: (i) we provide a scientifically sound comparative analysis of the cost-benefit of twelve traditional and recent ATC solutions including five open LLMs, and (ii) a large benchmark comprising {22 datasets}, including sentiment analysis and topic classification, with their (train-validation-test) partitions based on folded cross-validation procedures, along with documentation, and code. The release of code, data, and documentation enables the community to replicate experiments and advance the field in a more scientifically sound manner. Our comparative experimental results indicate that LLMs outperform traditional approaches (up to 26%-7.1% on average) and SLMs (up to 4.9%-1.9% on average) in terms of effectiveness. However, LLMs incur significantly higher computational costs due to fine-tuning, being, on average 590x and 8.5x slower than traditional methods and SLMs, respectively. Results suggests the following recommendations: (1) LLMs for applications that require the best possible effectiveness and can afford the costs; (2) traditional methods such as Logistic Regression and SVM for resource-limited applications or those that cannot afford the cost of tuning large LLMs; and (3) SLMs like Roberta for near-optimal effectiveness-efficiency trade-off.",
         "translated": ""
+    },
+    {
+        "title": "Non-parametric Quantile Regression and Uniform Inference with Unknown\n  Error Distribution",
+        "url": "http://arxiv.org/abs/2504.01761v1",
+        "pub_date": "2025-04-02",
+        "summary": "This paper studies the non-parametric estimation and uniform inference for the conditional quantile regression function (CQRF) with covariates exposed to measurement errors. We consider the case that the distribution of the measurement error is unknown and allowed to be either ordinary or super smooth. We estimate the density of the measurement error by the repeated measurements and propose the deconvolution kernel estimator for the CQRF. We derive the uniform Bahadur representation of the proposed estimator and construct the uniform confidence bands for the CQRF, uniformly in the sense for all covariates and a set of quantile indices, and establish the theoretical validity of the proposed inference. A data-driven approach for selecting the tuning parameter is also included. Monte Carlo simulations and a real data application demonstrate the usefulness of the proposed method.",
+        "translated": ""
+    },
+    {
+        "title": "A Causal Inference Framework for Data Rich Environments",
+        "url": "http://arxiv.org/abs/2504.01702v1",
+        "pub_date": "2025-04-02",
+        "summary": "We propose a formal model for counterfactual estimation with unobserved confounding in \"data-rich\" settings, i.e., where there are a large number of units and a large number of measurements per unit. Our model provides a bridge between the structural causal model view of causal inference common in the graphical models literature with that of the latent factor model view common in the potential outcomes literature. We show how classic models for potential outcomes and treatment assignments fit within our framework. We provide an identification argument for the average treatment effect, the average treatment effect on the treated, and the average treatment effect on the untreated. For any estimator that has a fast enough estimation error rate for a certain nuisance parameter, we establish it is consistent for these various causal parameters. We then show principal component regression is one such estimator that leads to consistent estimation, and we analyze the minimal smoothness required of the potential outcomes function for consistency.",
+        "translated": ""
+    },
+    {
+        "title": "On Robust Empirical Likelihood for Nonparametric Regression with\n  Application to Regression Discontinuity Designs",
+        "url": "http://arxiv.org/abs/2504.01535v1",
+        "pub_date": "2025-04-02",
+        "summary": "Empirical likelihood serves as a powerful tool for constructing confidence intervals in nonparametric regression and regression discontinuity designs (RDD). The original empirical likelihood framework can be naturally extended to these settings using local linear smoothers, with Wilks' theorem holding only when an undersmoothed bandwidth is selected. However, the generalization of bias-corrected versions of empirical likelihood under more realistic conditions is non-trivial and has remained an open challenge in the literature. This paper provides a satisfactory solution by proposing a novel approach, referred to as robust empirical likelihood, designed for nonparametric regression and RDD. The core idea is to construct robust weights which simultaneously achieve bias correction and account for the additional variability introduced by the estimated bias, thereby enabling valid confidence interval construction without extra estimation steps involved. We demonstrate that the Wilks' phenomenon still holds under weaker conditions in nonparametric regression, sharp and fuzzy RDD settings. Extensive simulation studies confirm the effectiveness of our proposed approach, showing superior performance over existing methods in terms of coverage probabilities and interval lengths. Moreover, the proposed procedure exhibits robustness to bandwidth selection, making it a flexible and reliable tool for empirical analyses. The practical usefulness is further illustrated through applications to two real datasets.",
+        "translated": ""
+    },
+    {
+        "title": "Locally- but not Globally-identified SVARs",
+        "url": "http://arxiv.org/abs/2504.01441v1",
+        "pub_date": "2025-04-02",
+        "summary": "This paper analyzes Structural Vector Autoregressions (SVARs) where identification of structural parameters holds locally but not globally. In this case there exists a set of isolated structural parameter points that are observationally equivalent under the imposed restrictions. Although the data do not inform us which observationally equivalent point should be selected, the common frequentist practice is to obtain one as a maximum likelihood estimate and perform impulse response analysis accordingly. For Bayesians, the lack of global identification translates to non-vanishing sensitivity of the posterior to the prior, and the multi-modal likelihood gives rise to computational challenges as posterior sampling algorithms can fail to explore all the modes. This paper overcomes these challenges by proposing novel estimation and inference procedures. We characterize a class of identifying restrictions and circumstances that deliver local but non-global identification, and the resulting number of observationally equivalent parameter values. We propose algorithms to exhaustively compute all admissible structural parameters given reduced-form parameters and utilize them to sample from the multi-modal posterior. In addition, viewing the set of observationally equivalent parameter points as the identified set, we develop Bayesian and frequentist procedures for inference on the corresponding set of impulse responses. An empirical example illustrates our proposal.",
+        "translated": ""
+    },
+    {
+        "title": "A Practical Guide to Estimating Conditional Marginal Effects: Modern\n  Approaches",
+        "url": "http://arxiv.org/abs/2504.01355v1",
+        "pub_date": "2025-04-02",
+        "summary": "This Element offers a practical guide to estimating conditional marginal effects-how treatment effects vary with a moderating variable-using modern statistical methods. Commonly used approaches, such as linear interaction models, often suffer from unclarified estimands, limited overlap, and restrictive functional forms. This guide begins by clearly defining the estimand and presenting the main identification results. It then reviews and improves upon existing solutions, such as the semiparametric kernel estimator, and introduces robust estimation strategies, including augmented inverse propensity score weighting with Lasso selection (AIPW-Lasso) and double machine learning (DML) with modern algorithms. Each method is evaluated through simulations and empirical examples, with practical recommendations tailored to sample size and research context. All tools are implemented in the accompanying interflex package for R.",
+        "translated": ""
+    },
+    {
+        "title": "Partial identification in ILSA studies of educational achievement: A\n  strategy for producing credible interval estimates with student\n  non-participation",
+        "url": "http://arxiv.org/abs/2504.01209v1",
+        "pub_date": "2025-04-01",
+        "summary": "A central objective of international large-scale assessment (ILSA) studies is to generate knowledge about the probability distribution of student achievement in each education system participating in the assessment. In this article, we study one of the most fundamental threats that these studies face when justifying the conclusions reached about these distributions: the problem that arises from student non-participation during data collection. ILSA studies have traditionally employed a narrow range of strategies to address non-participation. We examine this problem using tools developed within the framework of partial identification that we tailor to the problem at hand. We demonstrate this approach with application to the International Computer and Information Literacy Study in 2018. By doing so, we bring to the field of ILSA an alternative strategy for identification and estimation of population parameters of interest.",
+        "translated": ""
+    },
+    {
+        "title": "Nonlinearity in Dynamic Causal Effects: Making the Bad into the Good,\n  and the Good into the Great?",
+        "url": "http://arxiv.org/abs/2504.01140v1",
+        "pub_date": "2025-04-01",
+        "summary": "This paper was prepared as a comment on \"Dynamic Causal Effects in a Nonlinear World: the Good, the Bad, and the Ugly\" by Michal Koles\\'ar, Mikkel Plagborg-M{\\o}ller. We make three comments, including a novel contribution to the literature, showing how a reasonable economic interpretation can potentially be restored for average-effect estimators with negative weights.",
+        "translated": ""
+    },
+    {
+        "title": "Quantile Treatment Effects in High Dimensional Panel Data",
+        "url": "http://arxiv.org/abs/2504.00785v1",
+        "pub_date": "2025-04-01",
+        "summary": "We introduce a novel estimator for quantile causal effects with high-dimensional panel data (large $N$ and $T$), where only one or a few units are affected by the intervention or policy. Our method extends the generalized synthetic control method (Xu 2017) from average treatment effect on the treated to quantile treatment effect on the treated, allowing the underlying factor structure to change across the quantile of the interested outcome distribution. Our method involves estimating the quantile-dependent factors using the control group, followed by a quantile regression to estimate the quantile treatment effect using the treated units. We establish the asymptotic properties of our estimator and propose a bootstrap procedure for statistical inference, supported by simulation studies. An empirical application of the 2008 China Stimulus Program is provided.",
+        "translated": ""
     }
 ]
