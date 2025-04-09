@@ -44504,5 +44504,33 @@
         "pub_date": "2025-04-07",
         "summary": "Despite high benchmark scores, Large Language Models (LLMs) often fail simple problem, raising a critical question: Do LLMs learn mathematical principles or merely memorize patterns? Rather than designing increasingly complex benchmarks like recent works, we investigate this using elementary two-integer addition ($0$ to $2^{64}$), probing two core properties: commutativity ($A+B=B+A$) and compositional generalization (via isomorphic symbolic mappings, e.g., $7 \\rightarrow y$). While state-of-the-art LLMs achieve 73.8-99.8\\% accuracy on numerical addition, performance collapses to $\\leq$7.5\\% under symbolic mapping, indicating failure to generalize learned rules. Non-monotonic performance scaling with digit count and frequent commutativity violations (over 1,700 cases of $A+B \\neq B+A$) further support this. Explicitly providing addition rules degrades performance by 81.2\\% on average, while self-explanation maintains baseline accuracy, suggesting LLM arithmetic processing is misaligned with human-defined principles. Our findings indicate current LLMs rely on memory pattern over genuine rule learning, highlighting architectural limitations and the need for new approaches to achieve true mathematical reasoning.",
         "translated": ""
+    },
+    {
+        "title": "Eigenvalue-Based Randomness Test for Residual Diagnostics in Panel Data\n  Models",
+        "url": "http://arxiv.org/abs/2504.05297v1",
+        "pub_date": "2025-04-07",
+        "summary": "This paper introduces the Eigenvalue-Based Randomness (EBR) test - a novel approach rooted in the Tracy-Widom law from random matrix theory - and applies it to the context of residual analysis in panel data models. Unlike traditional methods, which target specific issues like cross-sectional dependence or autocorrelation, the EBR test simultaneously examines multiple assumptions by analyzing the largest eigenvalue of a symmetrized residual matrix. Monte Carlo simulations demonstrate that the EBR test is particularly robust in detecting not only standard violations such as autocorrelation and linear cross-sectional dependence (CSD) but also more intricate non-linear and non-monotonic dependencies, making it a comprehensive and highly flexible tool for enhancing the reliability of panel data analyses.",
+        "translated": ""
+    },
+    {
+        "title": "Rationalizing dynamic choices",
+        "url": "http://arxiv.org/abs/2504.05251v1",
+        "pub_date": "2025-04-07",
+        "summary": "An analyst observes an agent take a sequence of actions. The analyst does not have access to the agent's information and ponders whether the observed actions could be justified through a rational Bayesian model with a known utility function. We show that the observed actions cannot be justified if and only if there is a single deviation argument that leaves the agent better off, regardless of the information. The result is then extended to allow for distributions over possible action sequences. Four applications are presented: monotonicity of rationalization with risk aversion, a potential rejection of the Bayesian model with observable data, feasible outcomes in dynamic information design, and partial identification of preferences without assumptions on information.",
+        "translated": ""
+    },
+    {
+        "title": "Estimating Demand with Recentered Instruments",
+        "url": "http://arxiv.org/abs/2504.04056v1",
+        "pub_date": "2025-04-05",
+        "summary": "We develop a new approach to estimating flexible demand models with exogenous supply-side shocks. Our approach avoids conventional assumptions of exogenous product characteristics, putting no restrictions on product entry, despite using instrumental variables that incorporate characteristic variation. The proposed instruments are model-predicted responses of endogenous variables to the exogenous shocks, recentered to avoid bias from endogenous characteristics. We illustrate the approach in a series of Monte Carlo simulations.",
+        "translated": ""
+    },
+    {
+        "title": "Regression Discontinuity Design with Distribution-Valued Outcomes",
+        "url": "http://arxiv.org/abs/2504.03992v1",
+        "pub_date": "2025-04-04",
+        "summary": "This article introduces Regression Discontinuity Design (RDD) with Distribution-Valued Outcomes (R3D), extending the standard RDD framework to settings where the outcome is a distribution rather than a scalar. Such settings arise when treatment is assigned at a higher level of aggregation than the outcome-for example, when a subsidy is allocated based on a firm-level revenue cutoff while the outcome of interest is the distribution of employee wages within the firm. Since standard RDD methods cannot accommodate such two-level randomness, I propose a novel approach based on random distributions. The target estimand is a \"local average quantile treatment effect\", which averages across random quantiles. To estimate this target, I introduce two related approaches: one that extends local polynomial regression to random quantiles and another based on local Fr\\'echet regression, a form of functional regression. For both estimators, I establish asymptotic normality and develop uniform, debiased confidence bands together with a data-driven bandwidth selection procedure. Simulations validate these theoretical properties and show existing methods to be biased and inconsistent in this setting. I then apply the proposed methods to study the effects of gubernatorial party control on within-state income distributions in the US, using a close-election design. The results suggest a classic equality-efficiency tradeoff under Democratic governorship, driven by reductions in income at the top of the distribution.",
+        "translated": ""
     }
 ]
