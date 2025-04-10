@@ -44588,5 +44588,26 @@
         "pub_date": "2025-04-08",
         "summary": "While decoder-only large language models (LLMs) have shown impressive results, encoder-decoder models are still widely adopted in real-world applications for their inference efficiency and richer encoder representation. In this paper, we study a novel problem: adapting pretrained decoder-only LLMs to encoder-decoder, with the goal of leveraging the strengths of both approaches to achieve a more favorable quality-efficiency trade-off. We argue that adaptation not only enables inheriting the capability of decoder-only LLMs but also reduces the demand for computation compared to pretraining from scratch. We rigorously explore different pretraining objectives and parameter initialization/optimization techniques. Through extensive experiments based on Gemma 2 (2B and 9B) and a suite of newly pretrained mT5-sized models (up to 1.6B), we demonstrate the effectiveness of adaptation and the advantage of encoder-decoder LLMs. Under similar inference budget, encoder-decoder LLMs achieve comparable (often better) pretraining performance but substantially better finetuning performance than their decoder-only counterpart. For example, Gemma 2B-2B outperforms Gemma 2B by $\\sim$7\\% after instruction tuning. Encoder-decoder adaptation also allows for flexible combination of different-sized models, where Gemma 9B-2B significantly surpasses Gemma 2B-2B by $&gt;$3\\%. The adapted encoder representation also yields better results on SuperGLUE. We will release our checkpoints to facilitate future research.",
         "translated": ""
+    },
+    {
+        "title": "Randomization Inference in Two-Sided Market Experiments",
+        "url": "http://arxiv.org/abs/2504.06215v1",
+        "pub_date": "2025-04-08",
+        "summary": "Randomized experiments are increasingly employed in two-sided markets, such as buyer-seller platforms, to evaluate treatment effects from marketplace interventions. These experiments must reflect the underlying two-sided market structure in their design (e.g., sellers and buyers), making them particularly challenging to analyze. In this paper, we propose a randomization inference framework to analyze outcomes from such two-sided experiments. Our approach is finite-sample valid under sharp null hypotheses for any test statistic and maintains asymptotic validity under weak null hypotheses through studentization. Moreover, we provide heuristic guidance for choosing among multiple valid randomization tests to enhance statistical power, which we demonstrate empirically. Finally, we demonstrate the performance of our methodology through a series of simulation studies.",
+        "translated": ""
+    },
+    {
+        "title": "Optimizing Data-driven Weights In Multidimensional Indexes",
+        "url": "http://arxiv.org/abs/2504.06012v1",
+        "pub_date": "2025-04-08",
+        "summary": "Multidimensional indexes are ubiquitous, and popular, but present non-negligible normative choices when it comes to attributing weights to their dimensions. This paper provides a more rigorous approach to the choice of weights by defining a set of desirable properties that weighting models should meet. It shows that Bayesian Networks is the only model across statistical, econometric, and machine learning computational models that meets these properties. An example with EU-SILC data illustrates this new approach highlighting its potential for policies.",
+        "translated": ""
+    },
+    {
+        "title": "Non-linear Phillips Curve for India: Evidence from Explainable Machine\n  Learning",
+        "url": "http://arxiv.org/abs/2504.05350v1",
+        "pub_date": "2025-04-06",
+        "summary": "The conventional linear Phillips curve model, while widely used in policymaking, often struggles to deliver accurate forecasts in the presence of structural breaks and inherent nonlinearities. This paper addresses these limitations by leveraging machine learning methods within a New Keynesian Phillips Curve framework to forecast and explain headline inflation in India, a major emerging economy. Our analysis demonstrates that machine learning-based approaches significantly outperform standard linear models in forecasting accuracy. Moreover, by employing explainable machine learning techniques, we reveal that the Phillips curve relationship in India is highly nonlinear, characterized by thresholds and interaction effects among key variables. Headline inflation is primarily driven by inflation expectations, followed by past inflation and the output gap, while supply shocks, except rainfall, exert only a marginal influence. These findings highlight the ability of machine learning models to improve forecast accuracy and uncover complex, nonlinear dynamics in inflation data, offering valuable insights for policymakers.",
+        "translated": ""
     }
 ]
