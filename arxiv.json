@@ -44658,5 +44658,33 @@
         "pub_date": "2025-04-09",
         "summary": "We propose OmniCaptioner, a versatile visual captioning framework for generating fine-grained textual descriptions across a wide variety of visual domains. Unlike prior methods limited to specific image types (e.g., natural images or geometric visuals), our framework provides a unified solution for captioning natural images, visual text (e.g., posters, UIs, textbooks), and structured visuals (e.g., documents, tables, charts). By converting low-level pixel information into semantically rich textual representations, our framework bridges the gap between visual and textual modalities. Our results highlight three key advantages: (i) Enhanced Visual Reasoning with LLMs, where long-context captions of visual modalities empower LLMs, particularly the DeepSeek-R1 series, to reason effectively in multimodal scenarios; (ii) Improved Image Generation, where detailed captions improve tasks like text-to-image generation and image transformation; and (iii) Efficient Supervised Fine-Tuning (SFT), which enables faster convergence with less data. We believe the versatility and adaptability of OmniCaptioner can offer a new perspective for bridging the gap between language and visual modalities.",
         "translated": ""
+    },
+    {
+        "title": "How do Large Language Models Understand Relevance? A Mechanistic\n  Interpretability Perspective",
+        "url": "http://arxiv.org/abs/2504.07898v1",
+        "pub_date": "2025-04-10",
+        "summary": "Recent studies have shown that large language models (LLMs) can assess relevance and support information retrieval (IR) tasks such as document ranking and relevance judgment generation. However, the internal mechanisms by which off-the-shelf LLMs understand and operationalize relevance remain largely unexplored. In this paper, we systematically investigate how different LLM modules contribute to relevance judgment through the lens of mechanistic interpretability. Using activation patching techniques, we analyze the roles of various model components and identify a multi-stage, progressive process in generating either pointwise or pairwise relevance judgment. Specifically, LLMs first extract query and document information in the early layers, then process relevance information according to instructions in the middle layers, and finally utilize specific attention heads in the later layers to generate relevance judgments in the required format. Our findings provide insights into the mechanisms underlying relevance assessment in LLMs, offering valuable implications for future research on leveraging LLMs for IR tasks.",
+        "translated": ""
+    },
+    {
+        "title": "Siren Federate: Bridging document, relational, and graph models for\n  exploratory graph analysis",
+        "url": "http://arxiv.org/abs/2504.07815v1",
+        "pub_date": "2025-04-10",
+        "summary": "Investigative workflows require interactive exploratory analysis on large heterogeneous knowledge graphs. Current databases show limitations in enabling such task. This paper discusses the architecture of Siren Federate, a system that efficiently supports exploratory graph analysis by bridging document-oriented, relational and graph models. Technical contributions include distributed join algorithms, adaptive query planning, query plan folding, semantic caching, and semi-join decomposition for path query. Semi-join decomposition addresses the exponential growth of intermediate results in path-based queries. Experiments show that Siren Federate exhibits low latency and scales well with the amount of data, the number of users, and the number of computing nodes.",
+        "translated": ""
+    },
+    {
+        "title": "FairEval: Evaluating Fairness in LLM-Based Recommendations with\n  Personality Awareness",
+        "url": "http://arxiv.org/abs/2504.07801v1",
+        "pub_date": "2025-04-10",
+        "summary": "Recent advances in Large Language Models (LLMs) have enabled their application to recommender systems (RecLLMs), yet concerns remain regarding fairness across demographic and psychological user dimensions. We introduce FairEval, a novel evaluation framework to systematically assess fairness in LLM-based recommendations. FairEval integrates personality traits with eight sensitive demographic attributes,including gender, race, and age, enabling a comprehensive assessment of user-level bias. We evaluate models, including ChatGPT 4o and Gemini 1.5 Flash, on music and movie recommendations. FairEval's fairness metric, PAFS, achieves scores up to 0.9969 for ChatGPT 4o and 0.9997 for Gemini 1.5 Flash, with disparities reaching 34.79 percent. These results highlight the importance of robustness in prompt sensitivity and support more inclusive recommendation systems.",
+        "translated": ""
+    },
+    {
+        "title": "Plan-and-Refine: Diverse and Comprehensive Retrieval-Augmented\n  Generation",
+        "url": "http://arxiv.org/abs/2504.07794v1",
+        "pub_date": "2025-04-10",
+        "summary": "This paper studies the limitations of (retrieval-augmented) large language models (LLMs) in generating diverse and comprehensive responses, and introduces the Plan-and-Refine (P&amp;R) framework based on a two phase system design. In the global exploration phase, P&amp;R generates a diverse set of plans for the given input, where each plan consists of a list of diverse query aspects with corresponding additional descriptions. This phase is followed by a local exploitation phase that generates a response proposal for the input query conditioned on each plan and iteratively refines the proposal for improving the proposal quality. Finally, a reward model is employed to select the proposal with the highest factuality and coverage. We conduct our experiments based on the ICAT evaluation methodology--a recent approach for answer factuality and comprehensiveness evaluation. Experiments on the two diverse information seeking benchmarks adopted from non-factoid question answering and TREC search result diversification tasks demonstrate that P&amp;R significantly outperforms baselines, achieving up to a 13.1% improvement on the ANTIQUE dataset and a 15.41% improvement on the TREC dataset. Furthermore, a smaller scale user study confirms the substantial efficacy of the P&amp;R framework.",
+        "translated": ""
     }
 ]
