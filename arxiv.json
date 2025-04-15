@@ -44826,5 +44826,19 @@
         "pub_date": "2025-04-11",
         "summary": "Pretrained transformer-encoder models like DeBERTaV3 and ModernBERT introduce architectural advancements aimed at improving efficiency and performance. Although the authors of ModernBERT report improved performance over DeBERTaV3 on several benchmarks, the lack of disclosed training data and the absence of comparisons using a shared dataset make it difficult to determine whether these gains are due to architectural improvements or differences in training data. In this work, we conduct a controlled study by pretraining ModernBERT on the same dataset as CamemBERTaV2, a DeBERTaV3 French model, isolating the effect of model design. Our results show that the previous model generation remains superior in sample efficiency and overall benchmark performance, with ModernBERT's primary advantage being faster training and inference speed. However, the new proposed model still provides meaningful architectural improvements compared to earlier models such as BERT and RoBERTa. Additionally, we observe that high-quality pre-training data accelerates convergence but does not significantly improve final performance, suggesting potential benchmark saturation. These findings show the importance of disentangling pretraining data from architectural innovations when evaluating transformer models.",
         "translated": ""
+    },
+    {
+        "title": "Robust Tests for Factor-Augmented Regressions with an Application to the\n  novel EA-MD Dataset",
+        "url": "http://arxiv.org/abs/2504.08455v1",
+        "pub_date": "2025-04-11",
+        "summary": "We present four novel tests of equal predictive accuracy and encompassing for out-of-sample forecasts based on factor-augmented regression. We extend the work of Pitarakis (2023a,b) to develop the inferential theory of predictive regressions with generated regressors which are estimated by using Common Correlated Effects (henceforth CCE) - a technique that utilizes cross-sectional averages of grouped series. It is particularly useful since large datasets of such structure are becoming increasingly popular. Under our framework, CCE-based tests are asymptotically normal and robust to overspecification of the number of factors, which is in stark contrast to existing methodologies in the CCE context. Our tests are highly applicable in practice as they accommodate for different predictor types (e.g., stationary and highly persistent factors), and remain invariant to the location of structural breaks in loadings. Extensive Monte Carlo simulations indicate that our tests exhibit excellent local power properties. Finally, we apply our tests to a novel EA-MD-QD dataset by Barigozzi et al. (2024b), which covers Euro Area as a whole and primary member countries. We demonstrate that CCE factors offer a substantial predictive power even under varying data persistence and structural breaks.",
+        "translated": ""
+    },
+    {
+        "title": "An Introduction to Double/Debiased Machine Learning",
+        "url": "http://arxiv.org/abs/2504.08324v1",
+        "pub_date": "2025-04-11",
+        "summary": "This paper provides a practical introduction to Double/Debiased Machine Learning (DML). DML provides a general approach to performing inference about a target parameter in the presence of nuisance parameters. The aim of DML is to reduce the impact of nuisance parameter estimation on estimators of the parameter of interest. We describe DML and its two essential components: Neyman orthogonality and cross-fitting. We highlight that DML reduces functional form dependence and accommodates the use of complex data types, such as text data. We illustrate its application through three empirical examples that demonstrate DML's applicability in cross-sectional and panel settings.",
+        "translated": ""
     }
 ]
