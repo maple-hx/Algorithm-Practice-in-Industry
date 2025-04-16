@@ -44868,5 +44868,33 @@
         "pub_date": "2025-04-10",
         "summary": "Researchers and practitioners often wish to measure treatment effects in settings where units interact via markets and recommendation systems. In these settings, units are affected by certain shared states, like prices, algorithmic recommendations or social signals. We formalize this structure, calling it shared-state interference, and argue that our formulation captures many relevant applied settings. Our key modeling assumption is that individuals' potential outcomes are independent conditional on the shared state. We then prove an extension of a double machine learning (DML) theorem providing conditions for achieving efficient inference under shared-state interference. We also instantiate our general theorem in several models of interest where it is possible to efficiently estimate the average direct effect (ADE) or global average treatment effect (GATE).",
         "translated": ""
+    },
+    {
+        "title": "Bipartite Ranking From Multiple Labels: On Loss Versus Label Aggregation",
+        "url": "http://arxiv.org/abs/2504.11284v1",
+        "pub_date": "2025-04-15",
+        "summary": "Bipartite ranking is a fundamental supervised learning problem, with the goal of learning a ranking over instances with maximal area under the ROC curve (AUC) against a single binary target label. However, one may often observe multiple binary target labels, e.g., from distinct human annotators. How can one synthesize such labels into a single coherent ranking? In this work, we formally analyze two approaches to this problem -- loss aggregation and label aggregation -- by characterizing their Bayes-optimal solutions. Based on this, we show that while both methods can yield Pareto-optimal solutions, loss aggregation can exhibit label dictatorship: one can inadvertently (and undesirably) favor one label over others. This suggests that label aggregation can be preferable to loss aggregation, which we empirically verify.",
+        "translated": ""
+    },
+    {
+        "title": "Efficient Distributed Retrieval-Augmented Generation for Enhancing\n  Language Model Performance",
+        "url": "http://arxiv.org/abs/2504.11197v1",
+        "pub_date": "2025-04-15",
+        "summary": "Small language models (SLMs) support efficient deployments on resource-constrained edge devices, but their limited capacity compromises inference performance. Retrieval-augmented generation (RAG) is a promising solution to enhance model performance by integrating external databases, without requiring intensive on-device model retraining. However, large-scale public databases and user-specific private contextual documents are typically located on the cloud and the device separately, while existing RAG implementations are primarily centralized. To bridge this gap, we propose DRAGON, a distributed RAG framework to enhance on-device SLMs through both general and personal knowledge without the risk of leaking document privacy. Specifically, DRAGON decomposes multi-document RAG into multiple parallel token generation processes performed independently and locally on the cloud and the device, and employs a newly designed Speculative Aggregation, a dual-side speculative algorithm to avoid frequent output synchronization between the cloud and device. A new scheduling algorithm is further introduced to identify the optimal aggregation side based on real-time network conditions. Evaluations on real-world hardware testbed demonstrate a significant performance improvement of DRAGON-up to 1.9x greater gains over standalone SLM compared to the centralized RAG, substantial reduction in per-token latency, and negligible Time to First Token (TTFT) overhead.",
+        "translated": ""
+    },
+    {
+        "title": "Evaluation Report on MCP Servers",
+        "url": "http://arxiv.org/abs/2504.11094v1",
+        "pub_date": "2025-04-15",
+        "summary": "With the rise of LLMs, a large number of Model Context Protocol (MCP) services have emerged since the end of 2024. However, the effectiveness and efficiency of MCP servers have not been well studied. To study these questions, we propose an evaluation framework, called MCPBench. We selected several widely used MCP server and conducted an experimental evaluation on their accuracy, time, and token usage. Our experiments showed that the most effective MCP, Bing Web Search, achieved an accuracy of 64%. Importantly, we found that the accuracy of MCP servers can be substantially enhanced by involving declarative interface. This research paves the way for further investigations into optimized MCP implementations, ultimately leading to better AI-driven applications and data retrieval solutions.",
+        "translated": ""
+    },
+    {
+        "title": "Document Quality Scoring for Web Crawling",
+        "url": "http://arxiv.org/abs/2504.11011v1",
+        "pub_date": "2025-04-15",
+        "summary": "The internet contains large amounts of low-quality content, yet users expect web search engines to deliver high-quality, relevant results. The abundant presence of low-quality pages can negatively impact retrieval and crawling processes by wasting resources on these documents. Therefore, search engines can greatly benefit from techniques that leverage efficient quality estimation methods to mitigate these negative impacts. Quality scoring methods for web pages are useful for many processes typical for web search systems, including static index pruning, index tiering, and crawling. Building on work by Chang et al.~\\cite{chang2024neural}, who proposed using neural estimators of semantic quality for static index pruning, we extend their approach and apply their neural quality scorers to assess the semantic quality of web pages in crawling prioritisation tasks. In our experimental analysis, we found that prioritising semantically high-quality pages over low-quality ones can improve downstream search effectiveness. Our software contribution consists of a Docker container that computes an effective quality score for a given web page, allowing the quality scorer to be easily included and used in other components of web search systems.",
+        "translated": ""
     }
 ]
