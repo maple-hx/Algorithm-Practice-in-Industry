@@ -44840,5 +44840,19 @@
         "pub_date": "2025-04-11",
         "summary": "This paper provides a practical introduction to Double/Debiased Machine Learning (DML). DML provides a general approach to performing inference about a target parameter in the presence of nuisance parameters. The aim of DML is to reduce the impact of nuisance parameter estimation on estimators of the parameter of interest. We describe DML and its two essential components: Neyman orthogonality and cross-fitting. We highlight that DML reduces functional form dependence and accommodates the use of complex data types, such as text data. We illustrate its application through three empirical examples that demonstrate DML's applicability in cross-sectional and panel settings.",
         "translated": ""
+    },
+    {
+        "title": "Efficient 2D to Full 3D Human Pose Uplifting including Joint Rotations",
+        "url": "http://arxiv.org/abs/2504.09953v1",
+        "pub_date": "2025-04-14",
+        "summary": "In sports analytics, accurately capturing both the 3D locations and rotations of body joints is essential for understanding an athlete's biomechanics. While Human Mesh Recovery (HMR) models can estimate joint rotations, they often exhibit lower accuracy in joint localization compared to 3D Human Pose Estimation (HPE) models. Recent work addressed this limitation by combining a 3D HPE model with inverse kinematics (IK) to estimate both joint locations and rotations. However, IK is computationally expensive. To overcome this, we propose a novel 2D-to-3D uplifting model that directly estimates 3D human poses, including joint rotations, in a single forward pass. We investigate multiple rotation representations, loss functions, and training strategies - both with and without access to ground truth rotations. Our models achieve state-of-the-art accuracy in rotation estimation, are 150 times faster than the IK-based approach, and surpass HMR models in joint localization precision.",
+        "translated": ""
+    },
+    {
+        "title": "Myanmar XNLI: Building a Dataset and Exploring Low-resource Approaches\n  to Natural Language Inference with Myanmar",
+        "url": "http://arxiv.org/abs/2504.09645v1",
+        "pub_date": "2025-04-13",
+        "summary": "Despite dramatic recent progress in NLP, it is still a major challenge to apply Large Language Models (LLM) to low-resource languages. This is made visible in benchmarks such as Cross-Lingual Natural Language Inference (XNLI), a key task that demonstrates cross-lingual capabilities of NLP systems across a set of 15 languages. In this paper, we extend the XNLI task for one additional low-resource language, Myanmar, as a proxy challenge for broader low-resource languages, and make three core contributions. First, we build a dataset called Myanmar XNLI (myXNLI) using community crowd-sourced methods, as an extension to the existing XNLI corpus. This involves a two-stage process of community-based construction followed by expert verification; through an analysis, we demonstrate and quantify the value of the expert verification stage in the context of community-based construction for low-resource languages. We make the myXNLI dataset available to the community for future research. Second, we carry out evaluations of recent multilingual language models on the myXNLI benchmark, as well as explore data-augmentation methods to improve model performance. Our data-augmentation methods improve model accuracy by up to 2 percentage points for Myanmar, while uplifting other languages at the same time. Third, we investigate how well these data-augmentation methods generalise to other low-resource languages in the XNLI dataset.",
+        "translated": ""
     }
 ]
