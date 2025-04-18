@@ -44952,5 +44952,33 @@
         "pub_date": "2025-04-16",
         "summary": "Existing large language model LLM-based recommendation methods face several challenges, including inefficiency in handling large candidate pools, sensitivity to item order within prompts (\"lost in the middle\" phenomenon) poor scalability, and unrealistic evaluation due to random negative sampling. To address these issues, we propose a Query-to-Recommendation approach that leverages LLMs to generate personalized queries for retrieving relevant items from the entire candidate pool, eliminating the need for candidate pre-selection. This method can be integrated into an ID-based recommendation system without additional training, enhances recommendation performance and diversity through LLMs' world knowledge, and performs well even for less popular item groups. Experiments on three datasets show up to 57 percent improvement, with an average gain of 31 percent, demonstrating strong zero-shot performance and further gains when ensembled with existing models.",
         "translated": ""
+    },
+    {
+        "title": "BitNet b1.58 2B4T Technical Report",
+        "url": "http://arxiv.org/abs/2504.12285v1",
+        "pub_date": "2025-04-16",
+        "summary": "We introduce BitNet b1.58 2B4T, the first open-source, native 1-bit Large Language Model (LLM) at the 2-billion parameter scale. Trained on a corpus of 4 trillion tokens, the model has been rigorously evaluated across benchmarks covering language understanding, mathematical reasoning, coding proficiency, and conversational ability. Our results demonstrate that BitNet b1.58 2B4T achieves performance on par with leading open-weight, full-precision LLMs of similar size, while offering significant advantages in computational efficiency, including substantially reduced memory footprint, energy consumption, and decoding latency. To facilitate further research and adoption, the model weights are released via Hugging Face along with open-source inference implementations for both GPU and CPU architectures.",
+        "translated": ""
+    },
+    {
+        "title": "Dysarthria Normalization via Local Lie Group Transformations for Robust\n  ASR",
+        "url": "http://arxiv.org/abs/2504.12279v1",
+        "pub_date": "2025-04-16",
+        "summary": "We present a geometry-driven method for normalizing dysarthric speech using local Lie group transformations of spectrograms. Time, frequency, and amplitude distortions are modeled as smooth, invertible deformations, parameterized by scalar fields and applied via exponential maps. A neural network is trained to infer these fields from synthetic distortions of typical speech-without using any pathological data. At test time, the model applies an approximate inverse to real dysarthric inputs. Despite zero-shot generalization, we observe substantial ASR gains, including up to 16 percentage points WER reduction on challenging TORGO samples, with no degradation on clean speech. This work introduces a principled, interpretable approach for robust speech recognition under motor speech disorders",
+        "translated": ""
+    },
+    {
+        "title": "Advancing Arabic Speech Recognition Through Large-Scale Weakly\n  Supervised Learning",
+        "url": "http://arxiv.org/abs/2504.12254v1",
+        "pub_date": "2025-04-16",
+        "summary": "Automatic speech recognition (ASR) is crucial for human-machine interaction in diverse applications like conversational agents, industrial robotics, call center automation, and automated subtitling. However, developing high-performance ASR models remains challenging, particularly for low-resource languages like Arabic, due to the scarcity of large, labeled speech datasets, which are costly and labor-intensive to produce. In this work, we employ weakly supervised learning to train an Arabic ASR model using the Conformer architecture. Our model is trained from scratch on 15,000 hours of weakly annotated speech data covering both Modern Standard Arabic (MSA) and Dialectal Arabic (DA), eliminating the need for costly manual transcriptions. Despite the absence of human-verified labels, our approach attains state-of-the-art (SOTA) performance, exceeding all previous efforts in the field of Arabic ASR on the standard benchmarks. By demonstrating the effectiveness of weak supervision as a scalable, cost-efficient alternative to traditional supervised approaches, paving the way for improved ASR systems in low resource settings.",
+        "translated": ""
+    },
+    {
+        "title": "Watermarking Needs Input Repetition Masking",
+        "url": "http://arxiv.org/abs/2504.12229v1",
+        "pub_date": "2025-04-16",
+        "summary": "Recent advancements in Large Language Models (LLMs) raised concerns over potential misuse, such as for spreading misinformation. In response two counter measures emerged: machine learning-based detectors that predict if text is synthetic, and LLM watermarking, which subtly marks generated text for identification and attribution. Meanwhile, humans are known to adjust language to their conversational partners both syntactically and lexically. By implication, it is possible that humans or unwatermarked LLMs could unintentionally mimic properties of LLM generated text, making counter measures unreliable. In this work we investigate the extent to which such conversational adaptation happens. We call the concept $\\textit{mimicry}$ and demonstrate that both humans and LLMs end up mimicking, including the watermarking signal even in seemingly improbable settings. This challenges current academic assumptions and suggests that for long-term watermarking to be reliable, the likelihood of false positives needs to be significantly lower, while longer word sequences should be used for seeding watermarking mechanisms.",
+        "translated": ""
     }
 ]
