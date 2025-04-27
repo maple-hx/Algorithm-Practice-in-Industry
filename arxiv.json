@@ -45421,5 +45421,68 @@
         "pub_date": "2025-04-24",
         "summary": "Large Reasoning Models (LRMs) have exhibited extraordinary prowess in tasks like mathematics and coding, leveraging their advanced reasoning capabilities. Nevertheless, as these capabilities progress, significant concerns regarding their vulnerabilities and safety have arisen, which can pose challenges to their deployment and application in real-world settings. This paper presents a comprehensive survey of LRMs, meticulously exploring and summarizing the newly emerged safety risks, attacks, and defense strategies. By organizing these elements into a detailed taxonomy, this work aims to offer a clear and structured understanding of the current safety landscape of LRMs, facilitating future research and development to enhance the security and reliability of these powerful models.",
         "translated": ""
+    },
+    {
+        "title": "Unleashing the Power of Natural Audio Featuring Multiple Sound Sources",
+        "url": "http://arxiv.org/abs/2504.17782v1",
+        "pub_date": "2025-04-24",
+        "summary": "Universal sound separation aims to extract clean audio tracks corresponding to distinct events from mixed audio, which is critical for artificial auditory perception. However, current methods heavily rely on artificially mixed audio for training, which limits their ability to generalize to naturally mixed audio collected in real-world environments. To overcome this limitation, we propose ClearSep, an innovative framework that employs a data engine to decompose complex naturally mixed audio into multiple independent tracks, thereby allowing effective sound separation in real-world scenarios. We introduce two remix-based evaluation metrics to quantitatively assess separation quality and use these metrics as thresholds to iteratively apply the data engine alongside model training, progressively optimizing separation performance. In addition, we propose a series of training strategies tailored to these separated independent tracks to make the best use of them. Extensive experiments demonstrate that ClearSep achieves state-of-the-art performance across multiple sound separation tasks, highlighting its potential for advancing sound separation in natural audio scenarios. For more examples and detailed results, please visit our demo page at https://clearsep.github.io.",
+        "translated": ""
+    },
+    {
+        "title": "Replay to Remember: Retaining Domain Knowledge in Streaming Language\n  Models",
+        "url": "http://arxiv.org/abs/2504.17780v1",
+        "pub_date": "2025-04-24",
+        "summary": "Continual learning in large language models (LLMs) typically encounters the critical challenge of catastrophic forgetting, where previously acquired knowledge deteriorates upon exposure to new data. While techniques like replay buffers and parameter-efficient tuning (e.g., Low-Rank Adaptation or LoRA) have been proposed, few studies investigate real-time domain adaptation under strict computational and data-stream constraints. In this paper, we demonstrate a lightweight method combining LoRA and a minimal replay mechanism in a realistic streaming setting across three diverse knowledge domains: medical question answering, genetics, and law. Using perplexity, semantic similarity, and GPT-based human-like evaluation metrics, we quantify the model's adaptation, forgetting, and recovery over time. Our experiments reveal that while catastrophic forgetting naturally occurs, even minimal replay significantly stabilizes and partially restores domain-specific knowledge. This study contributes practical insights for deploying adaptable LLMs in resource-constrained, real-world scenarios.",
+        "translated": ""
+    },
+    {
+        "title": "Integrating Learning-Based Manipulation and Physics-Based Locomotion for\n  Whole-Body Badminton Robot Control",
+        "url": "http://arxiv.org/abs/2504.17771v1",
+        "pub_date": "2025-04-24",
+        "summary": "Learning-based methods, such as imitation learning (IL) and reinforcement learning (RL), can produce excel control policies over challenging agile robot tasks, such as sports robot. However, no existing work has harmonized learning-based policy with model-based methods to reduce training complexity and ensure the safety and stability for agile badminton robot control. In this paper, we introduce \\ourmethod, a novel hybrid control system for agile badminton robots. Specifically, we propose a model-based strategy for chassis locomotion which provides a base for arm policy. We introduce a physics-informed ``IL+RL'' training framework for learning-based arm policy. In this train framework, a model-based strategy with privileged information is used to guide arm policy training during both IL and RL phases. In addition, we train the critic model during IL phase to alleviate the performance drop issue when transitioning from IL to RL. We present results on our self-engineered badminton robot, achieving 94.5% success rate against the serving machine and 90.7% success rate against human players. Our system can be easily generalized to other agile mobile manipulation tasks such as agile catching and table tennis. Our project website: https://dreamstarring.github.io/HAMLET/.",
+        "translated": ""
+    },
+    {
+        "title": "Disaggregated Deep Learning via In-Physics Computing at Radio Frequency",
+        "url": "http://arxiv.org/abs/2504.17752v1",
+        "pub_date": "2025-04-24",
+        "summary": "Modern edge devices, such as cameras, drones, and Internet-of-Things nodes, rely on deep learning to enable a wide range of intelligent applications, including object recognition, environment perception, and autonomous navigation. However, deploying deep learning models directly on the often resource-constrained edge devices demands significant memory footprints and computational power for real-time inference using traditional digital computing architectures. In this paper, we present WISE, a novel computing architecture for wireless edge networks designed to overcome energy constraints in deep learning inference. WISE achieves this goal through two key innovations: disaggregated model access via wireless broadcasting and in-physics computation of general complex-valued matrix-vector multiplications directly at radio frequency. Using a software-defined radio platform with wirelessly broadcast model weights over the air, we demonstrate that WISE achieves 95.7% image classification accuracy with ultra-low operation power of 6.0 fJ/MAC per client, corresponding to a computation efficiency of 165.8 TOPS/W. This approach enables energy-efficient deep learning inference on wirelessly connected edge devices, achieving more than two orders of magnitude improvement in efficiency compared to traditional digital computing.",
+        "translated": ""
+    },
+    {
+        "title": "MSGCN: Multiplex Spatial Graph Convolution Network for Interlayer Link\n  Weight Prediction",
+        "url": "http://arxiv.org/abs/2504.17749v1",
+        "pub_date": "2025-04-24",
+        "summary": "Graph Neural Networks (GNNs) have been widely used for various learning tasks, ranging from node classification to link prediction. They have demonstrated excellent performance in multiple domains involving graph-structured data. However, an important category of learning tasks, namely link weight prediction, has received less emphasis due to its increased complexity compared to binary link classification. Link weight prediction becomes even more challenging when considering multilayer networks, where nodes can be interconnected across multiple layers. To address these challenges, we propose a new method named Multiplex Spatial Graph Convolution Network (MSGCN), which spatially embeds information across multiple layers to predict interlayer link weights. The MSGCN model generalizes spatial graph convolution to multiplex networks and captures the geometric structure of nodes across multiple layers. Extensive experiments using data with known interlayer link information show that the MSGCN model has robust, accurate, and generalizable link weight prediction performance across a wide variety of multiplex network structures.",
+        "translated": ""
+    },
+    {
+        "title": "Embedding Empirical Distributions for Computing Optimal Transport Maps",
+        "url": "http://arxiv.org/abs/2504.17740v1",
+        "pub_date": "2025-04-24",
+        "summary": "Distributional data have become increasingly prominent in modern signal processing, highlighting the necessity of computing optimal transport (OT) maps across multiple probability distributions. Nevertheless, recent studies on neural OT methods predominantly focused on the efficient computation of a single map between two distributions. To address this challenge, we introduce a novel approach to learning transport maps for new empirical distributions. Specifically, we employ the transformer architecture to produce embeddings from distributional data of varying length; these embeddings are then fed into a hypernetwork to generate neural OT maps. Various numerical experiments were conducted to validate the embeddings and the generated OT maps. The model implementation and the code are provided on https://github.com/jiangmingchen/HOTET.",
+        "translated": ""
+    },
+    {
+        "title": "Interpretable Early Detection of Parkinson's Disease through Speech\n  Analysis",
+        "url": "http://arxiv.org/abs/2504.17739v1",
+        "pub_date": "2025-04-24",
+        "summary": "Parkinson's disease is a progressive neurodegenerative disorder affecting motor and non-motor functions, with speech impairments among its earliest symptoms. Speech impairments offer a valuable diagnostic opportunity, with machine learning advances providing promising tools for timely detection. In this research, we propose a deep learning approach for early Parkinson's disease detection from speech recordings, which also highlights the vocal segments driving predictions to enhance interpretability. This approach seeks to associate predictive speech patterns with articulatory features, providing a basis for interpreting underlying neuromuscular impairments. We evaluated our approach using the Italian Parkinson's Voice and Speech Database, containing 831 audio recordings from 65 participants, including both healthy individuals and patients. Our approach showed competitive classification performance compared to state-of-the-art methods, while providing enhanced interpretability by identifying key speech features influencing predictions.",
+        "translated": ""
+    },
+    {
+        "title": "EgoCHARM: Resource-Efficient Hierarchical Activity Recognition using an\n  Egocentric IMU Sensor",
+        "url": "http://arxiv.org/abs/2504.17735v1",
+        "pub_date": "2025-04-24",
+        "summary": "Human activity recognition (HAR) on smartglasses has various use cases, including health/fitness tracking and input for context-aware AI assistants. However, current approaches for egocentric activity recognition suffer from low performance or are resource-intensive. In this work, we introduce a resource (memory, compute, power, sample) efficient machine learning algorithm, EgoCHARM, for recognizing both high level and low level activities using a single egocentric (head-mounted) Inertial Measurement Unit (IMU). Our hierarchical algorithm employs a semi-supervised learning strategy, requiring primarily high level activity labels for training, to learn generalizable low level motion embeddings that can be effectively utilized for low level activity recognition. We evaluate our method on 9 high level and 3 low level activities achieving 0.826 and 0.855 F1 scores on high level and low level activity recognition respectively, with just 63k high level and 22k low level model parameters, allowing the low level encoder to be deployed directly on current IMU chips with compute. Lastly, we present results and insights from a sensitivity analysis and highlight the opportunities and limitations of activity recognition using egocentric IMUs.",
+        "translated": ""
+    },
+    {
+        "title": "Towards Robust LLMs: an Adversarial Robustness Measurement Framework",
+        "url": "http://arxiv.org/abs/2504.17723v1",
+        "pub_date": "2025-04-24",
+        "summary": "The rise of Large Language Models (LLMs) has revolutionized artificial intelligence, yet these models remain vulnerable to adversarial perturbations, undermining their reliability in high-stakes applications. While adversarial robustness in vision-based neural networks has been extensively studied, LLM robustness remains under-explored. We adapt the Robustness Measurement and Assessment (RoMA) framework to quantify LLM resilience against adversarial inputs without requiring access to model parameters. By comparing RoMA's estimates to those of formal verification methods, we demonstrate its accuracy with minimal error margins while maintaining computational efficiency. Our empirical evaluation reveals that robustness varies significantly not only between different models but also across categories within the same task and between various types of perturbations. This non-uniformity underscores the need for task-specific robustness evaluations, enabling practitioners to compare and select models based on application-specific robustness requirements. Our work provides a systematic methodology to assess LLM robustness, advancing the development of more reliable language models for real-world deployment.",
+        "translated": ""
     }
 ]
