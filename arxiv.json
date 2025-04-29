@@ -45512,5 +45512,33 @@
         "pub_date": "2025-04-25",
         "summary": "Learned Sparse Retrieval (LSR) has traditionally focused on small-scale encoder-only transformer architectures. With the advent of large-scale pre-trained language models, their capability to generate sparse representations for retrieval tasks across different transformer-based architectures, including encoder-only, decoder-only, and encoder-decoder models, remains largely unexplored. This study investigates the effectiveness of LSR across these architectures, exploring various sparse representation heads and model scales. Our results highlight the limitations of using large language models to create effective sparse representations in zero-shot settings, identifying challenges such as inappropriate term expansions and reduced performance due to the lack of expansion. We find that the encoder-decoder architecture with multi-tokens decoding approach achieves the best performance among the three backbones. While the decoder-only model performs worse than the encoder-only model, it demonstrates the potential to outperform when scaled to a high number of parameters.",
         "translated": ""
+    },
+    {
+        "title": "TRACE Back from the Future: A Probabilistic Reasoning Approach to\n  Controllable Language Generation",
+        "url": "http://arxiv.org/abs/2504.18535v1",
+        "pub_date": "2025-04-25",
+        "summary": "As large language models (LMs) advance, there is an increasing need to control their outputs to align with human values (e.g., detoxification) or desired attributes (e.g., personalization, topic). However, autoregressive models focus on next-token predictions and struggle with global properties that require looking ahead. Existing solutions either tune or post-train LMs for each new attribute - expensive and inflexible - or approximate the Expected Attribute Probability (EAP) of future sequences by sampling or training, which is slow and unreliable for rare attributes. We introduce TRACE (Tractable Probabilistic Reasoning for Adaptable Controllable gEneration), a novel framework that efficiently computes EAP and adapts to new attributes through tractable probabilistic reasoning and lightweight control. TRACE distills a Hidden Markov Model (HMM) from an LM and pairs it with a small classifier to estimate attribute probabilities, enabling exact EAP computation over the HMM's predicted futures. This EAP is then used to reweigh the LM's next-token probabilities for globally compliant continuations. Empirically, TRACE achieves state-of-the-art results in detoxification with only 10% decoding overhead, adapts to 76 low-resource personalized LLMs within seconds, and seamlessly extends to composite attributes.",
+        "translated": ""
+    },
+    {
+        "title": "Investigating Co-Constructive Behavior of Large Language Models in\n  Explanation Dialogues",
+        "url": "http://arxiv.org/abs/2504.18483v1",
+        "pub_date": "2025-04-25",
+        "summary": "The ability to generate explanations that are understood by explainees is the quintessence of explainable artificial intelligence. Since understanding depends on the explainee's background and needs, recent research has focused on co-constructive explanation dialogues, where the explainer continuously monitors the explainee's understanding and adapts explanations dynamically. We investigate the ability of large language models (LLMs) to engage as explainers in co-constructive explanation dialogues. In particular, we present a user study in which explainees interact with LLMs, of which some have been instructed to explain a predefined topic co-constructively. We evaluate the explainees' understanding before and after the dialogue, as well as their perception of the LLMs' co-constructive behavior. Our results indicate that current LLMs show some co-constructive behaviors, such as asking verification questions, that foster the explainees' engagement and can improve understanding of a topic. However, their ability to effectively monitor the current understanding and scaffold the explanations accordingly remains limited.",
+        "translated": ""
+    },
+    {
+        "title": "Generative Induction of Dialogue Task Schemas with Streaming Refinement\n  and Simulated Interactions",
+        "url": "http://arxiv.org/abs/2504.18474v1",
+        "pub_date": "2025-04-25",
+        "summary": "In task-oriented dialogue (TOD) systems, Slot Schema Induction (SSI) is essential for automatically identifying key information slots from dialogue data without manual intervention. This paper presents a novel state-of-the-art (SoTA) approach that formulates SSI as a text generation task, where a language model incrementally constructs and refines a slot schema over a stream of dialogue data. To develop this approach, we present a fully automatic LLM-based TOD simulation method that creates data with high-quality state labels for novel task domains. Furthermore, we identify issues in SSI evaluation due to data leakage and poor metric alignment with human judgment. We resolve these by creating new evaluation data using our simulation method with human guidance and correction, as well as designing improved evaluation metrics. These contributions establish a foundation for future SSI research and advance the SoTA in dialogue understanding and system development.",
+        "translated": ""
+    },
+    {
+        "title": "Fast-Slow Thinking for Large Vision-Language Model Reasoning",
+        "url": "http://arxiv.org/abs/2504.18458v1",
+        "pub_date": "2025-04-25",
+        "summary": "Recent advances in large vision-language models (LVLMs) have revealed an \\textit{overthinking} phenomenon, where models generate verbose reasoning across all tasks regardless of questions. To address this issue, we present \\textbf{FAST}, a novel \\textbf{Fa}st-\\textbf{S}low \\textbf{T}hinking framework that dynamically adapts reasoning depth based on question characteristics. Through empirical analysis, we establish the feasibility of fast-slow thinking in LVLMs by investigating how response length and data distribution affect performance. We develop FAST-GRPO with three components: model-based metrics for question characterization, an adaptive thinking reward mechanism, and difficulty-aware KL regularization. Experiments across seven reasoning benchmarks demonstrate that FAST achieves state-of-the-art accuracy with over 10\\% relative improvement compared to the base model, while reducing token usage by 32.7-67.3\\% compared to previous slow-thinking approaches, effectively balancing reasoning length and accuracy.",
+        "translated": ""
     }
 ]
