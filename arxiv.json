@@ -45673,5 +45673,12 @@
         "pub_date": "2025-04-30",
         "summary": "Keyword extraction is a foundational task in natural language processing, underpinning countless real-world applications. A salient example is contextual advertising, where keywords help predict the topical congruence between ads and their surrounding media contexts to enhance advertising effectiveness. Recent advances in artificial intelligence, particularly large language models, have improved keyword extraction capabilities but also introduced concerns about computational cost. Moreover, although the end-user experience is of vital importance, human evaluation of keyword extraction performances remains under-explored. This study provides a comparative evaluation of three prevalent keyword extraction algorithms that vary in complexity: TF-IDF, KeyBERT, and Llama 2. To evaluate their effectiveness, a mixed-methods approach is employed, combining quantitative benchmarking with qualitative assessments from 552 participants through three survey-based experiments. Findings indicate a slight user preference for KeyBERT, which offers a favourable balance between performance and computational efficiency compared to the other two algorithms. Despite a strong overall preference for gold-standard keywords, differences between the algorithmic outputs are not statistically significant, highlighting a long-overlooked gap between traditional precision-focused metrics and user-perceived algorithm efficiency. The study highlights the importance of user-centred evaluation methodologies and proposes analytical tools to support their implementation.",
         "translated": ""
+    },
+    {
+        "title": "On U-Folds and Their Construction",
+        "url": "http://arxiv.org/abs/2504.21590v1",
+        "pub_date": "2025-04-30",
+        "summary": "We review a general paradigm for constructing U-fold backgrounds in (dimensionally reduced) Type IIB superstring theory, of the form ${\\rm AdS}_{d-1}\\times S^1\\times S^d$, with a monodromy along $S^1$ in the string-duality group. We also consider a special instance with $d=3$ in Type IIB superstring theory, discuss its ten-dimensional uplift and assess its supersymmetry.",
+        "translated": ""
     }
 ]
