@@ -46128,5 +46128,12 @@
         "pub_date": "2025-05-07",
         "summary": "Modeling ultra-long user behavior sequences is critical for capturing both long- and short-term preferences in industrial recommender systems. Existing solutions typically rely on two-stage retrieval or indirect modeling paradigms, incuring upstream-downstream inconsistency and computational inefficiency. In this paper, we present LONGER, a Long-sequence Optimized traNsformer for GPU-Efficient Recommenders. LONGER incorporates (i) a global token mechanism for stabilizing attention over long contexts, (ii) a token merge module with lightweight InnerTransformers and hybrid attention strategy to reduce quadratic complexity, and (iii) a series of engineering optimizations, including training with mixed-precision and activation recomputation, KV cache serving, and the fully synchronous model training and serving framework for unified GPU-based dense and sparse parameter updates. LONGER consistently outperforms strong baselines in both offline metrics and online A/B testing in both advertising and e-commerce services at ByteDance, validating its consistent effectiveness and industrial-level scaling laws. Currently, LONGER has been fully deployed at more than 10 influential scenarios at ByteDance, serving billion users.",
         "translated": ""
+    },
+    {
+        "title": "Is the end of Insight in Sight ?",
+        "url": "http://arxiv.org/abs/2505.04627v1",
+        "pub_date": "2025-05-07",
+        "summary": "It is shown that the weight matrices of a Physics-informed neural network (PINN)-based deep learning application to a rarefied gas dynamics problem described by the Boltzmann equation bear no evident link to the mathematical structure of the physical problem. Instead, the weights appear close to Gaussian distributed random matrices. Although significantly more work is needed to support a robust assessment in this direction, these results suggest that deep-learning and the numerical solution of the Boltzmann equation represent two equivalent, but largely distinct paths to the same physical knowledge. If so, Explainable AI might be an unrealistic target and possibly even an ill-posed one.",
+        "translated": ""
     }
 ]
