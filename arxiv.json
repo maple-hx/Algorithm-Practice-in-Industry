@@ -46142,5 +46142,19 @@
         "pub_date": "2025-05-07",
         "summary": "Doubtlessly, the immersive technologies have potential to ease people's life and uplift economy, however the obvious data privacy risks cannot be ignored. For example, a participant wears a 3D headset device which detects participant's head motion to track the pose of participant's head to match the orientation of camera with participant's eyes positions in the real-world. In a preliminary study, researchers have proved that the voice command features on such headsets could lead to major privacy leakages. By analyzing the facial dynamics captured with the motion sensors, the headsets suffer security vulnerabilities revealing a user's sensitive speech without user's consent. The psychography data (such as voice command features, facial dynamics, etc.) is sensitive data and it should not be leaked out of the device without users consent else it is a privacy breach. To the best of our literature review, the work done in this particular research problem is very limited. Motivated from this, we develop a simple technical framework to mitigate sensitive data (or biometric data) privacy leaks in immersive technology domain. The performance evaluation is conducted in a robust way using six data sets, to show that the proposed solution is effective and feasible to prevent this issue.",
         "translated": ""
+    },
+    {
+        "title": "A Powerful Chi-Square Specification Test with Support Vectors",
+        "url": "http://arxiv.org/abs/2505.04414v1",
+        "pub_date": "2025-05-07",
+        "summary": "Specification tests, such as Integrated Conditional Moment (ICM) and Kernel Conditional Moment (KCM) tests, are crucial for model validation but often lack power in finite samples. This paper proposes a novel framework to enhance specification test performance using Support Vector Machines (SVMs) for direction learning. We introduce two alternative SVM-based approaches: one maximizes the discrepancy between nonparametric and parametric classes, while the other maximizes the separation between residuals and the origin. Both approaches lead to a $t$-type test statistic that converges to a standard chi-square distribution under the null hypothesis. Our method is computationally efficient and capable of detecting any arbitrary alternative. Simulation studies demonstrate its superior performance compared to existing methods, particularly in large-dimensional settings.",
+        "translated": ""
+    },
+    {
+        "title": "Causal Inference in Counterbalanced Within-Subjects Designs",
+        "url": "http://arxiv.org/abs/2505.03937v1",
+        "pub_date": "2025-05-06",
+        "summary": "Experimental designs are fundamental for estimating causal effects. In some fields, within-subjects designs, which expose participants to both control and treatment at different time periods, are used to address practical and logistical concerns. Counterbalancing, a common technique in within-subjects designs, aims to remove carryover effects by randomizing treatment sequences. Despite its appeal, counterbalancing relies on the assumption that carryover effects are symmetric and cancel out, which is often unverifiable a priori. In this paper, we formalize the challenges of counterbalanced within-subjects designs using the potential outcomes framework. We introduce sequential exchangeability as an additional identification assumption necessary for valid causal inference in these designs. To address identification concerns, we propose diagnostic checks, the use of washout periods, and covariate adjustments, and alternative experimental designs to counterbalanced within-subjects design. Our findings demonstrate the limitations of counterbalancing and provide guidance on when and how within-subjects designs can be appropriately used for causal inference.",
+        "translated": ""
     }
 ]
