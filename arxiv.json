@@ -46135,5 +46135,12 @@
         "pub_date": "2025-05-07",
         "summary": "It is shown that the weight matrices of a Physics-informed neural network (PINN)-based deep learning application to a rarefied gas dynamics problem described by the Boltzmann equation bear no evident link to the mathematical structure of the physical problem. Instead, the weights appear close to Gaussian distributed random matrices. Although significantly more work is needed to support a robust assessment in this direction, these results suggest that deep-learning and the numerical solution of the Boltzmann equation represent two equivalent, but largely distinct paths to the same physical knowledge. If so, Explainable AI might be an unrealistic target and possibly even an ill-posed one.",
         "translated": ""
+    },
+    {
+        "title": "A Framework to Prevent Biometric Data Leakage in the Immersive\n  Technologies Domain",
+        "url": "http://arxiv.org/abs/2505.04123v1",
+        "pub_date": "2025-05-07",
+        "summary": "Doubtlessly, the immersive technologies have potential to ease people's life and uplift economy, however the obvious data privacy risks cannot be ignored. For example, a participant wears a 3D headset device which detects participant's head motion to track the pose of participant's head to match the orientation of camera with participant's eyes positions in the real-world. In a preliminary study, researchers have proved that the voice command features on such headsets could lead to major privacy leakages. By analyzing the facial dynamics captured with the motion sensors, the headsets suffer security vulnerabilities revealing a user's sensitive speech without user's consent. The psychography data (such as voice command features, facial dynamics, etc.) is sensitive data and it should not be leaked out of the device without users consent else it is a privacy breach. To the best of our literature review, the work done in this particular research problem is very limited. Motivated from this, we develop a simple technical framework to mitigate sensitive data (or biometric data) privacy leaks in immersive technology domain. The performance evaluation is conducted in a robust way using six data sets, to show that the proposed solution is effective and feasible to prevent this issue.",
+        "translated": ""
     }
 ]
