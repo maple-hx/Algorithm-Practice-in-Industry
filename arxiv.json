@@ -46422,5 +46422,12 @@
         "pub_date": "2025-05-12",
         "summary": "Recent improvement in large language model performance have, in all likelihood, been accompanied by improvement in how well they can approximate the distribution of their training data. In this work, we explore the following question: which properties of text domains do LLMs faithfully approximate, and how well do they do so? Applying observational approaches familiar from corpus linguistics, we prompt a commonly used, opensource LLM to regenerate text from two domains of permissively licensed English text which are often contained in LLM training data -- Wikipedia and news text. This regeneration paradigm allows us to investigate whether LLMs can faithfully match the original human text domains in a fairly semantically-controlled setting. We investigate varying levels of syntactic abstraction, from more simple properties like sentence length, and article readability, to more complex and higher order properties such as dependency tag distribution, parse depth, and parse complexity. We find that the majority of the regenerated distributions show a shifted mean, a lower standard deviation, and a reduction of the long tail, as compared to the human originals.",
         "translated": ""
+    },
+    {
+        "title": "Exploring Monetary Policy Shocks with Large-Scale Bayesian VARs",
+        "url": "http://arxiv.org/abs/2505.06649v1",
+        "pub_date": "2025-05-10",
+        "summary": "I introduce a high-dimensional Bayesian vector autoregressive (BVAR) framework designed to estimate the effects of conventional monetary policy shocks. The model captures structural shocks as latent factors, enabling computationally efficient estimation in high-dimensional settings through a straightforward Gibbs sampler. By incorporating time variation in the effects of monetary policy while maintaining tractability, the methodology offers a flexible and scalable approach to empirical macroeconomic analysis using BVARs, well-suited to handle data irregularities observed in recent times. Applied to the U.S. economy, I identify monetary shocks using a combination of high-frequency surprises and sign restrictions, yielding results that are robust across a wide range of specification choices. The findings indicate that the Federal Reserve's influence on disaggregated consumer prices fluctuated significantly during the 2022-24 high-inflation period, shedding new light on the evolving dynamics of monetary policy transmission.",
+        "translated": ""
     }
 ]
