@@ -46639,5 +46639,19 @@
         "pub_date": "2025-05-15",
         "summary": "Motivated by scaling laws in language modeling that demonstrate how test loss scales as a power law with model and dataset sizes, we find that similar laws exist in preference modeling. We propose World Preference Modeling$ (WorldPM) to emphasize this scaling potential, where World Preference embodies a unified representation of human preferences. In this paper, we collect preference data from public forums covering diverse user communities, and conduct extensive training using 15M-scale data across models ranging from 1.5B to 72B parameters. We observe distinct patterns across different evaluation metrics: (1) Adversarial metrics (ability to identify deceptive features) consistently scale up with increased training data and base model size; (2) Objective metrics (objective knowledge with well-defined answers) show emergent behavior in larger language models, highlighting WorldPM's scalability potential; (3) Subjective metrics (subjective preferences from a limited number of humans or AI) do not demonstrate scaling trends. Further experiments validate the effectiveness of WorldPM as a foundation for preference fine-tuning. Through evaluations on 7 benchmarks with 20 subtasks, we find that WorldPM broadly improves the generalization performance across human preference datasets of varying sizes (7K, 100K and 800K samples), with performance gains exceeding 5% on many key subtasks. Integrating WorldPM into our internal RLHF pipeline, we observe significant improvements on both in-house and public evaluation sets, with notable gains of 4% to 8% in our in-house evaluations.",
         "translated": ""
+    },
+    {
+        "title": "Optimal Post-Hoc Theorizing",
+        "url": "http://arxiv.org/abs/2505.10370v1",
+        "pub_date": "2025-05-15",
+        "summary": "For many economic questions, the empirical results are not interesting unless they are strong. For these questions, theorizing before the results are known is not always optimal. Instead, the optimal sequencing of theory and empirics trades off a ``Darwinian Learning'' effect from theorizing first with a ``Statistical Learning'' effect from examining the data first. This short paper formalizes the tradeoff in a Bayesian model. In the modern era of mature economic theory and enormous datasets, I argue that post hoc theorizing is typically optimal.",
+        "translated": ""
+    },
+    {
+        "title": "Better Understanding Triple Differences Estimators",
+        "url": "http://arxiv.org/abs/2505.09942v1",
+        "pub_date": "2025-05-15",
+        "summary": "Triple Differences (DDD) designs are widely used in empirical work to relax parallel trends assumptions in Difference-in-Differences (DiD) settings. This paper shows that common DDD implementations -- such as taking the difference between two DiDs or applying three-way fixed effects regressions -- are generally invalid when identification requires conditioning on covariates. In staggered adoption settings, the common DiD practice of pooling all not-yet-treated units as a comparison group introduces additional bias, even when covariates are not required for identification. These insights challenge conventional empirical strategies and underscore the need for estimators tailored specifically to DDD structures. We develop regression adjustment, inverse probability weighting, and doubly robust estimators that remain valid under covariate-adjusted DDD parallel trends. For staggered designs, we show how to correctly leverage multiple comparison groups to get more informative inference. Simulations highlight substantial bias reductions and precision gains relative to standard approaches, offering a new framework for credible DDD estimation in empirical research.",
+        "translated": ""
     }
 ]
