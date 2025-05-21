@@ -46870,5 +46870,47 @@
         "pub_date": "2025-05-19",
         "summary": "Scaling test-time compute is crucial for enhancing the reasoning capabilities of large language models (LLMs). Existing approaches typically employ reinforcement learning (RL) to maximize a verifiable reward obtained at the end of reasoning traces. However, such methods optimize only the final performance under a large and fixed token budget, which hinders efficiency in both training and deployment. In this work, we present a novel framework, AnytimeReasoner, to optimize anytime reasoning performance, which aims to improve token efficiency and the flexibility of reasoning under varying token budget constraints. To achieve this, we truncate the complete thinking process to fit within sampled token budgets from a prior distribution, compelling the model to summarize the optimal answer for each truncated thinking for verification. This introduces verifiable dense rewards into the reasoning process, facilitating more effective credit assignment in RL optimization. We then optimize the thinking and summary policies in a decoupled manner to maximize the cumulative reward. Additionally, we introduce a novel variance reduction technique, Budget Relative Policy Optimization (BRPO), to enhance the robustness and efficiency of the learning process when reinforcing the thinking policy. Empirical results in mathematical reasoning tasks demonstrate that our method consistently outperforms GRPO across all thinking budgets under various prior distributions, enhancing both training and token efficiency.",
         "translated": ""
+    },
+    {
+        "title": "Machine learning the first stage in 2SLS: Practical guidance from bias\n  decomposition and simulation",
+        "url": "http://arxiv.org/abs/2505.13422v1",
+        "pub_date": "2025-05-19",
+        "summary": "Machine learning (ML) primarily evolved to solve \"prediction problems.\" The first stage of two-stage least squares (2SLS) is a prediction problem, suggesting potential gains from ML first-stage assistance. However, little guidance exists on when ML helps 2SLS$\\unicode{x2014}$or when it hurts. We investigate the implications of inserting ML into 2SLS, decomposing the bias into three informative components. Mechanically, ML-in-2SLS procedures face issues common to prediction and causal-inference settings$\\unicode{x2014}$and their interaction. Through simulation, we show linear ML methods (e.g., post-Lasso) work well, while nonlinear methods (e.g., random forests, neural nets) generate substantial bias in second-stage estimates$\\unicode{x2014}$potentially exceeding the bias of endogenous OLS.",
+        "translated": ""
+    },
+    {
+        "title": "From What Ifs to Insights: Counterfactuals in Causal Inference vs.\n  Explainable AI",
+        "url": "http://arxiv.org/abs/2505.13324v1",
+        "pub_date": "2025-05-19",
+        "summary": "Counterfactuals play a pivotal role in the two distinct data science fields of causal inference (CI) and explainable artificial intelligence (XAI). While the core idea behind counterfactuals remains the same in both fields--the examination of what would have happened under different circumstances--there are key differences in how they are used and interpreted. We introduce a formal definition that encompasses the multi-faceted concept of the counterfactual in CI and XAI. We then discuss how counterfactuals are used, evaluated, generated, and operationalized in CI vs. XAI, highlighting conceptual and practical differences. By comparing and contrasting the two, we hope to identify opportunities for cross-fertilization across CI and XAI.",
+        "translated": ""
+    },
+    {
+        "title": "Opening the Black Box of Local Projections",
+        "url": "http://arxiv.org/abs/2505.12422v1",
+        "pub_date": "2025-05-18",
+        "summary": "Local projections (LPs) are widely used in empirical macroeconomics to estimate impulse responses to policy interventions. Yet, in many ways, they are black boxes. It is often unclear what mechanism or historical episodes drive a particular estimate. We introduce a new decomposition of LP estimates into the sum of contributions of historical events, which is the product, for each time stamp, of a weight and the realization of the response variable. In the least squares case, we show that these weights admit two interpretations. First, they represent purified and standardized shocks. Second, they serve as proximity scores between the projected policy intervention and past interventions in the sample. Notably, this second interpretation extends naturally to machine learning methods, many of which yield impulse responses that, while nonlinear in predictors, still aggregate past outcomes linearly via proximity-based weights. Applying this framework to shocks in monetary and fiscal policy, global temperature, and the excess bond premium, we find that easily identifiable events-such as Nixon's interference with the Fed, stagflation, World War II, and the Mount Agung volcanic eruption-emerge as dominant drivers of often heavily concentrated impulse response estimates.",
+        "translated": ""
+    },
+    {
+        "title": "Multivariate Affine GARCH with Heavy Tails: A Unified Framework for\n  Portfolio Optimization and Option Valuation",
+        "url": "http://arxiv.org/abs/2505.12198v1",
+        "pub_date": "2025-05-18",
+        "summary": "This paper develops and estimates a multivariate affine GARCH(1,1) model with Normal Inverse Gaussian innovations that captures time-varying volatility, heavy tails, and dynamic correlation across asset returns. We generalize the Heston-Nandi framework to a multivariate setting and apply it to 30 Dow Jones Industrial Average stocks. The model jointly supports three core financial applications: dynamic portfolio optimization, wealth path simulation, and option pricing. Closed-form solutions are derived for a Constant Relative Risk Aversion (CRRA) investor's intertemporal asset allocation, and we implement a forward-looking risk-adjusted performance comparison against Merton-style constant strategies. Using the model's conditional volatilities, we also construct implied volatility surfaces for European options, capturing skew and smile features. Empirically, we document substantial wealth-equivalent utility losses from ignoring time-varying correlation and tail risk. These findings underscore the value of a unified econometric framework for analyzing joint asset dynamics and for managing portfolio and derivative exposures under non-Gaussian risks.",
+        "translated": ""
+    },
+    {
+        "title": "(Visualizing) Plausible Treatment Effect Paths",
+        "url": "http://arxiv.org/abs/2505.12014v1",
+        "pub_date": "2025-05-17",
+        "summary": "We consider point estimation and inference for the treatment effect path of a policy. Examples include dynamic treatment effects in microeconomics, impulse response functions in macroeconomics, and event study paths in finance. We present two sets of plausible bounds to quantify and visualize the uncertainty associated with this object. Both plausible bounds are often substantially tighter than traditional confidence intervals, and can provide useful insights even when traditional (uniform) confidence bands appear uninformative. Our bounds can also lead to markedly different conclusions when there is significant correlation in the estimates, reflecting the fact that traditional confidence bands can be ineffective at visualizing the impact of such correlation. Our first set of bounds covers the average (or overall) effect rather than the entire treatment path. Our second set of bounds imposes data-driven smoothness restrictions on the treatment path. Post-selection Inference (Berk et al. [2013]) provides formal coverage guarantees for these bounds. The chosen restrictions also imply novel point estimates that perform well across our simulations.",
+        "translated": ""
+    },
+    {
+        "title": "A New Bayesian Bootstrap for Quantitative Trade and Spatial Models",
+        "url": "http://arxiv.org/abs/2505.11967v1",
+        "pub_date": "2025-05-17",
+        "summary": "Economists use quantitative trade and spatial models to make counterfactual predictions. Because such predictions often inform policy decisions, it is important to communicate the uncertainty surrounding them. Three key challenges arise in this setting: the data are dyadic and exhibit complex dependence; the number of interacting units is typically small; and counterfactual predictions depend on the data in two distinct ways-through the estimation of structural parameters and through their role as inputs into the model's counterfactual equilibrium. I address these challenges by proposing a new Bayesian bootstrap procedure tailored to this context. The method is simple to implement and provides both finite-sample Bayesian and asymptotic frequentist guarantees. Revisiting the results in Waugh (2010), Caliendo and Parro (2015), and Artu\\c{c} et al. (2010) illustrates the practical advantages of the approach.",
+        "translated": ""
     }
 ]
