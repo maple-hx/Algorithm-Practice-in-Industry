@@ -47038,5 +47038,40 @@
         "pub_date": "2025-05-21",
         "summary": "As Large Language Models (LLMs) are increasingly deployed in sensitive domains such as enterprise and government, ensuring that they adhere to user-defined security policies within context is critical-especially with respect to information non-disclosure. While prior LLM studies have focused on general safety and socially sensitive data, large-scale benchmarks for contextual security preservation against attacks remain lacking. To address this, we introduce a novel large-scale benchmark dataset, CoPriva, evaluating LLM adherence to contextual non-disclosure policies in question answering. Derived from realistic contexts, our dataset includes explicit policies and queries designed as direct and challenging indirect attacks seeking prohibited information. We evaluate 10 LLMs on our benchmark and reveal a significant vulnerability: many models violate user-defined policies and leak sensitive information. This failure is particularly severe against indirect attacks, highlighting a critical gap in current LLM safety alignment for sensitive applications. Our analysis reveals that while models can often identify the correct answer to a query, they struggle to incorporate policy constraints during generation. In contrast, they exhibit a partial ability to revise outputs when explicitly prompted. Our findings underscore the urgent need for more robust methods to guarantee contextual security.",
         "translated": ""
+    },
+    {
+        "title": "Analysis of Distributional Dynamics for Repeated Cross-Sectional and\n  Intra-Period Observations",
+        "url": "http://arxiv.org/abs/2505.15763v1",
+        "pub_date": "2025-05-21",
+        "summary": "This paper introduces a novel approach to investigate the dynamics of state distributions, which accommodate both cross-sectional distributions of repeated panels and intra-period distributions of a time series observed at high frequency. In our approach, densities of the state distributions are regarded as functional elements in a Hilbert space, and are assumed to follow a functional autoregressive model. We propose an estimator for the autoregressive operator, establish its consistency, and provide tools and asymptotics to analyze the forecast of state density and the moment dynamics of state distributions. We apply our methodology to study the time series of distributions of the GBP/USD exchange rate intra-month returns and the time series of cross-sectional distributions of the NYSE stocks monthly returns. Finally, we conduct simulations to evaluate the density forecasts based on our model.",
+        "translated": ""
+    },
+    {
+        "title": "SplitWise Regression: Stepwise Modeling with Adaptive Dummy Encoding",
+        "url": "http://arxiv.org/abs/2505.15423v1",
+        "pub_date": "2025-05-21",
+        "summary": "Capturing nonlinear relationships without sacrificing interpretability remains a persistent challenge in regression modeling. We introduce SplitWise, a novel framework that enhances stepwise regression. It adaptively transforms numeric predictors into threshold-based binary features using shallow decision trees, but only when such transformations improve model fit, as assessed by the Akaike Information Criterion (AIC) or Bayesian Information Criterion (BIC). This approach preserves the transparency of linear models while flexibly capturing nonlinear effects. Implemented as a user-friendly R package, SplitWise is evaluated on both synthetic and real-world datasets. The results show that it consistently produces more parsimonious and generalizable models than traditional stepwise and penalized regression techniques.",
+        "translated": ""
+    },
+    {
+        "title": "Dynamic Decision-Making under Model Misspecification",
+        "url": "http://arxiv.org/abs/2505.14913v1",
+        "pub_date": "2025-05-20",
+        "summary": "In this study, I investigate the dynamic decision problem with a finite parameter space when the functional form of conditional expected rewards is misspecified. Traditional algorithms, such as Thompson Sampling, guarantee neither an $O(e^{-T})$ rate of posterior parameter concentration nor an $O(T^{-1})$ rate of average regret. However, under mild conditions, we can still achieve an exponential convergence rate of the parameter to a pseudo truth set, an extension of the pseudo truth parameter concept introduced by White (1982). I further characterize the necessary conditions for the convergence of the expected posterior within this pseudo-truth set. Simulations demonstrate that while the maximum a posteriori (MAP) estimate of the parameters fails to converge under misspecification, the algorithm's average regret remains relatively robust compared to the correctly specified case. These findings suggest opportunities to design simple yet robust algorithms that achieve desirable outcomes even in the presence of model misspecifications.",
+        "translated": ""
+    },
+    {
+        "title": "Bubble Detection with Application to Green Bubbles: A Noncausal Approach",
+        "url": "http://arxiv.org/abs/2505.14911v1",
+        "pub_date": "2025-05-20",
+        "summary": "This paper introduces a new approach to detect bubbles based on mixed causal and noncausal processes and their tail process representation during explosive episodes. Departing from traditional definitions of bubbles as nonstationary and temporarily explosive processes, we adopt a perspective in which prices are viewed as following a strictly stationary process, with the bubble considered an intrinsic component of its non-linear dynamics. We illustrate our approach on the phenomenon referred to as the \"green bubble\" in the field of renewable energy investment.",
+        "translated": ""
+    },
+    {
+        "title": "The Impact of Research and Development (R&amp;D) Expenditures on the Value\n  Added in the Agricultural Sector of Iran",
+        "url": "http://arxiv.org/abs/2505.14746v1",
+        "pub_date": "2025-05-20",
+        "summary": "In this study, the impact of research and development (R&amp;D) expenditures on the value added of the agricultural sector in Iran was investigated for the period 1971-2021. For data analysis, the researchers utilized the ARDL econometric model and EViews software. The results indicated that R&amp;D expenditures, both in the short and long run, have a significant positive effect on the value added in the agricultural sector. The estimated elasticity coefficient for R&amp;D expenditures in the short run was 0.45 and in the long run was 0.35, indicating that with a 1 percent increase in research and development expenditures, the value added in the agricultural sector would increase by 0.45 percent in the short run and by 0.35 percent in the long run. Moreover, variables such as capital stock, number of employees in the agricultural sector, and working days also had a significant and positive effect on the value added in the agricultural sector.",
+        "translated": ""
     }
 ]
