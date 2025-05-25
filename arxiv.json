@@ -47122,5 +47122,61 @@
         "pub_date": "2025-05-22",
         "summary": "Multi-modal large language models (MLLMs) have rapidly advanced in visual tasks, yet their spatial understanding remains limited to single images, leaving them ill-suited for robotics and other real-world applications that require multi-frame reasoning. In this paper, we propose a framework to equip MLLMs with robust multi-frame spatial understanding by integrating depth perception, visual correspondence, and dynamic perception. Central to our approach is the MultiSPA dataset, a novel, large-scale collection of more than 27 million samples spanning diverse 3D and 4D scenes. Alongside MultiSPA, we introduce a comprehensive benchmark that tests a wide spectrum of spatial tasks under uniform metrics. Our resulting model, Multi-SpatialMLLM, achieves significant gains over baselines and proprietary systems, demonstrating scalable, generalizable multi-frame reasoning. We further observe multi-task benefits and early indications of emergent capabilities in challenging scenarios, and showcase how our model can serve as a multi-frame reward annotator for robotics.",
         "translated": ""
+    },
+    {
+        "title": "Interactive Post-Training for Vision-Language-Action Models",
+        "url": "http://arxiv.org/abs/2505.17016v1",
+        "pub_date": "2025-05-22",
+        "summary": "We introduce RIPT-VLA, a simple and scalable reinforcement-learning-based interactive post-training paradigm that fine-tunes pretrained Vision-Language-Action (VLA) models using only sparse binary success rewards. Existing VLA training pipelines rely heavily on offline expert demonstration data and supervised imitation, limiting their ability to adapt to new tasks and environments under low-data regimes. RIPT-VLA addresses this by enabling interactive post-training with a stable policy optimization algorithm based on dynamic rollout sampling and leave-one-out advantage estimation.   RIPT-VLA has the following characteristics. First, it applies to various VLA models, resulting in an improvement on the lightweight QueST model by 21.2%, and the 7B OpenVLA-OFT model to an unprecedented 97.5% success rate. Second, it is computationally efficient and data-efficient: with only one demonstration, RIPT-VLA enables an unworkable SFT model (4%) to succeed with a 97% success rate within 15 iterations. Furthermore, we demonstrate that the policy learned by RIPT-VLA generalizes across different tasks and scenarios and is robust to the initial state context. These results highlight RIPT-VLA as a practical and effective paradigm for post-training VLA models through minimal supervision.",
+        "translated": ""
+    },
+    {
+        "title": "When Are Concepts Erased From Diffusion Models?",
+        "url": "http://arxiv.org/abs/2505.17013v1",
+        "pub_date": "2025-05-22",
+        "summary": "Concept erasure, the ability to selectively prevent a model from generating specific concepts, has attracted growing interest, with various approaches emerging to address the challenge. However, it remains unclear how thoroughly these methods erase the target concept. We begin by proposing two conceptual models for the erasure mechanism in diffusion models: (i) reducing the likelihood of generating the target concept, and (ii) interfering with the model's internal guidance mechanisms. To thoroughly assess whether a concept has been truly erased from the model, we introduce a suite of independent evaluations. Our evaluation framework includes adversarial attacks, novel probing techniques, and analysis of the model's alternative generations in place of the erased concept. Our results shed light on the tension between minimizing side effects and maintaining robustness to adversarial prompts. Broadly, our work underlines the importance of comprehensive evaluation for erasure in diffusion models.",
+        "translated": ""
+    },
+    {
+        "title": "Understanding Prompt Tuning and In-Context Learning via Meta-Learning",
+        "url": "http://arxiv.org/abs/2505.17010v1",
+        "pub_date": "2025-05-22",
+        "summary": "Prompting is one of the main ways to adapt a pretrained model to target tasks. Besides manually constructing prompts, many prompt optimization methods have been proposed in the literature. Method development is mainly empirically driven, with less emphasis on a conceptual understanding of prompting. In this paper we discuss how optimal prompting can be understood through a Bayesian view, which also implies some fundamental limitations of prompting that can only be overcome by tuning weights. The paper explains in detail how meta-trained neural networks behave as Bayesian predictors over the pretraining distribution, whose hallmark feature is rapid in-context adaptation. Optimal prompting can be studied formally as conditioning these Bayesian predictors, yielding criteria for target tasks where optimal prompting is and is not possible. We support the theory with educational experiments on LSTMs and Transformers, where we compare different versions of prefix-tuning and different weight-tuning methods. We also confirm that soft prefixes, which are sequences of real-valued vectors outside the token alphabet, can lead to very effective prompts for trained and even untrained networks by manipulating activations in ways that are not achievable by hard tokens. This adds an important mechanistic aspect beyond the conceptual Bayesian theory.",
+        "translated": ""
+    },
+    {
+        "title": "Guided Diffusion Sampling on Function Spaces with Applications to PDEs",
+        "url": "http://arxiv.org/abs/2505.17004v1",
+        "pub_date": "2025-05-22",
+        "summary": "We propose a general framework for conditional sampling in PDE-based inverse problems, targeting the recovery of whole solutions from extremely sparse or noisy measurements. This is accomplished by a function-space diffusion model and plug-and-play guidance for conditioning. Our method first trains an unconditional discretization-agnostic denoising model using neural operator architectures. At inference, we refine the samples to satisfy sparse observation data via a gradient-based guidance mechanism. Through rigorous mathematical analysis, we extend Tweedie's formula to infinite-dimensional Hilbert spaces, providing the theoretical foundation for our posterior sampling approach. Our method (FunDPS) accurately captures posterior distributions in function spaces under minimal supervision and severe data scarcity. Across five PDE tasks with only 3% observation, our method achieves an average 32% accuracy improvement over state-of-the-art fixed-resolution diffusion baselines while reducing sampling steps by 4x. Furthermore, multi-resolution fine-tuning ensures strong cross-resolution generalizability. To the best of our knowledge, this is the first diffusion-based framework to operate independently of discretization, offering a practical and flexible solution for forward and inverse problems in the context of PDEs. Code is available at https://github.com/neuraloperator/FunDPS",
+        "translated": ""
+    },
+    {
+        "title": "Sufficient conditions for offline reactivation in recurrent neural\n  networks",
+        "url": "http://arxiv.org/abs/2505.17003v1",
+        "pub_date": "2025-05-22",
+        "summary": "During periods of quiescence, such as sleep, neural activity in many brain circuits resembles that observed during periods of task engagement. However, the precise conditions under which task-optimized networks can autonomously reactivate the same network states responsible for online behavior is poorly understood. In this study, we develop a mathematical framework that outlines sufficient conditions for the emergence of neural reactivation in circuits that encode features of smoothly varying stimuli. We demonstrate mathematically that noisy recurrent networks optimized to track environmental state variables using change-based sensory information naturally develop denoising dynamics, which, in the absence of input, cause the network to revisit state configurations observed during periods of online activity. We validate our findings using numerical experiments on two canonical neuroscience tasks: spatial position estimation based on self-motion cues, and head direction estimation based on angular velocity cues. Overall, our work provides theoretical support for modeling offline reactivation as an emergent consequence of task optimization in noisy neural circuits.",
+        "translated": ""
+    },
+    {
+        "title": "Critical Points of Random Neural Networks",
+        "url": "http://arxiv.org/abs/2505.17000v1",
+        "pub_date": "2025-05-22",
+        "summary": "This work investigates the expected number of critical points of random neural networks with different activation functions as the depth increases in the infinite-width limit. Under suitable regularity conditions, we derive precise asymptotic formulas for the expected number of critical points of fixed index and those exceeding a given threshold. Our analysis reveals three distinct regimes depending on the value of the first derivative of the covariance evaluated at 1: the expected number of critical points may converge, grow polynomially, or grow exponentially with depth. The theoretical predictions are supported by numerical experiments. Moreover, we provide numerical evidence suggesting that, when the regularity condition is not satisfied (e.g. for neural networks with ReLU as activation function), the number of critical points increases as the map resolution increases, indicating a potential divergence in the number of critical points.",
+        "translated": ""
+    },
+    {
+        "title": "A Unified Framework for Simultaneous Parameter and Function Discovery in\n  Differential Equations",
+        "url": "http://arxiv.org/abs/2505.16996v1",
+        "pub_date": "2025-05-22",
+        "summary": "Inverse problems involving differential equations often require identifying unknown parameters or functions from data. Existing approaches, such as Physics-Informed Neural Networks (PINNs), Universal Differential Equations (UDEs) and Universal Physics-Informed Neural Networks (UPINNs), are effective at isolating either parameters or functions but can face challenges when applied simultaneously due to solution non-uniqueness. In this work, we introduce a framework that addresses these limitations by establishing conditions under which unique solutions can be guaranteed. To illustrate, we apply it to examples from biological systems and ecological dynamics, demonstrating accurate and interpretable results. Our approach significantly enhances the potential of machine learning techniques in modeling complex systems in science and engineering.",
+        "translated": ""
+    },
+    {
+        "title": "Native Segmentation Vision Transformers",
+        "url": "http://arxiv.org/abs/2505.16993v1",
+        "pub_date": "2025-05-22",
+        "summary": "Uniform downsampling remains the de facto standard for reducing spatial resolution in vision backbones. In this work, we propose an alternative design built around a content-aware spatial grouping layer, that dynamically assigns tokens to a reduced set based on image boundaries and their semantic content. Stacking our grouping layer across consecutive backbone stages results in hierarchical segmentation that arises natively in the feature extraction process, resulting in our coined Native Segmentation Vision Transformer. We show that a careful design of our architecture enables the emergence of strong segmentation masks solely from grouping layers, that is, without additional segmentation-specific heads. This sets the foundation for a new paradigm of native, backbone-level segmentation, which enables strong zero-shot results without mask supervision, as well as a minimal and efficient standalone model design for downstream segmentation tasks. Our project page is https://research.nvidia.com/labs/dvl/projects/native-segmentation.",
+        "translated": ""
     }
 ]
