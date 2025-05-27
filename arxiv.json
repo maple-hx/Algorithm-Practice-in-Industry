@@ -47206,5 +47206,19 @@
         "pub_date": "2025-05-23",
         "summary": "Hadamard Product (HP) has long been a cornerstone in click-through rate (CTR) prediction tasks due to its simplicity, effectiveness, and ability to capture feature interactions without additional parameters. However, the underlying reasons for its effectiveness remain unclear. In this paper, we revisit HP from the perspective of Quadratic Neural Networks (QNN), which leverage quadratic interaction terms to model complex feature relationships. We further reveal QNN's ability to expand the feature space and provide smooth nonlinear approximations without relying on activation functions. Meanwhile, we find that traditional post-activation does not further improve the performance of the QNN. Instead, mid-activation is a more suitable alternative. Through theoretical analysis and empirical evaluation of 25 QNN neuron formats, we identify a good-performing variant and make further enhancements on it. Specifically, we propose the Multi-Head Khatri-Rao Product as a superior alternative to HP and a Self-Ensemble Loss with dynamic ensemble capability within the same network to enhance computational efficiency and performance. Ultimately, we propose a novel neuron format, QNN-alpha, which is tailored for CTR prediction tasks. Experimental results show that QNN-alpha achieves new state-of-the-art performance on six public datasets while maintaining low inference latency, good scalability, and excellent compatibility. The code, running logs, and detailed hyperparameter configurations are available at: https://github.com/salmon1802/QNN.",
         "translated": ""
+    },
+    {
+        "title": "An Example Safety Case for Safeguards Against Misuse",
+        "url": "http://arxiv.org/abs/2505.18003v1",
+        "pub_date": "2025-05-23",
+        "summary": "Existing evaluations of AI misuse safeguards provide a patchwork of evidence that is often difficult to connect to real-world decisions. To bridge this gap, we describe an end-to-end argument (a \"safety case\") that misuse safeguards reduce the risk posed by an AI assistant to low levels. We first describe how a hypothetical developer red teams safeguards, estimating the effort required to evade them. Then, the developer plugs this estimate into a quantitative \"uplift model\" to determine how much barriers introduced by safeguards dissuade misuse (https://www.aimisusemodel.com/). This procedure provides a continuous signal of risk during deployment that helps the developer rapidly respond to emerging threats. Finally, we describe how to tie these components together into a simple safety case. Our work provides one concrete path -- though not the only path -- to rigorously justifying AI misuse risks are low.",
+        "translated": ""
+    },
+    {
+        "title": "The Manakov-Zakharov-Ward model as an integrable decoupling limit of the\n  membrane",
+        "url": "http://arxiv.org/abs/2505.17184v1",
+        "pub_date": "2025-05-22",
+        "summary": "A novel decoupling limit of the membrane is proposed, leading to the $(1+2)$-dimensional classically integrable model originally introduced by Manakov, Zakharov, and Ward. This limit can be interpreted as either a non-relativistic or large-wrapping regime of a membrane propagating in a toy background of the form $\\mathbb{R}_t \\times T^2 \\times G$, where $G$ is a Lie group and the geometry is supported by a four-form flux. We demonstrate that such toy backgrounds can arise from consistent eleven-dimensional supergravity solutions, exemplified by the uplift of the pure NSNS AdS$_3 \\times$ S$^3 \\times$ T$^4$ background.",
+        "translated": ""
     }
 ]
