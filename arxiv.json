@@ -47339,5 +47339,12 @@
         "pub_date": "2025-05-27",
         "summary": "Existing recommender systems tend to prioritize items closely aligned with users' historical interactions, inevitably trapping users in the dilemma of ``filter bubble''. Recent efforts are dedicated to improving the diversity of recommendations. However, they mainly suffer from two major issues: 1) a lack of explainability, making it difficult for the system designers to understand how diverse recommendations are generated, and 2) limitations to specific metrics, with difficulty in enhancing non-differentiable diversity metrics. To this end, we propose a \\textbf{C}ounterfactual \\textbf{M}ulti-player \\textbf{B}andits (CMB) method to deliver explainable recommendation diversification across a wide range of diversity metrics. Leveraging a counterfactual framework, our method identifies the factors influencing diversity outcomes. Meanwhile, we adopt the multi-player bandits to optimize the counterfactual optimization objective, making it adaptable to both differentiable and non-differentiable diversity metrics. Extensive experiments conducted on three real-world datasets demonstrate the applicability, effectiveness, and explainability of the proposed CMB.",
         "translated": ""
+    },
+    {
+        "title": "Warped G$_2$-throats in IIA and uplift dSillusions",
+        "url": "http://arxiv.org/abs/2505.21104v1",
+        "pub_date": "2025-05-27",
+        "summary": "Flux compactifications of IIA supergravity on orientifolded G$_2$-manifolds have been argued to allow for classical Minkowski$_3$ vacua with moduli and scale-separated AdS$_3$ vacua with full moduli stabilisation. To further uplift these vacua to meta-stable dS$_3$ vacua using anti-D2 branes, warped throats are desirable. We study the flux-stabilisation of local \"CGLP-type\" throats in compact G$_2$ spaces, and discuss consistency constraints on anti-brane uplifting. Despite the classical AdS$_3$ vacua to be free of tachyons, we find that uplifting from anti-branes down warped throats is forbidden. If instead we rely on hypothetical AdS$_3$ vacua that arise from quantum corrections to the classical Minkowski$_3$ vacua, we find that (similarly to the 4d analogues) consistency constraints point in opposite directions. However, there is potentially an advantage over 4d when it comes to concrete fine-tuning freedom of numbers, such as tadpole constraints.",
+        "translated": ""
     }
 ]
