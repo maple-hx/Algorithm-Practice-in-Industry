@@ -47969,5 +47969,33 @@
         "pub_date": "2025-06-05",
         "summary": "Reinforcement learning (RL) has become an effective approach for fine-tuning large language models (LLMs), particularly to enhance their reasoning capabilities. However, RL fine-tuning remains highly resource-intensive, and existing work has largely overlooked the problem of data efficiency. In this paper, we propose two techniques to improve data efficiency in LLM RL fine-tuning: difficulty-targeted online data selection and rollout replay. We introduce the notion of adaptive difficulty to guide online data selection, prioritizing questions of moderate difficulty that are more likely to yield informative learning signals. To estimate adaptive difficulty efficiently, we develop an attention-based framework that requires rollouts for only a small reference set of questions. The adaptive difficulty of the remaining questions is then estimated based on their similarity to this set. To further reduce rollout cost, we introduce a rollout replay mechanism that reuses recent rollouts, lowering per-step computation while maintaining stable updates. Extensive experiments across 6 LLM-dataset combinations show that our method reduces RL fine-tuning time by 25% to 65% to reach the same level of performance as the original GRPO algorithm.",
         "translated": ""
+    },
+    {
+        "title": "Enhancing the Merger Simulation Toolkit with ML/AI",
+        "url": "http://arxiv.org/abs/2506.05225v1",
+        "pub_date": "2025-06-05",
+        "summary": "This paper develops a flexible approach to predict the price effects of horizontal mergers using ML/AI methods. While standard merger simulation techniques rely on restrictive assumptions about firm conduct, we propose a data-driven framework that relaxes these constraints when rich market data are available. We develop and identify a flexible nonparametric model of supply that nests a broad range of conduct models and cost functions. To overcome the curse of dimensionality, we adapt the Variational Method of Moments (VMM) (Bennett and Kallus, 2023) to estimate the model, allowing for various forms of strategic interaction. Monte Carlo simulations show that our method significantly outperforms an array of misspecified models and rivals the performance of the true model, both in predictive performance and counterfactual merger simulations. As a way to interpret the economics of the estimated function, we simulate pass-through and reveal that the model learns markup and cost functions that imply approximately correct pass-through behavior. Applied to the American Airlines-US Airways merger, our method produces more accurate post-merger price predictions than traditional approaches. The results demonstrate the potential for machine learning techniques to enhance merger analysis while maintaining economic structure.",
+        "translated": ""
+    },
+    {
+        "title": "The Spurious Factor Dilemma: Robust Inference in Heavy-Tailed Elliptical\n  Factor Models",
+        "url": "http://arxiv.org/abs/2506.05116v1",
+        "pub_date": "2025-06-05",
+        "summary": "Factor models are essential tools for analyzing high-dimensional data, particularly in economics and finance. However, standard methods for determining the number of factors often overestimate the true number when data exhibit heavy-tailed randomness, misinterpreting noise-induced outliers as genuine factors. This paper addresses this challenge within the framework of Elliptical Factor Models (EFM), which accommodate both heavy tails and potential non-linear dependencies common in real-world data. We demonstrate theoretically and empirically that heavy-tailed noise generates spurious eigenvalues that mimic true factor signals. To distinguish these, we propose a novel methodology based on a fluctuation magnification algorithm. We show that under magnifying perturbations, the eigenvalues associated with real factors exhibit significantly less fluctuation (stabilizing asymptotically) compared to spurious eigenvalues arising from heavy-tailed effects. This differential behavior allows the identification and detection of the true and spurious factors. We develop a formal testing procedure based on this principle and apply it to the problem of accurately selecting the number of common factors in heavy-tailed EFMs. Simulation studies and real data analysis confirm the effectiveness of our approach compared to existing methods, particularly in scenarios with pronounced heavy-tailedness.",
+        "translated": ""
+    },
+    {
+        "title": "Power-boosting in Specification Tests using Kernel Directional Component",
+        "url": "http://arxiv.org/abs/2506.04900v1",
+        "pub_date": "2025-06-05",
+        "summary": "We propose power-boosting strategies for kernel-based specification tests in conditional moment models, with a focus on the Kernel Conditional Moment (KCM) test. By decomposing the KCM statistic into spectral components, we demonstrate that truncating poorly estimated directions and selecting kernels based on a non-asymptotic signal-to-noise ratio significantly improves both test power and size control. Our theoretical and simulation results demonstrate that, while divergent component weights may offer higher asymptotic power, convergent component weights perform better in finite samples. The methods outperform existing tests across various settings and are illustrated in an empirical application.",
+        "translated": ""
+    },
+    {
+        "title": "Latent Variable Autoregression with Exogenous Inputs",
+        "url": "http://arxiv.org/abs/2506.04488v1",
+        "pub_date": "2025-06-04",
+        "summary": "This paper introduces a new least squares regression methodology called (C)LARX: a (constrained) latent variable autoregressive model with exogenous inputs. Two additional contributions are made as a side effect: First, a new matrix operator is introduced for matrices and vectors with blocks along one dimension; Second, a new latent variable regression (LVR) framework is proposed for economics and finance. The empirical section examines how well the stock market predicts real economic activity in the United States. (C)LARX models outperform the baseline OLS specification in out-of-sample forecasts and offer novel analytical insights about the underlying functional relationship.",
+        "translated": ""
     }
 ]
