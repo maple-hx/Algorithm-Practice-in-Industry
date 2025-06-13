@@ -48291,5 +48291,33 @@
         "pub_date": "2025-06-11",
         "summary": "We study the accuracy of forecasts in the diffusion index forecast model with possibly weak loadings. The default option to construct forecasts is to estimate the factors through principal component analysis (PCA) on the available predictor matrix, and use the estimated factors to forecast the outcome variable. Alternatively, we can directly relate the outcome variable to the predictors through either ridge regression or random projections. We establish that forecasts based on PCA, ridge regression and random projections are consistent for the conditional mean under the same assumptions on the strength of the loadings. However, under weaker loadings the convergence rate is lower for ridge and random projections if the time dimension is small relative to the cross-section dimension. We assess the relevance of these findings in an empirical setting by comparing relative forecast accuracy for monthly macroeconomic and financial variables using different window sizes. The findings support the theoretical results, and at the same time show that regularization-based procedures may be more robust in settings not covered by the developed theory.",
         "translated": ""
+    },
+    {
+        "title": "ChineseHarm-Bench: A Chinese Harmful Content Detection Benchmark",
+        "url": "http://arxiv.org/abs/2506.10960v1",
+        "pub_date": "2025-06-12",
+        "summary": "Large language models (LLMs) have been increasingly applied to automated harmful content detection tasks, assisting moderators in identifying policy violations and improving the overall efficiency and accuracy of content review. However, existing resources for harmful content detection are predominantly focused on English, with Chinese datasets remaining scarce and often limited in scope. We present a comprehensive, professionally annotated benchmark for Chinese content harm detection, which covers six representative categories and is constructed entirely from real-world data. Our annotation process further yields a knowledge rule base that provides explicit expert knowledge to assist LLMs in Chinese harmful content detection. In addition, we propose a knowledge-augmented baseline that integrates both human-annotated knowledge rules and implicit knowledge from large language models, enabling smaller models to achieve performance comparable to state-of-the-art LLMs. Code and data are available at https://github.com/zjunlp/ChineseHarm-bench.",
+        "translated": ""
+    },
+    {
+        "title": "Precise Zero-Shot Pointwise Ranking with LLMs through Post-Aggregated\n  Global Context Information",
+        "url": "http://arxiv.org/abs/2506.10859v1",
+        "pub_date": "2025-06-12",
+        "summary": "Recent advancements have successfully harnessed the power of Large Language Models (LLMs) for zero-shot document ranking, exploring a variety of prompting strategies. Comparative approaches like pairwise and listwise achieve high effectiveness but are computationally intensive and thus less practical for larger-scale applications. Scoring-based pointwise approaches exhibit superior efficiency by independently and simultaneously generating the relevance scores for each candidate document. However, this independence ignores critical comparative insights between documents, resulting in inconsistent scoring and suboptimal performance. In this paper, we aim to improve the effectiveness of pointwise methods while preserving their efficiency through two key innovations: (1) We propose a novel Global-Consistent Comparative Pointwise Ranking (GCCP) strategy that incorporates global reference comparisons between each candidate and an anchor document to generate contrastive relevance scores. We strategically design the anchor document as a query-focused summary of pseudo-relevant candidates, which serves as an effective reference point by capturing the global context for document comparison. (2) These contrastive relevance scores can be efficiently Post-Aggregated with existing pointwise methods, seamlessly integrating essential Global Context information in a training-free manner (PAGC). Extensive experiments on the TREC DL and BEIR benchmark demonstrate that our approach significantly outperforms previous pointwise methods while maintaining comparable efficiency. Our method also achieves competitive performance against comparative methods that require substantially more computational resources. More analyses further validate the efficacy of our anchor construction strategy.",
+        "translated": ""
+    },
+    {
+        "title": "CIIR@LiveRAG 2025: Optimizing Multi-Agent Retrieval Augmented Generation\n  through Self-Training",
+        "url": "http://arxiv.org/abs/2506.10844v1",
+        "pub_date": "2025-06-12",
+        "summary": "This paper presents mRAG, a multi-agent retrieval-augmented generation (RAG) framework composed of specialized agents for subtasks such as planning, searching, reasoning, and coordination. Our system uses a self-training paradigm with reward-guided trajectory sampling to optimize inter-agent collaboration and enhance response generation. Evaluated on DataMorgana-derived datasets during the SIGIR 2025 LiveRAG competition, mRAG outperforms conventional RAG baselines. We further analyze competition outcomes and showcase the framework's strengths with case studies, demonstrating its efficacy for complex, real-world RAG tasks.",
+        "translated": ""
+    },
+    {
+        "title": "Constructing and Evaluating Declarative RAG Pipelines in PyTerrier",
+        "url": "http://arxiv.org/abs/2506.10802v1",
+        "pub_date": "2025-06-12",
+        "summary": "Search engines often follow a pipeline architecture, where complex but effective reranking components are used to refine the results of an initial retrieval. Retrieval augmented generation (RAG) is an exciting application of the pipeline architecture, where the final component generates a coherent answer for the users from the retrieved documents. In this demo paper, we describe how such RAG pipelines can be formulated in the declarative PyTerrier architecture, and the advantages of doing so. Our PyTerrier-RAG extension for PyTerrier provides easy access to standard RAG datasets and evaluation measures, state-of-the-art LLM readers, and using PyTerrier's unique operator notation, easy-to-build pipelines. We demonstrate the succinctness of indexing and RAG pipelines on standard datasets (including Natural Questions) and how to build on the larger PyTerrier ecosystem with state-of-the-art sparse, learned-sparse, and dense retrievers, and other neural rankers.",
+        "translated": ""
     }
 ]
