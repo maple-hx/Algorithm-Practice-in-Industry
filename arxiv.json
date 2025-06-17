@@ -48459,5 +48459,33 @@
         "pub_date": "2025-06-13",
         "summary": "Schema linking is a critical step in Text-to-SQL task, aiming to accurately predict the table names and column names required for the SQL query based on the given question. However, current fine-tuning approaches for schema linking models employ a rote-learning paradigm, excessively optimizing for ground truth schema linking outcomes while compromising reasoning ability. This limitation arises because of the difficulty in acquiring a high-quality reasoning sample for downstream tasks. To address this, we propose Schema-R1, a reasoning schema linking model trained using reinforcement learning. Specifically, Schema-R1 consists of three key steps: constructing small batches of high-quality reasoning samples, supervised fine-tuning for cold-start initialization, and rule-based reinforcement learning training. The final results demonstrate that our method effectively enhances the reasoning ability of the schema linking model, achieving a 10\\% improvement in filter accuracy compared to the existing method. Our code is available at https://github.com/hongWin/Schema-R1/.",
         "translated": ""
+    },
+    {
+        "title": "Evaluating Program Sequences with Double Machine Learning: An\n  Application to Labor Market Policies",
+        "url": "http://arxiv.org/abs/2506.11960v1",
+        "pub_date": "2025-06-13",
+        "summary": "Many programs evaluated in observational studies incorporate a sequential structure, where individuals may be assigned to various programs over time. While this complexity is often simplified by analyzing programs at single points in time, this paper reviews, explains, and applies methods for program evaluation within a sequential framework. It outlines the assumptions required for identification under dynamic confounding and demonstrates how extending sequential estimands to dynamic policies enables the construction of more realistic counterfactuals. Furthermore, the paper explores recently developed methods for estimating effects across multiple treatments and time periods, utilizing Double Machine Learning (DML), a flexible estimator that avoids parametric assumptions while preserving desirable statistical properties. Using Swiss administrative data, the methods are demonstrated through an empirical application assessing the participation of unemployed individuals in active labor market policies, where assignment decisions by caseworkers can be reconsidered between two periods. The analysis identifies a temporary wage subsidy as the most effective intervention, on average, even after adjusting for its extended duration compared to other programs. Overall, DML-based analysis of dynamic policies proves to be a useful approach within the program evaluation toolkit.",
+        "translated": ""
+    },
+    {
+        "title": "Structural Characterizations of Marginal Policy Effects",
+        "url": "http://arxiv.org/abs/2506.11694v1",
+        "pub_date": "2025-06-13",
+        "summary": "This paper investigates the structural interpretation of the marginal policy effect (MPE) within nonseparable models. We demonstrate that, for a smooth functional of the outcome distribution, the MPE equals its functional derivative evaluated at the outcome-conditioned weighted average structural derivative. This equivalence is definitional rather than identification-based. Building on this theoretical result, we propose an alternative identification strategy for the MPE that complements existing methods.",
+        "translated": ""
+    },
+    {
+        "title": "Identification and Inference of Partial Effects in Sharp Regression Kink\n  Designs",
+        "url": "http://arxiv.org/abs/2506.11663v1",
+        "pub_date": "2025-06-13",
+        "summary": "The partial effect refers to the impact of a change in a target variable D on the distribution of an outcome variable Y . This study examines the identification and inference of a wide range of partial effects at the threshold in the sharp regression kink (RK) design under general policy interventions. We establish a unifying framework for conducting inference on the effect of an infinitesimal change in D on smooth functionals of the distribution of Y, particularly when D is endogenous and instrumental variables are unavailable. This framework yields a general formula that clarifies the causal interpretation of numerous existing sharp RK estimands in the literature.   We develop the relevant asymptotic theory, introduce a multiplier bootstrap procedure for inference, and provide practical implementation guidelines. Applying our method to the effect of unemployment insurance (UI) benefits on unemployment duration, we find that while higher benefits lead to longer durations, they also tend to reduce their dispersion. Furthermore, our results show that the magnitude of the partial effect can change substantially depending on the specific form of the policy intervention.",
+        "translated": ""
+    },
+    {
+        "title": "Let the Tree Decide: FABART A Non-Parametric Factor Model",
+        "url": "http://arxiv.org/abs/2506.11551v1",
+        "pub_date": "2025-06-13",
+        "summary": "This article proposes a novel framework that integrates Bayesian Additive Regression Trees (BART) into a Factor-Augmented Vector Autoregressive (FAVAR) model to forecast macro-financial variables and examine asymmetries in the transmission of oil price shocks. By employing nonparametric techniques for dimension reduction, the model captures complex, nonlinear relationships between observables and latent factors that are often missed by linear approaches. A simulation experiment comparing FABART to linear alternatives and a Monte Carlo experiment demonstrate that the framework accurately recovers the relationship between latent factors and observables in the presence of nonlinearities, while remaining consistent under linear data-generating processes. The empirical application shows that FABART substantially improves forecast accuracy for industrial production relative to linear benchmarks, particularly during periods of heightened volatility and economic stress. In addition, the model reveals pronounced sign asymmetries in the transmission of oil supply news shocks to the U.S. economy, with positive shocks generating stronger and more persistent contractions in real activity and inflation than the expansions triggered by negative shocks. A similar pattern emerges at the U.S. federal state level, where negative shocks lead to modest declines in employment compared to the substantially larger contractions observed after positive shocks.",
+        "translated": ""
     }
 ]
