@@ -48536,5 +48536,75 @@
         "pub_date": "2025-06-16",
         "summary": "Large Language Models (LLMs) are central to many contemporary AI applications, yet their extensive parameter counts pose significant challenges for deployment in memory- and compute-constrained environments. Recent works in eXplainable AI (XAI), particularly on attribution methods, suggest that interpretability can also enable model compression by identifying and removing components irrelevant to inference. In this paper, we leverage Layer-wise Relevance Propagation (LRP) to perform attribution-guided pruning of LLMs. While LRP has shown promise in structured pruning for vision models, we extend it to unstructured pruning in LLMs and demonstrate that it can substantially reduce model size with minimal performance loss. Our method is especially effective in extracting task-relevant subgraphs -- so-called ``circuits'' -- which can represent core functions (e.g., indirect object identification). Building on this, we introduce a technique for model correction, by selectively removing circuits responsible for spurious behaviors (e.g., toxic outputs). All in all, we gather these techniques as a uniform holistic framework and showcase its effectiveness and limitations through extensive experiments for compression, circuit discovery and model correction on Llama and OPT models, highlighting its potential for improving both model efficiency and safety. Our code is publicly available at https://github.com/erfanhatefi/SparC3.",
         "translated": ""
+    },
+    {
+        "title": "Gradient Boosting for Spatial Regression Models with Autoregressive\n  Disturbances",
+        "url": "http://arxiv.org/abs/2506.13682v1",
+        "pub_date": "2025-06-16",
+        "summary": "Researchers in urban and regional studies increasingly deal with spatial data that reflects geographic location and spatial relationships. As a framework for dealing with the unique nature of spatial data, various spatial regression models have been introduced. In this article, a novel model-based gradient boosting algorithm for spatial regression models with autoregressive disturbances is proposed. Due to the modular nature, the approach provides an alternative estimation procedure which is feasible even in high-dimensional settings where established quasi-maximum likelihood or generalized method of moments estimators do not yield unique solutions. The approach additionally enables data-driven variable and model selection in low- as well as high-dimensional settings. Since the bias-variance trade-off is also controlled in the algorithm, implicit regularization is imposed which improves prediction accuracy on out-of-sample spatial data. Detailed simulation studies regarding the performance of estimation, prediction and variable selection in low- and high-dimensional settings confirm proper functionality of the proposed methodology. To illustrative the functionality of the model-based gradient boosting algorithm, a case study is presented where the life expectancy in German districts is modeled incorporating a potential spatial dependence structure.",
+        "translated": ""
+    },
+    {
+        "title": "Identification of Impulse Response Functions for Nonlinear Dynamic\n  Models",
+        "url": "http://arxiv.org/abs/2506.13531v1",
+        "pub_date": "2025-06-16",
+        "summary": "We explore the issues of identification for nonlinear Impulse Response Functions in nonlinear dynamic models and discuss the settings in which the problem can be mitigated. In particular, we introduce the nonlinear autoregressive representation with Gaussian innovations and characterize the identified set. This set arises from the multiplicity of nonlinear innovations and transformations which leave invariant the standard normal density. We then discuss possible identifying restrictions, such as non-Gaussianity of independent sources, or identifiable parameters by means of learning algorithms, and the possibility of identification in nonlinear dynamic factor models when the underlying latent factors have different dynamics. We also explain how these identification results depend ultimately on the set of series under consideration.",
+        "translated": ""
+    },
+    {
+        "title": "Production Function Estimation without Invertibility: Imperfectly\n  Competitive Environments and Demand Shocks",
+        "url": "http://arxiv.org/abs/2506.13520v1",
+        "pub_date": "2025-06-16",
+        "summary": "We advance the proxy variable approach to production function estimation. We show that the invertibility assumption at its heart is testable. We characterize what goes wrong if invertibility fails and what can still be done. We show that rethinking how the estimation procedure is implemented either eliminates or mitigates the bias that arises if invertibility fails. Furthermore, we show how a modification of the procedure ensures Neyman orthogonality, enhancing efficiency and robustness by rendering the asymptotic distribution of the GMM estimator in the second step of the estimation procedure invariant to estimation noise from the first step.",
+        "translated": ""
+    },
+    {
+        "title": "Joint Quantile Shrinkage: A State-Space Approach toward Non-Crossing\n  Bayesian Quantile Models",
+        "url": "http://arxiv.org/abs/2506.13257v1",
+        "pub_date": "2025-06-16",
+        "summary": "Crossing of fitted conditional quantiles is a prevalent problem for quantile regression models. We propose a new Bayesian modelling framework that penalises multiple quantile regression functions toward the desired non-crossing space. We achieve this by estimating multiple quantiles jointly with a prior on variation across quantiles, a fused shrinkage prior with quantile adaptivity. The posterior is derived from a decision-theoretic general Bayes perspective, whose form yields a natural state-space interpretation aligned with Time-Varying Parameter (TVP) models. Taken together our approach leads to a Quantile- Varying Parameter (QVP) model, for which we develop efficient sampling algorithms. We demonstrate that our proposed modelling framework provides superior parameter recovery and predictive performance compared to competing Bayesian and frequentist quantile regression estimators in simulated experiments and a real-data application to multivariate quantile estimation in macroeconomics.",
+        "translated": ""
+    },
+    {
+        "title": "Quantile Peer Effect Models",
+        "url": "http://arxiv.org/abs/2506.12920v1",
+        "pub_date": "2025-06-15",
+        "summary": "I propose a flexible structural model to estimate peer effects across various quantiles of the peer outcome distribution. The model allows peers with low, intermediate, and high outcomes to exert distinct influences, thereby capturing more nuanced patterns of peer effects than standard approaches that are based on aggregate measures. I establish the existence and uniqueness of the Nash equilibrium and demonstrate that the model parameters can be estimated using a straightforward instrumental variable strategy. Applying the model to a range of outcomes that are commonly studied in the literature, I uncover diverse and rich patterns of peer influences that challenge assumptions inherent in standard models. These findings carry important policy implications: key player status in a network depends not only on network structure, but also on the distribution of outcomes within the population.",
+        "translated": ""
+    },
+    {
+        "title": "Efficient Estimation of Distributional Treatment Effects with Endogenous\n  Treatments: A Machine Learning Approach",
+        "url": "http://arxiv.org/abs/2506.12765v1",
+        "pub_date": "2025-06-15",
+        "summary": "We introduce a novel, robust estimator for the Distributional Instrumental Variable Local Average Treatment Effect (D-IV-LATE) when the treatment is endogenous and an instrumental variable is available. Understanding the full distributional impact of policies or interventions, rather than just average effects, is crucial for informed decision-making. Yet existing methods often assume exogeneity or are not designed for distributional parameters in an IV context. We bridge this gap by extending the double/debiased machine learning (DML) framework to estimate the D-IV-LATE. Our proposed estimator leverages flexible machine learning models to control for high-dimensional covariates whilst achieving Neyman orthogonality. This ensures robustness to regularisation bias in the nuisance function estimates. We establish the asymptotic normality of our D-IV-LATE estimator. A Monte Carlo simulation study demonstrates its excellent finite-sample performance, showing low bias and root mean squared error. We illustrate the practical utility of our method with an empirical application, analysing the distributional effects of 401(k) participation on net financial assets using data from the Survey of Income and Program Participation. The results reveal heterogeneous impacts across the wealth distribution that would be masked by a simple average effect estimate.",
+        "translated": ""
+    },
+    {
+        "title": "Dynamic allocation: extremes, tail dependence, and regime Shifts",
+        "url": "http://arxiv.org/abs/2506.12587v1",
+        "pub_date": "2025-06-14",
+        "summary": "By capturing outliers, volatility clustering, and tail dependence in the asset return distribution, we build a sophisticated model to predict the downside risk of the global financial market. We further develop a dynamic regime switching model that can forecast real-time risk regime of the market. Our GARCH-DCC-Copula risk model can significantly improve both risk- and alpha-based global tactical asset allocation strategies. Our risk regime has strong predictive power of quantitative equity factor performance, which can help equity investors to build better factor models and asset allocation managers to construct more efficient risk premia portfolios.",
+        "translated": ""
+    },
+    {
+        "title": "Moment Restrictions for Nonlinear Panel Data Models with Feedback",
+        "url": "http://arxiv.org/abs/2506.12569v1",
+        "pub_date": "2025-06-14",
+        "summary": "Many panel data methods, while allowing for general dependence between covariates and time-invariant agent-specific heterogeneity, place strong a priori restrictions on feedback: how past outcomes, covariates, and heterogeneity map into future covariate levels. Ruling out feedback entirely, as often occurs in practice, is unattractive in many dynamic economic settings. We provide a general characterization of all feedback and heterogeneity robust (FHR) moment conditions for nonlinear panel data models and present constructive methods to derive feasible moment-based estimators for specific models. We also use our moment characterization to compute semiparametric efficiency bounds, allowing for a quantification of the information loss associated with accommodating feedback, as well as providing insight into how to construct estimators with good efficiency properties in practice. Our results apply both to the finite dimensional parameter indexing the parametric part of the model as well as to estimands that involve averages over the distribution of unobserved heterogeneity. We illustrate our methods by providing a complete characterization of all FHR moment functions in the multi-spell mixed proportional hazards model. We compute efficient moment functions for both model parameters and average effects in this setting.",
+        "translated": ""
+    },
+    {
+        "title": "Optimal treatment assignment rules under capacity constraints",
+        "url": "http://arxiv.org/abs/2506.12225v1",
+        "pub_date": "2025-06-13",
+        "summary": "We study treatment assignment problems under capacity constraints, where a planner aims to maximize social welfare by assigning treatments based on observable covariates. Such constraints are common in practice, as treatments are often costly or limited in supply. However, they introduce nontrivial challenges for deriving optimal statistical assignment rules because the planner needs to coordinate treatment assignment probabilities across the entire covariate distribution. To address these challenges, we reformulate the planner's constrained maximization problem as an optimal transport problem, which makes the problem effectively unconstrained. We then establish locally asymptotic optimality results of assignment rules using a limits of experiments framework. Finally, we illustrate our method with a voucher assignment problem for private secondary school attendance using data from Angrist et al. (2006).",
+        "translated": ""
+    },
+    {
+        "title": "Partial identification via conditional linear programs: estimation and\n  policy learning",
+        "url": "http://arxiv.org/abs/2506.12215v1",
+        "pub_date": "2025-06-13",
+        "summary": "Many important quantities of interest are only partially identified from observable data: the data can limit them to a set of plausible values, but not uniquely determine them. This paper develops a unified framework for covariate-assisted estimation, inference, and decision making in partial identification problems where the parameter of interest satisfies a series of linear constraints, conditional on covariates. In such settings, bounds on the parameter can be written as expectations of solutions to conditional linear programs that optimize a linear function subject to linear constraints, where both the objective function and the constraints may depend on covariates and need to be estimated from data. Examples include estimands involving the joint distributions of potential outcomes, policy learning with inequality-aware value functions, and instrumental variable settings. We propose two de-biased estimators for bounds defined by conditional linear programs. The first directly solves the conditional linear programs with plugin estimates and uses output from standard LP solvers to de-bias the plugin estimate, avoiding the need for computationally demanding vertex enumeration of all possible solutions for symbolic bounds. The second uses entropic regularization to create smooth approximations to the conditional linear programs, trading a small amount of approximation error for improved estimation and computational efficiency. We establish conditions for asymptotic normality of both estimators, show that both estimators are robust to first-order errors in estimating the conditional constraints and objectives, and construct Wald-type confidence intervals for the partially identified parameters. These results also extend to policy learning problems where the value of a decision policy is only partially identified. We apply our methods to a study on the effects of Medicaid enrollment.",
+        "translated": ""
     }
 ]
