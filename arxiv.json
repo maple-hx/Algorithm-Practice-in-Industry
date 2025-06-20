@@ -48704,5 +48704,19 @@
         "pub_date": "2025-06-12",
         "summary": "The rapid advancement of artificial intelligence has raised concerns about its potential to facilitate biological weapons development. We argue existing safety assessments of contemporary foundation AI models underestimate this risk, largely due to flawed assumptions and inadequate evaluation methods. First, assessments mistakenly assume biological weapons development requires tacit knowledge, or skills gained through hands-on experience that cannot be easily verbalized. Second, they rely on imperfect benchmarks that overlook how AI can uplift both nonexperts and already-skilled individuals. To challenge the tacit knowledge assumption, we examine cases where individuals without formal expertise, including a 2011 Norwegian ultranationalist who synthesized explosives, successfully carried out complex technical tasks. We also review efforts to document pathogen construction processes, highlighting how such tasks can be conveyed in text. We identify \"elements of success\" for biological weapons development that large language models can describe in words, including steps such as acquiring materials and performing technical procedures. Applying this framework, we find that advanced AI models Llama 3.1 405B, ChatGPT-4o, and Claude 3.5 Sonnet can accurately guide users through the recovery of live poliovirus from commercially obtained synthetic DNA, challenging recent claims that current models pose minimal biosecurity risk. We advocate for improved benchmarks, while acknowledging the window for meaningful implementation may have already closed.",
         "translated": ""
+    },
+    {
+        "title": "Fast Learning of Optimal Policy Trees",
+        "url": "http://arxiv.org/abs/2506.15435v1",
+        "pub_date": "2025-06-18",
+        "summary": "We develop and implement a version of the popular \"policytree\" method (Athey and Wager, 2021) using discrete optimisation techniques. We test the performance of our algorithm in finite samples and find an improvement in the runtime of optimal policy tree learning by a factor of nearly 50 compared to the original version. We provide an R package, \"fastpolicytree\", for public use.",
+        "translated": ""
+    },
+    {
+        "title": "On the relationship between prediction intervals, tests of sharp nulls\n  and inference on realized treatment effects in settings with few treated\n  units",
+        "url": "http://arxiv.org/abs/2506.14998v1",
+        "pub_date": "2025-06-17",
+        "summary": "We study how inference methods for settings with few treated units that rely on treatment effect homogeneity extend to alternative inferential targets when treatment effects are heterogeneous -- namely, tests of sharp null hypotheses, inference on realized treatment effects, and prediction intervals. We show that inference methods for these alternative targets are deeply interconnected: they are either equivalent or become equivalent under additional assumptions. Our results show that methods designed under treatment effect homogeneity can remain valid for these alternative targets when treatment effects are stochastic, offering new theoretical justifications and insights on their applicability.",
+        "translated": ""
     }
 ]
