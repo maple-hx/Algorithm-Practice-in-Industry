@@ -48858,5 +48858,12 @@
         "pub_date": "2025-06-20",
         "summary": "We introduce CLEAR-3K, a dataset of 3,000 assertion-reasoning questions designed to evaluate whether language models can determine if one statement causally explains another. Each question present an assertion-reason pair and challenge language models to distinguish between semantic relatedness and genuine causal explanatory relationships. Through comprehensive evaluation of 21 state-of-the-art language models (ranging from 0.5B to 72B parameters), we identify two fundamental findings. First, language models frequently confuse semantic similarity with causality, relying on lexical and semantic overlap instead of inferring actual causal explanatory relationships. Second, as parameter size increases, models tend to shift from being overly skeptical about causal relationships to being excessively permissive in accepting them. Despite this shift, performance measured by the Matthews Correlation Coefficient plateaus at just 0.55, even for the best-performing models.Hence, CLEAR-3K provides a crucial benchmark for developing and evaluating genuine causal reasoning in language models, which is an essential capability for applications that require accurate assessment of causal relationships.",
         "translated": ""
+    },
+    {
+        "title": "Leave No One Undermined: Policy Targeting with Regret Aversion",
+        "url": "http://arxiv.org/abs/2506.16430v1",
+        "pub_date": "2025-06-19",
+        "summary": "While the importance of personalized policymaking is widely recognized, fully personalized implementation remains rare in practice. We study the problem of policy targeting for a regret-averse planner when training data gives a rich set of observable characteristics while the assignment rules can only depend on its subset. Grounded in decision theory, our regret-averse criterion reflects a planner's concern about regret inequality across the population, which generally leads to a fractional optimal rule due to treatment effect heterogeneity beyond the average treatment effects conditional on the subset characteristics. We propose a debiased empirical risk minimization approach to learn the optimal rule from data. Viewing our debiased criterion as a weighted least squares problem, we establish new upper and lower bounds for the excess risk, indicating a convergence rate of 1/n and asymptotic efficiency in certain cases. We apply our approach to the National JTPA Study and the International Stroke Trial.",
+        "translated": ""
     }
 ]
