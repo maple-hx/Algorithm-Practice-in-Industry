@@ -49110,5 +49110,40 @@
         "pub_date": "2025-06-26",
         "summary": "Pre-training state-of-the-art large language models (LLMs) requires vast amounts of clean and diverse text data. While the open development of large high-quality English pre-training datasets has seen substantial recent progress, training performant multilingual LLMs remains a challenge, in large part due to the inherent difficulty of tailoring filtering and deduplication pipelines to a large number of languages. In this work, we introduce a new pre-training dataset curation pipeline based on FineWeb that can be automatically adapted to support any language. We extensively ablate our pipeline design choices on a set of nine diverse languages, guided by a set of meaningful and informative evaluation tasks that were chosen through a novel selection process based on measurable criteria. Ultimately, we show that our pipeline can be used to create non-English corpora that produce more performant models than prior datasets. We additionally introduce a straightforward and principled approach to rebalance datasets that takes into consideration both duplication count and quality, providing an additional performance uplift. Finally, we scale our pipeline to over 1000 languages using almost 100 Common Crawl snapshots to produce FineWeb2, a new 20 terabyte (5 billion document) multilingual dataset which we release along with our pipeline, training, and evaluation codebases.",
         "translated": ""
+    },
+    {
+        "title": "Multilevel Decomposition of Generalized Entropy Measures Using\n  Constrained Bayes Estimation: An Application to Japanese Regional Data",
+        "url": "http://arxiv.org/abs/2506.21213v1",
+        "pub_date": "2025-06-26",
+        "summary": "We propose a method for multilevel decomposition of generalized entropy (GE) measures that explicitly accounts for nested population structures such as national, regional, and subregional levels. Standard approaches that estimate GE separately at each level do not guarantee compatibility with multilevel decomposition. Our method constrains lower-level GE estimates to match higher-level benchmarks while preserving hierarchical relationships across layers. We apply the method to Japanese income data to estimate GE at the national, prefectural, and municipal levels, decomposing national inequality into between-prefecture and within-prefecture inequality, and further decomposing prefectural GE into between-municipality and within-municipality inequality.",
+        "translated": ""
+    },
+    {
+        "title": "Orthogonality conditions for convex regression",
+        "url": "http://arxiv.org/abs/2506.21110v1",
+        "pub_date": "2025-06-26",
+        "summary": "Econometric identification generally relies on orthogonality conditions, which usually state that the random error term is uncorrelated with the explanatory variables. In convex regression, the orthogonality conditions for identification are unknown. Applying Lagrangian duality theory, we establish the sample orthogonality conditions for convex regression, including additive and multiplicative formulations of the regression model, with and without monotonicity and homogeneity constraints. We then propose a hybrid instrumental variable control function approach to mitigate the impact of potential endogeneity in convex regression. The superiority of the proposed approach is shown in a Monte Carlo study and examined in an empirical application to Chilean manufacturing data.",
+        "translated": ""
+    },
+    {
+        "title": "Heterogeneous Exposures to Systematic and Idiosyncratic Risk across\n  Crypto Assets: A Divide-and-Conquer Approach",
+        "url": "http://arxiv.org/abs/2506.21100v1",
+        "pub_date": "2025-06-26",
+        "summary": "This paper analyzes realized return behavior across a broad set of crypto assets by estimating heterogeneous exposures to idiosyncratic and systematic risk. A key challenge arises from the latent nature of broader economy-wide risk sources: macro-financial proxies are unavailable at high-frequencies, while the abundance of low-frequency candidates offers limited guidance on empirical relevance. To address this, we develop a two-stage ``divide-and-conquer'' approach. The first stage estimates exposures to high-frequency idiosyncratic and market risk only, using asset-level IV regressions. The second stage identifies latent economy-wide factors by extracting the leading principal component from the model residuals and mapping it to lower-frequency macro-financial uncertainty and sentiment-based indicators via high-dimensional variable selection. Structured patterns of heterogeneity in exposures are uncovered using Mean Group estimators across asset categories. The method is applied to a broad sample of crypto assets, covering more than 80% of total market capitalization. We document short-term mean reversion and significant average exposures to idiosyncratic volatility and illiquidity. Green and DeFi assets are, on average, more exposed to market-level and economy-wide risk than their non-Green and non-DeFi counterparts. By contrast, stablecoins are less exposed to idiosyncratic, market-level, and economy-wide risk factors relative to non-stablecoins. At a conceptual level, our study develops a coherent framework for isolating distinct layers of risk in crypto markets. Empirically, it sheds light on how return sensitivities vary across digital asset categories -- insights that are important for both portfolio design and regulatory oversight.",
+        "translated": ""
+    },
+    {
+        "title": "Wild Bootstrap Inference for Linear Regressions with Many Covariates",
+        "url": "http://arxiv.org/abs/2506.20972v1",
+        "pub_date": "2025-06-26",
+        "summary": "We propose a simple modification to the wild bootstrap procedure and establish its asymptotic validity for linear regression models with many covariates and heteroskedastic errors. Monte Carlo simulations show that the modified wild bootstrap has excellent finite sample performance compared with alternative methods that are based on standard normal critical values, especially when the sample size is small and/or the number of controls is of the same order of magnitude as the sample size.",
+        "translated": ""
+    },
+    {
+        "title": "Analytic inference with two-way clustering",
+        "url": "http://arxiv.org/abs/2506.20749v1",
+        "pub_date": "2025-06-25",
+        "summary": "This paper studies analytic inference along two dimensions of clustering. In such setups, the commonly used approach has two drawbacks. First, the corresponding variance estimator is not necessarily positive. Second, inference is invalid in non-Gaussian regimes, namely when the estimator of the parameter of interest is not asymptotically Gaussian. We consider a simple fix that addresses both issues. In Gaussian regimes, the corresponding tests are asymptotically exact and equivalent to usual ones. Otherwise, the new tests are asymptotically conservative. We also establish their uniform validity over a certain class of data generating processes. Independently of our tests, we highlight potential issues with multiple testing and nonlinear estimators under two-way clustering. Finally, we compare our approach with existing ones through simulations.",
+        "translated": ""
     }
 ]
