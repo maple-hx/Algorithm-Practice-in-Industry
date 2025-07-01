@@ -49278,5 +49278,12 @@
         "pub_date": "2025-06-27",
         "summary": "We present a grammar error correction (GEC) system that achieves state of the art for the Czech language. Our system is based on a neural network translation approach with the Transformer architecture, and its key feature is its real-time synthetic generation pipeline, which dynamically augments sentences with artificial errors by introducing both language-agnostic and Czech-specific errors. We conduct a comprehensive series of experiments, investigating the Czech GEC corpora as bases for synthetic error introduction, several error generation strategies, domain balancing, tokenization granularity, model size, and data scaling during fine-tuning. Additionally, we evaluate the performance of large language models (LLMs) on Czech GEC in both end-user and expert fine-tuning scenarios. Our best-performing model is superior both in performance and computational efficiency. The source code and the trained model links are available on https://github.com/ufal/tsd2025-gec.",
         "translated": ""
+    },
+    {
+        "title": "Optimal Estimation of Two-Way Effects under Limited Mobility",
+        "url": "http://arxiv.org/abs/2506.21987v1",
+        "pub_date": "2025-06-27",
+        "summary": "We propose an empirical Bayes estimator for two-way effects in linked data sets based on a novel prior that leverages patterns of assortative matching observed in the data. To capture limited mobility we model the bipartite graph associated with the matched data in an asymptotic framework where its Laplacian matrix has small eigenvalues that converge to zero. The prior hyperparameters that control the shrinkage are determined by minimizing an unbiased risk estimate. We show the proposed empirical Bayes estimator is asymptotically optimal in compound loss, despite the weak connectivity of the bipartite graph and the potential misspecification of the prior. We estimate teacher values-added from a linked North Carolina Education Research Data Center student-teacher data set.",
+        "translated": ""
     }
 ]
