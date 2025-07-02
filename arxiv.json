@@ -49341,5 +49341,75 @@
         "pub_date": "2025-06-30",
         "summary": "Though recent advances in multimodal models have demonstrated strong capabilities and opportunities in unified understanding and generation, the development of unified motion-language models remains underexplored. To enable such models with high-fidelity human motion, two core challenges must be addressed. The first is the reconstruction gap between the continuous motion modality and discrete representation in an autoregressive manner, and the second is the degradation of language intelligence during unified training. Inspired by the mixture of experts, we propose MotionGPT3, a bimodal motion-language model that treats human motion as a second modality, decoupling motion modeling via separate model parameters and enabling both effective cross-modal interaction and efficient multimodal scaling training. To preserve language intelligence, the text branch retains the original structure and parameters of the pretrained language model, while a new motion branch is integrated via a shared attention mechanism, enabling bidirectional information flow between two modalities. We first employ a motion Variational Autoencoder (VAE) to encode raw human motion into latent representations. Based on this continuous latent space, the motion branch predicts motion latents directly from intermediate hidden states using a diffusion head, bypassing discrete tokenization. Extensive experiments show that our approach achieves competitive performance on both motion understanding and generation tasks while preserving strong language capabilities, establishing a unified bimodal motion diffusion framework within an autoregressive manner.",
         "translated": ""
+    },
+    {
+        "title": "Minimax and Bayes Optimal Best-arm Identification: Adaptive Experimental\n  Design for Treatment Choice",
+        "url": "http://arxiv.org/abs/2506.24007v1",
+        "pub_date": "2025-06-30",
+        "summary": "This study investigates adaptive experimental design for treatment choice, also known as fixed-budget best-arm identification. We consider an adaptive procedure consisting of a treatment-allocation phase followed by a treatment-choice phase, and we design an adaptive experiment for this setup to efficiently identify the best treatment arm, defined as the one with the highest expected outcome. In our designed experiment, the treatment-allocation phase consists of two stages. The first stage is a pilot phase, where we allocate each treatment arm uniformly with equal proportions to eliminate clearly suboptimal arms and estimate outcome variances. In the second stage, we allocate treatment arms in proportion to the variances estimated in the first stage. After the treatment-allocation phase, the procedure enters the treatment-choice phase, where we choose the treatment arm with the highest sample mean as our estimate of the best treatment arm. We prove that this single design is simultaneously asymptotically minimax and Bayes optimal for the simple regret, with upper bounds that match our lower bounds up to exact constants. Therefore, our designed experiment achieves the sharp efficiency limits without requiring separate tuning for minimax and Bayesian objectives.",
+        "translated": ""
+    },
+    {
+        "title": "Robust Inference with High-Dimensional Instruments",
+        "url": "http://arxiv.org/abs/2506.23834v1",
+        "pub_date": "2025-06-30",
+        "summary": "We propose a weak-identification-robust test for linear instrumental variable (IV) regressions with high-dimensional instruments, whose number is allowed to exceed the sample size. In addition, our test is robust to general error dependence, such as network dependence and spatial dependence. The test statistic takes a self-normalized form and the asymptotic validity of the test is established by using random matrix theory. Simulation studies are conducted to assess the numerical performance of the test, confirming good size control and satisfactory testing power across a range of various error dependence structures.",
+        "translated": ""
+    },
+    {
+        "title": "Testing parametric additive time-varying GARCH models",
+        "url": "http://arxiv.org/abs/2506.23821v1",
+        "pub_date": "2025-06-30",
+        "summary": "We develop misspecification tests for building additive time-varying (ATV-)GARCH models. In the model, the volatility equation of the GARCH model is augmented by a deterministic time-varying intercept modeled as a linear combination of logistic transition functions. The intercept is specified by a sequence of tests, moving from specific to general. The first test is the test of the standard stationary GARCH model against an ATV-GARCH model with one transition. The alternative model is unidentified under the null hypothesis, which makes the usual LM test invalid. To overcome this problem, we use the standard method of approximating the transition function by a Taylor expansion around the null hypothesis. Testing proceeds until the first non-rejection. We investigate the small-sample properties of the tests in a comprehensive simulation study. An application to the VIX index indicates that the volatility of the index is not constant over time but begins a slow increase around the 2007-2008 financial crisis.",
+        "translated": ""
+    },
+    {
+        "title": "An Improved Inference for IV Regressions",
+        "url": "http://arxiv.org/abs/2506.23816v1",
+        "pub_date": "2025-06-30",
+        "summary": "Researchers often report empirical results that are based on low-dimensional IVs, such as the shift-share IV, together with many IVs. Could we combine these results in an efficient way and take advantage of the information from both sides? In this paper, we propose a combination inference procedure to solve the problem. Specifically, we consider a linear combination of three test statistics: a standard cluster-robust Wald statistic based on the low-dimensional IVs, a leave-one-cluster-out Lagrangian Multiplier (LM) statistic, and a leave-one-cluster-out Anderson-Rubin (AR) statistic. We first establish the joint asymptotic normality of the Wald, LM, and AR statistics and derive the corresponding limit experiment under local alternatives. Then, under the assumption that at least the low-dimensional IVs can strongly identify the parameter of interest, we derive the optimal combination test based on the three statistics and establish that our procedure leads to the uniformly most powerful (UMP) unbiased test among the class of tests considered. In particular, the efficiency gain from the combined test is of ``free lunch\" in the sense that it is always at least as powerful as the test that is only based on the low-dimensional IVs or many IVs.",
+        "translated": ""
+    },
+    {
+        "title": "Overparametrized models with posterior drift",
+        "url": "http://arxiv.org/abs/2506.23619v1",
+        "pub_date": "2025-06-30",
+        "summary": "This paper investigates the impact of posterior drift on out-of-sample forecasting accuracy in overparametrized machine learning models. We document the loss in performance when the loadings of the data generating process change between the training and testing samples. This matters crucially in settings in which regime changes are likely to occur, for instance, in financial markets. Applied to equity premium forecasting, our results underline the sensitivity of a market timing strategy to sub-periods and to the bandwidth parameters that control the complexity of the model. For the average investor, we find that focusing on holding periods of 15 years can generate very heterogeneous returns, especially for small bandwidths. Large bandwidths yield much more consistent outcomes, but are far less appealing from a risk-adjusted return standpoint. All in all, our findings tend to recommend cautiousness when resorting to large linear models for stock market predictions.",
+        "translated": ""
+    },
+    {
+        "title": "P-CRE-DML: A Novel Approach for Causal Inference in Non-Linear Panel\n  Data",
+        "url": "http://arxiv.org/abs/2506.23297v1",
+        "pub_date": "2025-06-29",
+        "summary": "This paper introduces a novel Proxy-Enhanced Correlated Random Effects Double Machine Learning (P-CRE-DML) framework to estimate causal effects in panel data with non-linearities and unobserved heterogeneity. Combining Double Machine Learning (DML, Chernozhukov et al., 2018), Correlated Random Effects (CRE, Mundlak, 1978), and lagged variables (Arellano &amp; Bond, 1991) and innovating within the CRE-DML framework (Chernozhukov et al., 2022; Clarke &amp; Polselli, 2025; Fuhr &amp; Papies, 2024), we apply P-CRE-DML to investigate the effect of social trust on GDP growth across 89 countries (2010-2020). We find positive and statistically significant relationship between social trust and economic growth. This aligns with prior findings on trust-growth relationship (e.g., Knack &amp; Keefer, 1997). Furthermore, a Monte Carlo simulation demonstrates P-CRE-DML's advantage in terms of lower bias over CRE-DML and System GMM. P-CRE-DML offers a robust and flexible alternative for panel data causal inference, with applications beyond economic growth.",
+        "translated": ""
+    },
+    {
+        "title": "Modeling European Electricity Market Integration during turbulent times",
+        "url": "http://arxiv.org/abs/2506.23289v1",
+        "pub_date": "2025-06-29",
+        "summary": "This paper introduces a novel Bayesian reverse unrestricted mixed-frequency model applied to a panel of nine European electricity markets. Our model analyzes the impact of daily fossil fuel prices and hourly renewable energy generation on hourly electricity prices, employing a hierarchical structure to capture cross-country interdependencies and idiosyncratic factors. The inclusion of random effects demonstrates that electricity market integration both mitigates and amplifies shocks. Our results highlight that while renewable energy sources consistently reduce electricity prices across all countries, gas prices remain a dominant driver of cross-country electricity price disparities and instability. This finding underscores the critical importance of energy diversification, above all on renewable energy sources, and coordinated fossil fuel supply strategies for bolstering European energy security.",
+        "translated": ""
+    },
+    {
+        "title": "Design-Based and Network Sampling-Based Uncertainties in Network\n  Experiments",
+        "url": "http://arxiv.org/abs/2506.22989v1",
+        "pub_date": "2025-06-28",
+        "summary": "OLS estimators are widely used in network experiments to estimate spillover effects via regressions on exposure mappings that summarize treatment and network structure. We study the causal interpretation and inference of such OLS estimators when both design-based uncertainty in treatment assignment and sampling-based uncertainty in network links are present. We show that correlations among elements of the exposure mapping can contaminate the OLS estimand, preventing it from aggregating heterogeneous spillover effects for clear causal interpretation. We derive the estimator's asymptotic distribution and propose a network-robust variance estimator. Simulations and an empirical application reveal sizable contamination bias and inflated spillover estimates.",
+        "translated": ""
+    },
+    {
+        "title": "Causal Inference for Aggregated Treatment",
+        "url": "http://arxiv.org/abs/2506.22885v1",
+        "pub_date": "2025-06-28",
+        "summary": "In this paper, we study causal inference when the treatment variable is an aggregation of multiple sub-treatment variables. Researchers often report marginal causal effects for the aggregated treatment, implicitly assuming that the target parameter corresponds to a well-defined average of sub-treatment effects. We show that, even in an ideal scenario for causal inference such as random assignment, the weights underlying this average have some key undesirable properties: they are not unique, they can be negative, and, holding all else constant, these issues become exponentially more likely to occur as the number of sub-treatments increases and the support of each sub-treatment grows. We propose approaches to avoid these problems, depending on whether or not the sub-treatment variables are observed.",
+        "translated": ""
+    },
+    {
+        "title": "Doubly robust estimation of causal effects for random object outcomes\n  with continuous treatments",
+        "url": "http://arxiv.org/abs/2506.22754v1",
+        "pub_date": "2025-06-28",
+        "summary": "Causal inference is central to statistics and scientific discovery, enabling researchers to identify cause-and-effect relationships beyond associations. While traditionally studied within Euclidean spaces, contemporary applications increasingly involve complex, non-Euclidean data structures that reside in abstract metric spaces, known as random objects, such as images, shapes, networks, and distributions. This paper introduces a novel framework for causal inference with continuous treatments applied to non-Euclidean data. To address the challenges posed by the lack of linear structures, we leverage Hilbert space embeddings of the metric spaces to facilitate Fr\\'echet mean estimation and causal effect mapping. Motivated by a study on the impact of exposure to fine particulate matter on age-at-death distributions across U.S. counties, we propose a nonparametric, doubly-debiased causal inference approach for outcomes as random objects with continuous treatments. Our framework can accommodate moderately high-dimensional vector-valued confounders and derive efficient influence functions for estimation to ensure both robustness and interpretability. We establish rigorous asymptotic properties of the cross-fitted estimators and employ conformal inference techniques for counterfactual outcome prediction. Validated through numerical experiments and applied to real-world environmental data, our framework extends causal inference methodologies to complex data structures, broadening its applicability across scientific disciplines.",
+        "translated": ""
     }
 ]
