@@ -49579,5 +49579,33 @@
         "pub_date": "2025-06-30",
         "summary": "When conducting inference for the average treatment effect on the treated with a Synthetic Control Estimator, the vector of control weights is a nuisance parameter which is often constrained, high-dimensional, and may be only partially identified even when the average treatment effect on the treated is point-identified. All three of these features of a nuisance parameter can lead to failure of asymptotic normality for the estimate of the parameter of interest when using standard methods. I provide a new method yielding asymptotic normality for an estimate of the parameter of interest, even when all three of these complications are present. This is accomplished by first estimating the nuisance parameter using a regularization penalty to achieve a form of identification, and then estimating the parameter of interest using moment conditions that have been orthogonalized with respect to the nuisance parameter. I present high-level sufficient conditions for the estimator and verify these conditions in an example involving Synthetic Controls.",
         "translated": ""
+    },
+    {
+        "title": "Decoupled Planning and Execution: A Hierarchical Reasoning Framework for\n  Deep Search",
+        "url": "http://arxiv.org/abs/2507.02652v1",
+        "pub_date": "2025-07-03",
+        "summary": "Complex information needs in real-world search scenarios demand deep reasoning and knowledge synthesis across diverse sources, which traditional retrieval-augmented generation (RAG) pipelines struggle to address effectively. Current reasoning-based approaches suffer from a fundamental limitation: they use a single model to handle both high-level planning and detailed execution, leading to inefficient reasoning and limited scalability. In this paper, we introduce HiRA, a hierarchical framework that separates strategic planning from specialized execution. Our approach decomposes complex search tasks into focused subtasks, assigns each subtask to domain-specific agents equipped with external tools and reasoning capabilities, and coordinates the results through a structured integration mechanism. This separation prevents execution details from disrupting high-level reasoning while enabling the system to leverage specialized expertise for different types of information processing. Experiments on four complex, cross-modal deep search benchmarks demonstrate that HiRA significantly outperforms state-of-the-art RAG and agent-based systems. Our results show improvements in both answer quality and system efficiency, highlighting the effectiveness of decoupled planning and execution for multi-step information seeking tasks. Our code is available at https://github.com/ignorejjj/HiRA.",
+        "translated": ""
+    },
+    {
+        "title": "Calibrated Recommendations: Survey and Future Directions",
+        "url": "http://arxiv.org/abs/2507.02643v1",
+        "pub_date": "2025-07-03",
+        "summary": "The idea of calibrated recommendations is that the properties of the items that are suggested to users should match the distribution of their individual past preferences. Calibration techniques are therefore helpful to ensure that the recommendations provided to a user are not limited to a certain subset of the user's interests. Over the past few years, we have observed an increasing number of research works that use calibration for different purposes, including questions of diversity, biases, and fairness. In this work, we provide a survey on the recent developments in the area of calibrated recommendations. We both review existing technical approaches for calibration and provide an overview on empirical and analytical studies on the effectiveness of calibration for different use cases. Furthermore, we discuss limitations and common challenges when implementing calibration in practice.",
+        "translated": ""
+    },
+    {
+        "title": "Resolving CAP Through Automata-Theoretic Economic Design: A Unified\n  Mathematical Framework for Real-Time Partition-Tolerant Systems",
+        "url": "http://arxiv.org/abs/2507.02464v1",
+        "pub_date": "2025-07-03",
+        "summary": "The CAP theorem asserts a trilemma between consistency, availability, and partition tolerance. This paper introduces a rigorous automata-theoretic and economically grounded framework that reframes the CAP trade-off as a constraint optimization problem. We model distributed systems as partition-aware state machines and embed economic incentive layers to stabilize consensus behavior across adversarially partitioned networks. By incorporating game-theoretic mechanisms into the global transition semantics, we define provable bounds on convergence, liveness, and correctness. Our results demonstrate that availability and consistency can be simultaneously preserved within bounded epsilon margins, effectively extending the classical CAP limits through formal economic control.",
+        "translated": ""
+    },
+    {
+        "title": "Content filtering methods for music recommendation: A review",
+        "url": "http://arxiv.org/abs/2507.02282v1",
+        "pub_date": "2025-07-03",
+        "summary": "Recommendation systems have become essential in modern music streaming platforms, shaping how users discover and engage with songs. One common approach in recommendation systems is collaborative filtering, which suggests content based on the preferences of users with similar listening patterns to the target user. However, this method is less effective on media where interactions are sparse. Music is one such medium, since the average user of a music streaming service will never listen to the vast majority of tracks. Due to this sparsity, there are several challenges that have to be addressed with other methods. This review examines the current state of research in addressing these challenges, with an emphasis on the role of content filtering in mitigating biases inherent in collaborative filtering approaches. We explore various methods of song classification for content filtering, including lyrical analysis using Large Language Models (LLMs) and audio signal processing techniques. Additionally, we discuss the potential conflicts between these different analysis methods and propose avenues for resolving such discrepancies.",
+        "translated": ""
     }
 ]
