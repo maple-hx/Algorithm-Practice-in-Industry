@@ -49971,5 +49971,40 @@
         "pub_date": "2025-07-10",
         "summary": "Large language models (LLMs) show promise for supporting clinical decision-making in complex fields such as rheumatology. Our evaluation shows that smaller language models (SLMs), combined with retrieval-augmented generation (RAG), achieve higher diagnostic and therapeutic performance than larger models, while requiring substantially less energy and enabling cost-efficient, local deployment. These features are attractive for resource-limited healthcare. However, expert oversight remains essential, as no model consistently reached specialist-level accuracy in rheumatology.",
         "translated": ""
+    },
+    {
+        "title": "Efficient and Scalable Estimation of Distributional Treatment Effects\n  with Multi-Task Neural Networks",
+        "url": "http://arxiv.org/abs/2507.07738v1",
+        "pub_date": "2025-07-10",
+        "summary": "We propose a novel multi-task neural network approach for estimating distributional treatment effects (DTE) in randomized experiments. While DTE provides more granular insights into the experiment outcomes over conventional methods focusing on the Average Treatment Effect (ATE), estimating it with regression adjustment methods presents significant challenges. Specifically, precision in the distribution tails suffers due to data imbalance, and computational inefficiencies arise from the need to solve numerous regression problems, particularly in large-scale datasets commonly encountered in industry. To address these limitations, our method leverages multi-task neural networks to estimate conditional outcome distributions while incorporating monotonic shape constraints and multi-threshold label learning to enhance accuracy. To demonstrate the practical effectiveness of our proposed method, we apply our method to both simulated and real-world datasets, including a randomized field experiment aimed at reducing water consumption in the US and a large-scale A/B test from a leading streaming platform in Japan. The experimental results consistently demonstrate superior performance across various datasets, establishing our method as a robust and practical solution for modern causal inference applications requiring a detailed understanding of treatment effect heterogeneity.",
+        "translated": ""
+    },
+    {
+        "title": "Galerkin-ARIMA: A Two-Stage Polynomial Regression Framework for Fast\n  Rolling One-Step-Ahead Forecasting",
+        "url": "http://arxiv.org/abs/2507.07469v1",
+        "pub_date": "2025-07-10",
+        "summary": "Time-series models like ARIMA remain widely used for forecasting but limited to linear assumptions and high computational cost in large and complex datasets. We propose Galerkin-ARIMA that generalizes the AR component of ARIMA and replace it with a flexible spline-based function estimated by Galerkin projection. This enables the model to capture nonlinear dependencies in lagged values and retain the MA component and Gaussian noise assumption. We derive a closed-form OLS estimator for the Galerkin coefficients and show the model is asymptotically unbiased and consistent under standard conditions. Our method bridges classical time-series modeling and nonparametric regression, which offering improved forecasting performance and computational efficiency.",
+        "translated": ""
+    },
+    {
+        "title": "Tracking the economy at high frequency",
+        "url": "http://arxiv.org/abs/2507.07450v1",
+        "pub_date": "2025-07-10",
+        "summary": "This paper develops a high-frequency economic indicator using a Bayesian Dynamic Factor Model estimated with mixed-frequency data. The model incorporates weekly, monthly, and quarterly official indicators, and allows for dynamic heterogeneity and stochastic volatility. To ensure temporal consistency and avoid irregular aggregation artifacts, we introduce a pseudo-week structure that harmonizes the timing of observations. Our framework integrates dispersed and asynchronous official statistics into a unified High-Frequency Economic Index (HFEI), enabling real-time economic monitoring even in environments characterized by severe data limitations. We apply this framework to construct a high-frequency indicator for Ecuador, a country where official data are sparse and highly asynchronous, and compute pseudo-weekly recession probabilities using a time-varying mean regime-switching model fitted to the resulting index.",
+        "translated": ""
+    },
+    {
+        "title": "Identifying Present-Biased Discount Functions in Dynamic Discrete Choice\n  Models",
+        "url": "http://arxiv.org/abs/2507.07286v1",
+        "pub_date": "2025-07-09",
+        "summary": "We study the identification of dynamic discrete choice models with sophisticated, quasi-hyperbolic time preferences under exclusion restrictions. We consider both standard finite horizon problems and empirically useful infinite horizon ones, which we prove to always have solutions. We reduce identification to finding the present-bias and standard discount factors that solve a system of polynomial equations with coefficients determined by the data and use this to bound the cardinality of the identified set. The discount factors are usually identified, but hard to precisely estimate, because exclusion restrictions do not capture the defining feature of present bias, preference reversals, well.",
+        "translated": ""
+    },
+    {
+        "title": "Debiased Semiparametric Efficient Changes-in-Changes Estimation",
+        "url": "http://arxiv.org/abs/2507.07228v1",
+        "pub_date": "2025-07-09",
+        "summary": "We introduce a novel extension of the influential changes-in-changes (CiC) framework [Athey and Imbens, 2006] to estimate the average treatment effect on the treated (ATT) and distributional causal estimands in panel data settings with unmeasured confounding. While CiC relaxes the parallel trends assumption inherent in difference-in-differences (DiD), existing approaches typically accommodate only a single scalar unobserved confounder and rely on monotonicity assumptions between the confounder and the outcome. Moreover, current formulations lack inference procedures and theoretical guarantees that accommodate continuous covariates. Motivated by the intricate nature of confounding in empirical applications and the need to incorporate continuous covariates in a principled manner, we make two key contributions in this technical report. First, we establish nonparametric identification under a novel set of assumptions that permit high-dimensional unmeasured confounders and non-monotonic relationships between confounders and outcomes. Second, we construct efficient estimators that are Neyman orthogonal to infinite-dimensional nuisance parameters, facilitating valid inference even in the presence of high-dimensional continuous or discrete covariates and flexible machine learning-based nuisance estimation.",
+        "translated": ""
     }
 ]
