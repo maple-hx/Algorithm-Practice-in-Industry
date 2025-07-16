@@ -50195,5 +50195,26 @@
         "pub_date": "2025-07-14",
         "summary": "The reasoning capabilities of large language models (LLMs) have been a longstanding focus of research. Recent works have further enhanced these capabilities using reinforcement learning (RL), with many new methods claiming significant improvements with minimal or no external supervision. Surprisingly, some studies even suggest that random or incorrect reward signals can enhance reasoning performance. However, these breakthroughs are mostly reported on the Qwen2.5 model family and evaluated on well-known benchmarks such as MATH-500, AMC, and AIME, while failing to achieve similar gains on other models like Llama, which warrants further investigation. Our analysis shows that although Qwen2.5 achieves strong mathematical reasoning performance, its pretraining on large-scale web corpora makes it vulnerable to data contamination in popular benchmarks. As a result, results derived from these benchmarks may be unreliable. To address this, we introduce a generator that produces fully synthetic arithmetic problems of arbitrary length and difficulty, yielding a clean dataset we call RandomCalculation. Using these leakage-free datasets, we show that only accurate reward signals consistently improve performance, while noisy or incorrect signals do not. We advocate for evaluating RL methods on uncontaminated benchmarks and across diverse model families to ensure trustworthy conclusions.",
         "translated": ""
+    },
+    {
+        "title": "Breakdown Analysis for Instrumental Variables with Binary Outcomes",
+        "url": "http://arxiv.org/abs/2507.10242v1",
+        "pub_date": "2025-07-14",
+        "summary": "This paper studies the partial identification of treatment effects in Instrumental Variables (IV) settings with binary outcomes under violations of independence. I derive the identified sets for the treatment parameters of interest in the setting, as well as breakdown values for conclusions regarding the true treatment effects. I derive $\\sqrt{N}$-consistent nonparametric estimators for the bounds of treatment effects and for breakdown values. These results can be used to assess the robustness of empirical conclusions obtained under the assumption that the instrument is independent from potential quantities, which is a pervasive concern in studies that use IV methods with observational data. In the empirical application, I show that the conclusions regarding the effects of family size on female unemployment using same-sex sibling as the instrument are highly sensitive to violations of independence.",
+        "translated": ""
+    },
+    {
+        "title": "An Algorithm for Identifying Interpretable Subgroups With Elevated\n  Treatment Effects",
+        "url": "http://arxiv.org/abs/2507.09494v1",
+        "pub_date": "2025-07-13",
+        "summary": "We introduce an algorithm for identifying interpretable subgroups with elevated treatment effects, given an estimate of individual or conditional average treatment effects (CATE). Subgroups are characterized by ``rule sets'' -- easy-to-understand statements of the form (Condition A AND Condition B) OR (Condition C) -- which can capture high-order interactions while retaining interpretability. Our method complements existing approaches for estimating the CATE, which often produce high dimensional and uninterpretable results, by summarizing and extracting critical information from fitted models to aid decision making, policy implementation, and scientific understanding. We propose an objective function that trades-off subgroup size and effect size, and varying the hyperparameter that controls this trade-off results in a ``frontier'' of Pareto optimal rule sets, none of which dominates the others across all criteria. Valid inference is achievable through sample splitting. We demonstrate the utility and limitations of our method using simulated and empirical examples.",
+        "translated": ""
+    },
+    {
+        "title": "Correlated Synthetic Controls",
+        "url": "http://arxiv.org/abs/2507.08918v1",
+        "pub_date": "2025-07-11",
+        "summary": "Synthetic Control methods have recently gained considerable attention in applications with only one treated unit. Their popularity is partly based on the key insight that we can predict good synthetic counterfactuals for our treated unit. However, this insight of predicting counterfactuals is generalisable to microeconometric settings where we often observe many treated units. We propose the Correlated Synthetic Controls (CSC) estimator for such situations: intuitively, it creates synthetic controls that are correlated across individuals with similar observables. When treatment assignment is correlated with unobservables, we show that the CSC estimator has more desirable theoretical properties than the difference-in-differences estimator. We also utilise CSC in practice to obtain heterogeneous treatment effects in the well-known Mariel Boatlift study, leveraging additional information from the PSID.",
+        "translated": ""
     }
 ]
