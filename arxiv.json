@@ -50265,5 +50265,12 @@
         "pub_date": "2025-07-15",
         "summary": "Human reasoning involves different strategies, each suited to specific problems. Prior work shows that large language model (LLMs) tend to favor a single reasoning strategy, potentially limiting their effectiveness in diverse reasoning challenges. In this work, we investigate whether prompting can control LLMs reasoning strategies and assess its impact on logical problem-solving. While our experiments show that no single strategy consistently improves accuracy, performance could be enhanced if models could adaptively choose the optimal strategy. We propose methods to guide LLMs in strategy selection, highlighting new ways to refine their reasoning abilities.",
         "translated": ""
+    },
+    {
+        "title": "FARS: Factor Augmented Regression Scenarios in R",
+        "url": "http://arxiv.org/abs/2507.10679v1",
+        "pub_date": "2025-07-14",
+        "summary": "Obtaining realistic scenarios for the distribution of key economic variables is crucial for econometricians, policy-makers, and financial analysts. The FARS package provides a comprehensive framework in R for modeling and designing economic scenarios based on distributions derived from multi-level dynamic factor models (ML-DFMs) and factor-augmented quantile regressions (FA-QRs). The package enables users to: (i) extract global and block-specific factors using a flexible multi-level factor structure; (ii) compute asymptotically valid confidence regions for the estimated factors, accounting for uncertainty in the factor loadings; (iii) estimate FA-QRs; (iv) recover full predictive conditional densities from quantile forecasts; and (v) estimate the conditional density when the factors are stressed.",
+        "translated": ""
     }
 ]
