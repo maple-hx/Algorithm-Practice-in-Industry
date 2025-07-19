@@ -50405,5 +50405,33 @@
         "pub_date": "2025-07-17",
         "summary": "Length generalization, the ability to solve problems of longer sequences than those observed during training, poses a core challenge of Transformer-based large language models (LLM). Although existing studies have predominantly focused on data-driven approaches for arithmetic operations and symbolic manipulation tasks, these approaches tend to be task-specific with limited overall performance. To pursue a more general solution, this paper focuses on a broader case of reasoning problems that are computable, i.e., problems that algorithms can solve, thus can be solved by the Turing Machine. From this perspective, this paper proposes Turing MAchine Imitation Learning (TAIL) to improve the length generalization ability of LLMs. TAIL synthesizes chain-of-thoughts (CoT) data that imitate the execution process of a Turing Machine by computer programs, which linearly expands the reasoning steps into atomic states to alleviate shortcut learning and explicit memory fetch mechanism to reduce the difficulties of dynamic and long-range data access in elementary operations. To validate the reliability and universality of TAIL, we construct a challenging synthetic dataset covering 8 classes of algorithms and 18 tasks. Without bells and whistles, TAIL significantly improves the length generalization ability as well as the performance of Qwen2.5-7B on various tasks using only synthetic data, surpassing previous methods and DeepSeek-R1. The experimental results reveal that the key concepts in the Turing Machine, instead of the thinking styles, are indispensable for TAIL for length generalization, through which the model exhibits read-and-write behaviors consistent with the properties of the Turing Machine in their attention layers. This work provides a promising direction for future research in the learning of LLM reasoning from synthetic data.",
         "translated": ""
+    },
+    {
+        "title": "Refining the Notion of No Anticipation in Difference-in-Differences\n  Studies",
+        "url": "http://arxiv.org/abs/2507.12891v1",
+        "pub_date": "2025-07-17",
+        "summary": "We address an ambiguity in identification strategies using difference-in-differences, which are widely applied in empirical research, particularly in economics. The assumption commonly referred to as the \"no-anticipation assumption\" states that treatment has no effect on outcomes before its implementation. However, because standard causal models rely on a temporal structure in which causes precede effects, such an assumption seems to be inherently satisfied. This raises the question of whether the assumption is repeatedly stated out of redundancy or because the formal statements fail to capture the intended subject-matter interpretation. We argue that confusion surrounding the no-anticipation assumption arises from ambiguity in the intervention considered and that current formulations of the assumption are ambiguous. Therefore, new definitions and identification results are proposed.",
+        "translated": ""
+    },
+    {
+        "title": "Placebo Discontinuity Design",
+        "url": "http://arxiv.org/abs/2507.12693v1",
+        "pub_date": "2025-07-16",
+        "summary": "Standard regression discontinuity design (RDD) models rely on the continuity of expected potential outcomes at the cutoff. The standard continuity assumption can be violated by strategic manipulation of the running variable, which is realistic when the cutoff is widely known and when the treatment of interest is a social program or government benefit. In this work, we identify the treatment effect despite such a violation, by leveraging a placebo treatment and a placebo outcome. We introduce a local instrumental variable estimator. Our estimator decomposes into two terms: the standard RDD estimator of the target outcome's discontinuity, and a new adjustment term based on the placebo outcome's discontinuity. We show that our estimator is consistent, and we justify a robust bias-corrected inference procedure. Our method expands the applicability of RDD to settings with strategic behavior around the cutoff, which commonly arise in social science.",
+        "translated": ""
+    },
+    {
+        "title": "NA-DiD: Extending Difference-in-Differences with Capabilities",
+        "url": "http://arxiv.org/abs/2507.12690v1",
+        "pub_date": "2025-07-16",
+        "summary": "This paper introduces the Non-Additive Difference-in-Differences (NA-DiD) framework, which extends classical DiD by incorporating non-additive measures the Choquet integral for effect aggregation. It serves as a novel econometric tool for impact evaluation, particularly in settings with non-additive treatment effects. First, we introduce the integral representation of the classial DiD model, and then extend it to non-additive measures, therefore deriving the formulae for NA-DiD estimation. Then, we give its theoretical properties. Applying NA-DiD to a simulated hospital hygiene intervention, we find that classical DiD can overestimate treatment effects, f.e. failing to account for compliance erosion. In contrast, NA-DiD provides a more accurate estimate by incorporating non-linear aggregation. The Julia implementation of the techniques used and introduced in this article is provided in the appendices.",
+        "translated": ""
+    },
+    {
+        "title": "Semiparametric Learning of Integral Functionals on Submanifolds",
+        "url": "http://arxiv.org/abs/2507.12673v1",
+        "pub_date": "2025-07-16",
+        "summary": "This paper studies the semiparametric estimation and inference of integral functionals on submanifolds, which arise naturally in a variety of econometric settings. For linear integral functionals on a regular submanifold, we show that the semiparametric plug-in estimator attains the minimax-optimal convergence rate $n^{-\\frac{s}{2s+d-m}}$, where $s$ is the H\\\"{o}lder smoothness order of the underlying nonparametric function, $d$ is the dimension of the first-stage nonparametric estimation, $m$ is the dimension of the submanifold over which the integral is taken. This rate coincides with the standard minimax-optimal rate for a $(d-m)$-dimensional nonparametric estimation problem, illustrating that integration over the $m$-dimensional manifold effectively reduces the problem's dimensionality. We then provide a general asymptotic normality theorem for linear/nonlinear submanifold integrals, along with a consistent variance estimator. We provide simulation evidence in support of our theoretical results.",
+        "translated": ""
     }
 ]
