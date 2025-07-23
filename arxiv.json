@@ -50601,5 +50601,47 @@
         "pub_date": "2025-07-18",
         "summary": "Language models are commonly fine-tuned via reinforcement learning to alter their behavior or elicit new capabilities. Datasets used for these purposes, and particularly human preference datasets, are often noisy. The relatively small size post-training datasets, combined with parameter-efficient fine-tuning methods, enable the use of influence functions approximations to detect and prune training examples that are harmful to performance on a validation set. In this work, we adapt the TL;DR dataset for reward model training to demonstrate how conjugate-gradient approximated influence functions can be used to filter datasets. In our experiments, influence function filtering yields a small retraining accuracy uplift of 1.5% after removing 10% of training examples. We also show that gradient similarity outperforms influence functions for detecting helpful training examples. This suggests that local curvature is important for detecting harmful training examples, but less so for identifying helpful examples.",
         "translated": ""
+    },
+    {
+        "title": "Volatility Spillovers and Interconnectedness in OPEC Oil Markets: A\n  Network-Based log-ARCH Approach",
+        "url": "http://arxiv.org/abs/2507.15046v1",
+        "pub_date": "2025-07-20",
+        "summary": "This paper examines several network-based volatility models for oil prices, capturing spillovers among OPEC oil-exporting countries by embedding novel network structures into ARCH-type models. We apply a network-based log-ARCH framework that incorporates weight matrices derived from time-series clustering and model-implied distances into the conditional variance equation. These weight matrices are constructed from return data and standard multivariate GARCH model outputs (CCC, DCC, and GO-GARCH), enabling a comparative analysis of volatility transmission across specifications. Through a rolling-window forecast evaluation, the network-based models demonstrate competitive forecasting performance relative to traditional specifications and uncover intricate spillover effects. These results provide a deeper understanding of the interconnectedness within the OPEC network, with important implications for financial risk assessment, market integration, and coordinated policy among oil-producing economies.",
+        "translated": ""
+    },
+    {
+        "title": "Testing Clustered Equal Predictive Ability with Unknown Clusters",
+        "url": "http://arxiv.org/abs/2507.14621v1",
+        "pub_date": "2025-07-19",
+        "summary": "We develop new tests of clustered equal predictive ability (C-EPA) in panels where the clusters are unknown and estimated by a Panel Kmeans algorithm. This algorithm differs from the standard Kmeans algorithm by employing the time series variation of the panel rather than relying merely on time averages of observations. To address the challenge of testing hypotheses that depend on data-driven cluster estimates, we adopt a selective conditional inference framework. Specifically, we derive a Wald-type test statistic for pairwise equality and show that the limiting distribution of its square root conditional on the estimated cluster structure is that of a truncated $\\chi$ random variable. We characterize the associated truncation set as a polyhedron in the data space. As a test of the C-EPA hypothesis, we propose a $p$-value combination method which aggregates the evidence against the pairwise equality and overall EPA null hypotheses. In addition, we prove that using an information criterion to select the unknown number of clusters under the alternative hypothesis prior to testing does not require further conditioning to obtain a valid test. Monte Carlo simulations confirm the excellent finite sample performance of the proposed tests. An empirical application to forecasting exchange rates using traditional time series models as well as machine learning methods illustrates the practical importance of our procedure.",
+        "translated": ""
+    },
+    {
+        "title": "A New Perspective of the Meese-Rogoff Puzzle: Application of Sparse\n  Dynamic Shrinkage",
+        "url": "http://arxiv.org/abs/2507.14408v1",
+        "pub_date": "2025-07-18",
+        "summary": "We propose the Markov Switching Dynamic Shrinkage process (MSDSP), nesting the Dynamic Shrinkage Process (DSP) of Kowal et al. (2019). We revisit the Meese-Rogoff puzzle (Meese and Rogoff, 1983a,b, 1988) by applying the MSDSP to the economic models deemed inferior to the random walk model for exchange rate predictions. The flexibility of the MSDSP model captures the possibility of zero coefficients (sparsity), constant coefficient (dynamic shrinkage), as well as sudden and gradual parameter movements (structural change) in the time-varying parameter model setting. We also apply MSDSP in the context of Bayesian predictive synthesis (BPS) (McAlinn and West, 2019), where dynamic combination schemes exploit the information from the alternative economic models. Our analysis provide a new perspective to the Meese-Rogoff puzzle, illustrating that the economic models, enhanced with the parameter flexibility of the MSDSP, produce predictive distributions that are superior to the random walk model, even when stochastic volatility is considered.",
+        "translated": ""
+    },
+    {
+        "title": "Policy relevance of causal quantities in networks",
+        "url": "http://arxiv.org/abs/2507.14391v1",
+        "pub_date": "2025-07-18",
+        "summary": "In settings where units' outcomes are affected by others' treatments, there has been a proliferation of ways to quantify effects of treatments on outcomes. Here we describe how many proposed estimands can be represented as involving one of two ways of averaging over units and treatment assignments. The more common representation often results in quantities that are irrelevant, or at least insufficient, for optimal choice of policies governing treatment assignment. The other representation often yields quantities that lack an interpretation as summaries of unit-level effects, but that we argue may still be relevant to policy choice. Among various estimands, the expected average outcome -- or its contrast between two different policies -- can be represented both ways and, we argue, merits further attention.",
+        "translated": ""
+    },
+    {
+        "title": "Regional compositional trajectories and structural change: A\n  spatiotemporal multivariate autoregressive framework",
+        "url": "http://arxiv.org/abs/2507.14389v1",
+        "pub_date": "2025-07-18",
+        "summary": "Compositional data, such as regional shares of economic sectors or property transactions, are central to understanding structural change in economic systems across space and time. This paper introduces a spatiotemporal multivariate autoregressive model tailored for panel data with composition-valued responses at each areal unit and time point. The proposed framework enables the joint modelling of temporal dynamics and spatial dependence under compositional constraints and is estimated via a quasi maximum likelihood approach. We build on recent theoretical advances to establish identifiability and asymptotic properties of the estimator when both the number of regions and time points grow. The utility and flexibility of the model are demonstrated through two applications: analysing property transaction compositions in an intra-city housing market (Berlin), and regional sectoral compositions in Spain's economy. These case studies highlight how the proposed framework captures key features of spatiotemporal economic processes that are often missed by conventional methods.",
+        "translated": ""
+    },
+    {
+        "title": "Leveraging Covariates in Regression Discontinuity Designs",
+        "url": "http://arxiv.org/abs/2507.14311v1",
+        "pub_date": "2025-07-18",
+        "summary": "It is common practice to incorporate additional covariates in empirical economics. In the context of Regression Discontinuity (RD) designs, covariate adjustment plays multiple roles, making it essential to understand its impact on analysis and conclusions. Typically implemented via local least squares regressions, covariate adjustment can serve three main distinct purposes: (i) improving the efficiency of RD average causal effect estimators, (ii) learning about heterogeneous RD policy effects, and (iii) changing the RD parameter of interest. This article discusses and illustrates empirically how to leverage covariates effectively in RD designs.",
+        "translated": ""
     }
 ]
