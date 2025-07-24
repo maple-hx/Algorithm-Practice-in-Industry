@@ -50720,5 +50720,33 @@
         "pub_date": "2025-07-22",
         "summary": "In this paper, we propose a novel factor-augmented forecasting regression model with a binary response variable. We develop a maximum likelihood estimation method for the regression parameters and establish the asymptotic properties of the resulting estimators. Monte Carlo simulation results show that the proposed estimation method performs very well in finite samples. Finally, we demonstrate the usefulness of the proposed model through an application to U.S. recession forecasting. The proposed model consistently outperforms conventional Probit regression across both in-sample and out-of-sample exercises, by effectively utilizing high-dimensional information through latent factors.",
         "translated": ""
+    },
+    {
+        "title": "Leave No One Behind: Fairness-Aware Cross-Domain Recommender Systems for\n  Non-Overlapping Users",
+        "url": "http://arxiv.org/abs/2507.17749v1",
+        "pub_date": "2025-07-23",
+        "summary": "Cross-domain recommendation (CDR) methods predominantly leverage overlapping users to transfer knowledge from a source domain to a target domain. However, through empirical studies, we uncover a critical bias inherent in these approaches: while overlapping users experience significant enhancements in recommendation quality, non-overlapping users benefit minimally and even face performance degradation. This unfairness may erode user trust, and, consequently, negatively impact business engagement and revenue. To address this issue, we propose a novel solution that generates virtual source-domain users for non-overlapping target-domain users. Our method utilizes a dual attention mechanism to discern similarities between overlapping and non-overlapping users, thereby synthesizing realistic virtual user embeddings. We further introduce a limiter component that ensures the generated virtual users align with real-data distributions while preserving each user's unique characteristics. Notably, our method is model-agnostic and can be seamlessly integrated into any CDR model. Comprehensive experiments conducted on three public datasets with five CDR baselines demonstrate that our method effectively mitigates the CDR non-overlapping user bias, without loss of overall accuracy. Our code is publicly available at https://github.com/WeixinChen98/VUG.",
+        "translated": ""
+    },
+    {
+        "title": "On Function-Correcting Codes in the Lee Metric",
+        "url": "http://arxiv.org/abs/2507.17654v1",
+        "pub_date": "2025-07-23",
+        "summary": "Function-correcting codes are a coding framework designed to minimize redundancy while ensuring that specific functions or computations of encoded data can be reliably recovered, even in the presence of errors. The choice of metric is crucial in designing such codes, as it determines which computations must be protected and how errors are measured and corrected. Previous work by Liu and Liu [6] studied function-correcting codes over $\\mathbb{Z}_{2^l},\\ l\\geq 2$ using the homogeneous metric, which coincides with the Lee metric over $\\mathbb{Z}_4$. In this paper, we extend the study to codes over $\\mathbb{Z}_m,$ for any positive integer $m\\geq 2$ under the Lee metric and aim to determine their optimal redundancy. To achieve this, we introduce irregular Lee distance codes and derive upper and lower bounds on the optimal redundancy by characterizing the shortest possible length of such codes. These general bounds are then simplified and applied to specific classes of functions, including Lee-local functions, Lee weight functions, and Lee weight distribution functions, leading to improved some bounds compared to those of Liu and Liu [6] over $\\mathbb{Z}_4$ and generalize the other bounds over $\\mathbb{Z}_m$ in the Lee metric.",
+        "translated": ""
+    },
+    {
+        "title": "Citation Recommendation using Deep Canonical Correlation Analysis",
+        "url": "http://arxiv.org/abs/2507.17603v1",
+        "pub_date": "2025-07-23",
+        "summary": "Recent advances in citation recommendation have improved accuracy by leveraging multi-view representation learning to integrate the various modalities present in scholarly documents. However, effectively combining multiple data views requires fusion techniques that can capture complementary information while preserving the unique characteristics of each modality. We propose a novel citation recommendation algorithm that improves upon linear Canonical Correlation Analysis (CCA) methods by applying Deep CCA (DCCA), a neural network extension capable of capturing complex, non-linear relationships between distributed textual and graph-based representations of scientific articles. Experiments on the large-scale DBLP (Digital Bibliography &amp; Library Project) citation network dataset demonstrate that our approach outperforms state-of-the-art CCA-based methods, achieving relative improvements of over 11% in Mean Average Precision@10, 5% in Precision@10, and 7% in Recall@10. These gains reflect more relevant citation recommendations and enhanced ranking quality, suggesting that DCCA's non-linear transformations yield more expressive latent representations than CCA's linear projections.",
+        "translated": ""
+    },
+    {
+        "title": "BGM-HAN: A Hierarchical Attention Network for Accurate and Fair Decision\n  Assessment on Semi-Structured Profiles",
+        "url": "http://arxiv.org/abs/2507.17472v1",
+        "pub_date": "2025-07-23",
+        "summary": "Human decision-making in high-stakes domains often relies on expertise and heuristics, but is vulnerable to hard-to-detect cognitive biases that threaten fairness and long-term outcomes. This work presents a novel approach to enhancing complex decision-making workflows through the integration of hierarchical learning alongside various enhancements. Focusing on university admissions as a representative high-stakes domain, we propose BGM-HAN, an enhanced Byte-Pair Encoded, Gated Multi-head Hierarchical Attention Network, designed to effectively model semi-structured applicant data. BGM-HAN captures multi-level representations that are crucial for nuanced assessment, improving both interpretability and predictive performance. Experimental results on real admissions data demonstrate that our proposed model significantly outperforms both state-of-the-art baselines from traditional machine learning to large language models, offering a promising framework for augmenting decision-making in domains where structure, context, and fairness matter. Source code is available at: https://github.com/junhua/bgm-han.",
+        "translated": ""
     }
 ]
