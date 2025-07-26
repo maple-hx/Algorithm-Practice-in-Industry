@@ -50846,5 +50846,19 @@
         "pub_date": "2025-07-24",
         "summary": "Despite the impressive performance of large language models (LLMs) in general domains, they often underperform in specialized domains. Existing approaches typically rely on data synthesis methods and yield promising results by using unlabeled data to capture domain-specific features. However, these methods either incur high computational costs or suffer from performance limitations, while also demonstrating insufficient generalization across different tasks. To address these challenges, we propose AQuilt, a framework for constructing instruction-tuning data for any specialized domains from corresponding unlabeled data, including Answer, Question, Unlabeled data, Inspection, Logic, and Task type. By incorporating logic and inspection, we encourage reasoning processes and self-inspection to enhance model performance. Moreover, customizable task instructions enable high-quality data generation for any task. As a result, we construct a dataset of 703k examples to train a powerful data synthesis model. Experiments show that AQuilt is comparable to DeepSeek-V3 while utilizing just 17% of the production cost. Further analysis demonstrates that our generated data exhibits higher relevance to downstream tasks. Source code, models, and scripts are available at https://github.com/Krueske/AQuilt.",
         "translated": ""
+    },
+    {
+        "title": "How weak are weak factors? Uniform inference for signal strength in\n  signal plus noise models",
+        "url": "http://arxiv.org/abs/2507.18554v1",
+        "pub_date": "2025-07-24",
+        "summary": "The paper analyzes four classical signal-plus-noise models: the factor model, spiked sample covariance matrices, the sum of a Wigner matrix and a low-rank perturbation, and canonical correlation analysis with low-rank dependencies. The objective is to construct confidence intervals for the signal strength that are uniformly valid across all regimes - strong, weak, and critical signals. We demonstrate that traditional Gaussian approximations fail in the critical regime. Instead, we introduce a universal transitional distribution that enables valid inference across the entire spectrum of signal strengths. The approach is illustrated through applications in macroeconomics and finance.",
+        "translated": ""
+    },
+    {
+        "title": "Partitioned Wild Bootstrap for Panel Data Quantile Regression",
+        "url": "http://arxiv.org/abs/2507.18494v1",
+        "pub_date": "2025-07-24",
+        "summary": "Practical inference procedures for quantile regression models of panel data have been a pervasive concern in empirical work, and can be especially challenging when the panel is observed over many time periods and temporal dependence needs to be taken into account. In this paper, we propose a new bootstrap method that applies random weighting to a partition of the data -- partition-invariant weights are used in the bootstrap data generating process -- to conduct statistical inference for conditional quantiles in panel data that have significant time-series dependence. We demonstrate that the procedure is asymptotically valid for approximating the distribution of the fixed effects quantile regression estimator. The bootstrap procedure offers a viable alternative to existing resampling methods. Simulation studies show numerical evidence that the novel approach has accurate small sample behavior, and an empirical application illustrates its use.",
+        "translated": ""
     }
 ]
