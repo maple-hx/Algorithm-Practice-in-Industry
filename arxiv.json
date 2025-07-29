@@ -50972,5 +50972,75 @@
         "pub_date": "2025-07-25",
         "summary": "Large language models (LLMs) are increasingly adapted to downstream tasks via reinforcement learning (RL) methods like Group Relative Policy Optimization (GRPO), which often require thousands of rollouts to learn new tasks. We argue that the interpretable nature of language can often provide a much richer learning medium for LLMs, compared with policy gradients derived from sparse, scalar rewards. To test this, we introduce GEPA (Genetic-Pareto), a prompt optimizer that thoroughly incorporates natural language reflection to learn high-level rules from trial and error. Given any AI system containing one or more LLM prompts, GEPA samples system-level trajectories (e.g., reasoning, tool calls, and tool outputs) and reflects on them in natural language to diagnose problems, propose and test prompt updates, and combine complementary lessons from the Pareto frontier of its own attempts. As a result of GEPA's design, it can often turn even just a few rollouts into a large quality gain. Across four tasks, GEPA outperforms GRPO by 10% on average and by up to 20%, while using up to 35x fewer rollouts. GEPA also outperforms the leading prompt optimizer, MIPROv2, by over 10% across two LLMs, and demonstrates promising results as an inference-time search strategy for code optimization.",
         "translated": ""
+    },
+    {
+        "title": "Policy Learning under Unobserved Confounding: A Robust and Efficient\n  Approach",
+        "url": "http://arxiv.org/abs/2507.20550v1",
+        "pub_date": "2025-07-28",
+        "summary": "This paper develops a robust and efficient method for policy learning from observational data in the presence of unobserved confounding, complementing existing instrumental variable (IV) based approaches. We employ the marginal sensitivity model (MSM) to relax the commonly used yet restrictive unconfoundedness assumption by introducing a sensitivity parameter that captures the extent of selection bias induced by unobserved confounders. Building on this framework, we consider two distributionally robust welfare criteria, defined as the worst-case welfare and policy improvement functions, evaluated over an uncertainty set of counterfactual distributions characterized by the MSM. Closed-form expressions for both welfare criteria are derived. Leveraging these identification results, we construct doubly robust scores and estimate the robust policies by maximizing the proposed criteria. Our approach accommodates flexible machine learning methods for estimating nuisance components, even when these converge at moderately slow rate. We establish asymptotic regret bounds for the resulting policies, providing a robust guarantee against the most adversarial confounding scenario. The proposed method is evaluated through extensive simulation studies and empirical applications to the JTPA study and Head Start program.",
+        "translated": ""
+    },
+    {
+        "title": "Staggered Adoption DiD Designs with Misclassification and Anticipation",
+        "url": "http://arxiv.org/abs/2507.20415v1",
+        "pub_date": "2025-07-27",
+        "summary": "This paper examines the identification and estimation of treatment effects in staggered adoption designs -- a common extension of the canonical Difference-in-Differences (DiD) model to multiple groups and time-periods -- in the presence of (time varying) misclassification of the treatment status as well as of anticipation. We demonstrate that standard estimators are biased with respect to commonly used causal parameters of interest under such forms of misspecification. To address this issue, we provide modified estimators that recover the Average Treatment Effect of observed and true switching units, respectively. Additionally, we suggest a testing procedure aimed at detecting the timing and extent of misclassification and anticipation effects. We illustrate the proposed methods with an application to the effects of an anti-cheating policy on school mean test scores in high stakes national exams in Indonesia.",
+        "translated": ""
+    },
+    {
+        "title": "Dependency Network-Based Portfolio Design with Forecasting and VaR\n  Constraints",
+        "url": "http://arxiv.org/abs/2507.20039v1",
+        "pub_date": "2025-07-26",
+        "summary": "This study proposes a novel portfolio optimization framework that integrates statistical social network analysis with time series forecasting and risk management. Using daily stock data from the S&amp;P 500 (2020-2024), we construct dependency networks via Vector Autoregression (VAR) and Forecast Error Variance Decomposition (FEVD), transforming influence relationships into a cost-based network. Specifically, FEVD breaks down the VAR's forecast error variance to quantify how much each stock's shocks contribute to another's uncertainty information we invert to form influence-based edge weights in our network. By applying the Minimum Spanning Tree (MST) algorithm, we extract the core inter-stock structure and identify central stocks through degree centrality. A dynamic portfolio is constructed using the top-ranked stocks, with capital allocated based on Value at Risk (VaR). To refine stock selection, we incorporate forecasts from ARIMA and Neural Network Autoregressive (NNAR) models. Trading simulations over a one-year period demonstrate that the MST-based strategies outperform a buy-and-hold benchmark, with the tuned NNAR-enhanced strategy achieving a 63.74% return versus 18.00% for the benchmark. Our results highlight the potential of combining network structures, predictive modeling, and risk metrics to improve adaptive financial decision-making.",
+        "translated": ""
+    },
+    {
+        "title": "Semiparametric Identification of the Discount Factor and Payoff Function\n  in Dynamic Discrete Choice Models",
+        "url": "http://arxiv.org/abs/2507.19814v1",
+        "pub_date": "2025-07-26",
+        "summary": "This paper investigates how the discount factor and payoff functions can be identified in stationary infinite-horizon dynamic discrete choice models. In single-agent models, we show that common nonparametric assumptions on per-period payoffs -- such as homogeneity of degree one, monotonicity, concavity, zero cross-differences, and complementarity -- provide identifying restrictions on the discount factor. These restrictions take the form of polynomial equalities and inequalities with degrees bounded by the cardinality of the state space. These restrictions also identify payoff functions under standard normalization at one action. In dynamic game models, we show that firm-specific discount factors can be identified using assumptions such as irrelevance of other firms' lagged actions, exchangeability, and the independence of adjustment costs from other firms' actions. Our results demonstrate that widely used nonparametric assumptions in economic analysis can provide substantial identifying power in dynamic structural models.",
+        "translated": ""
+    },
+    {
+        "title": "Binary Classification with the Maximum Score Model and Linear\n  Programming",
+        "url": "http://arxiv.org/abs/2507.19654v1",
+        "pub_date": "2025-07-25",
+        "summary": "This paper presents a computationally efficient method for binary classification using Manski's (1975,1985) maximum score model when covariates are discretely distributed and parameters are partially but not point identified. We establish conditions under which it is minimax optimal to allow for either non-classification or random classification and derive finite-sample and asymptotic lower bounds on the probability of correct classification. We also describe an extension of our method to continuous covariates. Our approach avoids the computational difficulty of maximum score estimation by reformulating the problem as two linear programs. Compared to parametric and nonparametric methods, our method balances extrapolation ability with minimal distributional assumptions. Monte Carlo simulations and empirical applications demonstrate its effectiveness and practical relevance.",
+        "translated": ""
+    },
+    {
+        "title": "Beyond Bonferroni: Hierarchical Multiple Testing in Empirical Research",
+        "url": "http://arxiv.org/abs/2507.19610v1",
+        "pub_date": "2025-07-25",
+        "summary": "Empirical research in the social and medical sciences frequently involves testing multiple hypotheses simultaneously, increasing the risk of false positives due to chance. Classical multiple testing procedures, such as the Bonferroni correction, control the family-wise error rate (FWER) but tend to be overly conservative, reducing statistical power. Stepwise alternatives like the Holm and Hochberg procedures offer improved power while maintaining error control under certain dependence structures. However, these standard approaches typically ignore hierarchical relationships among hypotheses - structures that are common in settings such as clinical trials and program evaluations, where outcomes are often logically or causally linked. Hierarchical multiple testing procedures - including fixed sequence, fallback, and gatekeeping methods -explicitly incorporate these relationships, providing more powerful and interpretable frameworks for inference. This paper reviews key hierarchical methods, compares their statistical properties and practical trade-offs, and discusses implications for applied empirical research.",
+        "translated": ""
+    },
+    {
+        "title": "Uniform Critical Values for Likelihood Ratio Tests in Boundary Problems",
+        "url": "http://arxiv.org/abs/2507.19603v1",
+        "pub_date": "2025-07-25",
+        "summary": "Limit distributions of likelihood ratio statistics are well-known to be discontinuous in the presence of nuisance parameters at the boundary of the parameter space, which lead to size distortions when standard critical values are used for testing. In this paper, we propose a new and simple way of constructing critical values that yields uniformly correct asymptotic size, regardless of whether nuisance parameters are at, near or far from the boundary of the parameter space. Importantly, the proposed critical values are trivial to compute and at the same time provide powerful tests in most settings. In comparison to existing size-correction methods, the new approach exploits the monotonicity of the two components of the limiting distribution of the likelihood ratio statistic, in conjunction with rectangular confidence sets for the nuisance parameters, to gain computational tractability. Uniform validity is established for likelihood ratio tests based on the new critical values, and we provide illustrations of their construction in two key examples: (i) testing a coefficient of interest in the classical linear regression model with non-negativity constraints on control coefficients, and, (ii) testing for the presence of exogenous variables in autoregressive conditional heteroskedastic models (ARCH) with exogenous regressors. Simulations confirm that the tests have desirable size and power properties. A brief empirical illustration demonstrates the usefulness of our proposed test in relation to testing for spill-overs and ARCH effects.",
+        "translated": ""
+    },
+    {
+        "title": "Sequential Decision Problems with Missing Feedback",
+        "url": "http://arxiv.org/abs/2507.19596v1",
+        "pub_date": "2025-07-25",
+        "summary": "This paper investigates the challenges of optimal online policy learning under missing data. State-of-the-art algorithms implicitly assume that rewards are always observable. I show that when rewards are missing at random, the Upper Confidence Bound (UCB) algorithm maintains optimal regret bounds; however, it selects suboptimal policies with high probability as soon as this assumption is relaxed. To overcome this limitation, I introduce a fully nonparametric algorithm-Doubly-Robust Upper Confidence Bound (DR-UCB)-which explicitly models the form of missingness through observable covariates and achieves a nearly-optimal worst-case regret rate of $\\widetilde{O}(\\sqrt{T})$. To prove this result, I derive high-probability bounds for a class of doubly-robust estimators that hold under broad dependence structures. Simulation results closely match the theoretical predictions, validating the proposed framework.",
+        "translated": ""
+    },
+    {
+        "title": "Interactive, Grouped and Non-separable Fixed Effects: A Practitioner's\n  Guide to the New Panel Data Econometrics",
+        "url": "http://arxiv.org/abs/2507.19099v1",
+        "pub_date": "2025-07-25",
+        "summary": "The past 20 years have brought fundamental advances in modeling unobserved heterogeneity in panel data. Interactive Fixed Effects (IFE) proved to be a foundational framework, generalizing the standard one-way and two-way fixed effects models by allowing the unit-specific unobserved heterogeneity to be interacted with unobserved time-varying common factors, allowing for more general forms of omitted variables. The IFE framework laid the theoretical foundations for other forms of heterogeneity, such as grouped fixed effects (GFE) and non-separable two-way fixed effects (NSTW). The existence of IFE, GFE or NSTW has significant implications for identification, estimation, and inference, leading to the development of many new estimators for panel data models. This paper provides an accessible review of the new estimation methods and their associated diagnostic tests, and offers a guide to empirical practice. In two separate empirical investigations we demonstrate that there is empirical support for the new forms of fixed effects and that the results can differ significantly from those obtained using traditional fixed effects estimators.",
+        "translated": ""
+    },
+    {
+        "title": "Flexible estimation of skill formation models",
+        "url": "http://arxiv.org/abs/2507.18995v1",
+        "pub_date": "2025-07-25",
+        "summary": "This paper examines estimation of skill formation models, a critical component in understanding human capital development and its effects on individual outcomes. Existing estimators are either based on moment conditions and only applicable in specific settings or rely on distributional approximations that often do not align with the model. Our method employs an iterative likelihood-based procedure, which flexibly estimates latent variable distributions and recursively incorporates model restrictions across time periods. This approach reduces computational complexity while accommodating nonlinear production functions and measurement systems. Inference can be based on a bootstrap procedure that does not require re-estimating the model for bootstrap samples. Monte Carlo simulations and an empirical application demonstrate that our estimator outperforms existing methods, whose estimators can be substantially biased or noisy.",
+        "translated": ""
     }
 ]
