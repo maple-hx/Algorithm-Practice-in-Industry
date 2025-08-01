@@ -51210,5 +51210,19 @@
         "pub_date": "2025-07-30",
         "summary": "Sustainability-oriented evaluation metrics can help to assess the quality of recommender systems beyond wide-spread metrics such as accuracy, precision, recall, and satisfaction. Following the United Nations`s sustainable development goals (SDGs), such metrics can help to analyse the impact of recommender systems on environmental, social, and economic aspects. We discuss different basic sustainability evaluation metrics for recommender systems and analyze their applications.",
         "translated": ""
+    },
+    {
+        "title": "Where to show Demos in Your Prompt: A Positional Bias of In-Context\n  Learning",
+        "url": "http://arxiv.org/abs/2507.22887v1",
+        "pub_date": "2025-07-30",
+        "summary": "In-context learning (ICL) is a critical emerging capability of large language models (LLMs), enabling few-shot learning during inference by including a few demonstrations (demos) in the prompt. However, it has been found that ICL's performance can be sensitive to the choices of demos and their order. This paper investigates an unexplored new positional bias of ICL for the first time: we observe that the predictions and accuracy can drift drastically when the positions of demos, the system prompt, and the user message in LLM input are varied. We refer to this bias as DEMOS' POSITION IN PROMPT (DPP) bias. We design a systematic evaluation pipeline to study this type of positional bias across classification, question answering, summarization, and reasoning tasks. We introduce two metrics, ACCURACY-CHANGE and PREDICTION-CHANGE, to quantify net gains and output volatility induced by changes in the demos' position. Extensive experiments on ten LLMs from four open-source model families (QWEN, LLAMA3, MISTRAL, COHERE) verify that the bias significantly affects their accuracy and predictions: placing demos at the start of the prompt yields the most stable and accurate outputs with gains of up to +6 points. In contrast, placing demos at the end of the user message flips over 30\\% of predictions without improving correctness on QA tasks. Smaller models are most affected by this sensitivity, though even large models remain marginally affected on complex tasks.",
+        "translated": ""
+    },
+    {
+        "title": "The Incomplete Bridge: How AI Research (Mis)Engages with Psychology",
+        "url": "http://arxiv.org/abs/2507.22847v1",
+        "pub_date": "2025-07-30",
+        "summary": "Social sciences have accumulated a rich body of theories and methodologies for investigating the human mind and behaviors, while offering valuable insights into the design and understanding of Artificial Intelligence (AI) systems. Focusing on psychology as a prominent case, this study explores the interdisciplinary synergy between AI and the field by analyzing 1,006 LLM-related papers published in premier AI venues between 2023 and 2025, along with the 2,544 psychology publications they cite. Through our analysis, we identify key patterns of interdisciplinary integration, locate the psychology domains most frequently referenced, and highlight areas that remain underexplored. We further examine how psychology theories/frameworks are operationalized and interpreted, identify common types of misapplication, and offer guidance for more effective incorporation. Our work provides a comprehensive map of interdisciplinary engagement between AI and psychology, thereby facilitating deeper collaboration and advancing AI systems.",
+        "translated": ""
     }
 ]
