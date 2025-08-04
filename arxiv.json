@@ -51392,5 +51392,33 @@
         "pub_date": "2025-07-31",
         "summary": "Several anomaly detection and classification methods rely on large amounts of non-anomalous or \"normal\" samples under the assump- tion that anomalous data is typically harder to acquire. This hypothesis becomes questionable in Few-Shot settings, where as little as one anno- tated sample can make a significant difference. In this paper, we tackle the question of utilizing anomalous samples in training a model for bi- nary anomaly classification. We propose a methodology that incorporates anomalous samples in a multi-score anomaly detection score leveraging recent Zero-Shot and memory-based techniques. We compare the utility of anomalous samples to that of regular samples and study the benefits and limitations of each. In addition, we propose an augmentation-based validation technique to optimize the aggregation of the different anomaly scores and demonstrate its effectiveness on popular industrial anomaly detection datasets.",
         "translated": ""
+    },
+    {
+        "title": "Harnessing the Power of Interleaving and Counterfactual Evaluation for\n  Airbnb Search Ranking",
+        "url": "http://arxiv.org/abs/2508.00751v1",
+        "pub_date": "2025-08-01",
+        "summary": "Evaluation plays a crucial role in the development of ranking algorithms on search and recommender systems. It enables online platforms to create user-friendly features that drive commercial success in a steady and effective manner. The online environment is particularly conducive to applying causal inference techniques, such as randomized controlled experiments (known as A/B test), which are often more challenging to implement in fields like medicine and public policy. However, businesses face unique challenges when it comes to effective A/B test. Specifically, achieving sufficient statistical power for conversion-based metrics can be time-consuming, especially for significant purchases like booking accommodations. While offline evaluations are quicker and more cost-effective, they often lack accuracy and are inadequate for selecting candidates for A/B test. To address these challenges, we developed interleaving and counterfactual evaluation methods to facilitate rapid online assessments for identifying the most promising candidates for A/B tests. Our approach not only increased the sensitivity of experiments by a factor of up to 100 (depending on the approach and metrics) compared to traditional A/B testing but also streamlined the experimental process. The practical insights gained from usage in production can also benefit organizations with similar interests.",
+        "translated": ""
+    },
+    {
+        "title": "Experimental Evaluation of Dynamic Topic Modeling Algorithms",
+        "url": "http://arxiv.org/abs/2508.00710v1",
+        "pub_date": "2025-08-01",
+        "summary": "The amount of text generated daily on social media is gigantic and analyzing this text is useful for many purposes. To understand what lies beneath a huge amount of text, we need dependable and effective computing techniques from self-powered topic models. Nevertheless, there are currently relatively few thorough quantitative comparisons between these models. In this study, we compare these models and propose an assessment metric that documents how the topics change in time.",
+        "translated": ""
+    },
+    {
+        "title": "NyayaRAG: Realistic Legal Judgment Prediction with RAG under the Indian\n  Common Law System",
+        "url": "http://arxiv.org/abs/2508.00709v1",
+        "pub_date": "2025-08-01",
+        "summary": "Legal Judgment Prediction (LJP) has emerged as a key area in AI for law, aiming to automate judicial outcome forecasting and enhance interpretability in legal reasoning. While previous approaches in the Indian context have relied on internal case content such as facts, issues, and reasoning, they often overlook a core element of common law systems, which is reliance on statutory provisions and judicial precedents. In this work, we propose NyayaRAG, a Retrieval-Augmented Generation (RAG) framework that simulates realistic courtroom scenarios by providing models with factual case descriptions, relevant legal statutes, and semantically retrieved prior cases. NyayaRAG evaluates the effectiveness of these combined inputs in predicting court decisions and generating legal explanations using a domain-specific pipeline tailored to the Indian legal system. We assess performance across various input configurations using both standard lexical and semantic metrics as well as LLM-based evaluators such as G-Eval. Our results show that augmenting factual inputs with structured legal knowledge significantly improves both predictive accuracy and explanation quality.",
+        "translated": ""
+    },
+    {
+        "title": "Segment First, Retrieve Better: Realistic Legal Search via Rhetorical\n  Role-Based Queries",
+        "url": "http://arxiv.org/abs/2508.00679v1",
+        "pub_date": "2025-08-01",
+        "summary": "Legal precedent retrieval is a cornerstone of the common law system, governed by the principle of stare decisis, which demands consistency in judicial decisions. However, the growing complexity and volume of legal documents challenge traditional retrieval methods. TraceRetriever mirrors real-world legal search by operating with limited case information, extracting only rhetorically significant segments instead of requiring complete documents. Our pipeline integrates BM25, Vector Database, and Cross-Encoder models, combining initial results through Reciprocal Rank Fusion before final re-ranking. Rhetorical annotations are generated using a Hierarchical BiLSTM CRF classifier trained on Indian judgments. Evaluated on IL-PCR and COLIEE 2025 datasets, TraceRetriever addresses growing document volume challenges while aligning with practical search constraints, reliable and scalable foundation for precedent retrieval enhancing legal research when only partial case knowledge is available.",
+        "translated": ""
     }
 ]
