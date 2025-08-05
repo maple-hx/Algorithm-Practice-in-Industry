@@ -51448,5 +51448,19 @@
         "pub_date": "2025-08-01",
         "summary": "Hate speech detection on Chinese social networks presents distinct challenges, particularly due to the widespread use of cloaking techniques designed to evade conventional text-based detection systems. Although large language models (LLMs) have recently improved hate speech detection capabilities, the majority of existing work has concentrated on English datasets, with limited attention given to multimodal strategies in the Chinese context. In this study, we propose MMBERT, a novel BERT-based multimodal framework that integrates textual, speech, and visual modalities through a Mixture-of-Experts (MoE) architecture. To address the instability associated with directly integrating MoE into BERT-based models, we develop a progressive three-stage training paradigm. MMBERT incorporates modality-specific experts, a shared self-attention mechanism, and a router-based expert allocation strategy to enhance robustness against adversarial perturbations. Empirical results in several Chinese hate speech datasets show that MMBERT significantly surpasses fine-tuned BERT-based encoder models, fine-tuned LLMs, and LLMs utilizing in-context learning approaches.",
         "translated": ""
+    },
+    {
+        "title": "Multi-Band Variable-Lag Granger Causality: A Unified Framework for\n  Causal Time Series Inference across Frequencies",
+        "url": "http://arxiv.org/abs/2508.00658v1",
+        "pub_date": "2025-08-01",
+        "summary": "Understanding causal relationships in time series is fundamental to many domains, including neuroscience, economics, and behavioral science. Granger causality is one of the well-known techniques for inferring causality in time series. Typically, Granger causality frameworks have a strong fix-lag assumption between cause and effect, which is often unrealistic in complex systems. While recent work on variable-lag Granger causality (VLGC) addresses this limitation by allowing a cause to influence an effect with different time lags at each time point, it fails to account for the fact that causal interactions may vary not only in time delay but also across frequency bands. For example, in brain signals, alpha-band activity may influence another region with a shorter delay than slower delta-band oscillations. In this work, we formalize Multi-Band Variable-Lag Granger Causality (MB-VLGC) and propose a novel framework that generalizes traditional VLGC by explicitly modeling frequency-dependent causal delays. We provide a formal definition of MB-VLGC, demonstrate its theoretical soundness, and propose an efficient inference pipeline. Extensive experiments across multiple domains demonstrate that our framework significantly outperforms existing methods on both synthetic and real-world datasets, confirming its broad applicability to any type of time series data. Code and datasets are publicly available.",
+        "translated": ""
+    },
+    {
+        "title": "Robust Econometrics for Growth-at-Risk",
+        "url": "http://arxiv.org/abs/2508.00263v1",
+        "pub_date": "2025-08-01",
+        "summary": "The Growth-at-Risk (GaR) framework has garnered attention in recent econometric literature, yet current approaches implicitly assume a constant Pareto exponent. We introduce novel and robust econometrics to estimate the tails of GaR based on a rigorous theoretical framework and establish validity and effectiveness. Simulations demonstrate consistent outperformance relative to existing alternatives in terms of predictive accuracy. We perform a long-term GaR analysis that provides accurate and insightful predictions, effectively capturing financial anomalies better than current methods.",
+        "translated": ""
     }
 ]
