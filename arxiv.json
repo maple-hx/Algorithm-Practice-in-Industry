@@ -51504,5 +51504,40 @@
         "pub_date": "2025-07-22",
         "summary": "This document presents a preliminary compilation of general-purpose AI (GPAI) evaluation practices that may promote internal validity, external validity and reproducibility. It includes suggestions for human uplift studies and benchmark evaluations, as well as cross-cutting suggestions that may apply to many different evaluation types. Suggestions are organised across four stages in the evaluation life cycle: design, implementation, execution and documentation. Drawing from established practices in machine learning, statistics, psychology, economics, biology and other fields recognised to have important lessons for AI evaluation, these suggestions seek to contribute to the conversation on the nascent and evolving field of the science of GPAI evaluations. The intended audience of this document includes providers of GPAI models presenting systemic risk (GPAISR), for whom the EU AI Act lays out specific evaluation requirements; third-party evaluators; policymakers assessing the rigour of evaluations; and academic researchers developing or conducting GPAI evaluations.",
         "translated": ""
+    },
+    {
+        "title": "Structural Extrapolation in Regression Discontinuity Designs with an\n  Application to School Expenditure Referenda",
+        "url": "http://arxiv.org/abs/2508.02658v1",
+        "pub_date": "2025-08-04",
+        "summary": "We propose a structural approach to extrapolate average partial effects away from the cutoff in regression discontinuity designs (RDDs). Our focus is on applications that exploit closely contested school district referenda to estimate the effects of changes in education spending on local economic outcomes. We embed these outcomes in a spatial equilibrium model of local jurisdictions in which fiscal policy is determined by majority rule voting. This integration provides a microfoundation for the running variable, the share of voters who approve a ballot initiative, and enables identification of structural parameters using RDD coefficients. We then leverage the model to simulate the effects of counterfactual referenda over a broad range of proposed spending changes. These scenarios imply realizations of the running variable away from the threshold, allowing extrapolation of RDD estimates to nonmarginal referenda. Applying the method to school expenditure ballot measures in Wisconsin, we document substantial heterogeneity in housing price capitalization across the approval margin.",
+        "translated": ""
+    },
+    {
+        "title": "Estimating Causal Effects with Observational Data: Guidelines for\n  Agricultural and Applied Economists",
+        "url": "http://arxiv.org/abs/2508.02310v1",
+        "pub_date": "2025-08-04",
+        "summary": "Most research questions in agricultural and applied economics are of a causal nature, i.e., how one or more variables (e.g., policies, prices, the weather) affect one or more other variables (e.g., income, crop yields, pollution). Only some of these research questions can be studied experimentally. Most empirical studies in agricultural and applied economics thus rely on observational data. However, estimating causal effects with observational data requires appropriate research designs and a transparent discussion of all identifying assumptions, together with empirical evidence to assess the probability that they hold. This paper provides an overview of various approaches that are frequently used in agricultural and applied economics to estimate causal effects with observational data. It then provides advice and guidelines for agricultural and applied economists who are intending to estimate causal effects with observational data, e.g., how to assess and discuss the chosen identification strategies in their publications.",
+        "translated": ""
+    },
+    {
+        "title": "A difference-in-differences estimator by covariate balancing propensity\n  score",
+        "url": "http://arxiv.org/abs/2508.02097v1",
+        "pub_date": "2025-08-04",
+        "summary": "This article develops a covariate balancing approach for the estimation of treatment effects on the treated (ATT) in a difference-in-differences (DID) research design when panel data are available. We show that the proposed covariate balancing propensity score (CBPS) DID estimator possesses several desirable properties: (i) local efficiency, (ii) double robustness in terms of consistency, (iii) double robustness in terms of inference, and (iv) faster convergence to the ATT compared to the augmented inverse probability weighting (AIPW) DID estimators when both working models are locally misspecified. These latter two characteristics set the CBPS DID estimator apart from the AIPW DID estimator theoretically. Simulation studies and an empirical study demonstrate the desirable finite sample performance of the proposed estimator.",
+        "translated": ""
+    },
+    {
+        "title": "A Relaxation Approach to Synthetic Control",
+        "url": "http://arxiv.org/abs/2508.01793v1",
+        "pub_date": "2025-08-03",
+        "summary": "The synthetic control method (SCM) is widely used for constructing the counterfactual of a treated unit based on data from control units in a donor pool. Allowing the donor pool contains more control units than time periods, we propose a novel machine learning algorithm, named SCM-relaxation, for counterfactual prediction. Our relaxation approach minimizes an information-theoretic measure of the weights subject to a set of relaxed linear inequality constraints in addition to the simplex constraint. When the donor pool exhibits a group structure, SCM-relaxation approximates the equal weights within each group to diversify the prediction risk. Asymptotically, the proposed estimator achieves oracle performance in terms of out-of-sample prediction accuracy. We demonstrate our method by Monte Carlo simulations and by an empirical application that assesses the economic impact of Brexit on the United Kingdom's real GDP.",
+        "translated": ""
+    },
+    {
+        "title": "Bayesian Smoothed Quantile Regression",
+        "url": "http://arxiv.org/abs/2508.01738v1",
+        "pub_date": "2025-08-03",
+        "summary": "Bayesian quantile regression based on the asymmetric Laplace distribution (ALD) likelihood suffers from two fundamental limitations: the non-differentiability of the check loss precludes gradient-based Markov chain Monte Carlo (MCMC) methods, and the posterior mean provides biased quantile estimates. We propose Bayesian smoothed quantile regression (BSQR), which replaces the check loss with a kernel-smoothed version, creating a continuously differentiable likelihood. This smoothing has two crucial consequences: it enables efficient Hamiltonian Monte Carlo sampling, and it yields a consistent posterior distribution, thereby resolving the inferential bias of the standard approach. We further establish conditions for posterior propriety under various priors (including improper and hierarchical) and characterize how kernel choice affects posterior concentration and computational efficiency. Extensive simulations validate our theoretical findings, demonstrating that BSQR achieves up to a 50% reduction in predictive check loss at extreme quantiles compared to ALD-based methods, while improving MCMC efficiency by 20-40% in effective sample size. An empirical application to financial risk measurement during the COVID-19 era illustrates BSQR's practical advantages in capturing dynamic systemic risk. The BSQR framework provides a theoretically-grounded and computationally-efficient solution to longstanding challenges in Bayesian quantile regression, with compact-support kernels like the uniform and triangular emerging as particularly effective choices.",
+        "translated": ""
     }
 ]
