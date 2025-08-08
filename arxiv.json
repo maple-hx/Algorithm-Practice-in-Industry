@@ -51644,5 +51644,19 @@
         "pub_date": "2025-08-06",
         "summary": "LLM-powered conversational assistants are often deployed in a one-size-fits-all manner, which fails to accommodate individual user preferences. Recently, LLM personalization -- tailoring models to align with specific user preferences -- has gained increasing attention as a way to bridge this gap. In this work, we specifically focus on a practical yet challenging setting where only a small set of preference annotations can be collected per user -- a problem we define as Personalized Preference Alignment with Limited Data (PPALLI). To support research in this area, we introduce two datasets -- DnD and ELIP -- and benchmark a variety of alignment techniques on them. We further propose FaST, a highly parameter-efficient approach that leverages high-level features automatically discovered from the data, achieving the best overall performance.",
         "translated": ""
+    },
+    {
+        "title": "High-Dimensional Matrix-Variate Diffusion Index Models for Time Series\n  Forecasting",
+        "url": "http://arxiv.org/abs/2508.04259v1",
+        "pub_date": "2025-08-06",
+        "summary": "This paper proposes a novel diffusion-index model for forecasting when predictors are high-dimensional matrix-valued time series. We apply an $\\alpha$-PCA method to extract low-dimensional matrix factors and build a bilinear regression linking future outcomes to these factors, estimated via iterative least squares. To handle weak factor structures, we introduce a supervised screening step to select informative rows and columns. Theoretical properties, including consistency and asymptotic normality, are established. Simulations and real data show that our method significantly improves forecast accuracy, with the screening procedure providing additional gains over standard benchmarks in out-of-sample mean squared forecast error.",
+        "translated": ""
+    },
+    {
+        "title": "The Regression Discontinuity Design in Medical Science",
+        "url": "http://arxiv.org/abs/2508.03878v1",
+        "pub_date": "2025-08-05",
+        "summary": "This article provides an introduction to the Regression Discontinuity (RD) design, and its application to empirical research in the medical sciences. While the main focus of this article is on causal interpretation, key concepts of estimation and inference are also briefly mentioned. A running medical empirical example is provided.",
+        "translated": ""
     }
 ]
