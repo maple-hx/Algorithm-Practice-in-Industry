@@ -51854,5 +51854,33 @@
         "pub_date": "2025-08-08",
         "summary": "We present GLM-4.5, an open-source Mixture-of-Experts (MoE) large language model with 355B total parameters and 32B activated parameters, featuring a hybrid reasoning method that supports both thinking and direct response modes. Through multi-stage training on 23T tokens and comprehensive post-training with expert model iteration and reinforcement learning, GLM-4.5 achieves strong performance across agentic, reasoning, and coding (ARC) tasks, scoring 70.1% on TAU-Bench, 91.0% on AIME 24, and 64.2% on SWE-bench Verified. With much fewer parameters than several competitors, GLM-4.5 ranks 3rd overall among all evaluated models and 2nd on agentic benchmarks. We release both GLM-4.5 (355B parameters) and a compact version, GLM-4.5-Air (106B parameters), to advance research in reasoning and agentic AI systems. Code, models, and more information are available at https://github.com/zai-org/GLM-4.5.",
         "translated": ""
+    },
+    {
+        "title": "HierSearch: A Hierarchical Enterprise Deep Search Framework Integrating\n  Local and Web Searches",
+        "url": "http://arxiv.org/abs/2508.08088v1",
+        "pub_date": "2025-08-11",
+        "summary": "Recently, large reasoning models have demonstrated strong mathematical and coding abilities, and deep search leverages their reasoning capabilities in challenging information retrieval tasks. Existing deep search works are generally limited to a single knowledge source, either local or the Web. However, enterprises often require private deep search systems that can leverage search tools over both local and the Web corpus. Simply training an agent equipped with multiple search tools using flat reinforcement learning (RL) is a straightforward idea, but it has problems such as low training data efficiency and poor mastery of complex tools. To address the above issue, we propose a hierarchical agentic deep search framework, HierSearch, trained with hierarchical RL. At the low level, a local deep search agent and a Web deep search agent are trained to retrieve evidence from their corresponding domains. At the high level, a planner agent coordinates low-level agents and provides the final answer. Moreover, to prevent direct answer copying and error propagation, we design a knowledge refiner that filters out hallucinations and irrelevant evidence returned by low-level agents. Experiments show that HierSearch achieves better performance compared to flat RL, and outperforms various deep search and multi-source retrieval-augmented generation baselines in six benchmarks across general, finance, and medical domains.",
+        "translated": ""
+    },
+    {
+        "title": "Multi-modal Adaptive Mixture of Experts for Cold-start Recommendation",
+        "url": "http://arxiv.org/abs/2508.08042v1",
+        "pub_date": "2025-08-11",
+        "summary": "Recommendation systems have faced significant challenges in cold-start scenarios, where new items with a limited history of interaction need to be effectively recommended to users. Though multimodal data (e.g., images, text, audio, etc.) offer rich information to address this issue, existing approaches often employ simplistic integration methods such as concatenation, average pooling, or fixed weighting schemes, which fail to capture the complex relationships between modalities. Our study proposes a novel Mixture of Experts (MoE) framework for multimodal cold-start recommendation, named MAMEX, which dynamically leverages latent representation from different modalities. MAMEX utilizes modality-specific expert networks and introduces a learnable gating mechanism that adaptively weights the contribution of each modality based on its content characteristics. This approach enables MAMEX to emphasize the most informative modalities for each item while maintaining robustness when certain modalities are less relevant or missing. Extensive experiments on benchmark datasets show that MAMEX outperforms state-of-the-art methods in cold-start scenarios, with superior accuracy and adaptability. For reproducibility, the code has been made available on Github https://github.com/L2R-UET/MAMEX.",
+        "translated": ""
+    },
+    {
+        "title": "DIVER: A Multi-Stage Approach for Reasoning-intensive Information\n  Retrieval",
+        "url": "http://arxiv.org/abs/2508.07995v1",
+        "pub_date": "2025-08-11",
+        "summary": "Retrieval-augmented generation has achieved strong performance on knowledge-intensive tasks where query-document relevance can be identified through direct lexical or semantic matches. However, many real-world queries involve abstract reasoning, analogical thinking, or multi-step inference, which existing retrievers often struggle to capture. To address this challenge, we present \\textbf{DIVER}, a retrieval pipeline tailored for reasoning-intensive information retrieval. DIVER consists of four components: document processing to improve input quality, LLM-driven query expansion via iterative document interaction, a reasoning-enhanced retriever fine-tuned on synthetic multi-domain data with hard negatives, and a pointwise reranker that combines LLM-assigned helpfulness scores with retrieval scores. On the BRIGHT benchmark, DIVER achieves state-of-the-art nDCG@10 scores of 41.6 and 28.9 on original queries, consistently outperforming competitive reasoning-aware models. These results demonstrate the effectiveness of reasoning-aware retrieval strategies in complex real-world tasks. Our code and retrieval model will be released soon.",
+        "translated": ""
+    },
+    {
+        "title": "Early Explorations of Recommender Systems for Physical Activity and\n  Well-being",
+        "url": "http://arxiv.org/abs/2508.07980v1",
+        "pub_date": "2025-08-11",
+        "summary": "As recommender systems increasingly guide physical actions, often through wearables and coaching tools, new challenges arise around how users interpret, trust, and respond to this advice. This paper introduces a conceptual framework for tangible recommendations that influence users' bodies, routines, and well-being. We describe three design dimensions: trust and interpretation, intent alignment, and consequence awareness. These highlight key limitations in applying conventional recommender logic to embodied settings. Through examples and design reflections, we outline how future systems can support long-term well-being, behavioral alignment, and socially responsible personalization.",
+        "translated": ""
     }
 ]
