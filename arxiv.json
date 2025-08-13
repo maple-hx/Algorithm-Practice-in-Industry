@@ -51910,5 +51910,33 @@
         "pub_date": "2025-08-11",
         "summary": "Reinforcement learning for LLM reasoning has rapidly emerged as a prominent research area, marked by a significant surge in related studies on both algorithmic innovations and practical applications. Despite this progress, several critical challenges remain, including the absence of standardized guidelines for employing RL techniques and a fragmented understanding of their underlying mechanisms. Additionally, inconsistent experimental settings, variations in training data, and differences in model initialization have led to conflicting conclusions, obscuring the key characteristics of these techniques and creating confusion among practitioners when selecting appropriate techniques. This paper systematically reviews widely adopted RL techniques through rigorous reproductions and isolated evaluations within a unified open-source framework. We analyze the internal mechanisms, applicable scenarios, and core principles of each technique through fine-grained experiments, including datasets of varying difficulty, model sizes, and architectures. Based on these insights, we present clear guidelines for selecting RL techniques tailored to specific setups, and provide a reliable roadmap for practitioners navigating the RL for the LLM domain. Finally, we reveal that a minimalist combination of two techniques can unlock the learning capability of critic-free policies using vanilla PPO loss. The results demonstrate that our simple combination consistently improves performance, surpassing strategies like GRPO and DAPO.",
         "translated": ""
+    },
+    {
+        "title": "Amazon Ads Multi-Touch Attribution",
+        "url": "http://arxiv.org/abs/2508.08209v1",
+        "pub_date": "2025-08-11",
+        "summary": "Amazon's new Multi-Touch Attribution (MTA) solution allows advertisers to measure how each touchpoint across the marketing funnel contributes to a conversion. This gives advertisers a more comprehensive view of their Amazon Ads performance across objectives when multiple ads influence shopping decisions. Amazon MTA uses a combination of randomized controlled trials (RCTs) and machine learning (ML) models to allocate credit for Amazon conversions across Amazon Ads touchpoints in proportion to their value, i.e., their likely contribution to shopping decisions. ML models trained purely on observational data are easy to scale and can yield precise predictions, but the models might produce biased estimates of ad effects. RCTs yield unbiased ad effects but can be noisy. Our MTA methodology combines experiments, ML models, and Amazon's shopping signals in a thoughtful manner to inform attribution credit allocation.",
+        "translated": ""
+    },
+    {
+        "title": "Treatment-Effect Estimation in Complex Designs under a Parallel-trends\n  Assumption",
+        "url": "http://arxiv.org/abs/2508.07808v1",
+        "pub_date": "2025-08-11",
+        "summary": "This paper considers the identification of dynamic treatment effects with panel data, in complex designs where the treatment may not be binary and may not be absorbing. We first show that under no-anticipation and parallel-trends assumptions, we can identify event-study effects comparing outcomes under the actual treatment path and under the status-quo path where all units would have kept their period-one treatment throughout the panel. Those effects can be helpful to evaluate ex-post the policies that effectively took place, and once properly normalized they estimate weighted averages of marginal effects of the current and lagged treatments on the outcome. Yet, they may still be hard to interpret, and they cannot be used to evaluate the effects of other policies than the ones that were conducted. To make progress, we impose another restriction, namely a random coefficients distributed-lag linear model, where effects remain constant over time. Under this model, the usual distributed-lag two-way-fixed-effects regression may be misleading. Instead, we show that this random coefficients model can be estimated simply. We illustrate our findings by revisiting Gentzkow et al. (2011).",
+        "translated": ""
+    },
+    {
+        "title": "Conceptual winsorizing: An application to the social cost of carbon",
+        "url": "http://arxiv.org/abs/2508.07384v2",
+        "pub_date": "2025-08-10",
+        "summary": "There are many published estimates of the social cost of carbon. Some are clear outliers, the result of poorly constrained models. Percentile winsorizing is an option, but I here propose conceptual winsorizing: The social cost of carbon is either a willingness to pay, which cannot exceed the ability to pay, or a proposed carbon tax, which cannot raise more revenue than all other taxes combined. Conceptual winsorizing successfully removes high outliers. It slackens as economies decarbonize, slowly without climate policy, faster with.",
+        "translated": ""
+    },
+    {
+        "title": "Interaction between Returns and Order Flow Imbalances: Endogeneity,\n  Intraday Variations, and Macroeconomic News Announcements",
+        "url": "http://arxiv.org/abs/2508.06788v1",
+        "pub_date": "2025-08-09",
+        "summary": "The study examines the interaction between returns and order flow imbalances (differences between buy and sell orders), constructed from the best bid and offer files of S&amp;P 500 E-mini futures contract, using a structural vector autoregressive model. The intraday variation in market activity is considered by applying the model for each short interval each day, whereas the endogeneity due to time aggregation is handled by estimating the structural parameters via the identification through heteroskedasticity. The estimation results show that significant endogeneity exists and that the estimated parameters and impulse responses exhibit significant intraday variations, reflecting intense or mild order submission activities. Further, the estimated parameters change around macroeconomic news announcements, suggesting inactive order submission periods exist when they occur. Overall, such announcement effects are mostly explained by the order submission activities reflecting the public information.",
+        "translated": ""
     }
 ]
