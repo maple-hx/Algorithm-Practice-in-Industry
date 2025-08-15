@@ -52036,5 +52036,19 @@
         "pub_date": "2025-08-12",
         "summary": "Large Language Models used in ChatGPT have traditionally been trained to learn a refusal boundary: depending on the user's intent, the model is taught to either fully comply or outright refuse. While this is a strong mitigation for explicitly malicious prompts, focusing safety training on refusals can lead to brittleness for prompts with obscured user intent. Binary refusal boundaries are especially ill-suited for dual-use cases (such as biology or cybersecurity), where a user request can be answered safely at a high level, but in some cases can lead to malicious uplift if sufficiently detailed or actionable. As an alternative, we propose safe-completions: a safety-training approach that centers on the safety of the assistant's output, rather than a binary classification of the user's intent. Safe-completions seek to maximize helpfulness within the safety policy's constraints. We incorporated this approach into GPT-5 and find that across both production comparisons and internally controlled experiments, safe-completion training improves safety (especially on dual-use prompts), reduces the severity of residual safety failures, and substantially increases model helpfulness.",
         "translated": ""
+    },
+    {
+        "title": "Machine Learning for Detecting Collusion and Capacity Withholding in\n  Wholesale Electricity Markets",
+        "url": "http://arxiv.org/abs/2508.09885v1",
+        "pub_date": "2025-08-13",
+        "summary": "Collusion and capacity withholding in electricity wholesale markets are important mechanisms of market manipulation. This study applies a refined machine learning-based cartel detection algorithm to two cartel cases in the Italian electricity market and evaluates its out-of-sample performance. Specifically, we consider an ensemble machine learning method that uses statistical screens constructed from the offer price distribution as predictors for the incidence of collusion among electricity providers in specific regions. We propose novel screens related to the capacity-withholding behavior of electricity providers and find that including such screens derived from the day-ahead spot market as predictors can improve cartel detection. We find that, under complete cartels - where collusion in a tender presumably involves all suppliers - the method correctly classifies up to roughly 95% of tenders in our data as collusive or competitive, improving classification accuracy compared to using only previously available screens. However, when trained on larger datasets including non-cartel members and applying algorithms tailored to detect incomplete cartels, the previously existing screens are sufficient to achieve 98% accuracy, and the addition of our newly proposed capacity-withholding screens does not further improve performance. Overall, this study highlights the promising potential of supervised machine learning techniques for detecting and dismantling cartels in electricity markets.",
+        "translated": ""
+    },
+    {
+        "title": "Approximate Sparsity Class and Minimax Estimation",
+        "url": "http://arxiv.org/abs/2508.09278v1",
+        "pub_date": "2025-08-12",
+        "summary": "Motivated by the orthogonal series density estimation in $L^2([0,1],\\mu)$, in this project we consider a new class of functions that we call the approximate sparsity class. This new class is characterized by the rate of decay of the individual Fourier coefficients for a given orthonormal basis. We establish the $L^2([0,1],\\mu)$ metric entropy of such class, with which we show the minimax rate of convergence. For the density subset in this class, we propose an adaptive density estimator based on a hard-thresholding procedure that achieves this minimax rate up to a $\\log$ term.",
+        "translated": ""
     }
 ]
