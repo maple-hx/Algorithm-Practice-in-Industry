@@ -52085,5 +52085,26 @@
         "pub_date": "2025-08-14",
         "summary": "Ranking product recommendations to optimize for a high click-through rate (CTR) or for high conversion, such as add-to-cart rate (ACR) and Order-Submit-Rate (OSR, view-to-purchase conversion) are standard practices in e-commerce. Optimizing for CTR appears like a straightforward choice: Training data (i.e., click data) are simple to collect and often available in large quantities. Additionally, CTR is used far beyond e-commerce, making it a generalist, easily implemented option. ACR and OSR, on the other hand, are more directly linked to a shop's business goals, such as the Gross Merchandise Value (GMV). In this paper, we compare the effects of using either of these objectives using an online A/B test. Among our key findings, we demonstrate that in our shops, optimizing for OSR produces a GMV uplift more than five times larger than when optimizing for CTR, without sacrificing new product discovery. Our results also provide insights into the different feature importances for each of the objectives.",
         "translated": ""
+    },
+    {
+        "title": "Higher-order Gini indices: An axiomatic approach",
+        "url": "http://arxiv.org/abs/2508.10663v1",
+        "pub_date": "2025-08-14",
+        "summary": "Via an axiomatic approach, we characterize the family of n-th order Gini deviation, defined as the expected range over n independent draws from a distribution, to quantify joint dispersion across multiple observations. This extends the classical Gini deviation, which relies solely on pairwise comparisons. Our generalization grows increasingly sensitive to tail inequality as n increases, offering a more nuanced view of distributional extremes. We show that these higher-order Gini deviations admit a Choquet integral representation, inheriting the desirable properties of coherent deviation measures. Furthermore, we prove that both the n-th order Gini deviation and its normalized version, the n-th order Gini coefficient, are n-observation elicitable, facilitating rigorous backtesting. Empirical analysis using World Inequality Database data reveals that higher-order Gini coefficients detect disparities obscured by the classical Gini coefficient, particularly in cases of extreme income or wealth concentration. Our results establish higher-order Gini indices as valuable complementary tools for robust inequality assessment.",
+        "translated": ""
+    },
+    {
+        "title": "On the implications of proportional hazards assumptions for competing\n  risks modelling",
+        "url": "http://arxiv.org/abs/2508.10577v1",
+        "pub_date": "2025-08-14",
+        "summary": "The assumption of hazard rates being proportional in covariates is widely made in empirical research and extensive research has been done to develop tests of its validity. This paper does not contribute on this end. Instead, it gives new insights on the implications of proportional hazards (PH) modelling in competing risks models. It is shown that the use of a PH model for the cause-specific hazards or subdistribution hazards can strongly restrict the class of copulas and marginal hazards for being compatible with a competing risks model. The empirical researcher should be aware that working with these models can be so restrictive that only degenerate or independent risks models are compatible. Numerical results confirm that estimates of cause-specific hazards models are not informative about patterns in the data generating process.",
+        "translated": ""
+    },
+    {
+        "title": "Two-Way Mean Group Estimators for Heterogeneous Panel Models with Fixed\n  T",
+        "url": "http://arxiv.org/abs/2508.10302v1",
+        "pub_date": "2025-08-14",
+        "summary": "We consider a correlated random coefficient panel data model with two-way fixed effects and interactive fixed effects in a fixed T framework. We propose a two-way mean group (TW-MG) estimator for the expected value of the slope coefficient and propose a leave-one-out jackknife method for valid inference. We also consider a pooled estimator and provide a Hausman-type test for poolability. Simulations demonstrate the excellent performance of our estimators and inference methods in finite samples. We apply our new methods to two datasets to examine the relationship between health-care expenditure and income, and estimate a production function.",
+        "translated": ""
     }
 ]
