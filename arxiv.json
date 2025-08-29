@@ -52855,5 +52855,12 @@
         "pub_date": "2025-08-25",
         "summary": "Defects in conformal field theories (CFTs) play a key role in critical phenomena by modifying scaling behaviors and generating new universality classes. We introduce Parisi-Sourlas (PS) supersymmetry in the presence of extended operators and demonstrate that any $p$-dimensional defect in a CFT$_d$ can be uplifted to a defect in a PS-supersymmetric CFT$_{d+2}$. Surprisingly, there are actually two distinct uplifted defects--of dimensions $p$ and $p+2$--which reduce to the original one. We show how this reduction works for correlators with insertions both in the bulk and on the defect. As a byproduct, we find new relations between defect conformal blocks in dimensions $d$ and $d+2$. We further show that the reduction of the $p$-dimensional defect implies and extend a \"global symmetry reduction\" previously considered in the literature. Finally, we provide various examples of these uplifts, including perturbative computations in epsilon expansion of the uplift of the Ising magnetic line defect, as well as exact computations of observables in the four-dimensional uplift of minimal models with boundaries.",
         "translated": ""
+    },
+    {
+        "title": "Inference on Partially Identified Parameters with Separable Nuisance\n  Parameters: a Two-Stage Method",
+        "url": "http://arxiv.org/abs/2508.19853v1",
+        "pub_date": "2025-08-27",
+        "summary": "This paper develops a two-stage method for inference on partially identified parameters in moment inequality models with separable nuisance parameters. In the first stage, the nuisance parameters are estimated separately, and in the second stage, the identified set for the parameters of interest is constructed using a refined chi-squared test with variance correction that accounts for the first-stage estimation error. We establish the asymptotic validity of the proposed method under mild conditions and characterize its finite-sample properties. The method is broadly applicable to models where direct elimination of nuisance parameters is difficult or introduces conservativeness. Its practical performance is illustrated through an application: structural estimation of entry and exit costs in the U.S. vehicle market based on Wollmann (2018).",
+        "translated": ""
     }
 ]
