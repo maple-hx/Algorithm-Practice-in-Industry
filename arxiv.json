@@ -52904,5 +52904,26 @@
         "pub_date": "2025-08-28",
         "summary": "Sentential relation extraction (RE) is an important task in natural language processing (NLP). In this paper we propose to do sentential RE with dynamic routing in capsules. We first show that the proposed approach outperform state of the art on common sentential relation extraction datasets Tacred, Tacredrev, Retacred, and Conll04. We then investigate potential reasons for its good performance on the mentioned datasets, and yet low performance on another similar, yet larger sentential RE dataset, Wikidata. As such, we identify noise in Wikidata labels as one of the reasons that can hinder performance. Additionally, we show associativity of better performance with better re-representation, a term from neuroscience referred to change of representation in human brain to improve the match at comparison time. As example, in the given analogous terms King:Queen::Man:Woman, at comparison time, and as a result of re-representation, the similarity between related head terms (King,Man), and tail terms (Queen,Woman) increases. As such, our observation show that our proposed model can do re-representation better than the vanilla model compared with. To that end, beside noise in the labels of the distantly supervised RE datasets, we propose re-representation as a challenge in sentential RE.",
         "translated": ""
+    },
+    {
+        "title": "Uniform Quasi ML based inference for the panel AR(1) model",
+        "url": "http://arxiv.org/abs/2508.20855v1",
+        "pub_date": "2025-08-28",
+        "summary": "This paper proposes new inference methods for panel AR models with arbitrary initial conditions and heteroskedasticity and possibly additional regressors that are robust to the strength of identification. Specifically, we consider several Maximum Likelihood based methods of constructing tests and confidence sets (CSs) and show that (Quasi) LM tests and CSs that use the expected Hessian rather than the observed Hessian of the log-likelihood have correct asymptotic size (in a uniform sense). We derive the power envelope of a Fixed Effects version of such a LM test for hypotheses involving the autoregressive parameter when the average information matrix is estimated by a centered OPG estimator and the model is only second-order identified, and show that it coincides with the maximal attainable power curve in the worst case setting. We also study the empirical size and power properties of these (Quasi) LM tests and CSs.",
+        "translated": ""
+    },
+    {
+        "title": "Time Series Embedding and Combination of Forecasts: A Reinforcement\n  Learning Approach",
+        "url": "http://arxiv.org/abs/2508.20795v1",
+        "pub_date": "2025-08-28",
+        "summary": "The forecasting combination puzzle is a well-known phenomenon in forecasting literature, stressing the challenge of outperforming the simple average when aggregating forecasts from diverse methods. This study proposes a Reinforcement Learning - based framework as a dynamic model selection approach to address this puzzle. Our framework is evaluated through extensive forecasting exercises using simulated and real data. Specifically, we analyze the M4 Competition dataset and the Survey of Professional Forecasters (SPF). This research introduces an adaptable methodology for selecting and combining forecasts under uncertainty, offering a promising advancement in resolving the forecasting combination puzzle.",
+        "translated": ""
+    },
+    {
+        "title": "A further look at Modified ML estimation of the panel AR(1) model with\n  fixed effects and arbitrary initial conditions",
+        "url": "http://arxiv.org/abs/2508.20753v1",
+        "pub_date": "2025-08-28",
+        "summary": "In this paper we consider two kinds of generalizations of Lancaster's (Review of Economic Studies, 2002) Modified ML estimator (MMLE) for the panel AR(1) model with fixed effects and arbitrary initial conditions and possibly covariates when the time dimension, T, is fixed. When the autoregressive parameter rho=1, the limiting modified profile log-likelihood function for this model has a stationary point of inflection, and rho is first-order underidentified but second-order identified. We show that the generalized MMLEs exist w.p.a.1. and are uniquely defined w.p.1. and consistent for any value of |rho| =&lt; 1. When rho=1, the rate of convergence of the MMLEs is N^{1/4}, where N is the cross-sectional dimension of the panel. We then develop an asymptotic theory for GMM estimators when one of the parameters is only second-order identified and use this to derive the limiting distributions of the MMLEs. They are generally asymmetric when rho=1. We also show that Quasi LM tests that are based on the modified profile log-likelihood and use its expected rather than observed Hessian, with an additional modification for rho=1, and confidence regions based on inverting these tests have correct asymptotic size in a uniform sense when |rho| =&lt; 1. Finally, we investigate the finite sample properties of the MMLEs and the QLM test in a Monte Carlo study.",
+        "translated": ""
     }
 ]
