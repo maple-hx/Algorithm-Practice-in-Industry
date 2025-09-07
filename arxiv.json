@@ -53282,5 +53282,33 @@
         "pub_date": "2025-09-04",
         "summary": "We develop a frequentist decision-theoretic framework for selecting the best arm in one-shot, multi-arm randomized controlled trials (RCTs). Our approach characterizes the minimax-regret (MMR) optimal decision rule for any location-family reward distribution with full support. We show that the MMR rule is deterministic, unique, and computationally tractable, as it can be derived by solving the dual problem with nature's least-favorable prior. We then specialize to the case of multivariate normal (MVN) rewards with an arbitrary covariance matrix, and establish the local asymptotic minimaxity of a plug-in version of the rule when only estimated means and covariances are available. This asymptotic MMR (AMMR) procedure maps a covariance-matrix estimate directly into decision boundaries, allowing straightforward implementation in practice. Our analysis highlights a sharp contrast between two-arm and multi-arm designs. With two arms, the empirical success rule (\"pick-the-winner\") remains MMR-optimal, regardless of the arm-specific variances. By contrast, with three or more arms and heterogeneous variances, the empirical success rule is no longer optimal: the MMR decision boundaries become nonlinear and systematically penalize high-variance arms, requiring stronger evidence to select them. This result underscores that variance plays no role in optimal two-arm comparisons, but it matters critically when more than two options are on the table. Our multi-arm AMMR framework extends classical decision theory to multi-arm RCTs, offering a rigorous foundation and a practical tool for comparing multiple policies simultaneously.",
         "translated": ""
+    },
+    {
+        "title": "We Have It Covered: A Resampling-based Method for Uplift Model\n  Comparison",
+        "url": "http://arxiv.org/abs/2509.04315v1",
+        "pub_date": "2025-09-04",
+        "summary": "Uplift models play a critical role in modern marketing applications to help understand the incremental benefits of interventions and identify optimal targeting strategies. A variety of techniques exist for building uplift models, and it is essential to understand the model differences in the context of intended applications. The uplift curve is a widely adopted tool for assessing uplift model performance on the selection universe when observations are available for the entire population. However, when it is uneconomical or infeasible to select the entire population, it becomes difficult or even impossible to estimate the uplift curve without appropriate sampling design. To the best of our knowledge, no prior work has addressed uncertainty quantification of uplift curve estimates, which is essential for model comparisons. We propose a two-step sampling procedure and a resampling-based approach to compare uplift models with uncertainty quantification, examine the proposed method via simulations and real data applications, and conclude with a discussion.",
+        "translated": ""
+    },
+    {
+        "title": "Non-Linear Counterfactual Aggregate Optimization",
+        "url": "http://arxiv.org/abs/2509.03438v1",
+        "pub_date": "2025-09-03",
+        "summary": "We consider the problem of directly optimizing a non-linear function of an outcome, where this outcome itself is the sum of many small contributions. The non-linearity of the function means that the problem is not equivalent to the maximization of the expectation of the individual contribution. By leveraging the concentration properties of the sum of individual outcomes, we derive a scalable descent algorithm that directly optimizes for our stated objective. This allows for instance to maximize the probability of successful A/B test, for which it can be wiser to target a success criterion, such as exceeding a given uplift, rather than chasing the highest expected payoff.",
+        "translated": ""
+    },
+    {
+        "title": "Tilted Dirac cones and their topology in Holographic Materials",
+        "url": "http://arxiv.org/abs/2509.03033v1",
+        "pub_date": "2025-09-03",
+        "summary": "We explore strongly correlated materials with tilted Dirac cone by introducing a method to realize this spectral feature within a holographic setup. Following the work by Moradpouri et al., we construct an asymptotically AdS spacetime by uplifting the vielbein of Volovik et al to tilt the flat spacetime light cone. We then couple the resulting metric to holographic fermions and compute their spectral functions, confirming the presence of a tilted Dirac cone in momentum space. We also calculate the topological number using the holographic Green's function and find that the Chern number is independent of the tilting parameter. Additionally, we show that the optical conductivity exhibits a Drude peak even at zero chemical potential, revealing nontrivial strong-coupling effects absent in field-theoretic models.",
+        "translated": ""
+    },
+    {
+        "title": "CSRM-LLM: Embracing Multilingual LLMs for Cold-Start Relevance Matching\n  in Emerging E-commerce Markets",
+        "url": "http://arxiv.org/abs/2509.01566v1",
+        "pub_date": "2025-09-01",
+        "summary": "As global e-commerce platforms continue to expand, companies are entering new markets where they encounter cold-start challenges due to limited human labels and user behaviors. In this paper, we share our experiences in Coupang to provide a competitive cold-start performance of relevance matching for emerging e-commerce markets. Specifically, we present a Cold-Start Relevance Matching (CSRM) framework, utilizing a multilingual Large Language Model (LLM) to address three challenges: (1) activating cross-lingual transfer learning abilities of LLMs through machine translation tasks; (2) enhancing query understanding and incorporating e-commerce knowledge by retrieval-based query augmentation; (3) mitigating the impact of training label errors through a multi-round self-distillation training strategy. Our experiments demonstrate the effectiveness of CSRM-LLM and the proposed techniques, resulting in successful real-world deployment and significant online gains, with a 45.8% reduction in defect ratio and a 0.866% uplift in session purchase rate.",
+        "translated": ""
     }
 ]
