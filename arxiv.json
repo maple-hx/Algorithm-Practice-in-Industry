@@ -53422,5 +53422,33 @@
         "pub_date": "2025-09-05",
         "summary": "Mainstream Transformer-based large language models face major efficiency bottlenecks: training computation scales quadratically with sequence length, and inference memory grows linearly, limiting long-context processing. Building large models on non-NVIDIA platforms also poses challenges for stable and efficient training. To address this, we introduce SpikingBrain, a family of brain-inspired models designed for efficient long-context training and inference. SpikingBrain leverages the MetaX GPU cluster and focuses on three aspects: (1) Model Architecture: linear and hybrid-linear attention architectures with adaptive spiking neurons; (2) Algorithmic Optimizations: an efficient, conversion-based training pipeline and a dedicated spike coding framework; (3) System Engineering: customized training frameworks, operator libraries, and parallelism strategies tailored to MetaX hardware.   Using these techniques, we develop two models: SpikingBrain-7B, a linear LLM, and SpikingBrain-76B, a hybrid-linear MoE LLM. These models demonstrate the feasibility of large-scale LLM development on non-NVIDIA platforms. SpikingBrain achieves performance comparable to open-source Transformer baselines while using only about 150B tokens for continual pre-training. Our models significantly improve long-sequence training efficiency and deliver inference with (partially) constant memory and event-driven spiking behavior. For example, SpikingBrain-7B attains over 100x speedup in Time to First Token for 4M-token sequences. Training remains stable for weeks on hundreds of MetaX C550 GPUs, with the 7B model reaching a Model FLOPs Utilization of 23.4 percent. The proposed spiking scheme achieves 69.15 percent sparsity, enabling low-power operation. Overall, this work demonstrates the potential of brain-inspired mechanisms to drive the next generation of efficient and scalable large model design.",
         "translated": ""
+    },
+    {
+        "title": "Causal mechanism and mediation analysis for macroeconomics dynamics: a\n  bridge of Granger and Sims causality",
+        "url": "http://arxiv.org/abs/2509.05284v1",
+        "pub_date": "2025-09-05",
+        "summary": "This paper introduces a novel concept of impulse response decomposition to disentangle the dynamic contributions of the mediator variables in the transmission of structural shocks. We justify our decomposition by drawing on causal mediation analysis and demonstrating its equivalence to the average mediation effect. Our result establishes a formal link between Sims and Granger causality. Sims causality captures the total effect, while Granger causality corresponds to the mediation effect. We construct a dynamic mediation index that quantifies the evolving role of mediator variables in shock propagation. Applying our framework to studies of the transmission channels of US monetary policy, we find that investor sentiment explains approximately 60% of the peak aggregate output response in three months following a policy shock, while expected default risk contributes negligibly across all horizons.",
+        "translated": ""
+    },
+    {
+        "title": "Treatment Effects of Multi-Valued Treatments in Hyper-Rectangle Model",
+        "url": "http://arxiv.org/abs/2509.05177v1",
+        "pub_date": "2025-09-05",
+        "summary": "This study investigates the identification of marginal treatment responses within multi-valued treatment models. Extending the hyper-rectangle model introduced by Lee and Salanie (2018), this paper relaxes restrictive assumptions, including the requirement of known treatment selection thresholds and the dependence of treatments on all unobserved heterogeneity. By incorporating an additional ranked treatment assumption, this study demonstrates that the marginal treatment responses can be identified under a broader set of conditions, either point or set identification. The framework further enables the derivation of various treatment effects from the marginal treatment responses. Additionally, this paper introduces a hypothesis testing method to evaluate the effectiveness of policies on treatment effects, enhancing its applicability to empirical policy analysis.",
+        "translated": ""
+    },
+    {
+        "title": "Optimal Estimation for General Gaussian Processes",
+        "url": "http://arxiv.org/abs/2509.04987v1",
+        "pub_date": "2025-09-05",
+        "summary": "This paper proposes a novel exact maximum likelihood (ML) estimation method for general Gaussian processes, where all parameters are estimated jointly. The exact ML estimator (MLE) is consistent and asymptotically normally distributed. We prove the local asymptotic normality (LAN) property of the sequence of statistical experiments for general Gaussian processes in the sense of Le Cam, thereby enabling optimal estimation and facilitating statistical inference. The results rely solely on the asymptotic behavior of the spectral density near zero, allowing them to be widely applied. The established optimality not only addresses the gap left by Adenstedt(1974), who proposed an efficient but infeasible estimator for the long-run mean $\\mu$, but also enables us to evaluate the finite-sample performance of the existing method -- the commonly used plug-in MLE, in which the sample mean is substituted into the likelihood. Our simulation results show that the plug-in MLE performs nearly as well as the exact MLE, alleviating concerns that inefficient estimation of $\\mu$ would compromise the efficiency of the remaining parameter estimates.",
+        "translated": ""
+    },
+    {
+        "title": "A Bayesian Gaussian Process Dynamic Factor Model",
+        "url": "http://arxiv.org/abs/2509.04928v1",
+        "pub_date": "2025-09-05",
+        "summary": "We propose a dynamic factor model (DFM) where the latent factors are linked to observed variables with unknown and potentially nonlinear functions. The key novelty and source of flexibility of our approach is a nonparametric observation equation, specified via Gaussian Process (GP) priors for each series. Factor dynamics are modeled with a standard vector autoregression (VAR), which facilitates computation and interpretation. We discuss a computationally efficient estimation algorithm and consider two empirical applications. First, we forecast key series from the FRED-QD dataset and show that the model yields improvements in predictive accuracy relative to linear benchmarks. Second, we extract driving factors of global inflation dynamics with the GP-DFM, which allows for capturing international asymmetries.",
+        "translated": ""
     }
 ]
