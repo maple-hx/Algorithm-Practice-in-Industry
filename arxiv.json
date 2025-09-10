@@ -53506,5 +53506,54 @@
         "pub_date": "2025-09-08",
         "summary": "Unified multimodal understanding and generation models recently have achieve significant improvement in image generation capability, yet a large gap remains in instruction following and detail preservation compared to systems that tightly couple comprehension with generation such as GPT-4o. Motivated by recent advances in interleaving reasoning, we explore whether such reasoning can further improve Text-to-Image (T2I) generation. We introduce Interleaving Reasoning Generation (IRG), a framework that alternates between text-based thinking and image synthesis: the model first produces a text-based thinking to guide an initial image, then reflects on the result to refine fine-grained details, visual quality, and aesthetics while preserving semantics. To train IRG effectively, we propose Interleaving Reasoning Generation Learning (IRGL), which targets two sub-goals: (1) strengthening the initial think-and-generate stage to establish core content and base quality, and (2) enabling high-quality textual reflection and faithful implementation of those refinements in a subsequent image. We curate IRGL-300K, a dataset organized into six decomposed learning modes that jointly cover learning text-based thinking, and full thinking-image trajectories. Starting from a unified foundation model that natively emits interleaved text-image outputs, our two-stage training first builds robust thinking and reflection, then efficiently tunes the IRG pipeline in the full thinking-image trajectory data. Extensive experiments show SoTA performance, yielding absolute gains of 5-10 points on GenEval, WISE, TIIF, GenAI-Bench, and OneIG-EN, alongside substantial improvements in visual quality and fine-grained fidelity. The code, model weights and datasets will be released in: https://github.com/Osilly/Interleaving-Reasoning-Generation .",
         "translated": ""
+    },
+    {
+        "title": "Optimal Policy Learning for Multi-Action Treatment with Risk Preference\n  using Stata",
+        "url": "http://arxiv.org/abs/2509.06851v1",
+        "pub_date": "2025-09-08",
+        "summary": "This paper presents the Stata community-distributed command \"opl_ma_fb\" (and the companion command \"opl_ma_vf\"), for implementing the first-best Optimal Policy Learning (OPL) algorithm to estimate the best treatment assignment given the observation of an outcome, a multi-action (or multi-arm) treatment, and a set of observed covariates (features). It allows for different risk preferences in decision-making (i.e., risk-neutral, linear risk-averse, and quadratic risk-averse), and provides a graphical representation of the optimal policy, along with an estimate of the maximal welfare (i.e., the value-function estimated at optimal policy) using regression adjustment (RA), inverse-probability weighting (IPW), and doubly robust (DR) formulas.",
+        "translated": ""
+    },
+    {
+        "title": "Neural ARFIMA model for forecasting BRIC exchange rates with long memory\n  under oil shocks and policy uncertainties",
+        "url": "http://arxiv.org/abs/2509.06697v1",
+        "pub_date": "2025-09-08",
+        "summary": "Accurate forecasting of exchange rates remains a persistent challenge, particularly for emerging economies such as Brazil, Russia, India, and China (BRIC). These series exhibit long memory, nonlinearity, and non-stationarity properties that conventional time series models struggle to capture. Additionally, there exist several key drivers of exchange rate dynamics, including global economic policy uncertainty, US equity market volatility, US monetary policy uncertainty, oil price growth rates, and country-specific short-term interest rate differentials. These empirical complexities underscore the need for a flexible modeling framework that can jointly accommodate long memory, nonlinearity, and the influence of external drivers. To address these challenges, we propose a Neural AutoRegressive Fractionally Integrated Moving Average (NARFIMA) model that combines the long-memory representation of ARFIMA with the nonlinear learning capacity of neural networks, while flexibly incorporating exogenous causal variables. We establish theoretical properties of the model, including asymptotic stationarity of the NARFIMA process using Markov chains and nonlinear time series techniques. We quantify forecast uncertainty using conformal prediction intervals within the NARFIMA framework. Empirical results across six forecast horizons show that NARFIMA consistently outperforms various state-of-the-art statistical and machine learning models in forecasting BRIC exchange rates. These findings provide new insights for policymakers and market participants navigating volatile financial conditions. The \\texttt{narfima} \\textbf{R} package provides an implementation of our approach.",
+        "translated": ""
+    },
+    {
+        "title": "Largevars: An R Package for Testing Large VARs for the Presence of\n  Cointegration",
+        "url": "http://arxiv.org/abs/2509.06295v1",
+        "pub_date": "2025-09-08",
+        "summary": "Cointegration is a property of multivariate time series that determines whether its non-stationary, growing components have a stationary linear combination. Largevars R package conducts a cointegration test for high-dimensional vector autoregressions of order k based on the large N, T asymptotics of Bykhovskaya and Gorin (2022, 2025). The implemented test is a modification of the Johansen likelihood ratio test. In the absence of cointegration the test converges to the partial sum of the Airy_1 point process, an object arising in random matrix theory.   The package and this article contain simulated quantiles of the first ten partial sums of the Airy_1 point process that are precise up to the first 3 digits. We also include two examples using Largevars: an empirical example on S&amp;P100 stocks and a simulated VAR(2) example.",
+        "translated": ""
+    },
+    {
+        "title": "Predicting Market Troughs: A Machine Learning Approach with Causal\n  Interpretation",
+        "url": "http://arxiv.org/abs/2509.05922v1",
+        "pub_date": "2025-09-07",
+        "summary": "This paper provides robust, new evidence on the causal drivers of market troughs. We demonstrate that conclusions about these triggers are critically sensitive to model specification, moving beyond restrictive linear models with a flexible DML average partial effect causal machine learning framework. Our robust estimates identify the volatility of options-implied risk appetite and market liquidity as key causal drivers, relationships misrepresented or obscured by simpler models. These findings provide high-frequency empirical support for intermediary asset pricing theories. This causal analysis is enabled by a high-performance nowcasting model that accurately identifies capitulation events in real-time.",
+        "translated": ""
+    },
+    {
+        "title": "Polynomial Log-Marginals and Tweedie's Formula : When Is Bayes Possible?",
+        "url": "http://arxiv.org/abs/2509.05823v1",
+        "pub_date": "2025-09-06",
+        "summary": "Motivated by Tweedie's formula for the Compound Decision problem, we examine the theoretical foundations of empirical Bayes estimators that directly model the marginal density $m(y)$. Our main result shows that polynomial log-marginals of degree $k \\ge 3 $ cannot arise from any valid prior distribution in exponential family models, while quadratic forms correspond exactly to Gaussian priors. This provides theoretical justification for why certain empirical Bayes decision rules, while practically useful, do not correspond to any formal Bayes procedures. We also strengthen the diagnostic by showing that a marginal is a Gaussian convolution only if it extends to a bounded solution of the heat equation in a neighborhood of the smoothing parameter, beyond the convexity of $c(y)=\\tfrac12 y^2+\\log m(y)$.",
+        "translated": ""
+    },
+    {
+        "title": "Utilitarian or Quantile-Welfare Evaluation of Health Policy?",
+        "url": "http://arxiv.org/abs/2509.05529v1",
+        "pub_date": "2025-09-05",
+        "summary": "This paper considers quantile-welfare evaluation of health policy as an alternative to utilitarian evaluation. Manski (1988) originally proposed and studied maximization of quantile utility as a model of individual decision making under uncertainty, juxtaposing it with maximization of expected utility. That paper's primary motivation was to exploit the fact that maximization of quantile utility requires only an ordinal formalization of utility, not a cardinal one. This paper transfers these ideas from analysis of individual decision making to analysis of social planning. We begin by summarizing basic theoretical properties of quantile welfare in general terms rather than related specifically to health policy. We then propose a procedure to nonparametrically bound the quantile welfare of health states using data from binary-choice time-tradeoff (TTO) experiments of the type regularly performed by health economists. After this we assess related econometric considerations concerning measurement, using the EQ-5D framework to structure our discussion.",
+        "translated": ""
+    },
+    {
+        "title": "Bayesian Inference for Confounding Variables and Limited Information",
+        "url": "http://arxiv.org/abs/2509.05520v1",
+        "pub_date": "2025-09-05",
+        "summary": "A central challenge in statistical inference is the presence of confounding variables that may distort observed associations between treatment and outcome. Conventional \"causal\" methods, grounded in assumptions such as ignorability, exclude the possibility of unobserved confounders, leading to posterior inferences that overstate certainty. We develop a Bayesian framework that relaxes these assumptions by introducing entropy-favoring priors over hypothesis spaces that explicitly allow for latent confounding variables and partial information. Using the case of Simpson's paradox, we demonstrate how this approach produces logically consistent posterior distributions that widen credibly intervals in the presence of potential confounding. Our method provides a generalizable, information-theoretic foundation for more robust predictive inference in observational sciences.",
+        "translated": ""
     }
 ]
