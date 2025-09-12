@@ -53667,5 +53667,47 @@
         "pub_date": "2025-09-10",
         "summary": "Efficient reasoning distillation for long chain-of-thought (CoT) models is increasingly constrained by the assumption of a single oracle teacher, despite practical availability of multiple candidate teachers and growing CoT corpora. We revisit teacher selection and observe that different students have different \"best teachers,\" and even for the same student the best teacher can vary across datasets. Therefore, to unify multiple teachers' reasoning abilities into student with overcoming conflicts among various teachers' supervision, we propose Merge-of-Thought Distillation (MoT), a lightweight framework that alternates between teacher-specific supervised fine-tuning branches and weight-space merging of the resulting student variants. On competition math benchmarks, using only about 200 high-quality CoT samples, applying MoT to a Qwen3-14B student surpasses strong models including DEEPSEEK-R1, QWEN3-30B-A3B, QWEN3-32B, and OPENAI-O1, demonstrating substantial gains. Besides, MoT consistently outperforms the best single-teacher distillation and the naive multi-teacher union, raises the performance ceiling while mitigating overfitting, and shows robustness to distribution-shifted and peer-level teachers. Moreover, MoT reduces catastrophic forgetting, improves general reasoning beyond mathematics and even cultivates a better teacher, indicating that consensus-filtered reasoning features transfer broadly. These results position MoT as a simple, scalable route to efficiently distilling long CoT capabilities from diverse teachers into compact students.",
         "translated": ""
+    },
+    {
+        "title": "Functional Regression with Nonstationarity and Error Contamination:\n  Application to the Economic Impact of Climate Change",
+        "url": "http://arxiv.org/abs/2509.08591v1",
+        "pub_date": "2025-09-10",
+        "summary": "This paper studies a functional regression model with nonstationary dependent and explanatory functional observations, in which the nonstationary stochastic trends of the dependent variable are explained by those of the explanatory variable, and the functional observations may be error-contaminated. We develop novel autocovariance-based estimation and inference methods for this model. The methodology is broadly applicable to economic and statistical functional time series with nonstationary dynamics. To illustrate our methodology and its usefulness, we apply it to the evaluation of the global economic impact of climate change, an issue of intrinsic importance.",
+        "translated": ""
+    },
+    {
+        "title": "On the Identification of Diagnostic Expectations: Econometric Insights\n  from DSGE Models",
+        "url": "http://arxiv.org/abs/2509.08472v1",
+        "pub_date": "2025-09-10",
+        "summary": "This paper provides the first econometric evidence for diagnostic expectations (DE) in DSGE models. Using the identification framework of Qu and Tkachenko (2017), I show that DE generate dynamics unattainable under rational expectations (RE), with no RE parameterization capable of matching the volatility and persistence patterns implied by DE. Consequently, DE are not observationally equivalent to RE and constitute an endogenous source of macroeconomic fluctuations, distinct from both structural frictions and exogenous shocks. From an econometric perspective, DE preserve overall model identification but weaken the identification of shock variances. To ensure robust conclusions across estimation methods and equilibrium conditions, I extend Bayesian estimation with Sequential Monte Carlo sampling to the indeterminacy domain. These findings advance the econometric study of expectations and highlight the macroeconomic relevance of diagnostic beliefs.",
+        "translated": ""
+    },
+    {
+        "title": "Posterior inference of attitude-behaviour relationships using latent\n  class choice models",
+        "url": "http://arxiv.org/abs/2509.08373v1",
+        "pub_date": "2025-09-10",
+        "summary": "The link between attitudes and behaviour has been a key topic in choice modelling for two decades, with the widespread application of ever more complex hybrid choice models. This paper proposes a flexible and transparent alternative framework for empirically examining the relationship between attitudes and behaviours using latent class choice models (LCCMs). Rather than embedding attitudinal constructs within the structural model, as in hybrid choice frameworks, we recover class-specific attitudinal profiles through posterior inference. This approach enables analysts to explore attitude-behaviour associations without the complexity and convergence issues often associated with integrated estimation. Two case studies are used to demonstrate the framework: one on employee preferences for working from home, and another on public acceptance of COVID-19 vaccines. Across both studies, we compare posterior profiling of indicator means, fractional multinomial logit (FMNL) models, factor-based representations, and hybrid specifications. We find that posterior inference methods provide behaviourally rich insights with minimal additional complexity, while factor-based models risk discarding key attitudinal information, and fullinformation hybrid models offer little gain in explanatory power and incur substantially greater estimation burden. Our findings suggest that when the goal is to explain preference heterogeneity, posterior inference offers a practical alternative to hybrid models, one that retains interpretability and robustness without sacrificing behavioural depth.",
+        "translated": ""
+    },
+    {
+        "title": "Chaotic Bayesian Inference: Strange Attractors as Risk Models for Black\n  Swan Events",
+        "url": "http://arxiv.org/abs/2509.08183v1",
+        "pub_date": "2025-09-09",
+        "summary": "We introduce a new risk modeling framework where chaotic attractors shape the geometry of Bayesian inference. By combining heavy-tailed priors with Lorenz and Rossler dynamics, the models naturally generate volatility clustering, fat tails, and extreme events. We compare two complementary approaches: Model A, which emphasizes geometric stability, and Model B, which highlights rare bursts using Fibonacci diagnostics. Together, they provide a dual perspective for systemic risk analysis, linking Black Swan theory to practical tools for stress testing and volatility monitoring.",
+        "translated": ""
+    },
+    {
+        "title": "Estimating Peer Effects Using Partial Network Data",
+        "url": "http://arxiv.org/abs/2509.08145v1",
+        "pub_date": "2025-09-09",
+        "summary": "We study the estimation of peer effects through social networks when researchers do not observe the entire network structure. Special cases include sampled networks, censored networks, and misclassified links. We assume that researchers can obtain a consistent estimator of the distribution of the network. We show that this assumption is sufficient for estimating peer effects using a linear-in-means model. We provide an empirical application to the study of peer effects on students' academic achievement using the widely used Add Health database, and show that network data errors have a large downward bias on estimated peer effects.",
+        "translated": ""
+    },
+    {
+        "title": "Epsilon-Minimax Solutions of Statistical Decision Problems",
+        "url": "http://arxiv.org/abs/2509.08107v1",
+        "pub_date": "2025-09-09",
+        "summary": "A decision rule is epsilon-minimax if it is minimax up to an additive factor epsilon. We present an algorithm for provably obtaining epsilon-minimax solutions of statistical decision problems. We are interested in problems where the statistician chooses randomly among I decision rules. The minimax solution of these problems admits a convex programming representation over the (I-1)-simplex. Our suggested algorithm is a well-known mirror subgradient descent routine, designed to approximately solve the convex optimization problem that defines the minimax decision rule. This iterative routine is known in the computer science literature as the hedge algorithm and it is used in algorithmic game theory as a practical tool to find approximate solutions of two-person zero-sum games. We apply the suggested algorithm to different minimax problems in the econometrics literature. An empirical application to the problem of optimally selecting sites to maximize the external validity of an experimental policy evaluation illustrates the usefulness of the suggested procedure.",
+        "translated": ""
     }
 ]
