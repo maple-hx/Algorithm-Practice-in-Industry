@@ -53765,5 +53765,12 @@
         "pub_date": "2025-09-11",
         "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) is a powerful paradigm for enhancing the reasoning ability of Large Language Models (LLMs). Yet current RLVR methods often explore poorly, leading to premature convergence and entropy collapse. To address this challenge, we introduce Curiosity-Driven Exploration (CDE), a framework that leverages the model's own intrinsic sense of curiosity to guide exploration. We formalize curiosity with signals from both the actor and the critic: for the actor, we use perplexity over its generated response, and for the critic, we use the variance of value estimates from a multi-head architecture. Both signals serve as an exploration bonus within the RLVR framework to guide the model. Our theoretical analysis shows that the actor-wise bonus inherently penalizes overconfident errors and promotes diversity among correct responses; moreover, we connect the critic-wise bonus to the well-established count-based exploration bonus in RL. Empirically, our method achieves an approximate +3 point improvement over standard RLVR using GRPO/PPO on AIME benchmarks. Further analysis identifies a calibration collapse mechanism within RLVR, shedding light on common LLM failure modes.",
         "translated": ""
+    },
+    {
+        "title": "Taking the Highway or the Green Road? Conditional Temperature Forecasts\n  Under Alternative SSP Scenarios",
+        "url": "http://arxiv.org/abs/2509.09384v1",
+        "pub_date": "2025-09-11",
+        "summary": "In this paper, using the Bayesian VAR framework suggested by Chan et al. (2025), we produce conditional temperature forecasts up until 2050, by exploiting both equality and inequality constraints on climate drivers like carbon dioxide or methane emissions. Engaging in a counterfactual scenario analysis by imposing a Shared Socioeconomic Pathways (SSPs) scenario of \"business as-usual\", with no mitigation and high emissions, we observe that conditional and unconditional forecasts would follow a similar path. Instead, if a high mitigation with low emissions scenario were to be followed, the conditional temperature paths would remain below the unconditional trajectory after 2040, i.e. temperatures increases can potentially slow down in a meaningful way, but the lags for changes in emissions to have an effect are quite substantial. The latter should be taken into account greatly when designing response policies to climate change.",
+        "translated": ""
     }
 ]
