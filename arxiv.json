@@ -53772,5 +53772,47 @@
         "pub_date": "2025-09-11",
         "summary": "In this paper, using the Bayesian VAR framework suggested by Chan et al. (2025), we produce conditional temperature forecasts up until 2050, by exploiting both equality and inequality constraints on climate drivers like carbon dioxide or methane emissions. Engaging in a counterfactual scenario analysis by imposing a Shared Socioeconomic Pathways (SSPs) scenario of \"business as-usual\", with no mitigation and high emissions, we observe that conditional and unconditional forecasts would follow a similar path. Instead, if a high mitigation with low emissions scenario were to be followed, the conditional temperature paths would remain below the unconditional trajectory after 2040, i.e. temperatures increases can potentially slow down in a meaningful way, but the lags for changes in emissions to have an effect are quite substantial. The latter should be taken into account greatly when designing response policies to climate change.",
         "translated": ""
+    },
+    {
+        "title": "Steering MoE LLMs via Expert (De)Activation",
+        "url": "http://arxiv.org/abs/2509.09660v1",
+        "pub_date": "2025-09-11",
+        "summary": "Mixture-of-Experts (MoE) in Large Language Models (LLMs) routes each token through a subset of specialized Feed-Forward Networks (FFN), known as experts. We present SteerMoE, a framework for steering MoE models by detecting and controlling behavior-linked experts. Our detection method identifies experts with distinct activation patterns across paired inputs exhibiting contrasting behaviors. By selectively (de)activating such experts during inference, we control behaviors like faithfulness and safety without retraining or modifying weights. Across 11 benchmarks and 6 LLMs, our steering raises safety by up to +20% and faithfulness by +27%. In adversarial attack mode, it drops safety by -41% alone, and -100% when combined with existing jailbreak methods, bypassing all safety guardrails and exposing a new dimension of alignment faking hidden within experts.",
+        "translated": ""
+    },
+    {
+        "title": "Feasibility-Guided Fair Adaptive Offline Reinforcement Learning for\n  Medicaid Care Management",
+        "url": "http://arxiv.org/abs/2509.09655v1",
+        "pub_date": "2025-09-11",
+        "summary": "We introduce Feasibility-Guided Fair Adaptive Reinforcement Learning (FG-FARL), an offline RL procedure that calibrates per-group safety thresholds to reduce harm while equalizing a chosen fairness target (coverage or harm) across protected subgroups. Using de-identified longitudinal trajectories from a Medicaid population health management program, we evaluate FG-FARL against behavior cloning (BC) and HACO (Hybrid Adaptive Conformal Offline RL; a global conformal safety baseline). We report off-policy value estimates with bootstrap 95% confidence intervals and subgroup disparity analyses with p-values. FG-FARL achieves comparable value to baselines while improving fairness metrics, demonstrating a practical path to safer and more equitable decision support.",
+        "translated": ""
+    },
+    {
+        "title": "Functional Groups are All you Need for Chemically Interpretable\n  Molecular Property Prediction",
+        "url": "http://arxiv.org/abs/2509.09619v1",
+        "pub_date": "2025-09-11",
+        "summary": "Molecular property prediction using deep learning (DL) models has accelerated drug and materials discovery, but the resulting DL models often lack interpretability, hindering their adoption by chemists. This work proposes developing molecule representations using the concept of Functional Groups (FG) in chemistry. We introduce the Functional Group Representation (FGR) framework, a novel approach to encoding molecules based on their fundamental chemical substructures. Our method integrates two types of functional groups: those curated from established chemical knowledge (FG), and those mined from a large molecular corpus using sequential pattern mining (MFG). The resulting FGR framework encodes molecules into a lower-dimensional latent space by leveraging pre-training on a large dataset of unlabeled molecules. Furthermore, the proposed framework allows the inclusion of 2D structure-based descriptors of molecules. We demonstrate that the FGR framework achieves state-of-the-art performance on a diverse range of 33 benchmark datasets spanning physical chemistry, biophysics, quantum mechanics, biological activity, and pharmacokinetics while enabling chemical interpretability. Crucially, the model's representations are intrinsically aligned with established chemical principles, allowing chemists to directly link predicted properties to specific functional groups and facilitating novel insights into structure-property relationships. Our work presents a significant step toward developing high-performing, chemically interpretable DL models for molecular discovery.",
+        "translated": ""
+    },
+    {
+        "title": "Explaining Concept Drift through the Evolution of Group Counterfactuals",
+        "url": "http://arxiv.org/abs/2509.09616v1",
+        "pub_date": "2025-09-11",
+        "summary": "Machine learning models in dynamic environments often suffer from concept drift, where changes in the data distribution degrade performance. While detecting this drift is a well-studied topic, explaining how and why the model's decision-making logic changes still remains a significant challenge. In this paper, we introduce a novel methodology to explain concept drift by analyzing the temporal evolution of group-based counterfactual explanations (GCEs). Our approach tracks shifts in the GCEs' cluster centroids and their associated counterfactual action vectors before and after a drift. These evolving GCEs act as an interpretable proxy, revealing structural changes in the model's decision boundary and its underlying rationale. We operationalize this analysis within a three-layer framework that synergistically combines insights from the data layer (distributional shifts), the model layer (prediction disagreement), and our proposed explanation layer. We show that such holistic view allows for a more comprehensive diagnosis of drift, making it possible to distinguish between different root causes, such as a spatial data shift versus a re-labeling of concepts.",
+        "translated": ""
+    },
+    {
+        "title": "ReBaNO: Reduced Basis Neural Operator Mitigating Generalization Gaps and\n  Achieving Discretization Invariance",
+        "url": "http://arxiv.org/abs/2509.09611v1",
+        "pub_date": "2025-09-11",
+        "summary": "We propose a novel data-lean operator learning algorithm, the Reduced Basis Neural Operator (ReBaNO), to solve a group of PDEs with multiple distinct inputs. Inspired by the Reduced Basis Method and the recently introduced Generative Pre-Trained Physics-Informed Neural Networks, ReBaNO relies on a mathematically rigorous greedy algorithm to build its network structure offline adaptively from the ground up. Knowledge distillation via task-specific activation function allows ReBaNO to have a compact architecture requiring minimal computational cost online while embedding physics. In comparison to state-of-the-art operator learning algorithms such as PCA-Net, DeepONet, FNO, and CNO, numerical results demonstrate that ReBaNO significantly outperforms them in terms of eliminating/shrinking the generalization gap for both in- and out-of-distribution tests and being the only operator learning algorithm achieving strict discretization invariance.",
+        "translated": ""
+    },
+    {
+        "title": "Conditioning on PDE Parameters to Generalise Deep Learning Emulation of\n  Stochastic and Chaotic Dynamics",
+        "url": "http://arxiv.org/abs/2509.09599v1",
+        "pub_date": "2025-09-11",
+        "summary": "We present a deep learning emulator for stochastic and chaotic spatio-temporal systems, explicitly conditioned on the parameter values of the underlying partial differential equations (PDEs). Our approach involves pre-training the model on a single parameter domain, followed by fine-tuning on a smaller, yet diverse dataset, enabling generalisation across a broad range of parameter values. By incorporating local attention mechanisms, the network is capable of handling varying domain sizes and resolutions. This enables computationally efficient pre-training on smaller domains while requiring only a small additional dataset to learn how to generalise to larger domain sizes. We demonstrate the model's capabilities on the chaotic Kuramoto-Sivashinsky equation and stochastically-forced beta-plane turbulence, showcasing its ability to capture phenomena at interpolated parameter values. The emulator provides significant computational speed-ups over conventional numerical integration, facilitating efficient exploration of parameter space, while a probabilistic variant of the emulator provides uncertainty quantification, allowing for the statistical study of rare events.",
+        "translated": ""
     }
 ]
