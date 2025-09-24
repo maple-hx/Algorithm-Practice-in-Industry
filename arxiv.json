@@ -54339,5 +54339,12 @@
         "pub_date": "2025-09-22",
         "summary": "Recommender systems (RS) greatly influence users' consumption decisions, making them attractive targets for malicious shilling attacks that inject fake user profiles to manipulate recommendations. Existing shilling methods can generate effective and stealthy fake profiles when training data only contain rating matrix, but they lack comprehensive solutions for scenarios where side features are present and utilized by the recommender. To address this gap, we extend the Leg-UP framework by enhancing the generator architecture to incorporate side features, enabling the generation of side-feature-aware fake user profiles. Experiments on benchmarks show that our method achieves strong attack performance while maintaining stealthiness.",
         "translated": ""
+    },
+    {
+        "title": "Governing Automated Strategic Intelligence",
+        "url": "http://arxiv.org/abs/2509.17087v1",
+        "pub_date": "2025-09-21",
+        "summary": "Military and economic strategic competitiveness between nation-states will increasingly be defined by the capability and cost of their frontier artificial intelligence models. Among the first areas of geopolitical advantage granted by such systems will be in automating military intelligence. Much discussion has been devoted to AI systems enabling new military modalities, such as lethal autonomous weapons, or making strategic decisions. However, the ability of a country of \"CIA analysts in a data-center\" to synthesize diverse data at scale, and its implications, have been underexplored. Multimodal foundation models appear on track to automate strategic analysis previously done by humans. They will be able to fuse today's abundant satellite imagery, phone-location traces, social media records, and written documents into a single queryable system. We conduct a preliminary uplift study to empirically evaluate these capabilities, then propose a taxonomy of the kinds of ground truth questions these systems will answer, present a high-level model of the determinants of this system's AI capabilities, and provide recommendations for nation-states to remain strategically competitive within the new paradigm of automated intelligence.",
+        "translated": ""
     }
 ]
