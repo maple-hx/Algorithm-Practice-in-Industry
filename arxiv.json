@@ -54486,5 +54486,33 @@
         "pub_date": "2025-09-24",
         "summary": "Disfluencies -- such as \"um,\" \"uh,\" interjections, parentheticals, and edited statements -- remain a persistent challenge for speech-driven systems, degrading accuracy in command interpretation, summarization, and conversational agents. We introduce DRES (Disfluency Removal Evaluation Suite), a controlled text-level benchmark that establishes a reproducible semantic upper bound for this task. DRES builds on human-annotated Switchboard transcripts, isolating disfluency removal from ASR errors and acoustic variability. We systematically evaluate proprietary and open-source LLMs across scales, prompting strategies, and architectures. Our results reveal that (i) simple segmentation consistently improves performance, even for long-context models; (ii) reasoning-oriented models tend to over-delete fluent tokens; and (iii) fine-tuning achieves near state-of-the-art precision and recall but harms generalization abilities. We further present a set of LLM-specific error modes and offer nine practical recommendations (R1-R9) for deploying disfluency removal in speech-driven pipelines. DRES provides a reproducible, model-agnostic foundation for advancing robust spoken-language systems.",
         "translated": ""
+    },
+    {
+        "title": "Identification and Semiparametric Estimation of Conditional Means from\n  Aggregate Data",
+        "url": "http://arxiv.org/abs/2509.20194v1",
+        "pub_date": "2025-09-24",
+        "summary": "We introduce a new method for estimating the mean of an outcome variable within groups when researchers only observe the average of the outcome and group indicators across a set of aggregation units, such as geographical areas. Existing methods for this problem, also known as ecological inference, implicitly make strong assumptions about the aggregation process. We first formalize weaker conditions for identification, which motivates estimators that can efficiently control for many covariates. We propose a debiased machine learning estimator that is based on nuisance functions restricted to a partially linear form. Our estimator also admits a semiparametric sensitivity analysis for violations of the key identifying assumption, as well as asymptotically valid confidence intervals for local, unit-level estimates under additional assumptions. Simulations and validation on real-world data where ground truth is available demonstrate the advantages of our approach over existing methods. Open-source software is available which implements the proposed methods.",
+        "translated": ""
+    },
+    {
+        "title": "Business Cycles explained by Instability",
+        "url": "http://arxiv.org/abs/2509.20000v1",
+        "pub_date": "2025-09-24",
+        "summary": "Business cycles (a periodic change of e.g. GDP over five to ten years) exist, but a proper explanation for it is still lacking. Here we extend the well-known NAIRU (non-accelerating inflation rate of unemployment) model, resulting in a set of differ-ential equations. However, the solution is marginal stable. Therefore we find a nat-ural sinusoidal oscillation of inflation and unemployment just as observed in busi-ness cycles. When speculation is present, the instability becomes more severe. So we present for the first time a mathematical explanation for business cycles. The steering of central banks by setting interest rates to keep inflation stable and low needs an overhaul. One has to distinguish between real monetary instability and the one caused naturally by business cycles.",
+        "translated": ""
+    },
+    {
+        "title": "Identification and Estimation of Seller Risk Aversion in Ascending\n  Auctions",
+        "url": "http://arxiv.org/abs/2509.19945v1",
+        "pub_date": "2025-09-24",
+        "summary": "How sellers choose reserve prices is central to auction theory, and the optimal reserve price depends on the seller's risk attitude. Numerous studies have found that observed reserve prices lie below the optimal level implied by risk-neutral sellers, while the theoretical literature suggests that risk-averse sellers can rationalize these empirical findings. In this paper, we develop an econometric model of ascending auctions with a risk-averse seller under independent private values. We provide primitive conditions for the identification of the Arrow-Pratt measures of risk aversion and an estimator for these measures that is consistent and converges in distribution to a normal distribution at the parametric rate under standard regularity conditions. A Monte Carlo study demonstrates good finite-sample performance of the estimator, and we illustrate the approach using data from foreclosure real estate auctions in S\\~{a}o Paulo.",
+        "translated": ""
+    },
+    {
+        "title": "Decomposing Co-Movements in Matrix-Valued Time Series: A\n  Pseudo-Structural Reduced-Rank Approach",
+        "url": "http://arxiv.org/abs/2509.19911v1",
+        "pub_date": "2025-09-24",
+        "summary": "We propose a pseudo-structural framework for analyzing contemporaneous co-movements in reduced-rank matrix autoregressive (RRMAR) models. Unlike conventional vector-autoregressive (VAR) models that would discard the matrix structure, our formulation preserves it, enabling a decomposition of co-movements into three interpretable components: row-specific, column-specific, and joint (row-column) interactions across the matrix-valued time series. Our estimator admits standard asymptotic inference and we propose a BIC-type criterion for the joint selection of the reduced ranks and the autoregressive lag order. We validate the method's finite-sample performance in terms of estimation accuracy, coverage and rank selection in simulation experiments, including cases of rank misspecification. We illustrate the method's practical usefelness in identifying co-movement structures in two empirical applications: U.S. state-level coincident and leading indicators, and cross-country macroeconomic indicators.",
+        "translated": ""
     }
 ]
