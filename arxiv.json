@@ -54745,5 +54745,47 @@
         "pub_date": "2025-09-28",
         "summary": "Instruction-guided image editing has achieved remarkable progress, yet current models still face challenges with complex instructions and often require multiple samples to produce a desired result. Reinforcement Learning (RL) offers a promising solution, but its adoption in image editing has been severely hindered by the lack of a high-fidelity, efficient reward signal. In this work, we present a comprehensive methodology to overcome this barrier, centered on the development of a state-of-the-art, specialized reward model. We first introduce EditReward-Bench, a comprehensive benchmark to systematically evaluate reward models on editing quality. Building on this benchmark, we develop EditScore, a series of reward models (7B-72B) for evaluating the quality of instruction-guided image editing. Through meticulous data curation and filtering, EditScore effectively matches the performance of learning proprietary VLMs. Furthermore, coupled with an effective self-ensemble strategy tailored for the generative nature of EditScore, our largest variant even surpasses GPT-5 in the benchmark. We then demonstrate that a high-fidelity reward model is the key to unlocking online RL for image editing. Our experiments show that, while even the largest open-source VLMs fail to provide an effective learning signal, EditScore enables efficient and robust policy optimization. Applying our framework to a strong base model, OmniGen2, results in a final model that shows a substantial and consistent performance uplift. Overall, this work provides the first systematic path from benchmarking to reward modeling to RL training in image editing, showing that a high-fidelity, domain-specialized reward model is the key to unlocking the full potential of RL in this domain.",
         "translated": ""
+    },
+    {
+        "title": "Efficient Difference-in-Differences Estimation when Outcomes are Missing\n  at Random",
+        "url": "http://arxiv.org/abs/2509.25009v1",
+        "pub_date": "2025-09-29",
+        "summary": "The Difference-in-Differences (DiD) method is a fundamental tool for causal inference, yet its application is often complicated by missing data. Although recent work has developed robust DiD estimators for complex settings like staggered treatment adoption, these methods typically assume complete data and fail to address the critical challenge of outcomes that are missing at random (MAR) -- a common problem that invalidates standard estimators. We develop a rigorous framework, rooted in semiparametric theory, for identifying and efficiently estimating the Average Treatment Effect on the Treated (ATT) when either pre- or post-treatment (or both) outcomes are missing at random. We first establish nonparametric identification of the ATT under two minimal sets of sufficient conditions. For each, we derive the semiparametric efficiency bound, which provides a formal benchmark for asymptotic optimality. We then propose novel estimators that are asymptotically efficient, achieving this theoretical bound. A key feature of our estimators is their multiple robustness, which ensures consistency even if some nuisance function models are misspecified. We validate the properties of our estimators and showcase their broad applicability through an extensive simulation study.",
+        "translated": ""
+    },
+    {
+        "title": "Nowcasting and aggregation: Why small Euro area countries matter",
+        "url": "http://arxiv.org/abs/2509.24780v1",
+        "pub_date": "2025-09-29",
+        "summary": "The paper studies the nowcasting of Euro area Gross Domestic Product (GDP) growth using mixed data sampling machine learning panel data regressions with both standard macro releases and daily news data. Using a panel of 19 Euro area countries, we investigate whether directly nowcasting the Euro area aggregate is better than weighted individual country nowcasts. Our results highlight the importance of the information from small- and medium-sized countries, particularly when including the COVID-19 pandemic period. The empirical analysis is supplemented by studying the so-called Big Four -- France, Germany, Italy, and Spain -- and the value added of news data when official statistics are lagging. From a theoretical perspective, we formally show that the aggregation of individual components forecasted with pooled panel data regressions is superior to direct aggregate forecasting due to lower estimation error.",
+        "translated": ""
+    },
+    {
+        "title": "Robust Semiparametric Inference for Bayesian Additive Regression Trees",
+        "url": "http://arxiv.org/abs/2509.24634v1",
+        "pub_date": "2025-09-29",
+        "summary": "We develop a semiparametric framework for inference on the mean response in missing-data settings using a corrected posterior distribution. Our approach is tailored to Bayesian Additive Regression Trees (BART), which is a powerful predictive method but whose nonsmoothness complicate asymptotic theory with multi-dimensional covariates. When using BART combined with Bayesian bootstrap weights, we establish a new Bernstein-von Mises theorem and show that the limit distribution generally contains a bias term. To address this, we introduce RoBART, a posterior bias-correction that robustifies BART for valid inference on the mean response. Monte Carlo studies support our theory, demonstrating reduced bias and improved coverage relative to existing procedures using BART.",
+        "translated": ""
+    },
+    {
+        "title": "Automatic Order, Bandwidth Selection and Flaws of Eigen Adjustment in\n  HAC Estimation",
+        "url": "http://arxiv.org/abs/2509.23256v1",
+        "pub_date": "2025-09-27",
+        "summary": "In this paper, we propose a new heteroskedasticity and autocorrelation consistent covariance matrix estimator based on the prewhitened kernel estimator and a localized leave-one-out frequency domain cross-validation (FDCV). We adapt the cross-validated log likelihood (CVLL) function to simultaneously select the order of the prewhitening vector autoregression (VAR) and the bandwidth. The prewhitening VAR is estimated by the Burg method without eigen adjustment as we find the eigen adjustment rule of Andrews and Monahan (1992) can be triggered unnecessarily and harmfully when regressors have nonzero mean. Through Monte Carlo simulations and three empirical examples, we illustrate the flaws of eigen adjustment and the reliability of our method.",
+        "translated": ""
+    },
+    {
+        "title": "Nonparametric and Semiparametric Estimation of Upward Rank Mobility\n  Curves",
+        "url": "http://arxiv.org/abs/2509.23174v1",
+        "pub_date": "2025-09-27",
+        "summary": "We introduce the upward rank mobility curve as a new measure of intergenerational mobility that captures upward movements across the entire parental income distribution. Our approach extends Bhattacharya and Mazumder (2011) by conditioning on a single parental income rank, thereby eliminating aggregation bias. We show that the measure can be characterized solely by the copula of parent and child income, and we propose a nonparametric copula-based estimator with better properties than kernel-based alternatives. For a conditional version of the measure without such a representation, we develop a two-step semiparametric estimator based on distribution regression and establish its asymptotic properties. An application to U.S. data reveals that whites exhibit significant upward mobility dominance over blacks among lower-middle-income families.",
+        "translated": ""
+    },
+    {
+        "title": "Differentially Private Two-Stage Gradient Descent for Instrumental\n  Variable Regression",
+        "url": "http://arxiv.org/abs/2509.22794v1",
+        "pub_date": "2025-09-26",
+        "summary": "We study instrumental variable regression (IVaR) under differential privacy constraints. Classical IVaR methods (like two-stage least squares regression) rely on solving moment equations that directly use sensitive covariates and instruments, creating significant risks of privacy leakage and posing challenges in designing algorithms that are both statistically efficient and differentially private. We propose a noisy two-state gradient descent algorithm that ensures $\\rho$-zero-concentrated differential privacy by injecting carefully calibrated noise into the gradient updates. Our analysis establishes finite-sample convergence rates for the proposed method, showing that the algorithm achieves consistency while preserving privacy. In particular, we derive precise bounds quantifying the trade-off among privacy parameters, sample size, and iteration-complexity. To the best of our knowledge, this is the first work to provide both privacy guarantees and provable convergence rates for instrumental variable regression in linear models. We further validate our theoretical findings with experiments on both synthetic and real datasets, demonstrating that our method offers practical accuracy-privacy trade-offs.",
+        "translated": ""
     }
 ]
