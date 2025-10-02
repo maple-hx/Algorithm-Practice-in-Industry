@@ -54822,5 +54822,33 @@
         "pub_date": "2025-09-29",
         "summary": "In this work, we point out a contradiction between holography and scale-separated AdS (i.e. parametrically large mass gap) in string theory, making the standard assumption that the holographic CFT describes the IR degrees of freedom on a brane that decouple from gravity. We show that the CFT can only decouple from gravity if the scalar potential in the dual AdS satisfies a certain criterion. Namely, there must exist a scalar field trajectory that follows the gradient of the scalar potential to the asymptotic region of the scalar field space in which limit $V\\sim m^\\alpha$, where $\\alpha\\leq 2$ is a constant and $m$ is the mass scale of the lightest tower of states. This condition, which implies lack of scale-separation, is satisfied in the standard examples of AdS/CFT. However, proposed attempts at achieving scale separation, such as DGKT, employ scalar potentials that scale as $m^\\alpha$ with $\\alpha&gt;2$ in the asymptotic region of moduli space. We therefore conclude that the CFT duals of DGKT vacua cannot exist in string theory. Barring fine-tuning, our conclusions apply to other Ricci-flat flux compactifications including the KKLT scenario which relies on scale separation to obtain a metastable de Sitter uplift.",
         "translated": ""
+    },
+    {
+        "title": "Persuasion Effects in Regression Discontinuity Designs",
+        "url": "http://arxiv.org/abs/2509.26517v1",
+        "pub_date": "2025-09-30",
+        "summary": "We develop a framework for identifying and estimating persuasion effects in regression discontinuity (RD) designs. The RD persuasion rate measures the probability that individuals at the threshold would take the action if exposed to a persuasive message, given that they would not take the action without exposure. We present identification results for both sharp and fuzzy RD designs, derive sharp bounds under various data scenarios, and extend the analysis to local compliers. Estimation and inference rely on local polynomial regression, enabling straightforward implementation with standard RD tools. Applications to public health and media illustrate its empirical relevance.",
+        "translated": ""
+    },
+    {
+        "title": "Triadic Network Formation",
+        "url": "http://arxiv.org/abs/2509.26420v1",
+        "pub_date": "2025-09-30",
+        "summary": "We study estimation and inference for triadic link formation with dyad-level fixed effects in a nonlinear binary choice logit framework. Dyad-level effects provide a richer and more realistic representation of heterogeneity across pairs of dimensions (e.g. importer-exporter, importer-product, exporter-product), yet their sheer number creates a severe incidental parameter problem. We propose a novel ``hexad logit'' estimator and establish its consistency and asymptotic normality. Identification is achieved through a conditional likelihood approach that eliminates the fixed effects by conditioning on sufficient statistics, in the form of hexads -- wirings that involve two nodes from each part of the network. Our central finding is that dyad-level heterogeneity fundamentally changes how information accumulates. Unlike under node-level heterogeneity, where informative wirings automatically grow with link formation, under dyad-level heterogeneity the network may generate infinitely many links yet asymptotically zero informative wirings. We derive explicit sparsity thresholds that determine when consistency holds and when asymptotic normality is attainable. These results have important practical implications, as they reveal that there is a limit to how granular or disaggregate a dataset one can employ under dyad-level heterogeneity.",
+        "translated": ""
+    },
+    {
+        "title": "Joint Inference for the Regression Discontinuity Effect and Its External\n  Validity",
+        "url": "http://arxiv.org/abs/2509.26380v1",
+        "pub_date": "2025-09-30",
+        "summary": "The external validity of regression discontinuity (RD) designs is essential for informing policy and remains an active research area in econometrics and statistics. However, we document that only a limited number of empirical studies explicitly address the external validity of standard RD effects. To advance empirical practice, we propose a simple joint inference procedure for the RD effect and its local external validity, building on Calonico, Cattaneo, and Titiunik (2014, Econometrica) and Dong and Lewbel (2015, Review of Economics and Statistics). We further introduce a locally linear treatment effects assumption, which enhances the interpretability of the treatment effect derivative proposed by Dong and Lewbel. Under this assumption, we establish identification and derive a uniform confidence band for the extrapolated treatment effects. Our approaches require no additional covariates or design features, making them applicable to virtually all RD settings and thereby enhancing the policy relevance of many empirical RD studies. The usefulness of the method is demonstrated through an empirical application, highlighting its complementarity to existing approaches.",
+        "translated": ""
+    },
+    {
+        "title": "Leveraging LLMs to Improve Experimental Design: A Generative\n  Stratification Approach",
+        "url": "http://arxiv.org/abs/2509.25709v1",
+        "pub_date": "2025-09-30",
+        "summary": "Pre-experiment stratification, or blocking, is a well-established technique for designing more efficient experiments and increasing the precision of the experimental estimates. However, when researchers have access to many covariates at the experiment design stage, they often face challenges in effectively selecting or weighting covariates when creating their strata. This paper proposes a Generative Stratification procedure that leverages Large Language Models (LLMs) to synthesize high-dimensional covariate data to improve experimental design. We demonstrate the value of this approach by applying it to a set of experiments and find that our method would have reduced the variance of the treatment effect estimate by 10%-50% compared to simple randomization in our empirical applications. When combined with other standard stratification methods, it can be used to further improve the efficiency. Our results demonstrate that LLM-based simulation is a practical and easy-to-implement way to improve experimental design in covariate-rich settings.",
+        "translated": ""
     }
 ]
