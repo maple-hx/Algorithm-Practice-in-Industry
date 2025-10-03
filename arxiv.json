@@ -54850,5 +54850,33 @@
         "pub_date": "2025-09-30",
         "summary": "Pre-experiment stratification, or blocking, is a well-established technique for designing more efficient experiments and increasing the precision of the experimental estimates. However, when researchers have access to many covariates at the experiment design stage, they often face challenges in effectively selecting or weighting covariates when creating their strata. This paper proposes a Generative Stratification procedure that leverages Large Language Models (LLMs) to synthesize high-dimensional covariate data to improve experimental design. We demonstrate the value of this approach by applying it to a set of experiments and find that our method would have reduced the variance of the treatment effect estimate by 10%-50% compared to simple randomization in our empirical applications. When combined with other standard stratification methods, it can be used to further improve the efficiency. Our results demonstrate that LLM-based simulation is a practical and easy-to-implement way to improve experimental design in covariate-rich settings.",
         "translated": ""
+    },
+    {
+        "title": "Convergence and Divergence of Language Models under Different Random\n  Seeds",
+        "url": "http://arxiv.org/abs/2509.26643v1",
+        "pub_date": "2025-09-30",
+        "summary": "In this paper, we investigate the convergence of language models (LMs) trained under different random seeds, measuring convergence as the expected per-token Kullback--Leibler (KL) divergence across seeds. By comparing LM convergence as a function of model size and training checkpoint, we identify a four-phase convergence pattern: (i) an initial uniform phase, (ii) a sharp-convergence phase, (iii) a sharp-divergence phase, and (iv) a slow-reconvergence phase. Further, we observe that larger models reconverge faster in later training stages, while smaller models never actually reconverge; these results suggest that a certain model size may be necessary to learn stable distributions. Restricting our analysis to specific token frequencies or part-of-speech (PoS) tags further reveals that convergence is uneven across linguistic categories: frequent tokens and function words converge faster and more reliably than their counterparts (infrequent tokens and content words). Overall, our findings highlight factors that influence the stability of the learned distributions in model training.",
+        "translated": ""
+    },
+    {
+        "title": "Scaling Spoken Language Models with Syllabic Speech Tokenization",
+        "url": "http://arxiv.org/abs/2509.26634v1",
+        "pub_date": "2025-09-30",
+        "summary": "Spoken language models (SLMs) typically discretize speech into high-frame-rate tokens extracted from SSL speech models. As the most successful LMs are based on the Transformer architecture, processing these long token streams with self-attention is expensive, as attention scales quadratically with sequence length. A recent SSL work introduces acoustic tokenization of speech at the syllable level, which is more interpretable and potentially more scalable with significant compression in token lengths (4-5 Hz). Yet, their value for spoken language modeling is not yet fully explored. We present the first systematic study of syllabic tokenization for spoken language modeling, evaluating models on a suite of SLU benchmarks while varying training data scale. Syllabic tokens can match or surpass the previous high-frame rate tokens while significantly cutting training and inference costs, achieving more than a 2x reduction in training time and a 5x reduction in FLOPs. Our findings highlight syllable-level language modeling as a promising path to efficient long-context spoken language models.",
+        "translated": ""
+    },
+    {
+        "title": "Attention as a Compass: Efficient Exploration for Process-Supervised RL\n  in Reasoning Models",
+        "url": "http://arxiv.org/abs/2509.26628v1",
+        "pub_date": "2025-09-30",
+        "summary": "Reinforcement Learning (RL) has shown remarkable success in enhancing the reasoning capabilities of Large Language Models (LLMs). Process-Supervised RL (PSRL) has emerged as a more effective paradigm compared to outcome-based RL. However, existing PSRL approaches suffer from limited exploration efficiency, both in terms of branching positions and sampling. In this paper, we introduce a novel PSRL framework (AttnRL), which enables efficient exploration for reasoning models. Motivated by preliminary observations that steps exhibiting high attention scores correlate with reasoning behaviors, we propose to branch from positions with high values. Furthermore, we develop an adaptive sampling strategy that accounts for problem difficulty and historical batch size, ensuring that the whole training batch maintains non-zero advantage values. To further improve sampling efficiency, we design a one-step off-policy training pipeline for PSRL. Extensive experiments on multiple challenging mathematical reasoning benchmarks demonstrate that our method consistently outperforms prior approaches in terms of performance and sampling and training efficiency.",
+        "translated": ""
+    },
+    {
+        "title": "Searching for Difficult-to-Translate Test Examples at Scale",
+        "url": "http://arxiv.org/abs/2509.26619v1",
+        "pub_date": "2025-09-30",
+        "summary": "NLP models require test data that are sufficiently challenging. The difficulty of an example is linked to the topic it originates from (''seed topic''). The relationship between the topic and the difficulty of its instances is stochastic in nature: an example about a difficult topic can happen to be easy, and vice versa. At the scale of the Internet, there are tens of thousands of potential topics, and finding the most difficult one by drawing and evaluating a large number of examples across all topics is computationally infeasible. We formalize this task and treat it as a multi-armed bandit problem. In this framework, each topic is an ''arm,'' and pulling an arm (at a cost) involves drawing a single example, evaluating it, and measuring its difficulty. The goal is to efficiently identify the most difficult topics within a fixed computational budget. We illustrate the bandit problem setup of finding difficult examples for the task of machine translation. We find that various bandit strategies vastly outperform baseline methods like brute-force searching the most challenging topics.",
+        "translated": ""
     }
 ]
