@@ -54913,5 +54913,33 @@
         "pub_date": "2025-10-01",
         "summary": "We investigate the spatial relationships between multi-phase gas components and supermassive black hole (SMBH) activity in a sample of 25 cool core galaxy groups and clusters. Using high angular resolution observations from \\textit{Chandra}, VLT/MUSE, and VLBA, we robustly locate the position, respectively, of the X-ray peak of the intracluster medium (ICM), of the H$\\alpha$ peak of the warm ionized gas, and of the SMBH radio core on parsec scales. We identify spatial offsets between the X-ray peak of the hot gas and the SMBH in 80% of the systems, with an average displacement of $\\langle\\Delta^{\\text{SMBH}}_{\\text{X-ray}}\\rangle = 4.8$ kpc (dispersion of $3.8$ kpc). In contrast, the peak of warm ionized gas traced by H$\\alpha$ exhibits much smaller offsets ($\\langle\\Delta^{\\text{SMBH}}_{\\text{H}\\alpha}\\rangle = 0.6$ kpc; dispersion of $1.4$ kpc) and a lower incidence of displacement (15%). Our findings suggest that hot gas sloshing primarily drives the observed spatial offsets, with AGN-driven uplift contributing in some systems.Importantly, systems with H$\\alpha$ - SMBH offsets of $\\geq$1 kpc uniformly lack detectable radio cores on VLBA scales, with upper limits on the 5~GHz power of $P_{5\\,\\text{GHz}} \\leq 10^{21-22}$ W Hz$^{-1}$, while those without such offsets exhibit radio powerful AGN with pc-scale radio emission up to $P_{5\\,\\text{GHz}} \\sim 10^{24-25}$ W Hz$^{-1}$. This correlation indicates that centrally concentrated warm gas is critical for sustaining radio-loud SMBH activity, possibly supporting scenarios of cold-mode accretion. Overall, our results highlight the importance of high-angular-resolution, multi-wavelength observations for understanding the interplay between multiphase gas cooling and AGN fueling in central galaxies.",
         "translated": ""
+    },
+    {
+        "title": "Cautions on Tail Index Regressions",
+        "url": "http://arxiv.org/abs/2510.01535v1",
+        "pub_date": "2025-10-02",
+        "summary": "We revisit tail-index regressions. For linear specifications, we find that the usual full-rank condition can fail because conditioning on extreme outcomes causes regressors to degenerate to constants. More generally, the conditional distribution of the covariates in the tails concentrates on the values at which the tail index is minimized. Away from those points, the conditional density tends to zero. For local nonparametric tail index regression, the convergence rate can be very slow. We conclude with practical suggestions for applied work.",
+        "translated": ""
+    },
+    {
+        "title": "Generalized Bayes in Conditional Moment Restriction Models",
+        "url": "http://arxiv.org/abs/2510.01036v1",
+        "pub_date": "2025-10-01",
+        "summary": "This paper develops a generalized (quasi-) Bayes framework for conditional moment restriction models, where the parameter of interest is a nonparametric structural function of endogenous variables. We establish contraction rates for a class of Gaussian process priors and provide conditions under which a Bernstein-von Mises theorem holds for the quasi-Bayes posterior. Consequently, we show that optimally weighted quasi-Bayes credible sets achieve exact asymptotic frequentist coverage, extending classical results for parametric GMM models. As an application, we estimate firm-level production functions using Chilean plant-level data. Simulations illustrate the favorable performance of generalized Bayes estimators relative to common alternatives.",
+        "translated": ""
+    },
+    {
+        "title": "An alternative bootstrap procedure for factor-augmented regression\n  models",
+        "url": "http://arxiv.org/abs/2510.00947v1",
+        "pub_date": "2025-10-01",
+        "summary": "In this paper, we propose a novel bootstrap algorithm that is more efficient than existing methods for approximating the distribution of the factor-augmented regression estimator for a rotated parameter vector. The regression is augmented by $r$ factors extracted from a large panel of $N$ variables observed over $T$ time periods. We consider general weak factor (WF) models with $r$ signal eigenvalues that may diverge at different rates, $N^{\\alpha _{k}}$, where $0&lt;\\alpha _{k}\\leq 1$ for $k=1,2,...,r$. We establish the asymptotic validity of our bootstrap method using not only the conventional data-dependent rotation matrix $\\hat{\\bH}$, but also an alternative data-dependent rotation matrix, $\\hat{\\bH}_q$, which typically exhibits smaller asymptotic bias and achieves a faster convergence rate. Furthermore, we demonstrate the asymptotic validity of the bootstrap under a purely signal-dependent rotation matrix ${\\bH}$, which is unique and can be regarded as the population analogue of both $\\hat{\\bH}$ and $\\hat{\\bH}_q$. Experimental results provide compelling evidence that the proposed bootstrap procedure achieves superior performance relative to the existing procedure.",
+        "translated": ""
+    },
+    {
+        "title": "A Unified Framework for Spatial and Temporal Treatment Effect\n  Boundaries: Theory and Identification",
+        "url": "http://arxiv.org/abs/2510.00754v1",
+        "pub_date": "2025-10-01",
+        "summary": "This paper develops a unified theoretical framework for detecting and estimating boundaries in treatment effects across both spatial and temporal dimensions. We formalize the concept of treatment effect boundaries as structural parameters characterizing regime transitions where causal effects cease to operate. Building on diffusion-based models of information propagation, we establish conditions under which spatial and temporal boundaries share common dynamics, derive identification results, and propose consistent estimators. Monte Carlo simulations demonstrate the performance of our methods under various data-generating processes. The framework provides tools for detecting when local treatments become systemic and identifying critical thresholds for policy intervention.",
+        "translated": ""
     }
 ]
