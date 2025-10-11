@@ -55368,5 +55368,12 @@
         "pub_date": "2025-10-09",
         "summary": "We study various types of holographic solutions from five-dimensional $N=4$ gauged supergravity coupled to three vector multiplets with $SO(2)\\times ISO(3)$ gauge group. This gauged supergravity can be obtained from the maximal gauged supergravity in seven dimensions on a Riemann surface. For a negatively curved Rimann surface $H^2$, the resulting five-dimensional gauged supergravity admits a supersymmetric $N=4$ $AdS_5$ critical point. This $AdS_5$ vacuum is dual to an $N=2$ superconformal field theory (SCFT) arising from M5-branes wrapped on $H^2$. We study holographic RG flow solutions describing deformations of this SCFT by turning on relevant, marginal and irrelevant operators to $N=2$ non-conformal phases in the IR. Solutions describing conformal interfaces between these non-conformal phases and singular boundaries are also given. We finally study a number of supersymmetric $AdS_5$ black string and black hole solutions holographically dual to RG flows across dimensions from the $N=2$ SCFT to two-dimensional SCFTs and superconformal quantum mechanics in the IR. All of the solutions can be uplifted to M-theory by a consistent truncation on $H^2\\times S^4$.",
         "translated": ""
+    },
+    {
+        "title": "Stochastic Volatility-in-mean VARs with Time-Varying Skewness",
+        "url": "http://arxiv.org/abs/2510.08415v1",
+        "pub_date": "2025-10-09",
+        "summary": "This paper introduces a Bayesian vector autoregression (BVAR) with stochastic volatility-in-mean and time-varying skewness. Unlike previous approaches, the proposed model allows both volatility and skewness to directly affect macroeconomic variables. We provide a Gibbs sampling algorithm for posterior inference and apply the model to quarterly data for the US and the UK. Empirical results show that skewness shocks have economically significant effects on output, inflation and spreads, often exceeding the impact of volatility shocks. In a pseudo-real-time forecasting exercise, the proposed model outperforms existing alternatives in many cases. Moreover, the model produces sharper measures of tail risk, revealing that standard stochastic volatility models tend to overstate uncertainty. These findings highlight the importance of incorporating time-varying skewness for capturing macro-financial risks and improving forecast performance.",
+        "translated": ""
     }
 ]
