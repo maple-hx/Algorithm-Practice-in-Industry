@@ -55424,5 +55424,47 @@
         "pub_date": "2025-10-10",
         "summary": "Real-time Spoken Language Models (SLMs) struggle to leverage Chain-of-Thought (CoT) reasoning due to the prohibitive latency of generating the entire thought process sequentially. Enabling SLMs to think while speaking, similar to humans, is attracting increasing attention. We present, for the first time, Mind-Paced Speaking (MPS), a brain-inspired framework that enables high-fidelity, real-time reasoning. Similar to how humans utilize distinct brain regions for thinking and responding, we propose a novel dual-brain approach, employing a \"Formulation Brain\" for high-level reasoning to pace and guide a separate \"Articulation Brain\" for fluent speech generation. This division of labor eliminates mode-switching, preserving the integrity of the reasoning process. Experiments show that MPS significantly outperforms existing think-while-speaking methods and achieves reasoning performance comparable to models that pre-compute the full CoT before speaking, while drastically reducing latency. Under a zero-latency configuration, the proposed method achieves an accuracy of 92.8% on the mathematical reasoning task Spoken-MQA and attains a score of 82.5 on the speech conversation task URO-Bench. Our work effectively bridges the gap between high-quality reasoning and real-time interaction.",
         "translated": ""
+    },
+    {
+        "title": "Ranking Policies Under Loss Aversion and Inequality Aversion",
+        "url": "http://arxiv.org/abs/2510.09590v1",
+        "pub_date": "2025-10-10",
+        "summary": "Strong empirical evidence from laboratory experiments, and more recently from population surveys, shows that individuals, when evaluating their situations, pay attention to whether they experience gains or losses, with losses weighing more heavily than gains. The electorate's loss aversion, in turn, influences politicians' choices. We propose a new framework for welfare analysis of policy outcomes that, in addition to the traditional focus on post-policy incomes, also accounts for individuals' gains and losses resulting from policies. We develop several bivariate stochastic dominance criteria for ranking policy outcomes that are sensitive to features of the joint distribution of individuals' income changes and absolute incomes. The main social objective assumes that individuals are loss averse with respect to income gains and losses, inequality averse with respect to absolute incomes, and hold varying preferences regarding the association between incomes and income changes. We translate these and other preferences into functional inequalities that can be tested using sample data. The concepts and methods are illustrated using data from an income support experiment conducted in Connecticut.",
+        "translated": ""
+    },
+    {
+        "title": "Boundary estimation in the regression-discontinuity design: Evidence for\n  a merit- and need-based financial aid program",
+        "url": "http://arxiv.org/abs/2510.09257v1",
+        "pub_date": "2025-10-10",
+        "summary": "In the conventional regression-discontinuity (RD) design, the probability that units receive a treatment changes discontinuously as a function of one covariate exceeding a threshold or cutoff point. This paper studies an extended RD design where assignment rules simultaneously involve two or more continuous covariates. We show that assignment rules with more than one variable allow the estimation of a more comprehensive set of treatment effects, relaxing in a research-driven style the local and sometimes limiting nature of univariate RD designs. We then propose a flexible nonparametric approach to estimate the multidimensional discontinuity by univariate local linear regression and compare its performance to existing methods. We present an empirical application to a large-scale and countrywide financial aid program for low-income students in Colombia. The program uses a merit-based (academic achievement) and need-based (wealth index) assignment rule to select students for the program. We show that our estimation strategy fully exploits the multidimensional assignment rule and reveals heterogeneous effects along the treatment boundaries.",
+        "translated": ""
+    },
+    {
+        "title": "Flexibility without foresight: the predictive limitations of mixture\n  models",
+        "url": "http://arxiv.org/abs/2510.09185v1",
+        "pub_date": "2025-10-10",
+        "summary": "Models allowing for random heterogeneity, such as mixed logit and latent class, are generally observed to obtain superior model fit and yield detailed insights into unobserved preference heterogeneity. Using theoretical arguments and two case studies on revealed and stated choice data, this paper highlights that these advantages do not translate into any benefits in forecasting, whether looking at prediction performance or the recovery of market shares. The only exception arises when using conditional distributions in making predictions for the same individuals included in the estimation sample, which obviously precludes any out-of-sample forecasting.",
+        "translated": ""
+    },
+    {
+        "title": "Sensitivity Analysis for Causal ML: A Use Case at Booking.com",
+        "url": "http://arxiv.org/abs/2510.09109v1",
+        "pub_date": "2025-10-10",
+        "summary": "Causal Machine Learning has emerged as a powerful tool for flexibly estimating causal effects from observational data in both industry and academia. However, causal inference from observational data relies on untestable assumptions about the data-generating process, such as the absence of unobserved confounders. When these assumptions are violated, causal effect estimates may become biased, undermining the validity of research findings. In these contexts, sensitivity analysis plays a crucial role, by enabling data scientists to assess the robustness of their findings to plausible violations of unconfoundedness. This paper introduces sensitivity analysis and demonstrates its practical relevance through a (simulated) data example based on a use case at Booking.com. We focus our presentation on a recently proposed method by Chernozhukov et al. (2023), which derives general non-parametric bounds on biases due to omitted variables, and is fully compatible with (though not limited to) modern inferential tools of Causal Machine Learning. By presenting this use case, we aim to raise awareness of sensitivity analysis and highlight its importance in real-world scenarios.",
+        "translated": ""
+    },
+    {
+        "title": "Sensitivity Analysis for Treatment Effects in Difference-in-Differences\n  Models using Riesz Representation",
+        "url": "http://arxiv.org/abs/2510.09064v1",
+        "pub_date": "2025-10-10",
+        "summary": "Difference-in-differences (DiD) is one of the most popular approaches for empirical research in economics, political science, and beyond. Identification in these models is based on the conditional parallel trends assumption: In the absence of treatment, the average outcome of the treated and untreated group are assumed to evolve in parallel over time, conditional on pre-treatment covariates. We introduce a novel approach to sensitivity analysis for DiD models that assesses the robustness of DiD estimates to violations of this assumption due to unobservable confounders, allowing researchers to transparently assess and communicate the credibility of their causal estimation results. Our method focuses on estimation by Double Machine Learning and extends previous work on sensitivity analysis based on Riesz Representation in cross-sectional settings. We establish asymptotic bounds for point estimates and confidence intervals in the canonical $2\\times2$ setting and group-time causal parameters in settings with staggered treatment adoption. Our approach makes it possible to relate the formulation of parallel trends violation to empirical evidence from (1) pre-testing, (2) covariate benchmarking and (3) standard reporting statistics and visualizations. We provide extensive simulation experiments demonstrating the validity of our sensitivity approach and diagnostics and apply our approach to two empirical applications.",
+        "translated": ""
+    },
+    {
+        "title": "Blackwell without Priors",
+        "url": "http://arxiv.org/abs/2510.08709v1",
+        "pub_date": "2025-10-09",
+        "summary": "This paper proposes a fully prior-free model of experimentation in which the decision maker observes the entire distribution of signals generated by a known experiment under an unknown distribution of the state of the world. One experiment is robustly more informative than another if the decision maker's maxmin expected utility after observing the output of the former is always at least her maxmin expected utility after observing the latter. We show that this ranking holds if and only if the less informative experiment is a linear transformation of the more informative experiment; equivalently, the null space of the more informative experiment is a subset of the null space of the less informative experiment. Our criterion is implied by Blackwell's order but does not imply it, and we show by example that our ranking admits strictly more comparable pairs of experiments than the classical ranking.",
+        "translated": ""
     }
 ]
