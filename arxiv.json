@@ -56299,5 +56299,12 @@
         "pub_date": "2025-10-24",
         "summary": "Traditional Information Retrieval (IR) metrics, such as nDCG, MAP, and MRR, assume that human users sequentially examine documents with diminishing attention to lower ranks. This assumption breaks down in Retrieval Augmented Generation (RAG) systems, where search results are consumed by Large Language Models (LLMs), which, unlike humans, process all retrieved documents as a whole rather than sequentially. Additionally, traditional IR metrics do not account for related but irrelevant documents that actively degrade generation quality, rather than merely being ignored. Due to these two major misalignments, namely human vs. machine position discount and human relevance vs. machine utility, classical IR metrics do not accurately predict RAG performance. We introduce a utility-based annotation schema that quantifies both the positive contribution of relevant passages and the negative impact of distracting ones. Building on this foundation, we propose UDCG (Utility and Distraction-aware Cumulative Gain), a metric using an LLM-oriented positional discount to directly optimize the correlation with the end-to-end answer accuracy. Experiments on five datasets and six LLMs demonstrate that UDCG improves correlation by up to 36% compared to traditional metrics. Our work provides a critical step toward aligning IR evaluation with LLM consumers and enables more reliable assessment of RAG components",
         "translated": ""
+    },
+    {
+        "title": "O(16)$\\times$O(16) heterotic theory on $AdS_3\\times S^3\\times T^4$",
+        "url": "http://arxiv.org/abs/2510.20915v1",
+        "pub_date": "2025-10-23",
+        "summary": "In this paper, we study non-supersymmetric $O(16)\\times O(16)$ heterotic theory on an $AdS_{3}\\times S^{3}\\times T^{4}$ background, finding a family of vacua parameterized by a pair of flux integers. Adding the one-loop scalar potential to the effective theory contributes positively to the cosmological constant, but we find that there is no uplift to de Sitter for any values of the fluxes. We study the fluctuations around these vacua and show that all scalar and tensor modes from the six-dimensional effective theory lie above the Breitenlohner-Freedman bound. The moduli coming from the torus compactification will also be above the bound, at least for a large range of fluxes.",
+        "translated": ""
     }
 ]
