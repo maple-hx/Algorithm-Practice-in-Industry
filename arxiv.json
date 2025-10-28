@@ -56306,5 +56306,19 @@
         "pub_date": "2025-10-23",
         "summary": "In this paper, we study non-supersymmetric $O(16)\\times O(16)$ heterotic theory on an $AdS_{3}\\times S^{3}\\times T^{4}$ background, finding a family of vacua parameterized by a pair of flux integers. Adding the one-loop scalar potential to the effective theory contributes positively to the cosmological constant, but we find that there is no uplift to de Sitter for any values of the fluxes. We study the fluctuations around these vacua and show that all scalar and tensor modes from the six-dimensional effective theory lie above the Breitenlohner-Freedman bound. The moduli coming from the torus compactification will also be above the bound, at least for a large range of fluxes.",
         "translated": ""
+    },
+    {
+        "title": "Instance-Adaptive Hypothesis Tests with Heterogeneous Agents",
+        "url": "http://arxiv.org/abs/2510.21178v1",
+        "pub_date": "2025-10-24",
+        "summary": "We study hypothesis testing over a heterogeneous population of strategic agents with private information. Any single test applied uniformly across the population yields statistical error that is sub-optimal relative to the performance of an oracle given access to the private information. We show how it is possible to design menus of statistical contracts that pair type-optimal tests with payoff structures, inducing agents to self-select according to their private information. This separating menu elicits agent types and enables the principal to match the oracle performance even without a priori knowledge of the agent type. Our main result fully characterizes the collection of all separating menus that are instance-adaptive, matching oracle performance for an arbitrary population of heterogeneous agents. We identify designs where information elicitation is essentially costless, requiring negligible additional expense relative to a single-test benchmark, while improving statistical performance. Our work establishes a connection between proper scoring rules and menu design, showing how the structure of the hypothesis test constrains the elicitable information. Numerical examples illustrate the geometry of separating menus and the improvements they deliver in error trade-offs. Overall, our results connect statistical decision theory with mechanism design, demonstrating how heterogeneity and strategic participation can be harnessed to improve efficiency in hypothesis testing.",
+        "translated": ""
+    },
+    {
+        "title": "SLIM: Stochastic Learning and Inference in Overidentified Models",
+        "url": "http://arxiv.org/abs/2510.20996v1",
+        "pub_date": "2025-10-23",
+        "summary": "We propose SLIM (Stochastic Learning and Inference in overidentified Models), a scalable stochastic approximation framework for nonlinear GMM. SLIM forms iterative updates from independent mini-batches of moments and their derivatives, producing unbiased directions that ensure almost-sure convergence. It requires neither a consistent initial estimator nor global convexity and accommodates both fixed-sample and random-sampling asymptotics. We further develop an optional second-order refinement and inference procedures based on random scaling and plug-in methods, including plug-in, debiased plug-in, and online versions of the Sargan--Hansen $J$-test tailored to stochastic learning. In Monte Carlo experiments based on a nonlinear EASI demand system with 576 moment conditions, 380 parameters, and $n = 10^5$, SLIM solves the model in under 1.4 hours, whereas full-sample GMM in Stata on a powerful laptop converges only after 18 hours. The debiased plug-in $J$-test delivers satisfactory finite-sample inference, and SLIM scales smoothly to $n = 10^6$.",
+        "translated": ""
     }
 ]
