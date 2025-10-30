@@ -56495,5 +56495,33 @@
         "pub_date": "2025-10-28",
         "summary": "Public research results on large-scale supervised finetuning of AI agents remain relatively rare, since the collection of agent training data presents unique challenges. In this work, we argue that the bottleneck is not a lack of underlying data sources, but that a large variety of data is fragmented across heterogeneous formats, tools, and interfaces. To this end, we introduce the agent data protocol (ADP), a light-weight representation language that serves as an \"interlingua\" between agent datasets in diverse formats and unified agent training pipelines downstream. The design of ADP is expressive enough to capture a large variety of tasks, including API/tool use, browsing, coding, software engineering, and general agentic workflows, while remaining simple to parse and train on without engineering at a per-dataset level. In experiments, we unified a broad collection of 13 existing agent training datasets into ADP format, and converted the standardized ADP data into training-ready formats for multiple agent frameworks. We performed SFT on these data, and demonstrated an average performance gain of ~20% over corresponding base models, and delivers state-of-the-art or near-SOTA performance on standard coding, browsing, tool use, and research benchmarks, without domain-specific tuning. All code and data are released publicly, in the hope that ADP could help lower the barrier to standardized, scalable, and reproducible agent training.",
         "translated": ""
+    },
+    {
+        "title": "Machine-Learning-Assisted Comparison of Regression Functions",
+        "url": "http://arxiv.org/abs/2510.24714v1",
+        "pub_date": "2025-10-28",
+        "summary": "We revisit the classical problem of comparing regression functions, a fundamental question in statistical inference with broad relevance to modern applications such as data integration, transfer learning, and causal inference. Existing approaches typically rely on smoothing techniques and are thus hindered by the curse of dimensionality. We propose a generalized notion of kernel-based conditional mean dependence that provides a new characterization of the null hypothesis of equal regression functions. Building on this reformulation, we develop two novel tests that leverage modern machine learning methods for flexible estimation. We establish the asymptotic properties of the test statistics, which hold under both fixed- and high-dimensional regimes. Unlike existing methods that often require restrictive distributional assumptions, our framework only imposes mild moment conditions. The efficacy of the proposed tests is demonstrated through extensive numerical studies.",
+        "translated": ""
+    },
+    {
+        "title": "Panel data models with randomly generated groups",
+        "url": "http://arxiv.org/abs/2510.24496v1",
+        "pub_date": "2025-10-28",
+        "summary": "We develop a structural framework for modeling and inferring unobserved heterogeneity in dynamic panel-data models. Unlike methods treating clustering as a descriptive device, we model heterogeneity as arising from a latent clustering mechanism, where the number of clusters is unknown and estimated. Building on the mixture of finite mixtures (MFM) approach, our method avoids the clustering inconsistency issues of Dirichlet process mixtures and provides an interpretable representation of the population clustering structure. We extend the Telescoping Sampler of Fruhwirth-Schnatter et al. (2021) to dynamic panels with covariates, yielding an efficient MCMC algorithm that delivers full Bayesian inference and credible sets. We show that asymptotically the posterior distribution of the mixing measure contracts around the truth at parametric rates in Wasserstein distance, ensuring recovery of clustering and structural parameters. Simulations demonstrate strong finite-sample performance. Finally, an application to the income-democracy relationship reveals latent heterogeneity only when controlling for additional covariates.",
+        "translated": ""
+    },
+    {
+        "title": "Nearest Neighbor Matching as Least Squares Density Ratio Estimation and\n  Riesz Regression",
+        "url": "http://arxiv.org/abs/2510.24433v1",
+        "pub_date": "2025-10-28",
+        "summary": "This study proves that Nearest Neighbor (NN) matching can be interpreted as an instance of Riesz regression for automatic debiased machine learning. Lin et al. (2023) shows that NN matching is an instance of density-ratio estimation with their new density-ratio estimator. Chernozhukov et al. (2024) develops Riesz regression for automatic debiased machine learning, which directly estimates the Riesz representer (or equivalently, the bias-correction term) by minimizing the mean squared error. In this study, we first prove that the density-ratio estimation method proposed in Lin et al. (2023) is essentially equivalent to Least-Squares Importance Fitting (LSIF) proposed in Kanamori et al. (2009) for direct density-ratio estimation. Furthermore, we derive Riesz regression using the LSIF framework. Based on these results, we derive NN matching from Riesz regression. This study is based on our work Kato (2025a) and Kato (2025b).",
+        "translated": ""
+    },
+    {
+        "title": "Control VAR: a counterfactual based approach to inference in\n  macroeconomics",
+        "url": "http://arxiv.org/abs/2510.23762v1",
+        "pub_date": "2025-10-27",
+        "summary": "This paper addresses the challenges of giving a causal interpretation to vector autoregressions (VARs). I show that under independence assumptions VARs can identify average treatment effects, average causal responses, or a mix of the two, depending on the distribution of the policy. But what about situations in which the economist cannot rely on independence assumptions? I propose an alternative method, defined as control-VAR, which uses control variables to estimate causal effects. Control-VAR can estimate average treatment effects on the treated for dummy policies or average causal responses over time for continuous policies.   The advantages of control-based approaches are demonstrated by examining the impact of natural disasters on the US economy, using Germany as a control. Contrary to previous literature, the results indicate that natural disasters have a negative economic impact without any cyclical positive effect. These findings suggest that control-VARs provide a viable alternative to strict independence assumptions, offering more credible causal estimates and significant implications for policy design in response to natural disasters.",
+        "translated": ""
     }
 ]
