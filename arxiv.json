@@ -56691,5 +56691,33 @@
         "pub_date": "2025-10-30",
         "summary": "We study the statistical properties of nonparametric distance-based (isotropic) local polynomial regression estimators of the boundary average treatment effect curve, a key causal functional parameter capturing heterogeneous treatment effects in boundary discontinuity designs. We present necessary and/or sufficient conditions for identification, estimation, and inference in large samples, both pointwise and uniformly along the boundary. Our theoretical results highlight the crucial role played by the ``regularity'' of the boundary (a one-dimensional manifold) over which identification, estimation, and inference are conducted. Our methods are illustrated with simulated data. Companion general-purpose software is provided.",
         "translated": ""
+    },
+    {
+        "title": "How to uplift non-maximal gauged supergravities",
+        "url": "http://arxiv.org/abs/2510.24850v1",
+        "pub_date": "2025-10-28",
+        "summary": "In this paper, we provide an algorithm to perform the uplift of non-maximal $G_g$-gauged supergravities to type IIB or 11D supergravities. Using tools of exceptional field theory and generalised geometry, we show that the internal manifold admits a $G_g$-action, and that consistency of the uplift is equivalent to solving a simpler PDE on the quotient $M_{\\text{int}}/G_g$. As an application, we classify all possible uplifts of pure half-maximal four-dimensional $\\textrm{SO}(4)$-gauged supergravity to type IIB and we recover consistent truncations around any of the D'Hoker-Estes-Gutperle solutions \\cite{DHoker:2007hhe}.",
+        "translated": ""
+    },
+    {
+        "title": "Surprising one-loop finiteness of 6D half-maximal supergravities",
+        "url": "http://arxiv.org/abs/2510.24558v1",
+        "pub_date": "2025-10-28",
+        "summary": "In four dimensions, it has long been established that gravity coupled to matter exhibits ultraviolet divergences at one loop, irrespective of supersymmetry. Notably, the four-matter one-loop amplitudes of half-maximal supergravity coupled to Maxwell multiplets were shown in the 1970s to be divergent. Surprisingly, we demonstrate in this work that half-maximal theories can nevertheless become one-loop finite when uplifted to higher dimensions, contrary to naive expectations. Specifically, we study the ultraviolet properties of the four-matter and two-matter two-graviton amplitudes in six-dimensional $\\mathcal{N}=(2,0)$ and $\\mathcal{N}=(1,1)$ supergravities, coupled to $n_T$ tensor and $n_V$ vector multiplets, respectively. We find that the one-loop amplitudes are finite for $n_T=21$ and $n_V=20$. This finiteness is unexpected, as symmetry-preserving counterterms do exist. Interestingly, both values exactly correspond to low-energy limits of type II string theories compactified on K3, which hints at possible origins to the surprising cancellations.",
+        "translated": ""
+    },
+    {
+        "title": "Novel black saddles for 5d gravitational indices and the index enigma",
+        "url": "http://arxiv.org/abs/2510.23699v1",
+        "pub_date": "2025-10-27",
+        "summary": "We construct a series of novel Euclidean multi-black-hole, black ring, black Saturn, and black lens solutions to $5d$ supergravity that contribute as saddle-points to the $5d$ gravitational supersymmetric index, either in asymptotically flat space or in asymptotically AdS$_3\\times S^2$. All these solutions are supersymmetric, have finite temperature, and an appropriate angular velocity turned on that makes fermionic fields periodic around the thermal circle. They contribute either to the helicity supertrace of supergravity in $5d$ flat space or to the elliptic genus of a supergravity theory in AdS$_3 \\times S^2$. Their on-shell actions are independent of temperature, as consistent with the computation of a protected index, and equal to the entropy of the corresponding extremal black object. Our construction relies on uplifting saddles that can be singular in $4d$, but which are desingularized in $5d$. The resulting saddles exhibit a novel ``index enigma'', not encountered in previous Lorentzian solutions. One example of this enigma is that, in the computation of the index in asymptotically flat space, less symmetric black ring saddles dominate over the contributions from $5d$ black holes.",
+        "translated": ""
+    },
+    {
+        "title": "A machine learning framework integrating seed traits and plasma\n  parameters for predicting germination uplift in crops",
+        "url": "http://arxiv.org/abs/2510.23657v1",
+        "pub_date": "2025-10-26",
+        "summary": "Cold plasma (CP) is an eco-friendly method to enhance seed germination, yet outcomes remain difficult to predict due to complex seed--plasma--environment interactions. This study introduces the first machine learning framework to forecast germination uplift in soybean, barley, sunflower, radish, and tomato under dielectric barrier discharge (DBD) plasma. Among the models tested (GB, XGB, ET, and hybrids), Extra Trees (ET) performed best (R\\textsuperscript{2} = 0.919; RMSE = 3.21; MAE = 2.62), improving to R\\textsuperscript{2} = 0.925 after feature reduction. Engineering analysis revealed a hormetic response: negligible effects at $&lt;$7 kV or $&lt;$200 s, maximum germination at 7--15 kV for 200--500 s, and reduced germination beyond 20 kV or prolonged exposures. Discharge power was also a dominant factor, with germination rate maximizing at $\\geq$100 W with low exposure time. Species and cultivar-level predictions showed radish (MAE = 1.46) and soybean (MAE = 2.05) were modeled with high consistency, while sunflower remained slightly higher variable (MAE = 3.80). Among cultivars, Williams (MAE = 1.23) and Sari (1.33) were well predicted, while Arian (2.86) and Ny\\'{\\i}rs\\'{e}gi fekete (3.74) were comparatively poorly captured. This framework was also embedded into MLflow, providing a decision-support tool for optimizing CP seed germination in precision agriculture.",
+        "translated": ""
     }
 ]
