@@ -56943,5 +56943,75 @@
         "pub_date": "2025-11-04",
         "summary": "Typical search agents concatenate the entire interaction history into the LLM context, preserving information integrity but producing long, noisy contexts, resulting in high computation and memory costs. In contrast, using only the current turn avoids this overhead but discards essential information. This trade-off limits the scalability of search agents. To address this challenge, we propose MemSearcher, an agent workflow that iteratively maintains a compact memory and combines the current turn with it. At each turn, MemSearcher fuses the user's question with the memory to generate reasoning traces, perform search actions, and update memory to retain only information essential for solving the task. This design stabilizes context length across multi-turn interactions, improving efficiency without sacrificing accuracy. To optimize this workflow, we introduce multi-context GRPO, an end-to-end RL framework that jointly optimize reasoning, search strategies, and memory management of MemSearcher Agents. Specifically, multi-context GRPO samples groups of trajectories under different contexts and propagates trajectory-level advantages across all conversations within them. Trained on the same dataset as Search-R1, MemSearcher achieves significant improvements over strong baselines on seven public benchmarks: +11% on Qwen2.5-3B-Instruct and +12% on Qwen2.5-7B-Instruct relative average gains. Notably, the 3B-based MemSearcher even outperforms 7B-based baselines, demonstrating that striking a balance between information integrity and efficiency yields both higher accuracy and lower computational overhead. The code and models will be publicly available at https://github.com/icip-cas/MemSearcher",
         "translated": ""
+    },
+    {
+        "title": "Sufficient Statistics for Markovian Feedback Processes and Unobserved\n  Heterogeneity in Dynamic Panel Logit Models",
+        "url": "http://arxiv.org/abs/2511.02816v1",
+        "pub_date": "2025-11-04",
+        "summary": "In this paper, we examine identification in a dynamic panel logit model with state dependence, first-order Markov feedback processes, and individual unobserved heterogeneity by introducing sufficient statistics for the feedback process and unobserved heterogeneity. If a sequentially exogenous discrete covariate follows a first-order Markov process, identification of the coefficient on the covariate via conditional likelihood is infeasible, whereas identification of the coefficient on the lagged dependent variable is feasible when there are at least three periods after the initial-condition period. If the feedback depends only on the lagged dependent variable, the coefficient on the covariate is identified with at least two periods, and the coefficient on the lagged dependent variable is identified with at least three periods.",
+        "translated": ""
+    },
+    {
+        "title": "The Bias-Variance Tradeoff in Long-Term Experimentation",
+        "url": "http://arxiv.org/abs/2511.02792v1",
+        "pub_date": "2025-11-04",
+        "summary": "As we exhaust methods that reduces variance without introducing bias, reducing variance in experiments often requires accepting some bias, using methods like winsorization or surrogate metrics. While this bias-variance tradeoff can be optimized for individual experiments, bias may accumulate over time, raising concerns for long-term optimization. We analyze whether bias is ever acceptable when it can accumulate, and show that a bias-variance tradeoff persists in long-term settings. Improving signal-to-noise remains beneficial, even if it introduces bias. This implies we should shift from thinking there is a single ``correct'', unbiased metric to thinking about how to make the best estimates and decisions when better precision can be achieved at the expense of bias.   Furthermore, our model adds nuance to previous findings that suggest less stringent launch criterion leads to improved gains. We show while this is beneficial when the system is far from the optimum, more stringent launch criterion is preferable as the system matures.",
+        "translated": ""
+    },
+    {
+        "title": "Peer effect analysis with latent processes",
+        "url": "http://arxiv.org/abs/2511.02764v1",
+        "pub_date": "2025-11-04",
+        "summary": "I study peer effects that arise from irreversible decisions in the absence of a standard social equilibrium. I model a latent sequence of decisions in continuous time and obtain a closed-form expression for the likelihood, which allows to estimate proposed causal estimands. The method avoids regression on conditional expectations or linear-in-means regression -- and thus reflection-type problems (Manski, 1993) or simultaneity issues -- by modeling the (unobserved) realized direction of causality, whose probability is identified. Under a parsimonious parametric specification, I introduce a peer effect parameter meant to capture the causal influence of first-movers on their peers. Various forms of peer effect heterogeneity can be accommodated. Parameters are shown to be consistently estimated by maximum likelihood methods and lend themselves to standard inference.",
+        "translated": ""
+    },
+    {
+        "title": "Identification and Estimation of Continuous-Time Dynamic Discrete Choice\n  Games",
+        "url": "http://arxiv.org/abs/2511.02701v1",
+        "pub_date": "2025-11-04",
+        "summary": "This paper considers the theoretical, computational, and econometric properties of continuous time dynamic discrete choice games with stochastically sequential moves, introduced by Arcidiacono, Bayer, Blevins, and Ellickson (2016). We consider identification of the rate of move arrivals, which was assumed to be known in previous work, as well as a generalized version with heterogeneous move arrival rates. We re-establish conditions for existence of a Markov perfect equilibrium in the generalized model and consider identification of the model primitives with only discrete time data sampled at fixed intervals. Three foundational example models are considered: a single agent renewal model, a dynamic entry and exit model, and a quality ladder model. Through these examples we examine the computational and statistical properties of estimators via Monte Carlo experiments and an empirical example using data from Rust (1987). The experiments show how parameter estimates behave when moving from continuous time data to discrete time data of decreasing frequency and the computational feasibility as the number of firms grows. The empirical example highlights the impact of allowing decision rates to vary.",
+        "translated": ""
+    },
+    {
+        "title": "Spectral analysis of high-dimensional spot volatility matrix with\n  applications",
+        "url": "http://arxiv.org/abs/2511.02660v1",
+        "pub_date": "2025-11-04",
+        "summary": "In random matrix theory, the spectral distribution of the covariance matrix has been well studied under the large dimensional asymptotic regime when the dimensionality and the sample size tend to infinity at the same rate. However, most existing theories are built upon the assumption of independent and identically distributed samples, which may be violated in practice. For example, the observational data of continuous-time processes at discrete time points, namely, the high-frequency data. In this paper, we extend the classical spectral analysis for the covariance matrix in large dimensional random matrix to the spot volatility matrix by using the high-frequency data. We establish the first-order limiting spectral distribution and obtain a second-order result, that is, the central limit theorem for linear spectral statistics. Moreover, we apply the results to design some feasible tests for the spot volatility matrix, including the identity and sphericity tests. Simulation studies justify the finite sample performance of the test statistics and verify our established theory.",
+        "translated": ""
+    },
+    {
+        "title": "Diffusion Index Forecast with Tensor Data",
+        "url": "http://arxiv.org/abs/2511.02235v1",
+        "pub_date": "2025-11-04",
+        "summary": "In this paper, we consider diffusion index forecast with both tensor and non-tensor predictors, where the tensor structure is preserved with a Canonical Polyadic (CP) tensor factor model. When the number of non-tensor predictors is small, we study the asymptotic properties of the least-squared estimator in this tensor factor-augmented regression, allowing for factors with different strengths. We derive an analytical formula for prediction intervals that accounts for the estimation uncertainty of the latent factors. In addition, we propose a novel thresholding estimator for the high-dimensional covariance matrix that is robust to cross-sectional dependence. When the number of non-tensor predictors exceeds or diverges with the sample size, we introduce a multi-source factor-augmented sparse regression model and establish the consistency of the corresponding penalized estimator. Simulation studies validate our theoretical results and an empirical application to US trade flows demonstrates the advantages of our approach over other popular methods in the literature.",
+        "translated": ""
+    },
+    {
+        "title": "Making Interpretable Discoveries from Unstructured Data: A\n  High-Dimensional Multiple Hypothesis Testing Approach",
+        "url": "http://arxiv.org/abs/2511.01680v1",
+        "pub_date": "2025-11-03",
+        "summary": "Social scientists are increasingly turning to unstructured datasets to unlock new empirical insights, e.g., estimating causal effects on text outcomes, measuring beliefs from open-ended survey responses. In such settings, unsupervised analysis is often of interest, in that the researcher does not want to pre-specify the objects of measurement or otherwise artificially delimit the space of measurable concepts; they are interested in discovery. This paper proposes a general and flexible framework for pursuing discovery from unstructured data in a statistically principled way. The framework leverages recent methods from the literature on machine learning interpretability to map unstructured data points to high-dimensional, sparse, and interpretable dictionaries of concepts; computes (test) statistics of these dictionary entries; and then performs selective inference on them using newly developed statistical procedures for high-dimensional exceedance control of the $k$-FWER under arbitrary dependence. The proposed framework has few researcher degrees of freedom, is fully replicable, and is cheap to implement -- both in terms of financial cost and researcher time. Applications to recent descriptive and causal analyses of unstructured data in empirical economics are explored. An open source Jupyter notebook is provided for researchers to implement the framework in their own projects.",
+        "translated": ""
+    },
+    {
+        "title": "High-Dimensional Spatial Arbitrage Pricing Theory with Heterogeneous\n  Interactions",
+        "url": "http://arxiv.org/abs/2511.01271v1",
+        "pub_date": "2025-11-03",
+        "summary": "This paper investigates estimation and inference of a Spatial Arbitrage Pricing Theory (SAPT) model that integrates spatial interactions with multi-factor analysis, accommodating both observable and latent factors. Building on the classical mean-variance analysis, we introduce a class of Spatial Capital Asset Pricing Models (SCAPM) that account for spatial effects in high-dimensional assets, where we define {\\it spatial rho} as a counterpart to market beta in CAPM. We then extend SCAPM to a general SAPT framework under a {\\it complete} market setting by incorporating multiple factors. For SAPT with observable factors, we propose a generalized shrinkage Yule-Walker (SYW) estimation method that integrates ridge regression to estimate spatial and factor coefficients. When factors are latent, we first apply an autocovariance-based eigenanalysis to extract factors, then employ the SYW method using the estimated factors. We establish asymptotic properties for these estimators under high-dimensional settings where both the dimension and sample size diverge. Finally, we use simulated and real data examples to demonstrate the efficacy and usefulness of the proposed model and method.",
+        "translated": ""
+    },
+    {
+        "title": "On the estimation of leverage effect and volatility of volatility in the\n  presence of jumps",
+        "url": "http://arxiv.org/abs/2511.00944v1",
+        "pub_date": "2025-11-02",
+        "summary": "We study the estimation of leverage effect and volatility of volatility by using high-frequency data with the presence of jumps. We first construct spot volatility estimator by using the empirical characteristic function of the high-frequency increments to deal with the effect of jumps, based on which the estimators of leverage effect and volatility of volatility are proposed. Compared with existing estimators, our method is valid under more general jumps, making it a better alternative for empirical applications. Under some mild conditions, the asymptotic normality of the estimators is established and consistent estimators of the limiting variances are proposed based on the estimation of volatility functionals. We conduct extensive simulation study to verify the theoretical results. The results demonstrate that our estimators have relative better performance than the existing ones, especially when the jump is of infinite variation. Besides, we apply our estimators to a real high-frequency dataset, which reveals nonzero leverage effect and volatility of volatility in the market.",
+        "translated": ""
+    },
+    {
+        "title": "Cross-Validated Causal Inference: a Modern Method to Combine\n  Experimental and Observational Data",
+        "url": "http://arxiv.org/abs/2511.00727v1",
+        "pub_date": "2025-11-01",
+        "summary": "We develop new methods to integrate experimental and observational data in causal inference. While randomized controlled trials offer strong internal validity, they are often costly and therefore limited in sample size. Observational data, though cheaper and often with larger sample sizes, are prone to biases due to unmeasured confounders. To harness their complementary strengths, we propose a systematic framework that formulates causal estimation as an empirical risk minimization (ERM) problem. A full model containing the causal parameter is obtained by minimizing a weighted combination of experimental and observational losses--capturing the causal parameter's validity and the full model's fit, respectively. The weight is chosen through cross-validation on the causal parameter across experimental folds. Our experiments on real and synthetic data show the efficacy and reliability of our method. We also provide theoretical non-asymptotic error bounds.",
+        "translated": ""
     }
 ]
