@@ -57125,5 +57125,33 @@
         "pub_date": "2025-11-04",
         "summary": "We study factor models that combine latent factors with firm characteristics and propose a new framework for modeling, estimating, and inferring pricing errors. Following Zhang (2024), our approach decomposes mispricing into two distinct components: inside alpha, explained by firm characteristics but orthogonal to factor exposures, and outside alpha, orthogonal to both factors and characteristics. Our model generalizes those developed recently such as Kelly et al. (2019) and Zhang (2024), resolving issues of orthogonality, basis dependence, and unit sensitivity. Methodologically, we develop estimators grounded in low-rank methods with explicit debiasing, providing closed-form solutions and a rigorous inferential theory that accommodates a growing number of characteristics and relaxes standard assumptions on sample dimensions. Empirically, using U.S. stock returns from 2000-2019, we document strong evidence of both inside and outside alphas, with the former showing industry-level co-movements and the latter reflecting idiosyncratic shocks beyond firm fundamentals. Our framework thus unifies statistical and characteristic-based approaches to factor modeling, offering both theoretical advances and new insights into the structure of pricing errors.",
         "translated": ""
+    },
+    {
+        "title": "LLM-as-a-Judge: Toward World Models for Slate Recommendation Systems",
+        "url": "http://arxiv.org/abs/2511.04541v1",
+        "pub_date": "2025-11-06",
+        "summary": "Modeling user preferences across domains remains a key challenge in slate recommendation (i.e. recommending an ordered sequence of items) research. We investigate how Large Language Models (LLM) can effectively act as world models of user preferences through pairwise reasoning over slates. We conduct an empirical study involving several LLMs on three tasks spanning different datasets. Our results reveal relationships between task performance and properties of the preference function captured by LLMs, hinting towards areas for improvement and highlighting the potential of LLMs as world models in recommender systems.",
+        "translated": ""
+    },
+    {
+        "title": "RUST-BENCH: Benchmarking LLM Reasoning on Unstructured Text within\n  Structured Tables",
+        "url": "http://arxiv.org/abs/2511.04491v1",
+        "pub_date": "2025-11-06",
+        "summary": "Existing tabular reasoning benchmarks mostly test models on small, uniform tables, underrepresenting the complexity of real-world data and giving an incomplete view of Large Language Models' (LLMs) reasoning abilities. Real tables are long, heterogeneous, and domain-specific, mixing structured fields with free text and requiring multi-hop reasoning across thousands of tokens. To address this gap, we introduce RUST-BENCH, a benchmark of 7966 questions from 2031 real-world tables spanning two domains: i) RB-Science (NSF grant records) and ii) RB-Sports (NBA statistics). Unlike prior work, RUST-BENCH evaluates LLMs jointly across scale, heterogeneity, domain specificity, and reasoning complexity. Experiments with open-source and proprietary models show that LLMs struggle with heterogeneous schemas and complex multi-hop inference, revealing persistent weaknesses in current architectures and prompting strategies. RUST-BENCH establishes a challenging new testbed for advancing tabular reasoning research.",
+        "translated": ""
+    },
+    {
+        "title": "Ground-Truth Subgraphs for Better Training and Evaluation of Knowledge\n  Graph Augmented LLMs",
+        "url": "http://arxiv.org/abs/2511.04473v1",
+        "pub_date": "2025-11-06",
+        "summary": "Retrieval of information from graph-structured knowledge bases represents a promising direction for improving the factuality of LLMs. While various solutions have been proposed, a comparison of methods is difficult due to the lack of challenging QA datasets with ground-truth targets for graph retrieval. We present SynthKGQA, a framework for generating high-quality synthetic Knowledge Graph Question Answering datasets from any Knowledge Graph, providing the full set of ground-truth facts in the KG to reason over each question. We show how, in addition to enabling more informative benchmarking of KG retrievers, the data produced with SynthKGQA also allows us to train better models. We apply SynthKGQA to Wikidata to generate GTSQA, a new dataset designed to test zero-shot generalization abilities of KG retrievers with respect to unseen graph structures and relation types, and benchmark popular solutions for KG-augmented LLMs on it.",
+        "translated": ""
+    },
+    {
+        "title": "On the Brittleness of CLIP Text Encoders",
+        "url": "http://arxiv.org/abs/2511.04247v1",
+        "pub_date": "2025-11-06",
+        "summary": "Multimodal co-embedding models, especially CLIP, have advanced the state of the art in zero-shot classification and multimedia information retrieval in recent years by aligning images and text in a shared representation space. However, such modals trained on a contrastive alignment can lack stability towards small input perturbations. Especially when dealing with manually expressed queries, minor variations in the query can cause large differences in the ranking of the best-matching results. In this paper, we present a systematic analysis of the effect of multiple classes of non-semantic query perturbations in an multimedia information retrieval scenario. We evaluate a diverse set of lexical, syntactic, and semantic perturbations across multiple CLIP variants using the TRECVID Ad-Hoc Video Search queries and the V3C1 video collection. Across models, we find that syntactic and semantic perturbations drive the largest instabilities, while brittleness is concentrated in trivial surface edits such as punctuation and case. Our results highlight robustness as a critical dimension for evaluating vision-language models beyond benchmark accuracy.",
+        "translated": ""
     }
 ]
