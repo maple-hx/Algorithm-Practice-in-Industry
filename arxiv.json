@@ -57209,5 +57209,33 @@
         "pub_date": "2025-11-05",
         "summary": "To choose between two discrete goods, a consumer pays attention to only those with prices below a threshold. From these, she chooses her most preferred good. We assume consumers in a population have the same preference but may have different thresholds. Similar models of bounded rationality have been studied in the empirical marketing literature. We fully characterize the model, and using observational choice data alone, we identify the welfare implications of a price change. The behavioral content of our model overlaps with an important class of random utility models, but the welfare implications are meaningfully different. The distribution of equivalent variation under our model first-order stochastically dominates that under the random utility model.",
         "translated": ""
+    },
+    {
+        "title": "Three-charge black holes from the worldsheet",
+        "url": "http://arxiv.org/abs/2511.02499v1",
+        "pub_date": "2025-11-04",
+        "summary": "We consider the general asymptotically flat, doubly-rotating, three-charge black hole uplifted to a family of NS5-F1-P black brane solutions of Type IIB supergravity. We construct a null-gauged WZW model whose target-space geometry reproduces this background in the NS5 decoupling limit, and show that the gauging parameters precisely satisfy the appropriate consistency conditions on the perturbative string spectrum. Through an analytic continuation and an appropriate limit, this model relates to a recently studied construction describing strings on smooth, horizonless geometries. We further analyze the supersymmetric and extremal three-charge configuration, corresponding to the ten-dimensional uplift of the (NS5-decoupled) BMPV black hole, and show that it requires a novel class of null-gauged WZW models. Our construction provides explicit examples of worldsheet CFTs that capture string dynamics on certain black hole geometries with linear dilaton asymptotics.",
+        "translated": ""
+    },
+    {
+        "title": "Spindle solutions, hyperscalars and smooth uplifts",
+        "url": "http://arxiv.org/abs/2511.01964v1",
+        "pub_date": "2025-11-03",
+        "summary": "We construct $AdS_3\\times Y_7$ solutions of type IIB supergravity, where $Y_7$ is a smooth $S^5$ bundle over a spindle $\\Sigma(n_N,n_S)$, which are dual to $\\mathcal{N}=(0,2)$ SCFTs in $d=2$. The solutions are constructed using the $D=5$ STU $U(1)^3$ gauged supergravity theory coupled to a hyperscalar charged under $U(1)_B$. We investigate spindle solutions with two new features: first, we allow $(n_N,n_S)$ to be non-coprime integers, including orbifolds of the round $S^2$, which can lead to non-unique, inequivalent uplifts, distinguished by the hyperscalar spectra, for given magnetic flux through the spindle. Second, we also allow the hyperscalar to vanish at the poles leading to solutions carrying non-vanishing $U(1)_B$ flux. The new hyperscalar $AdS_3$ solutions can naturally arise as the endpoint of RG flows, triggered by relevant hyperscalar deformations of the $AdS_3$ solutions of the STU model.",
+        "translated": ""
+    },
+    {
+        "title": "Symmetries and dualities in non-supersymmetric CHL strings",
+        "url": "http://arxiv.org/abs/2511.01674v1",
+        "pub_date": "2025-11-03",
+        "summary": "We chart the classical moduli space of heterotic strings with broken supersymmetry a la Scherk-Schwarz and gauge group rank reduced by 8 in eight dimensions. This space consists of four connected components, each with its own characteristic spectrum and T-duality group. Three of these components uplift to nine dimensions and can be described as Coxeter polyhedra, allowing an exact characterization of their maximal symmetry enhancements and decompactification limits. We determine the maximal enhancements in the eight dimensional theories using lattice based algorithms in the bosonic formulation, and perform an indepth analysis of their massless spectra. Finally we argue that one component has a supersymmetric $\\mathcal{N} = 1$ sector described by BPS objects at strong coupling in a non-supersymmetric version of the type IIB string on $T^2/\\mathbb{Z}_2$ with one $O7^+$-plane.",
+        "translated": ""
+    },
+    {
+        "title": "A Comparative Study of Model Adaptation Strategies for Multi-Treatment\n  Uplift Modeling",
+        "url": "http://arxiv.org/abs/2511.01185v1",
+        "pub_date": "2025-11-03",
+        "summary": "Uplift modeling has emerged as a crucial technique for individualized treatment effect estimation, particularly in fields such as marketing and healthcare. Modeling uplift effects in multi-treatment scenarios plays a key role in real-world applications. Current techniques for modeling multi-treatment uplift are typically adapted from binary-treatment works. In this paper, we investigate and categorize all current model adaptations into two types: Structure Adaptation and Feature Adaptation. Through our empirical experiments, we find that these two adaptation types cannot maintain effectiveness under various data characteristics (noisy data, mixed with observational data, etc.). To enhance estimation ability and robustness, we propose Orthogonal Function Adaptation (OFA) based on the function approximation theorem. We conduct comprehensive experiments with multiple data characteristics to study the effectiveness and robustness of all model adaptation techniques. Our experimental results demonstrate that our proposed OFA can significantly improve uplift model performance compared to other vanilla adaptation methods and exhibits the highest robustness.",
+        "translated": ""
     }
 ]
