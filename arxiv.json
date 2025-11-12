@@ -57384,5 +57384,33 @@
         "pub_date": "2025-11-10",
         "summary": "Feature attribution methods typically provide minimal sufficient evidence justifying a model decision. However, in many applications this is inadequate. For compliance and cataloging, the full set of contributing features must be identified - complete evidence. We perform a case study on a medical dataset which contains human-annotated complete evidence. We show that individual models typically recover only subsets of complete evidence and that aggregating evidence from several models improves evidence recall from $\\sim$0.60 (single best model) to $\\sim$0.86 (ensemble). We analyze the recall-precision trade-off, the role of training with evidence, dynamic ensembles with certainty thresholds, and discuss implications.",
         "translated": ""
+    },
+    {
+        "title": "Experimenting with Transitive Verbs in a DisCoCat",
+        "url": "http://arxiv.org/abs/1107.3119v2",
+        "pub_date": "2011-07-15",
+        "summary": "Formal and distributional semantic models offer complementary benefits in modeling meaning. The categorical compositional distributional (DisCoCat) model of meaning of Coecke et al. (arXiv:1003.4394v1 [cs.CL]) combines aspected of both to provide a general framework in which meanings of words, obtained distributionally, are composed using methods from the logical setting to form sentence meaning. Concrete consequences of this general abstract setting and applications to empirical data are under active study (Grefenstette et al., arxiv:1101.0309; Grefenstette and Sadrzadeh, arXiv:1106.4058v1 [cs.CL]). . In this paper, we extend this study by examining transitive verbs, represented as matrices in a DisCoCat. We discuss three ways of constructing such matrices, and evaluate each method in a disambiguation task developed by Grefenstette and Sadrzadeh (arXiv:1106.4058v1 [cs.CL]).",
+        "translated": ""
+    },
+    {
+        "title": "Predicting Research Trends From Arxiv",
+        "url": "http://arxiv.org/abs/1903.02831v1",
+        "pub_date": "2019-03-07",
+        "summary": "We perform trend detection on two datasets of Arxiv papers, derived from its machine learning (cs.LG) and natural language processing (cs.CL) categories. Our approach is bottom-up: we first rank papers by their normalized citation counts, then group top-ranked papers into different categories based on the tasks that they pursue and the methods they use. We then analyze these resulting topics. We find that the dominating paradigm in cs.CL revolves around natural language generation problems and those in cs.LG revolve around reinforcement learning and adversarial principles. By extrapolation, we predict that these topics will remain lead problems/approaches in their fields in the short- and mid-term.",
+        "translated": ""
+    },
+    {
+        "title": "NLLG Quarterly arXiv Report 09/24: What are the most influential current AI Papers?",
+        "url": "http://arxiv.org/abs/2412.12121v1",
+        "pub_date": "2024-12-02",
+        "summary": "The NLLG (Natural Language Learning &amp; Generation) arXiv reports assist in navigating the rapidly evolving landscape of NLP and AI research across cs.CL, cs.CV, cs.AI, and cs.LG categories. This fourth installment captures a transformative period in AI history - from January 1, 2023, following ChatGPT's debut, through September 30, 2024. Our analysis reveals substantial new developments in the field - with 45% of the top 40 most-cited papers being new entries since our last report eight months ago and offers insights into emerging trends and major breakthroughs, such as novel multimodal architectures, including diffusion and state space models. Natural Language Processing (NLP; cs.CL) remains the dominant main category in the list of our top-40 papers but its dominance is on the decline in favor of Computer vision (cs.CV) and general machine learning (cs.LG). This report also presents novel findings on the integration of generative AI in academic writing, documenting its increasing adoption since 2022 while revealing an intriguing pattern: top-cited papers show notably fewer markers of AI-generated content compared to random samples. Furthermore, we track the evolution of AI-associated language, identifying declining trends in previously common indicators such as \"delve\".",
+        "translated": ""
+    },
+    {
+        "title": "A Compositional Distributional Semantics, Two Concrete Constructions, and some Experimental Evaluations",
+        "url": "http://arxiv.org/abs/1105.1702v2",
+        "pub_date": "2011-05-09",
+        "summary": "We provide an overview of the hybrid compositional distributional model of meaning, developed in Coecke et al. (arXiv:1003.4394v1 [cs.CL]), which is based on the categorical methods also applied to the analysis of information flow in quantum protocols. The mathematical setting stipulates that the meaning of a sentence is a linear function of the tensor products of the meanings of its words. We provide concrete constructions for this definition and present techniques to build vector spaces for meaning vectors of words, as well as that of sentences. The applicability of these methods is demonstrated via a toy vector space as well as real data from the British National Corpus and two disambiguation experiments.",
+        "translated": ""
     }
 ]
