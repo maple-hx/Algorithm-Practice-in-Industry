@@ -57468,5 +57468,68 @@
         "pub_date": "2024-03-11",
         "summary": "Uplift modeling aims to measure the incremental effect, which we call uplift, of a strategy or action on the users from randomized experiments or observational data. Most existing uplift methods only use individual data, which are usually not informative enough to capture the unobserved and complex hidden factors regarding the uplift. Furthermore, uplift modeling scenario usually has scarce labeled data, especially for the treatment group, which also poses a great challenge for model training. Considering that the neighbors' features and the social relationships are very informative to characterize a user's uplift, we propose a graph neural network-based framework with two uplift estimators, called GNUM, to learn from the social graph for uplift estimation. Specifically, we design the first estimator based on a class-transformed target. The estimator is general for all types of outcomes, and is able to comprehensively model the treatment and control group data together to approach the uplift. When the outcome is discrete, we further design the other uplift estimator based on our defined partial labels, which is able to utilize more labeled data from both the treatment and control groups, to further alleviate the label scarcity problem. Comprehensive experiments on a public dataset and two industrial datasets show a superior performance of our proposed framework over state-of-the-art methods under various evaluation metrics. The proposed algorithms have been deployed online to serve real-world uplift estimation scenarios.",
         "translated": ""
+    },
+    {
+        "title": "Quantile Time Series Regression Models Revisited",
+        "url": "http://arxiv.org/abs/2308.06617v3",
+        "pub_date": "2023-08-12",
+        "summary": "This article discusses recent developments in the literature of quantile time series models in the cases of stationary and nonstationary underline stochastic processes.",
+        "translated": ""
+    },
+    {
+        "title": "Identification of Matching Complementarities: A Geometric Viewpoint",
+        "url": "http://arxiv.org/abs/2102.03875v1",
+        "pub_date": "2021-02-07",
+        "summary": "We provide a geometric formulation of the problem of identification of the matching surplus function and we show how the estimation problem can be solved by the introduction of a generalized entropy function over the set of matchings.",
+        "translated": ""
+    },
+    {
+        "title": "Nonparametric Counterfactuals in Random Utility Models",
+        "url": "http://arxiv.org/abs/1902.08350v2",
+        "pub_date": "2019-02-22",
+        "summary": "We bound features of counterfactual choices in the nonparametric random utility model of demand, i.e. if observable choices are repeated cross-sections and one allows for unrestricted, unobserved heterogeneity. In this setting, tight bounds are developed on counterfactual discrete choice probabilities and on the expectation and c.d.f. of (functionals of) counterfactual stochastic demand.",
+        "translated": ""
+    },
+    {
+        "title": "Bayesian Markov-Switching Vector Autoregressive Process",
+        "url": "http://arxiv.org/abs/2404.11235v3",
+        "pub_date": "2024-04-17",
+        "summary": "This study introduces marginal density functions of the general Bayesian Markov-Switching Vector Autoregressive (MS-VAR) process. In the case of the Bayesian MS-VAR process, we provide closed-form density functions and Monte-Carlo simulation algorithms, including the importance sampling method. The Monte-Carlo simulation method departs from the previous simulation methods because it removes the duplication in a regime vector.",
+        "translated": ""
+    },
+    {
+        "title": "The Allen--Uzawa elasticity of substitution for nonhomogeneous production functions",
+        "url": "http://arxiv.org/abs/1802.06885v1",
+        "pub_date": "2018-02-09",
+        "summary": "This note proves that the representation of the Allen elasticity of substitution obtained by Uzawa for linear homogeneous functions holds true for nonhomogeneous functions. It is shown that the criticism of the Allen-Uzawa elasticity of substitution in the works of Blackorby, Primont, Russell is based on an incorrect example.",
+        "translated": ""
+    },
+    {
+        "title": "Using bayesmixedlogit and bayesmixedlogitwtp in Stata",
+        "url": "http://arxiv.org/abs/2302.01775v1",
+        "pub_date": "2023-02-03",
+        "summary": "This document presents an overview of the bayesmixedlogit and bayesmixedlogitwtp Stata packages. It mirrors closely the helpfile obtainable in Stata (i.e., through help bayesmixedlogit or help bayesmixedlogitwtp). Further background for the packages can be found in Baker(2014).",
+        "translated": ""
+    },
+    {
+        "title": "Structural Analysis of Vector Autoregressive Models",
+        "url": "http://arxiv.org/abs/2312.06402v9",
+        "pub_date": "2023-12-11",
+        "summary": "This set of lecture notes discuss key concepts for the Structural Analysis of Vector Autoregressive models for the teaching of a course on Applied Macroeconometrics with Advanced Topics.",
+        "translated": ""
+    },
+    {
+        "title": "Latent Unbalancedness in Three-Way Gravity Models",
+        "url": "http://arxiv.org/abs/2203.02235v1",
+        "pub_date": "2022-03-04",
+        "summary": "Many panel data sets used for pseudo-poisson estimation of three-way gravity models are implicitly unbalanced because uninformative observations are redundant for the estimation. We show with real data as well as simulations that this phenomenon, which we call latent unbalancedness, amplifies the inference problem recently studied by Weidner and Zylkin (2021).",
+        "translated": ""
+    },
+    {
+        "title": "Sequential Validation of Treatment Heterogeneity",
+        "url": "http://arxiv.org/abs/2405.05534v1",
+        "pub_date": "2024-05-09",
+        "summary": "We use the martingale construction of Luedtke and van der Laan (2016) to develop tests for the presence of treatment heterogeneity. The resulting sequential validation approach can be instantiated using various validation metrics, such as BLPs, GATES, QINI curves, etc., and provides an alternative to cross-validation-like cross-fold application of these metrics.",
+        "translated": ""
     }
 ]
