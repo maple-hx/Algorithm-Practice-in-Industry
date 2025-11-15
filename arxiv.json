@@ -57615,5 +57615,75 @@
         "pub_date": "2025-11-13",
         "summary": "Large Language Models (LLMs) have demonstrated remarkable reasoning abilities, yet existing test-time frameworks often rely on coarse self-verification and self-correction, limiting their effectiveness on complex tasks. In this paper, we propose Socratic Self-Refine (SSR), a novel framework for fine-grained evaluation and precise refinement of LLM reasoning. Our proposed SSR decomposes model responses into verifiable (sub-question, sub-answer) pairs, enabling step-level confidence estimation through controlled re-solving and self-consistency checks. By pinpointing unreliable steps and iteratively refining them, SSR produces more accurate and interpretable reasoning chains. Empirical results across five reasoning benchmarks and three LLMs show that SSR consistently outperforms state-of-the-art iterative self-refinement baselines. Beyond performance gains, SSR provides a principled black-box approach for evaluating and understanding the internal reasoning processes of LLMs. Code is available at https://github.com/SalesforceAIResearch/socratic-self-refine-reasoning.",
         "translated": ""
+    },
+    {
+        "title": "Estimating the true number of principal components under the random design",
+        "url": "http://arxiv.org/abs/2511.10419v1",
+        "pub_date": "2025-11-13",
+        "summary": "Principal component analysis (PCA) is frequently employed as a dimension reduction tool when the number of covariates is large. However, the number of principal components to be retained in PCA is typically determined in a researcher-dependent manner. To mitigate the subjectivity in PCA, this paper proposes a data-driven testing procedure to estimate the number of underlying principal components. While existing work such as G'Sell et al. (2016), Taylor et al. (2016) and Choi et al. (2017) discuss similar tests under fixed design, this paper investigates an extension of their framework to a more general econometric setup with the random design. The proposed test is proved to achieve asymptotically exact type 1 error controls under a locally defined null hypothesis, with simulation examples indicating an asymptotic validity of our test.",
+        "translated": ""
+    },
+    {
+        "title": "Robust Cauchy-Based Methods for Predictive Regressions",
+        "url": "http://arxiv.org/abs/2511.09249v1",
+        "pub_date": "2025-11-12",
+        "summary": "This paper develops robust inference methods for predictive regressions that address key challenges posed by endogenously persistent or heavy-tailed regressors, as well as persistent volatility in errors. Building on the Cauchy estimation framework, we propose two novel tests: one based on $t$-statistic group inference and the other employing a hybrid approach that combines Cauchy and OLS estimation. These methods effectively mitigate size distortions that commonly arise in standard inference procedures under endogeneity, near nonstationarity, heavy tails, and persistent volatility. The proposed tests are simple to implement and applicable to both continuous- and discrete-time models. Extensive simulation experiments demonstrate favorable finite-sample performance across a range of realistic settings. An empirical application examines the predictability of excess stock returns using the dividend-price and earnings-price ratios as predictors. The results suggest that the dividend-price ratio possesses predictive power, whereas the earnings-price ratio does not significantly forecast returns.",
+        "translated": ""
+    },
+    {
+        "title": "Semi-Supervised Treatment Effect Estimation with Unlabeled Covariates via Generalized Riesz Regression",
+        "url": "http://arxiv.org/abs/2511.08303v1",
+        "pub_date": "2025-11-11",
+        "summary": "This study investigates treatment effect estimation in the semi-supervised setting, where we can use not only the standard triple of covariates, treatment indicator, and outcome, but also unlabeled auxiliary covariates. For this problem, we develop efficiency bounds and efficient estimators whose asymptotic variance aligns with the efficiency bound. In the analysis, we introduce two different data-generating processes: the one-sample setting and the two-sample setting. The one-sample setting considers the case where we can observe treatment indicators and outcomes for a part of the dataset, which is also called the censoring setting. In contrast, the two-sample setting considers two independent datasets with labeled and unlabeled data, which is also called the case-control setting or the stratified setting. In both settings, we find that by incorporating auxiliary covariates, we can lower the efficiency bound and obtain an estimator with an asymptotic variance smaller than that without such auxiliary covariates.",
+        "translated": ""
+    },
+    {
+        "title": "Unlocking the Regression Space",
+        "url": "http://arxiv.org/abs/2511.07183v1",
+        "pub_date": "2025-11-10",
+        "summary": "This paper introduces and analyzes a framework that accommodates general heterogeneity in regression modeling. It demonstrates that regression models with fixed or time-varying parameters can be estimated using the OLS and time-varying OLS methods, respectively, across a broad class of regressors and noise processes not covered by existing theory. The proposed setting facilitates the development of asymptotic theory and the estimation of robust standard errors. The robust confidence interval estimators accommodate substantial heterogeneity in both regressors and noise. The resulting robust standard error estimates coincide with White's (1980) heteroskedasticity-consistent estimator but are applicable to a broader range of conditions, including models with missing data. They are computationally simple and perform well in Monte Carlo simulations. Their robustness, generality, and ease of implementation make them highly suitable for empirical applications. Finally, the paper provides a brief empirical illustration.",
+        "translated": ""
+    },
+    {
+        "title": "Diffolio: A Diffusion Model for Multivariate Probabilistic Financial Time-Series Forecasting and Portfolio Construction",
+        "url": "http://arxiv.org/abs/2511.07014v1",
+        "pub_date": "2025-11-10",
+        "summary": "Probabilistic forecasting is crucial in multivariate financial time-series for constructing efficient portfolios that account for complex cross-sectional dependencies. In this paper, we propose Diffolio, a diffusion model designed for multivariate financial time-series forecasting and portfolio construction. Diffolio employs a denoising network with a hierarchical attention architecture, comprising both asset-level and market-level layers. Furthermore, to better reflect cross-sectional correlations, we introduce a correlation-guided regularizer informed by a stable estimate of the target correlation matrix. This structure effectively extracts salient features not only from historical returns but also from asset-specific and systematic covariates, significantly enhancing the performance of forecasts and portfolios. Experimental results on the daily excess returns of 12 industry portfolios show that Diffolio outperforms various probabilistic forecasting baselines in multivariate forecasting accuracy and portfolio performance. Moreover, in portfolio experiments, portfolios constructed from Diffolio's forecasts show consistently robust performance, thereby outperforming those from benchmarks by achieving higher Sharpe ratios for the mean-variance tangency portfolio and higher certainty equivalents for the growth-optimal portfolio. These results demonstrate the superiority of our proposed Diffolio in terms of not only statistical accuracy but also economic significance.",
+        "translated": ""
+    },
+    {
+        "title": "Boundary Discontinuity Designs: Theory and Practice",
+        "url": "http://arxiv.org/abs/2511.06474v1",
+        "pub_date": "2025-11-09",
+        "summary": "We review the literature on boundary discontinuity (BD) designs, a powerful non-experimental research methodology that identifies causal effects by exploiting a thresholding treatment assignment rule based on a bivariate score and a boundary curve. This methodology generalizes standard regression discontinuity designs based on a univariate score and scalar cutoff, and has specific challenges and features related to its multi-dimensional nature. We synthesize the empirical literature by systematically reviewing over $80$ empirical papers, tracing the method's application from its formative uses to its implementation in modern research. In addition to the empirical survey, we overview the latest methodological results on identification, estimation and inference for the analysis of BD designs, and offer recommendations for practice.",
+        "translated": ""
+    },
+    {
+        "title": "A sensitivity analysis for the average derivative effect",
+        "url": "http://arxiv.org/abs/2511.06243v1",
+        "pub_date": "2025-11-09",
+        "summary": "In observational studies, exposures are often continuous rather than binary or discrete. At the same time, sensitivity analysis is an important tool that can help determine the robustness of a causal conclusion to a certain level of unmeasured confounding, which can never be ruled out in an observational study. Sensitivity analysis approaches for continuous exposures have now been proposed for several causal estimands. In this article, we focus on the average derivative effect (ADE). We obtain closed-form bounds for the ADE under a sensitivity model that constrains the odds ratio (at any two dose levels) between the latent and observed generalized propensity score. We propose flexible, efficient estimators for the bounds, as well as point-wise and simultaneous (over the sensitivity parameter) confidence intervals. We examine the finite sample performance of the methods through simulations and illustrate the methods on a study assessing the effect of parental income on educational attainment and a study assessing the price elasticity of petrol.",
+        "translated": ""
+    },
+    {
+        "title": "Synthetic Parallel Trends",
+        "url": "http://arxiv.org/abs/2511.05870v1",
+        "pub_date": "2025-11-08",
+        "summary": "Popular empirical strategies for policy evaluation in the panel data literature -- including difference-in-differences (DID), synthetic control (SC) methods, and their variants -- rely on key identifying assumptions that can be expressed through a specific choice of weights $ω$ relating pre-treatment trends to the counterfactual outcome. While each choice of $ω$ may be defensible in empirical contexts that motivate a particular method, it relies on fundamentally untestable and often fragile assumptions. I develop an identification framework that allows for all weights satisfying a Synthetic Parallel Trends assumption: the treated unit's trend is parallel to a weighted combination of control units' trends for a general class of weights. The framework nests these existing methods as special cases and is by construction robust to violations of their respective assumptions. I construct a valid confidence set for the identified set of the treatment effect, which admits a linear programming representation with estimated coefficients and nuisance parameters that are profiled out. In simulations where the assumptions underlying DID or SC-based methods are violated, the proposed confidence set remains robust and attains nominal coverage, while existing methods suffer severe undercoverage.",
+        "translated": ""
+    },
+    {
+        "title": "Standard and comparative e-backtests for general risk measures",
+        "url": "http://arxiv.org/abs/2511.05840v1",
+        "pub_date": "2025-11-08",
+        "summary": "Backtesting risk measures is a unique and important problem for financial regulators to evaluate risk forecasts reported by financial institutions. As a natural extension to standard (or traditional) backtests, comparative backtests are introduced to evaluate different forecasts against regulatory standard models. Based on recently developed concepts of e-values and e-processes, we focus on how standard and comparative backtests can be manipulated in financial regulation by constructing e-processes. We design a model-free (non-parametric) method for standard backtests of identifiable risk measures and comparative backtests of elicitable risk measures. Our e-backtests are applicable to a wide range of common risk measures including the mean, the variance, the Value-at-Risk, the Expected Shortfall, and the expectile. Our results are illustrated by ample simulation studies and real data analysis.",
+        "translated": ""
+    },
+    {
+        "title": "The Exact Variance of the Average Treatment Effect Estimator in Cluster RCT",
+        "url": "http://arxiv.org/abs/2511.05801v1",
+        "pub_date": "2025-11-08",
+        "summary": "In cluster randomized controlled trials (CRCT) with a finite populations, the exact design-based variance of the Horvitz-Thompson (HT) estimator for the average treatment effect (ATE) depends on the joint distribution of unobserved cluster-aggregated potential outcomes and is therefore not point-identifiable. We study a common two-stage sampling design-random sampling of clusters followed by sampling units within sampled clusters-with treatment assigned at the cluster level. First, we derive the exact (infeasible) design-based variance of the HT ATE estimator that accounts jointly for cluster- and unit-level sampling as well as random assignment. Second, extending Aronow et al (2014), we provide a sharp, attanable upper bound on that variance and propose a consistent estimator of the bound using only observed outcomes and known sampling/assignment probabilities. In simulations and an empirical application, confidence intervals based on our bound are valid and typically narrower than those based on cluster standard errors.",
+        "translated": ""
     }
 ]
