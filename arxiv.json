@@ -57916,5 +57916,68 @@
         "pub_date": "2025-11-15",
         "summary": "Operational near-real-time monitoring of Earth's surface deformation using Interferometric Synthetic Aperture Radar (InSAR) requires processing algorithms that efficiently incorporate new acquisitions without reprocessing historical archives. We present sequential phase linking approach using compressed single-look-complex images (SLCs) capable of producing surface displacement estimates within hours of the time of a new acquisition. Our key algorithmic contribution is a mini-stack reference scheme that maintains phase consistency across processing batches without adjusting or re-estimating previous time steps, enabling straightforward operational deployment. We introduce online methods for persistent and distributed scatterer identification that adapt to temporal changes in surface properties through incremental amplitude statistics updates. The processing chain incorporates multiple complementary metrics for pixel quality that are reliable for small SLC stack sizes, and an L1-norm network inversion to limit propagation of unwrapping errors across the time series. We use our algorithm to produce OPERA Surface Displacement from Sentinel-1 product, the first continental-scale surface displacement product over North America. Validation against GPS measurements and InSAR residual analysis demonstrates millimeter-level agreement in velocity estimates in varying environmental conditions. We demonstrate our algorithm's capabilities with a successful recovery of meter-scale co-eruptive displacement at Kilauea volcano during the 2018 eruption, as well as detection of subtle uplift at Three Sisters volcano, Oregon- a challenging environment for C-band InSAR due to dense vegetation and seasonal snow. We have made all software available as open source libraries, providing a significant advancement to the open scientific community's ability to process large InSAR data sets in a cloud environment.",
         "translated": ""
+    },
+    {
+        "title": "A Gentle Introduction to Conformal Time Series Forecasting",
+        "url": "http://arxiv.org/abs/2511.13608v1",
+        "pub_date": "2025-11-17",
+        "summary": "Conformal prediction is a powerful post-hoc framework for uncertainty quantification that provides distribution-free coverage guarantees. However, these guarantees crucially rely on the assumption of exchangeability. This assumption is fundamentally violated in time series data, where temporal dependence and distributional shifts are pervasive. As a result, classical split-conformal methods may yield prediction intervals that fail to maintain nominal validity. This review unifies recent advances in conformal forecasting methods specifically designed to address nonexchangeable data. We first present a theoretical foundation, deriving finite-sample guarantees for split-conformal prediction under mild weak-dependence conditions. We then survey and classify state-of-the-art approaches that mitigate serial dependence by reweighting calibration data, dynamically updating residual distributions, or adaptively tuning target coverage levels in real time. Finally, we present a comprehensive simulation study that compares these techniques in terms of empirical coverage, interval width, and computational cost, highlighting practical trade-offs and open research directions.",
+        "translated": ""
+    },
+    {
+        "title": "The Shape of Data: Topology Meets Analytics. A Practical Introduction to Topological Analytics and the Stability Index (TSI) in Business",
+        "url": "http://arxiv.org/abs/2511.13503v1",
+        "pub_date": "2025-11-17",
+        "summary": "Modern business and economic datasets often exhibit nonlinear, multi-scale structures that traditional linear tools under-represent. Topological Data Analysis (TDA) offers a geometric lens for uncovering robust patterns, such as connected components, loops and voids, across scales. This paper provides an intuitive, figure-driven introduction to persistent homology and a practical, reproducible TDA pipeline for applied analysts. Through comparative case studies in consumer behavior, equity markets (SAX/eSAX vs.\\ TDA) and foreign exchange dynamics, we demonstrate how topological features can reveal segmentation patterns and structural relationships beyond classical statistical methods. We discuss methodological choices regarding distance metrics, complex construction and interpretation, and we introduce the \\textit{Topological Stability Index} (TSI), a simple yet interpretable indicator of structural variability derived from persistence lifetimes. We conclude with practical guidelines for TDA implementation, visualization and communication in business and economic analytics.",
+        "translated": ""
+    },
+    {
+        "title": "Random sets from the perspective of metric statistics",
+        "url": "http://arxiv.org/abs/2511.13440v1",
+        "pub_date": "2025-11-17",
+        "summary": "Since the seminal work by Beresteanu and Molinari(2008), the random set theory and related inference methods have been widely applied in partially identified econometric models. Meanwhile, there is an emerging field in statistics for studying random objects in metric spaces, called metric statistics. This paper clarifies a relationship between two fundamental concepts in these literatures, the Aumann and Fréchet means, and presents some applications of metric statistics to econometric problems involving random sets.",
+        "translated": ""
+    },
+    {
+        "title": "Decomposing Inequalities using Machine Learning and Overcoming Common Support Issues",
+        "url": "http://arxiv.org/abs/2511.13433v1",
+        "pub_date": "2025-11-17",
+        "summary": "The Kitagawa-Oaxaca-Blinder decomposition splits the difference in means between two groups into an explained part, due to observable factors, and an unexplained part. In this paper, we reformulate this framework using potential outcomes, highlighting the critical role of the reference outcome. To address limitations like common support and model misspecification, we extend Neumark's (1988) weighted reference approach with a doubly robust estimator. Using Neyman orthogonality and double machine learning, our method avoids trimming and extrapolation. This improves flexibility and robustness, as illustrated by two empirical applications. Nevertheless, we also highlight that the decomposition based on the Neumark reference outcome is particularly sensitive to the inclusion of irrelevant explanatory variables.",
+        "translated": ""
+    },
+    {
+        "title": "Why Do the Elderly Save? Using Health Shocks to Uncover Bequests Motives",
+        "url": "http://arxiv.org/abs/2511.13275v1",
+        "pub_date": "2025-11-17",
+        "summary": "We revisit the saving behavior of elderly singles using an adversarial structural estimation framework by Kaji, Manresa and Pouliot (2023). The method bridges the simulated method of moments (SMM) and maximum-likelihood estimation by embedding a flexible discriminator, implemented as a neural network, that adaptively selects the most informative features of the data. Applying this approach to the model of De Nardi, French, and Jones (2010) with AHEAD data, we show that including gender and health histories in the discriminator improves identification and precision of bequests motives. The resulting estimates reveal that bequest motives explain between $13\\%$ and $19\\%$ percent of late-life savings across all permanent-income quintiles, not only among the rich. The adversarial estimator precisely disentangles bequest motives from precautionary savings motives. These findings suggest that heterogeneity in health-related survival expectations is another important source of identifying variation to distinguishing bequest and precautionary saving motives.",
+        "translated": ""
+    },
+    {
+        "title": "Identification-aware Markov chain Monte Carlo",
+        "url": "http://arxiv.org/abs/2511.12847v1",
+        "pub_date": "2025-11-17",
+        "summary": "Leaving posterior sensitivity concerns aside, non-identifiability of the parameters does not raise a difficulty for Bayesian inference as far as the posterior is proper, but multi-modality or flat regions of the posterior induced by the lack of identification leaves a challenge for modern Bayesian computation. Sampling methods often struggle with slow or non-convergence when dealing with multiple modes or flat regions of the target distributions. This paper develops a novel Markov chain Monte Carlo (MCMC) approach for non-identified models, leveraging the knowledge of observationally equivalent sets of parameters, and highlights an important role that identification plays in modern Bayesian analysis. We show that our proposal overcomes the issues of being trapped in a local mode and achieves a faster rate of convergence than the existing MCMC techniques including random walk Metropolis-Hastings and Hamiltonian Monte Carlo. The gain in the speed of convergence is more significant as the dimension or cardinality of the identified sets increases. Simulation studies show its superior performance compared to other popular computational methods including Hamiltonian Monte Carlo and sequential Monte Carlo. We also demonstrate that our method uncovers non-trivial modes in the target distribution in a structural vector moving-average (SVMA) application.",
+        "translated": ""
+    },
+    {
+        "title": "Double machine learning for causal inference in a multivariate sample selection model",
+        "url": "http://arxiv.org/abs/2511.12640v1",
+        "pub_date": "2025-11-16",
+        "summary": "We propose plug-in (PI) and double machine learning (DML) estimators of average treatment effect (ATE), average treatment effect on the treated (ATET) and local average treatment effect (LATE) in the multivariate sample selection model with ordinal selection equations. Our DML estimators are doubly-robust and based on the efficient influence functions. Finite sample properties of the proposed estimators are studied and compared on simulated data. Specifically, the results of the analysis suggest that without addressing multivariate sample selection, the estimates of the causal parameters may be highly biased. However, the proposed estimators allow us to avoid these biases.",
+        "translated": ""
+    },
+    {
+        "title": "Multiscale Comparison of Nonparametric Trending Coefficients",
+        "url": "http://arxiv.org/abs/2511.12600v1",
+        "pub_date": "2025-11-16",
+        "summary": "This paper proposes a novel framework to test for slope heterogeneity between time-varying coefficients in panel data models. Our test not only allows us to detect whether the coefficient functions are the same across all units or not, but also determines which of them are different and where these differences are located. We establish the asymptotic validity of our multiscale test. As an extension of the proposed procedure, we show how to use the results to uncover latent group structures in the model. We apply our methods to test for heterogeneity in the effect of U.S. monetary shocks on 49 foreign economies and itself. We find evidence that such heterogeneity indeed exists and we discuss the clustering results for two groups.",
+        "translated": ""
+    },
+    {
+        "title": "Compound Selection Decisions: An Almost SURE Approach",
+        "url": "http://arxiv.org/abs/2511.11862v1",
+        "pub_date": "2025-11-14",
+        "summary": "This paper proposes methods for producing compound selection decisions in a Gaussian sequence model. Given unknown, fixed parameters $μ_ {1:n}$ and known $σ_{1:n}$ with observations $Y_i \\sim \\textsf{N}(μ_i, σ_i^2)$, the decision maker would like to select a subset of indices $S$ so as to maximize utility $\\frac{1}{n}\\sum_{i\\in S} (μ_i - K_i)$, for known costs $K_i$. Inspired by Stein's unbiased risk estimate (SURE), we introduce an almost unbiased estimator, called ASSURE, for the expected utility of a proposed decision rule. ASSURE allows a user to choose a welfare-maximizing rule from a pre-specified class by optimizing the estimated welfare, thereby producing selection decisions that borrow strength across noisy estimates. We show that ASSURE produces decision rules that are asymptotically no worse than the optimal but infeasible decision rule in the pre-specified class. We apply ASSURE to the selection of Census tracts for economic opportunity, the identification of discriminating firms, and the analysis of $p$-value decision procedures in A/B testing.",
+        "translated": ""
     }
 ]
