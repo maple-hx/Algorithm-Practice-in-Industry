@@ -58126,5 +58126,40 @@
         "pub_date": "2025-11-20",
         "summary": "Recent advancements in neural audio codecs have not only enabled superior audio compression but also enhanced speech synthesis techniques. Researchers are now exploring their potential as universal acoustic feature extractors for a broader range of speech processing tasks. Building on this trend, we introduce Codec2Vec, the first speech representation learning framework that relies exclusively on discrete audio codec units. This approach offers several advantages, including improved data storage and transmission efficiency, faster training, and enhanced data privacy. We explore masked prediction with various training target derivation strategies to thoroughly understand the effectiveness of this framework. Evaluated on the SUPERB benchmark, Codec2Vec achieves competitive performance compared to continuous-input models while reducing storage requirements by up to 16.5x and training time by 2.3x, showcasing its scalability and efficiency.",
         "translated": ""
+    },
+    {
+        "title": "Quantile Selection in the Gender Pay Gap",
+        "url": "http://arxiv.org/abs/2511.16187v1",
+        "pub_date": "2025-11-20",
+        "summary": "We propose a new approach to estimate selection-corrected quantiles of the gender wage gap. Our method employs instrumental variables that explain variation in the latent variable but, conditional on the latent process, do not directly affect selection. We provide semiparametric identification of the quantile parameters without imposing parametric restrictions on the selection probability, derive the asymptotic distribution of the proposed estimator based on constrained selection probability weighting, and demonstrate how the approach applies to the Roy model of labor supply. Using German administrative data, we analyze the distribution of the gender gap in full-time earnings. We find pronounced positive selection among women at the lower end, especially those with less education, which widens the gender gap in this segment, and strong positive selection among highly educated men at the top, which narrows the gender wage gap at upper quantiles.",
+        "translated": ""
+    },
+    {
+        "title": "Confidence Sets for the Emergence, Collapse, and Recovery Dates of a Bubble",
+        "url": "http://arxiv.org/abs/2511.16172v1",
+        "pub_date": "2025-11-20",
+        "summary": "We propose constructing confidence sets for the emergence, collapse, and recovery dates of a bubble by inverting tests for the location of the break date. We examine both likelihood ratio-type tests and the Elliott-Muller-type (2007) tests for detecting break locations. The limiting distributions of these tests are derived under the null hypothesis, and their asymptotic consistency under the alternative is established. Finite-sample properties are evaluated through Monte Carlo simulations. The results indicate that combining different types of tests effectively controls the empirical coverage rate while maintaining a reasonably small length of the confidence set.",
+        "translated": ""
+    },
+    {
+        "title": "Possibilistic Instrumental Variable Regression",
+        "url": "http://arxiv.org/abs/2511.16029v1",
+        "pub_date": "2025-11-20",
+        "summary": "Instrumental variable regression is a common approach for causal inference in the presence of unobserved confounding. However, identifying valid instruments is often difficult in practice. In this paper, we propose a novel method based on possibility theory that performs posterior inference on the treatment effect, conditional on a user-specified set of potential violations of the exogeneity assumption. Our method can provide informative results even when only a single, potentially invalid, instrument is available, offering a natural and principled framework for sensitivity analysis. Simulation experiments and a real-data application indicate strong performance of the proposed approach.",
+        "translated": ""
+    },
+    {
+        "title": "Bayesian Semiparametric Causal Inference: Targeted Doubly Robust Estimation of Treatment Effects",
+        "url": "http://arxiv.org/abs/2511.15904v1",
+        "pub_date": "2025-11-19",
+        "summary": "We propose a semiparametric Bayesian methodology for estimating the average treatment effect (ATE) within the potential outcomes framework using observational data with high-dimensional nuisance parameters. Our method introduces a Bayesian debiasing procedure that corrects for bias arising from nuisance estimation and employs a targeted modeling strategy based on summary statistics rather than the full data. These summary statistics are identified in a debiased manner, enabling the estimation of nuisance bias via weighted observables and facilitating hierarchical learning of the ATE. By combining debiasing with sample splitting, our approach separates nuisance estimation from inference on the target parameter, reducing sensitivity to nuisance model specification. We establish that, under mild conditions, the marginal posterior for the ATE satisfies a Bernstein-von Mises theorem when both nuisance models are correctly specified and remains consistent and robust when only one is correct, achieving Bayesian double robustness. This ensures asymptotic efficiency and frequentist validity. Extensive simulations confirm the theoretical results, demonstrating accurate point estimation and credible intervals with nominal coverage, even in high-dimensional settings. The proposed framework can also be extended to other causal estimands, and its key principles offer a general foundation for advancing Bayesian semiparametric inference more broadly.",
+        "translated": ""
+    },
+    {
+        "title": "Heterogeneity in peer effects for binary outcomes",
+        "url": "http://arxiv.org/abs/2511.15891v1",
+        "pub_date": "2025-11-19",
+        "summary": "I introduce heterogeneity into the analysis of peer effects that arise from conformity, allowing the strength of the taste for conformity to vary across agents' actions. Using a structural model based on a simultaneous network game with incomplete information, I derive conditions for equilibrium uniqueness and for the identification of heterogeneous peer-effect parameters. I also propose specification tests to determine whether the conformity model or the spillover model is consistent with the observed data in the presence of heterogeneous peer effects. Applying the model to data on smoking and alcohol consumption among secondary school students, I show that assuming a homogeneous preference for conformity leads to biased estimates.",
+        "translated": ""
     }
 ]
