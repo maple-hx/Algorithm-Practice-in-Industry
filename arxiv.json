@@ -58273,5 +58273,19 @@
         "pub_date": "2025-11-20",
         "summary": "Evaluating and measuring AI Safety Level (ASL) threats are crucial for guiding stakeholders to implement safeguards that keep risks within acceptable limits. ASL-3+ models present a unique risk in their ability to uplift novice non-state actors, especially in the realm of biosecurity. Existing evaluation metrics, such as LAB-Bench, BioLP-bench, and WMDP, can reliably assess model uplift and domain knowledge. However, metrics that better contextualize \"real-world risks\" are needed to inform the safety case for LLMs, along with scalable, open-ended metrics to keep pace with their rapid advancements. To address both gaps, we introduce MOCET, an interpretable and doubly-scalable metric (automatable and open-ended) that can quantify real-world risks.",
         "translated": ""
+    },
+    {
+        "title": "Optimising pandemic response through vaccination strategies using neural networks",
+        "url": "http://arxiv.org/abs/2511.16932v1",
+        "pub_date": "2025-11-21",
+        "summary": "Epidemic risk assessment poses inherent challenges, with traditional approaches often failing to balance health outcomes and economic constraints. This paper presents a data-driven decision support tool that models epidemiological dynamics and optimises vaccination strategies to control disease spread whilst minimising economic losses. The proposed economic-epidemiological framework comprises three phases: modelling, optimising, and analysing. First, a stochastic compartmental model captures epidemic dynamics. Second, an optimal control problem is formulated to derive vaccination strategies that minimise pandemic-related expenditure. Given the analytical intractability of epidemiological models, neural networks are employed to calibrate parameters and solve the high-dimensional control problem. The framework is demonstrated using COVID-19 data from Victoria, Australia, empirically deriving optimal vaccination strategies that simultaneously minimise disease incidence and governmental expenditure. By employing this three-phase framework, policymakers can adjust input values to reflect evolving transmission dynamics and continuously update strategies, thereby minimising aggregate costs, aiding future pandemic preparedness.",
+        "translated": ""
+    },
+    {
+        "title": "Approximate Least-Favorable Distributions and Nearly Optimal Tests via Stochastic Mirror Descent",
+        "url": "http://arxiv.org/abs/2511.16925v1",
+        "pub_date": "2025-11-21",
+        "summary": "We consider a class of hypothesis testing problems where the null hypothesis postulates $M$ distributions for the observed data, and there is only one possible distribution under the alternative. We show that one can use a stochastic mirror descent routine for convex optimization to provably obtain - after finitely many iterations - both an approximate least-favorable distribution and a nearly optimal test, in a sense we make precise. Our theoretical results yield concrete recommendations about the algorithm's implementation, including its initial condition, its step size, and the number of iterations. Importantly, our suggested algorithm can be viewed as a slight variation of the algorithm suggested by Elliott, Müller, and Watson (2015), whose theoretical performance guarantees are unknown.",
+        "translated": ""
     }
 ]
