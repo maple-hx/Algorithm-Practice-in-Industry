@@ -58266,5 +58266,12 @@
         "pub_date": "2025-11-21",
         "summary": "Generative recommendation systems typically leverage Semantic Identifiers (SIDs), which represent each item as a sequence of tokens that encode semantic information. However, representing item ID with multiple SIDs significantly increases input sequence length, which is a major determinant of computational complexity and memory consumption. While existing efforts primarily focus on optimizing attention computation and KV cache, we propose RASTP (Representation-Aware Semantic Token Pruning), which directly prunes less informative tokens in the input sequence. Specifically, RASTP evaluates token importance by combining semantic saliency, measured via representation magnitude, and attention centrality, derived from cumulative attention weights. Since RASTP dynamically prunes low-information or irrelevant semantic tokens, experiments on three real-world Amazon datasets show that RASTP reduces training time by 26.7\\%, while maintaining or slightly improving recommendation performance. The code has been open-sourced at https://github.com/Yuzt-zju/RASTP.",
         "translated": ""
+    },
+    {
+        "title": "Monte Carlo Expected Threat (MOCET) Scoring",
+        "url": "http://arxiv.org/abs/2511.16823v1",
+        "pub_date": "2025-11-20",
+        "summary": "Evaluating and measuring AI Safety Level (ASL) threats are crucial for guiding stakeholders to implement safeguards that keep risks within acceptable limits. ASL-3+ models present a unique risk in their ability to uplift novice non-state actors, especially in the realm of biosecurity. Existing evaluation metrics, such as LAB-Bench, BioLP-bench, and WMDP, can reliably assess model uplift and domain knowledge. However, metrics that better contextualize \"real-world risks\" are needed to inform the safety case for LLMs, along with scalable, open-ended metrics to keep pace with their rapid advancements. To address both gaps, we introduce MOCET, an interpretable and doubly-scalable metric (automatable and open-ended) that can quantify real-world risks.",
+        "translated": ""
     }
 ]
