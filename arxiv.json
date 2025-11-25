@@ -58287,5 +58287,33 @@
         "pub_date": "2025-11-21",
         "summary": "We consider a class of hypothesis testing problems where the null hypothesis postulates $M$ distributions for the observed data, and there is only one possible distribution under the alternative. We show that one can use a stochastic mirror descent routine for convex optimization to provably obtain - after finitely many iterations - both an approximate least-favorable distribution and a nearly optimal test, in a sense we make precise. Our theoretical results yield concrete recommendations about the algorithm's implementation, including its initial condition, its step size, and the number of iterations. Importantly, our suggested algorithm can be viewed as a slight variation of the algorithm suggested by Elliott, Müller, and Watson (2015), whose theoretical performance guarantees are unknown.",
         "translated": ""
+    },
+    {
+        "title": "Revisiting Feedback Models for HyDE",
+        "url": "http://arxiv.org/abs/2511.19349v1",
+        "pub_date": "2025-11-24",
+        "summary": "Recent approaches that leverage large language models (LLMs) for pseudo-relevance feedback (PRF) have generally not utilized well-established feedback models like Rocchio and RM3 when expanding queries for sparse retrievers like BM25. Instead, they often opt for a simple string concatenation of the query and LLM-generated expansion content. But is this optimal? To answer this question, we revisit and systematically evaluate traditional feedback models in the context of HyDE, a popular method that enriches query representations with LLM-generated hypothetical answer documents. Our experiments show that HyDE's effectiveness can be substantially improved when leveraging feedback algorithms such as Rocchio to extract and weight expansion terms, providing a simple way to further enhance the accuracy of LLM-based PRF methods.",
+        "translated": ""
+    },
+    {
+        "title": "Generative Query Expansion with Multilingual LLMs for Cross-Lingual Information Retrieval",
+        "url": "http://arxiv.org/abs/2511.19325v1",
+        "pub_date": "2025-11-24",
+        "summary": "Query expansion is the reformulation of a user query by adding semantically related information, and is an essential component of monolingual and cross-lingual information retrieval used to ensure that relevant documents are not missed. Recently, multilingual large language models (mLLMs) have shifted query expansion from semantic augmentation with synonyms and related words to pseudo-document generation. Pseudo-documents both introduce additional relevant terms and bridge the gap between short queries and long documents, which is particularly beneficial in dense retrieval. This study evaluates recent mLLMs and fine-tuned variants across several generative expansion strategies to identify factors that drive cross-lingual retrieval performance. Results show that query length largely determines which prompting technique is effective, and that more elaborate prompts often do not yield further gains. Substantial linguistic disparities persist: cross-lingual query expansion can produce the largest improvements for languages with the weakest baselines, yet retrieval is especially poor between languages written in different scripts. Fine-tuning is found to lead to performance gains only when the training and test data are of similar format. These outcomes underline the need for more balanced multilingual and cross-lingual training and evaluation resources.",
+        "translated": ""
+    },
+    {
+        "title": "What Drives Cross-lingual Ranking? Retrieval Approaches with Multilingual Language Models",
+        "url": "http://arxiv.org/abs/2511.19324v1",
+        "pub_date": "2025-11-24",
+        "summary": "Cross-lingual information retrieval (CLIR) enables access to multilingual knowledge but remains challenging due to disparities in resources, scripts, and weak cross-lingual semantic alignment in embedding models. Existing pipelines often rely on translation and monolingual retrieval heuristics, which add computational overhead and noise, degrading performance. This work systematically evaluates four intervention types, namely document translation, multilingual dense retrieval with pretrained encoders, contrastive learning at word, phrase, and query-document levels, and cross-encoder re-ranking, across three benchmark datasets. We find that dense retrieval models trained specifically for CLIR consistently outperform lexical matching methods and derive little benefit from document translation. Contrastive learning mitigates language biases and yields substantial improvements for encoders with weak initial alignment, and re-ranking can be effective, but depends on the quality of the cross-encoder training data. Although high-resource languages still dominate overall performance, gains over lexical and document-translated baselines are most pronounced for low-resource and cross-script pairs. These findings indicate that cross-lingual search systems should prioritise semantic multilingual embeddings and targeted learning-based alignment over translation-based pipelines, particularly for cross-script and under-resourced languages.",
+        "translated": ""
+    },
+    {
+        "title": "From Raw Features to Effective Embeddings: A Three-Stage Approach for Multimodal Recipe Recommendation",
+        "url": "http://arxiv.org/abs/2511.19176v1",
+        "pub_date": "2025-11-24",
+        "summary": "Recipe recommendation has become an essential task in web-based food platforms. A central challenge is effectively leveraging rich multimodal features beyond user-recipe interactions. Our analysis shows that even simple uses of multimodal signals yield competitive performance, suggesting that systematic enhancement of these signals is highly promising. We propose TESMR, a 3-stage framework for recipe recommendation that progressively refines raw multimodal features into effective embeddings through: (1) content-based enhancement using foundation models with multimodal comprehension, (2) relation-based enhancement via message propagation over user-recipe interactions, and (3) learning-based enhancement through contrastive learning with learnable embeddings. Experiments on two real-world datasets show that TESMR outperforms existing methods, achieving 7-15% higher Recall@10.",
+        "translated": ""
     }
 ]
