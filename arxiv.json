@@ -58462,5 +58462,33 @@
         "pub_date": "2025-11-25",
         "summary": "We construct the planar integrand of the six-leg amplitude of massive W-bosons on the special Coulomb branch of the maximally supersymmetric Yang-Mills theory to two-loop order. We use the six-dimensional supersymmetric spinor-helicity formalism and the generalized unitarity-cut sewing technique to perform this analysis. The thus-found expression corresponds in the massless limit to the six-gluon maximally helicity-violating amplitude. The upshot of the current consideration is that the former is just an uplift of the latter from four to six dimensions. This repeats the pattern found earlier for four- and five-leg amplitudes of massive W-bosons.",
         "translated": ""
+    },
+    {
+        "title": "On Evolution-Based Models for Experimentation Under Interference",
+        "url": "http://arxiv.org/abs/2511.21675v1",
+        "pub_date": "2025-11-26",
+        "summary": "Causal effect estimation in networked systems is central to data-driven decision making. In such settings, interventions on one unit can spill over to others, and in complex physical or social systems, the interaction pathways driving these interference structures remain largely unobserved. We argue that for identifying population-level causal effects, it is not necessary to recover the exact network structure; instead, it suffices to characterize how those interactions contribute to the evolution of outcomes. Building on this principle, we study an evolution-based approach that investigates how outcomes change across observation rounds in response to interventions, hence compensating for missing network information. Using an exposure-mapping perspective, we give an axiomatic characterization of when the empirical distribution of outcomes follows a low-dimensional recursive equation, and identify minimal structural conditions under which such evolution mappings exist. We frame this as a distributional counterpart to difference-in-differences. Rather than assuming parallel paths for individual units, it exploits parallel evolution patterns across treatment scenarios to estimate counterfactual trajectories. A key insight is that treatment randomization plays a role beyond eliminating latent confounding; it induces an implicit sampling from hidden interference channels, enabling consistent learning about heterogeneous spillover effects. We highlight causal message passing as an instantiation of this method in dense networks while extending to more general interference structures, including influencer networks where a small set of units drives most spillovers. Finally, we discuss the limits of this approach, showing that strong temporal trends or endogenous interference can undermine identification.",
+        "translated": ""
+    },
+    {
+        "title": "A Generalized Control Function Approach to Production Function Estimation",
+        "url": "http://arxiv.org/abs/2511.21578v1",
+        "pub_date": "2025-11-26",
+        "summary": "We generalize the control function approach to production function estimation. Our generalization accommodates scenarios in which productivity evolves jointly with other unobservable factors such as latent demand shocks and the invertibility assumption underpinning the traditional proxy variable approach fails. We provide conditions under which the output elasticity of the variable input -- and hence the markup -- is nonparametrically point-identified. A Neyman orthogonal moment condition ensures oracle efficiency of our GMM estimator. A Monte Carlo exercise shows a large bias for the traditional proxy variable approach that decreases rapidly and nearly vanishes for our generalized control function approach.",
+        "translated": ""
+    },
+    {
+        "title": "Discrete Choice with Endogenous Peer Selection",
+        "url": "http://arxiv.org/abs/2511.21446v1",
+        "pub_date": "2025-11-26",
+        "summary": "We develop a continuous-time peer-effect discrete choice model where peers that affect the preferences of a given agent are randomly selected based on their previous choices. We characterize the equilibrium behavior and study the empirical content of the model. In the model, changes in the choices of peers affect both the set of peers the agent pays attention to and her preferences over the alternatives. We exploit variation in choices coupled with variation in the size of the set of potential peers to recover agents' preferences and the peer selection mechanism. These nonparametric identification results do not rely on exogenous variation of covariates.",
+        "translated": ""
+    },
+    {
+        "title": "Estimation in high-dimensional linear regression: Post-Double-Autometrics as an alternative to Post-Double-Lasso",
+        "url": "http://arxiv.org/abs/2511.21257v1",
+        "pub_date": "2025-11-26",
+        "summary": "Post-Double-Lasso is becoming the most popular method for estimating linear regression models with many covariates when the purpose is to obtain an accurate estimate of a parameter of interest, such as an average treatment effect. However, this method can suffer from substantial omitted variable bias in finite sample. We propose a new method called Post-Double-Autometrics, which is based on Autometrics, and show that this method outperforms Post-Double-Lasso. Its use in a standard application of economic growth sheds new light on the hypothesis of convergence from poor to rich economies.",
+        "translated": ""
     }
 ]
