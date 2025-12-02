@@ -58658,5 +58658,26 @@
         "pub_date": "2025-11-28",
         "summary": "The IKKT matrix model, from the holographic perspective, arises at the p=-1 endpoint of the family of dualities relating type II supergravities on near-horizon Dp-brane geometries to (p+1)-dimensional super Yang-Mills theories with sixteen supercharges. In this work, we detail and expand results reported in a recent letter by establishing the holographic dictionary between gauge-invariant operators in the lowest BPS multiplet of the matrix model and the corresponding Kaluza-Klein fluctuations of Euclidean IIB supergravity compactified on the D(-1) instanton background. The full non-linear dynamics of these fluctuations can be encoded in a one-dimensional maximal gauged supergravity, which we construct explicitly. We provide its complete Lagrangian, up to second order in fermions, together with the corresponding supersymmetry transformations. We further discuss real forms of the theory for non-compact gauge groups and their embeddings into ten-dimensional supergravities with Lorentzian signature. From the analysis of the one-dimensional Killing spinor equations, we derive different classes of half-supersymmetric solutions, and discuss their uplifts as well as their relations to known solutions.",
         "translated": ""
+    },
+    {
+        "title": "Transferable Utility Matching Beyond Logit: Computation and Estimation with General Heterogeneity",
+        "url": "http://arxiv.org/abs/2511.23116v1",
+        "pub_date": "2025-11-28",
+        "summary": "We present a general framework for matching with transferable utility (TU) that accommodates arbitrary heterogeneity without relying on the logit structure. The optimal assignment problem is characterized by tractable linear programming formulation, allowing flexible error distributions and correlation patterns. We introduce an iterative algorithm that solves large-scale assignment problems with guaranteed convergence and an intuitive economic interpretation, and we show how the same structure supports a simulated moment-matching estimator of the systematic surplus. Experiments using simulated data demonstrate the algorithm's scalability and the estimator's consistency under correct specification, as well as systematic bias arising from logit misspecification.",
+        "translated": ""
+    },
+    {
+        "title": "An empirical estimate of the electricity supply curve from market outcomes",
+        "url": "http://arxiv.org/abs/2511.23068v1",
+        "pub_date": "2025-11-28",
+        "summary": "Researchers and electricity sector practitioners frequently require the supply curve of electricity markets and the price elasticity of supply for purposes such as price forecasting, policy analyses or market power assessment. It is common practice to construct supply curves from engineering data such as installed capacity and fuel prices. In this study, we propose a data-driven methodology to estimate the supply curve of electricity market empirically, i.e. from observed prices and quantities without further modeling assumptions. Due to the massive swings in fuel prices during the European energy crisis, a central task is detecting periods of stable supply curves. To this end, we implement two alternative clustering methods, one based on the fundamental drivers of electricity supply and the other directly on observed market outcomes. We apply our methods to the German electricity market between 2019 and 2024. We find that both approaches identify almost identical regimes shifts, supporting the idea of stable supply regimes stemming from stable drivers. Supply conditions are often stable for extended periods, but evolved rapidly during the energy crisis, triggering a rapid succession of regimes. Fuel prices were the dominant drivers of regime shifts, while conventional plant availability and the nuclear phase-out play a comparatively minor role. Our approach produces empirical supply curves suitable for causal inference and counterfactual analysis of market outcomes.",
+        "translated": ""
+    },
+    {
+        "title": "Treatment Effects in the Regression Discontinuity Model with Counterfactual Cutoff and Distorted Running Variables",
+        "url": "http://arxiv.org/abs/2511.22886v1",
+        "pub_date": "2025-11-28",
+        "summary": "We develop a new framework for evaluating the total policy effect in regression discontinuity designs (RDD), incorporating both the direct effect of treatment on outcomes and the indirect effect arising from distortions in the running variable when treatment becomes available. Our identification strategy combines a conditional parallel trend assumption to recover untreated potential outcomes with a local invariance assumption that characterizes how the running variable responds to counterfactual policy cutoffs. These components allow us to identify and estimate counterfactual treatment effects for any proposed threshold. We construct a nonparametric estimator for the total effect, derive its asymptotic distribution, and propose bootstrap inference procedures. Finally, we apply our framework to the Italian Domestic Stability Pact, where population-based fiscal rules generate both behavioral responses and running-variable distortions.",
+        "translated": ""
     }
 ]
