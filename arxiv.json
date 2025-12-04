@@ -58805,5 +58805,12 @@
         "pub_date": "2025-12-02",
         "summary": "Graph-based Anomaly Detection models have gained widespread adoption in recent years, identifying suspicious nodes by aggregating neighborhood information. However, most existing studies overlook the pervasive issues of missing and adversarially obscured node attributes, which can undermine aggregation stability and prediction reliability. To mitigate this, we propose FGC-Comp, a lightweight, classifier-agnostic, and deployment-friendly attribute completion module-designed to enhance neighborhood aggregation under incomplete attributes. We partition each node's neighbors into three label-based groups, apply group-specific transforms to the labeled groups while a node-conditioned gate handles unknowns, fuse messages via residual connections, and train end-to-end with a binary classification objective to improve aggregation stability and prediction reliability under missing attributes. Experiments on two real-world fraud datasets validate the effectiveness of the approach with negligible computational overhead.",
         "translated": ""
+    },
+    {
+        "title": "(Iso)spin from Isospin in Top-Down Holography",
+        "url": "http://arxiv.org/abs/2512.02120v1",
+        "pub_date": "2025-12-01",
+        "summary": "Motivated by the spin from isospin mechanism of Jackiw-Rebbi-Hasenfratz-'t Hooft, we study two SU(2) gauged supergravity solutions of the form $M_{d}\\times\\text{S}^{2}$ containing non-Abelian hedgehog monopole on the 2-sphere. Due to the presence of the monopole, the SO(3) isometry group of the 2-sphere is not a symmetry of the configuration. Instead, a diagonal combination of the SU(2) gauge and the SO(3) isometry of the 2-sphere is the true symmetry of the configuration. Uplifting the solutions to Type II, the gauge-isometry diagonal symmetry becomes a diagonal combination between the SO(3) symmetry of the 2-sphere and a SU(2) symmetry of a 3-sphere used to uplift the configuration. One of the uplifts is supersymmetric and corresponds to the I-brane theory on a 2-sphere. The second background is a deformation of $\\text{AdS}_{5}\\times\\text{S}^{5}$ and is not supersymmetric. We study dilaton fluctuations on the later geometry. Due to the diagonal symmetry, the fluctuations show angular momentum mixing between the SU(2) and SO(3) spins, mimicking the spin from isospin mechanism.",
+        "translated": ""
     }
 ]
