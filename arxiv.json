@@ -58896,5 +58896,33 @@
         "pub_date": "2025-12-03",
         "summary": "We develop a theoretical framework for sample splitting in A/B testing environments, where data for each test are partitioned into two splits to measure methodological performance when the true impacts of tests are unobserved. We show that sample-split estimators are generally biased for full-sample performance but consistently estimate sample-split analogues of it. We derive their asymptotic distributions, construct valid confidence intervals, and characterize the bias-variance trade-offs underlying sample-split design choices. We validate our theoretical results through simulations and provide implementation guidance for A/B testing products seeking to evaluate new estimators and decision rules.",
         "translated": ""
+    },
+    {
+        "title": "Ask Safely: Privacy-Aware LLM Query Generation for Knowledge Graphs",
+        "url": "http://arxiv.org/abs/2512.04852v1",
+        "pub_date": "2025-12-04",
+        "summary": "Large Language Models (LLMs) are increasingly used to query knowledge graphs (KGs) due to their strong semantic understanding and extrapolation capabilities compared to traditional approaches. However, these methods cannot be applied when the KG contains sensitive data and the user lacks the resources to deploy a local generative LLM. To address this issue, we propose a privacy-aware query generation approach for KGs. Our method identifies sensitive information in the graph based on its structure and omits such values before requesting the LLM to translate natural language questions into Cypher queries. Experimental results show that our approach preserves the quality of the generated queries while preventing sensitive data from being transmitted to third-party services.",
+        "translated": ""
+    },
+    {
+        "title": "Are LLMs Truly Multilingual? Exploring Zero-Shot Multilingual Capability of LLMs for Information Retrieval: An Italian Healthcare Use Case",
+        "url": "http://arxiv.org/abs/2512.04834v1",
+        "pub_date": "2025-12-04",
+        "summary": "Large Language Models (LLMs) have become a key topic in AI and NLP, transforming sectors like healthcare, finance, education, and marketing by improving customer service, automating tasks, providing insights, improving diagnostics, and personalizing learning experiences. Information extraction from clinical records is a crucial task in digital healthcare. Although traditional NLP techniques have been used for this in the past, they often fall short due to the complexity, variability of clinical language, and high inner semantics in the free clinical text. Recently, Large Language Models (LLMs) have become a powerful tool for better understanding and generating human-like text, making them highly effective in this area. In this paper, we explore the ability of open-source multilingual LLMs to understand EHRs (Electronic Health Records) in Italian and help extract information from them in real-time. Our detailed experimental campaign on comorbidity extraction from EHR reveals that some LLMs struggle in zero-shot, on-premises settings, and others show significant variation in performance, struggling to generalize across various diseases when compared to native pattern matching and manual annotations.",
+        "translated": ""
+    },
+    {
+        "title": "Spatially-Enhanced Retrieval-Augmented Generation for Walkability and Urban Discovery",
+        "url": "http://arxiv.org/abs/2512.04790v1",
+        "pub_date": "2025-12-04",
+        "summary": "Large Language Models (LLMs) have become foundational tools in artificial intelligence, supporting a wide range of applications beyond traditional natural language processing, including urban systems and tourist recommendations. However, their tendency to hallucinate and their limitations in spatial retrieval and reasoning are well known, pointing to the need for novel solutions. Retrieval-augmented generation (RAG) has recently emerged as a promising way to enhance LLMs with accurate, domain-specific, and timely information. Spatial RAG extends this approach to tasks involving geographic understanding. In this work, we introduce WalkRAG, a spatial RAG-based framework with a conversational interface for recommending walkable urban itineraries. Users can request routes that meet specific spatial constraints and preferences while interactively retrieving information about the path and points of interest (POIs) along the way. Preliminary results show the effectiveness of combining information retrieval, spatial reasoning, and LLMs to support urban discovery.",
+        "translated": ""
+    },
+    {
+        "title": "UserSimCRS v2: Simulation-Based Evaluation for Conversational Recommender Systems",
+        "url": "http://arxiv.org/abs/2512.04588v1",
+        "pub_date": "2025-12-04",
+        "summary": "Resources for simulation-based evaluation of conversational recommender systems (CRSs) are scarce. The UserSimCRS toolkit was introduced to address this gap. In this work, we present UserSimCRS v2, a significant upgrade aligning the toolkit with state-of-the-art research. Key extensions include an enhanced agenda-based user simulator, introduction of large language model-based simulators, integration for a wider range of CRSs and datasets, and new LLM-as-a-judge evaluation utilities. We demonstrate these extensions in a case study.",
+        "translated": ""
     }
 ]
