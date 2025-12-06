@@ -58931,5 +58931,12 @@
         "pub_date": "2025-12-04",
         "summary": "It is well known that there is a region of parameter space where all purely electric, static, dilatonic black holes are unstable within the STU models of maximal supergravity. We show that, for planar black holes, it is possible to complete the thermal phase space with AdS solitons, in such a way that the instability of the black holes signals the onset of confinement in the dual field theory. The analysis is done for the $D=4$ STU model of maximal gauged supergravity which naturally uplift to M-theory on the $S^7$.",
         "translated": ""
+    },
+    {
+        "title": "Estimation and inference in models with multiple behavioural equilibria",
+        "url": "http://arxiv.org/abs/2512.04541v1",
+        "pub_date": "2025-12-04",
+        "summary": "We develop estimation and inference methods for a stylized macroeconomic model with potentially multiple behavioural equilibria, where agents form expectations using a constant-gain learning rule. We first show geometric ergodicity of the underlying process to study in a second step (strong) consistency and asymptotic normality of the nonlinear least squares estimator for the structural parameters. We propose inference procedures for the structural parameters and uniform confidence bands for the equilibria. When equilibrium solutions are repeated, mixed convergence rates and non-standard limit distributions emerge. Monte Carlo simulations and an empirical application illustrate the finite-sample performance of our methods.",
+        "translated": ""
     }
 ]
