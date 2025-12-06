@@ -58924,5 +58924,12 @@
         "pub_date": "2025-12-04",
         "summary": "Resources for simulation-based evaluation of conversational recommender systems (CRSs) are scarce. The UserSimCRS toolkit was introduced to address this gap. In this work, we present UserSimCRS v2, a significant upgrade aligning the toolkit with state-of-the-art research. Key extensions include an enhanced agenda-based user simulator, introduction of large language model-based simulators, integration for a wider range of CRSs and datasets, and new LLM-as-a-judge evaluation utilities. We demonstrate these extensions in a case study.",
         "translated": ""
+    },
+    {
+        "title": "Phase Transitions and Black Hole Stability in Gauged N = 8 Supergravity",
+        "url": "http://arxiv.org/abs/2512.05088v1",
+        "pub_date": "2025-12-04",
+        "summary": "It is well known that there is a region of parameter space where all purely electric, static, dilatonic black holes are unstable within the STU models of maximal supergravity. We show that, for planar black holes, it is possible to complete the thermal phase space with AdS solitons, in such a way that the instability of the black holes signals the onset of confinement in the dual field theory. The analysis is done for the $D=4$ STU model of maximal gauged supergravity which naturally uplift to M-theory on the $S^7$.",
+        "translated": ""
     }
 ]
