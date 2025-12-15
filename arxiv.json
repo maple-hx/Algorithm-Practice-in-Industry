@@ -59519,5 +59519,19 @@
         "pub_date": "2025-12-11",
         "summary": "Temporal-difference (TD) methods learn state and action values efficiently by bootstrapping from their own future value predictions, but such a self-bootstrapping mechanism is prone to bootstrapping bias, where the errors in the value targets accumulate across steps and result in biased value estimates. Recent work has proposed to use chunked critics, which estimate the value of short action sequences (\"chunks\") rather than individual actions, speeding up value backup. However, extracting policies from chunked critics is challenging: policies must output the entire action chunk open-loop, which can be sub-optimal for environments that require policy reactivity and also challenging to model especially when the chunk length grows. Our key insight is to decouple the chunk length of the critic from that of the policy, allowing the policy to operate over shorter action chunks. We propose a novel algorithm that achieves this by optimizing the policy against a distilled critic for partial action chunks, constructed by optimistically backing up from the original chunked critic to approximate the maximum value achievable when a partial action chunk is extended to a complete one. This design retains the benefits of multi-step value propagation while sidestepping both the open-loop sub-optimality and the difficulty of learning action chunking policies for long action chunks. We evaluate our method on challenging, long-horizon offline goal-conditioned tasks and show that it reliably outperforms prior methods. Code: github.com/ColinQiyangLi/dqc.",
         "translated": ""
+    },
+    {
+        "title": "Testing Parametric Distribution Family Assumptions via Differences in Differential Entropy",
+        "url": "http://arxiv.org/abs/2512.11305v1",
+        "pub_date": "2025-12-12",
+        "summary": "We introduce a broadly applicable statistical procedure for testing which parametric distribution family generated a random sample of data. The method, termed the Difference in Differential Entropy (DDE) test, provides a unified framework applicable to a wide range of distributional families, with asymptotic validity grounded in established maximum likelihood, bootstrap, and kernel density estimation principles. The test is straightforward to implement, computationally efficient, and requires no tuning parameters or specialized regularity conditions. It compares an MLE-based estimate of differential entropy under the null hypothesis with a nonparametric bootstrapped kernel density estimate, using their divergence as an information-theoretic measure of model fit.",
+        "translated": ""
+    },
+    {
+        "title": "Robust Two-Sample Mean Inference under Serial Dependence",
+        "url": "http://arxiv.org/abs/2512.11259v1",
+        "pub_date": "2025-12-12",
+        "summary": "We propose robust two-sample tests for comparing means in time series. The framework accommodates a wide range of applications, including structural breaks, treatment-control comparisons, and group-averaged panel data. We first consider series HAR two-sample t-tests, where standardization employs orthonormal basis projections, ensuring valid inference under heterogeneity and nonparametric dependence structures. We propose a Welch-type t-approximation with adjusted degrees of freedom to account for long-run variance heterogeneity across the series. We further develop a series-based HAR wild bootstrap test, extending traditional wild bootstrap methods to the time-series setting. Our bootstrap avoids resampling blocks of observations and delivers superior finite-sample performance.",
+        "translated": ""
     }
 ]
