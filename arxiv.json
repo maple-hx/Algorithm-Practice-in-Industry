@@ -59610,5 +59610,61 @@
         "pub_date": "2025-12-14",
         "summary": "The holographic dictionary is well developed for gravity in asymptotically anti de Sitter $A(AdS_{d+1})$ spacetimes. However, this approach is limited, since many physically relevant configurations, such as bubbling geometries dual to heavy operators, do not arise as an uplift of a lower dimensional $A(AdS_{d+1})$ solution. Instead, they are intrinsic solutions of ten- or eleven-dimensional supergravity. In this work, we address this problem by evaluating the on-shell Type IIB supergravity action, with a suitable boundary counterterm, on the bubbling solutions describing half-BPS surface operators in $\\mathcal{N}=4$ super Yang-Mills. This calculation exactly reproduces the surface operator Euler conformal anomaly, an observable known exactly in the field theory but previously inaccessible holographically. This example illustrates the need for a higher-dimensional approach to holographic renormalization applicable to general asymptotically $AdS_{d+1} \\times M_q$ geometries.",
         "translated": ""
+    },
+    {
+        "title": "Linear Regression in a Nonlinear World",
+        "url": "http://arxiv.org/abs/2512.13645v1",
+        "pub_date": "2025-12-15",
+        "summary": "The interpretation of coefficients from multivariate linear regression relies on the assumption that the conditional expectation function is linear in the variables. However, in many cases the underlying data generating process is nonlinear. This paper examines how to interpret regression coefficients under nonlinearity. We show that if the relationships between the variable of interest and other covariates are linear, then the coefficient on the variable of interest represents a weighted average of the derivatives of the outcome conditional expectation function with respect to the variable of interest. If these relationships are nonlinear, the regression coefficient becomes biased relative to this weighted average. We show that this bias is interpretable, analogous to the biases from measurement error and omitted variable bias under the standard linear model.",
+        "translated": ""
+    },
+    {
+        "title": "From Many Models, One: Macroeconomic Forecasting with Reservoir Ensembles",
+        "url": "http://arxiv.org/abs/2512.13642v1",
+        "pub_date": "2025-12-15",
+        "summary": "Model combination is a powerful approach to achieve superior performance with a set of models than by just selecting any single one. We study both theoretically and empirically the effectiveness of ensembles of Multi-Frequency Echo State Networks (MFESNs), which have been shown to achieve state-of-the-art macroeconomic time series forecasting results (Ballarin et al., 2024a). Hedge and Follow-the-Leader schemes are discussed, and their online learning guarantees are extended to the case of dependent data. In applications, our proposed Ensemble Echo State Networks show significantly improved predictive performance compared to individual MFESN models.",
+        "translated": ""
+    },
+    {
+        "title": "Policy-Aligned Estimation of Conditional Average Treatment Effects",
+        "url": "http://arxiv.org/abs/2512.13400v1",
+        "pub_date": "2025-12-15",
+        "summary": "Firms often develop targeting policies to personalize marketing actions and improve incremental profits. Effective targeting depends on accurately separating customers with positive versus negative treatment effects. We propose an approach to estimate the conditional average treatment effects (CATEs) of marketing actions that aligns their estimation with the firm's profit objective. The method recognizes that, for many customers, treatment effects are so extreme that additional accuracy is unlikely to change the recommended actions. However, accuracy matters near the decision boundary, as small errors can alter targeting decisions. By modifying the firm's objective function in the standard profit maximization problem, our method yields a near-optimal targeting policy while simultaneously estimating CATEs. This introduces a new perspective on CATE estimation, reframing it as a problem of profit optimization rather than prediction accuracy. We establish the theoretical properties of the proposed method and demonstrate its performance and trade-offs using synthetic data.",
+        "translated": ""
+    },
+    {
+        "title": "Raking for estimation and inference in panel models with nonignorable attrition and refreshment",
+        "url": "http://arxiv.org/abs/2512.13270v1",
+        "pub_date": "2025-12-15",
+        "summary": "In panel data subject to nonignorable attrition, auxiliary (refreshment) sampling may restore full identification under weak assumptions on the attrition process. Despite their generality, these identification strategies have seen limited empirical use, largely because the implied estimation procedure requires solving a functional minimization problem for the target density. We show that this problem can be solved using the iterative proportional fitting (raking) algorithm, which converges rapidly even with continuous and moderately high-dimensional data. This resulting density estimator is then used as input into a parametric moment condition. We establish consistency and convergence rates for both the raking-based density estimator and the resulting moment estimator when the distributions of the observed data are parametric. We also derive a simple recursive procedure for estimating the asymptotic variance. Finally, we demonstrate the satisfactory performance of our estimator in simulations and provide an empirical illustration using data from the Understanding America Study panel.",
+        "translated": ""
+    },
+    {
+        "title": "Distributionally Robust Treatment Effect",
+        "url": "http://arxiv.org/abs/2512.12781v1",
+        "pub_date": "2025-12-14",
+        "summary": "Using only retrospective data, we propose an estimator for predicting the treatment effect for the same treatment/policy to be implemented in another location or time period, which requires no input from the target population. More specifically, we minimize the worst-case mean square error for the prediction of treatment effect within a class of distributions inside the Wasserstein ball centered on the source distribution. Since the joint distribution of potential outcomes is not identified, we pick the best and worst copulas of the marginal distributions of two potential outcomes as our optimistic and pessimistic optimization objects for partial identification. As a result, we can attain the upper and lower bounds of the minimax optimizer. The minimax solution differs depending on whether treatment effects are homogeneous or heterogeneous. We derive the consistency and asymptotic distribution of the bound estimators, provide a two-step inference procedure, and discuss the choice of the Wasserstein ball radius.",
+        "translated": ""
+    },
+    {
+        "title": "Explainable Prediction of Economic Time Series Using IMFs and Neural Networks",
+        "url": "http://arxiv.org/abs/2512.12499v1",
+        "pub_date": "2025-12-13",
+        "summary": "This study investigates the contribution of Intrinsic Mode Functions (IMFs) derived from economic time series to the predictive performance of neural network models, specifically Multilayer Perceptrons (MLP) and Long Short-Term Memory (LSTM) networks. To enhance interpretability, DeepSHAP is applied, which estimates the marginal contribution of each IMF while keeping the rest of the series intact. Results show that the last IMFs, representing long-term trends, are generally the most influential according to DeepSHAP, whereas high-frequency IMFs contribute less and may even introduce noise, as evidenced by improved metrics upon their removal. Differences between MLP and LSTM highlight the effect of model architecture on feature relevance distribution, with LSTM allocating importance more evenly across IMFs.",
+        "translated": ""
+    },
+    {
+        "title": "Modeling the Happiness-Sustainability Nexus via Graphical Lasso and Quantile-on-Quantile Regression",
+        "url": "http://arxiv.org/abs/2512.12352v1",
+        "pub_date": "2025-12-13",
+        "summary": "This paper investigates the nexus between subjective well-being and sustainability, proxied by the Sustainable Development Goals (SDG) Index, using cross-country data from 126 nations in 2022. While prior research has highlighted a positive association between happiness and sustainable development, existing approaches largely rely on linear regressions or correlation-based measures that mask distributional heterogeneity, multicollinearity, and potential nonlinear dependence. To address these limitations, we employ a two methodological framework combining Graphical Lasso, and Quantile-on-Quantile Regression (QQR). The Graphical Lasso identifies a direct conditional link between happiness and sustainability after controlling for governance, income, and life expectancy, with a partial correlation of about 0.21. On the other hand, QQR reveals heterogeneous effects across the joint distribution: sustainability gains are positively associated with happiness for low-happiness but high-sustainability countries, negatively associated in high-happiness but low-sustainability contexts, and essentially neutral elsewhere. These findings suggest that the happiness-sustainability link is modest, asymmetric, and context-dependent, underscoring the importance of moving beyond mean-based regressions. From a policy perspective, our results highlight that institutional quality, income, and demographic factors remain the dominant drivers of both happiness and sustainability, while the interplay between the two dimensions is most pronounced in distributional extremes.",
+        "translated": ""
+    },
+    {
+        "title": "Estimation of a Dynamic Tobit Model with a Unit Root",
+        "url": "http://arxiv.org/abs/2512.12110v1",
+        "pub_date": "2025-12-13",
+        "summary": "This paper studies robust estimation in the dynamic Tobit model under local-to-unity (LUR) asymptotics. We show that both Gaussian maximum likelihood (ML) and censored least absolute deviations (CLAD) estimators are consistent, extending results from the stationary case where ordinary least squares (OLS) is inconsistent. The asymptotic distributions of MLE and CLAD are derived; for the short-run parameters they are shown to be Gaussian, yielding standard normal t-statistics. In contrast, although OLS remains consistent under LUR, its t-statistics are not standard normal. These results enable reliable model selection via sequential t-tests based on ML and CLAD, paralleling the linear autoregressive case. Applications to financial and epidemiological time series illustrate their practical relevance.",
+        "translated": ""
     }
 ]
