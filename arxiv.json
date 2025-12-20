@@ -59855,5 +59855,19 @@
         "pub_date": "2025-12-18",
         "summary": "Modeling user purchase behavior is a critical challenge in display advertising systems, necessary for real-time bidding. The difficulty arises from the sparsity of positive user events and the stochasticity of user actions, leading to severe class imbalance and irregular event timing. Predictive systems usually rely on hand-crafted \"counter\" features, overlooking the fine-grained temporal evolution of user intent. Meanwhile, current sequential models extract direct sequential signal, missing useful event-counting statistics. We enhance deep sequential models with self-supervised pretraining strategies for display advertising. Especially, we introduce Abacus, a novel approach of predicting the empirical frequency distribution of user events. We further propose a hybrid objective unifying Abacus with sequential learning objectives, combining stability of aggregated statistics with the sequence modeling sensitivity. Experiments on two real-world datasets show that Abacus pretraining outperforms existing methods accelerating downstream task convergence, while hybrid approach yields up to +6.1% AUC compared to the baselines.",
         "translated": ""
+    },
+    {
+        "title": "The Use of Torsion in Supergravity Uplifts and Covariant Fractons",
+        "url": "http://arxiv.org/abs/2512.16166v1",
+        "pub_date": "2025-12-18",
+        "summary": "The aim of this Thesis is twofold. On the one hand, we find the necessary and sufficient conditions for a maximally supersymmetric supergravity theory in 3D to be a solution of 11D supergravity (but the result is general and also holds for 10D supergravities), with 8 dimensions compactified into a coset space. The used method is based on the formalism of generalised geometry, useful for the study of dualities in string theory and supergravity. The analysis extends the known results to the case in which the duality group of the reduced theory is $E_{8(8)}$, whose generalised geometry is still little understood. On the other hand, we study properties of the so-called covariant fracton gauge theory, computing the BRST cohomology and consistent anomalies, and showing that its solutions describe a specific subsector of an extension of General Relativity, called Moller-Hayashi-Shirafuji theory. Covariant fracton theory is the gauge theory of a symmetric rank-2 tensor, invariant under gauge transformations depending on the second derivative of a scalar parameter, and is the Lorentz-covariant extension of the continuous limit of spin-chain theories admitting excitations with reduced mobility (called fractons), due to the conservation of the dipole moment. In both cases, the Weitzenböck torsion plays a crucial rôle. The Thesis includes a self-contained review of the main notions needed to understand the original results, comprising, in addition to the already mentioned topics, duality in supergravity theories, the generalised Lie derivative, formulation of eleven-dimensional supergravity suitable to reductions with duality groups given by exceptional Lie groups, salient aspects of three-dimensional gravity, and the BRST formalism for computing anomalies in field theories.",
+        "translated": ""
+    },
+    {
+        "title": "A supersymmetric AdS$_3$ duality",
+        "url": "http://arxiv.org/abs/2512.16096v1",
+        "pub_date": "2025-12-18",
+        "summary": "We find a dual description of the supersymmetric $SL(2, \\mathbb{C})/SU(2)$ WZW model as a super-winding condensate CFT, which follows simply from the bosonic AdS$_3$ duality found in [arXiv:2104.07233]. This duality can be seen as a dimensional uplift of the mirror symmetry between the $H_3^+/U(1)$ supercoset and $\\mathcal{N}=2$ super-Liouville theory",
+        "translated": ""
     }
 ]
