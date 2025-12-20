@@ -59869,5 +59869,26 @@
         "pub_date": "2025-12-18",
         "summary": "We find a dual description of the supersymmetric $SL(2, \\mathbb{C})/SU(2)$ WZW model as a super-winding condensate CFT, which follows simply from the bosonic AdS$_3$ duality found in [arXiv:2104.07233]. This duality can be seen as a dimensional uplift of the mirror symmetry between the $H_3^+/U(1)$ supercoset and $\\mathcal{N}=2$ super-Liouville theory",
         "translated": ""
+    },
+    {
+        "title": "Exponentially weighted estimands and the exponential family: filtering, prediction and smoothing",
+        "url": "http://arxiv.org/abs/2512.16745v1",
+        "pub_date": "2025-12-18",
+        "summary": "We propose using a discounted version of a convex combination of the log-likelihood with the corresponding expected log-likelihood such that when they are maximized they yield a filter, predictor and smoother for time series. This paper then focuses on working out the implications of this in the case of the canonical exponential family. The results are simple exact filters, predictors and smoothers with linear recursions. A theory for these models is developed and the models are illustrated on simulated and real data.",
+        "translated": ""
+    },
+    {
+        "title": "A Real-Time Framework for Forecasting Metal Prices",
+        "url": "http://arxiv.org/abs/2512.16521v1",
+        "pub_date": "2025-12-18",
+        "summary": "This paper develops a real-time forecasting framework for the monthly real prices of four key industrial metals -- aluminum, copper, nickel, and zinc -- whose demand is rising due to their widespread use in manufacturing and low-carbon technologies. To replicate the information set available to forecasters in real time, we construct a new dataset combining daily financial variables with first-release macroeconomic indicators and use nowcasting techniques to address publication lags. Within this real-time environment, we evaluate the predictive accuracy of a broad set of univariate, multivariate, and factor-augmented models, comparing their performance with two industry benchmarks: survey expectations and futures-spot spread models. Results show that although short-run metal price movements remain difficult to predict, medium-term horizons display substantial forecastability. Indicators of manufacturing activity tied to primary metals -- such as new orders and capacity utilization -- significantly improve forecasting accuracy for aluminum and copper, with more moderate gains for zinc and limited improvements for nickel. Futures and survey forecasts generally underperform the real-time econometric models. These findings highlight the value of incorporating timely macroeconomic information into forecasting frameworks for industrial metal markets.",
+        "translated": ""
+    },
+    {
+        "title": "xtdml: Double Machine Learning Estimation to Static Panel Data Models with Fixed Effects in R",
+        "url": "http://arxiv.org/abs/2512.15965v1",
+        "pub_date": "2025-12-17",
+        "summary": "The double machine learning (DML) method combines the predictive power of machine learning with statistical estimation to conduct inference about the structural parameter of interest. This paper presents the R package `xtdml`, which implements DML methods for partially linear panel regression models with low-dimensional fixed effects, high-dimensional confounding variables, proposed by Clarke and Polselli (2025). The package provides functionalities to: (a) learn nuisance functions with machine learning algorithms from the `mlr3` ecosystem, (b) handle unobserved individual heterogeneity choosing among first-difference transformation, within-group transformation, and correlated random effects, (c) transform the covariates with min-max normalization and polynomial expansion to improve learning performance. We showcase the use of `xtdml` with both simulated and real longitudinal data.",
+        "translated": ""
     }
 ]
