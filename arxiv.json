@@ -60093,5 +60093,19 @@
         "pub_date": "2025-12-19",
         "summary": "We analyse warping corrections to the scalar potential in flux compactifications of Type IIB string theory, focusing on their effect on $F$-term de Sitter uplifting in Calabi-Yau orientifold models. A systematic inverse-volume expansion allows us to derive the four-dimensional off-shell potential in the presence of warping and non-ISD 3-form fluxes. This corresponds to integrating out all massive Kaluza-Klein modes using the ten-dimensional equations of motion. We further propose a warped Kähler potential in four-dimensional $\\mathcal{N}=1$ supergravity, and show that it is consistent with our ten-dimensional results. In the KKLT framework, we find that classical warping corrections, as well as mixed corrections involving non-ISD fluxes and quantum effects, are dominant, rendering the scenario effectively uncontrollable with current methods. By contrast, in LVS-like constructions these corrections are suppressed by inverse powers of the volume, specifically $\\mathcal{V}^{1/2}$ or $\\mathcal{V}^{1/6}$, depending on the concrete model.",
         "translated": ""
+    },
+    {
+        "title": "srvar-toolkit: A Python Implementation of Shadow-Rate Vector Autoregressions with Stochastic Volatility",
+        "url": "http://arxiv.org/abs/2512.19589v1",
+        "pub_date": "2025-12-22",
+        "summary": "We introduce srvar-toolkit, an open-source Python package for Bayesian vector autoregression with shadow-rate constraints and stochastic volatility. The toolkit implements the methodology of Grammatikopoulos (2025, Journal of Forecasting) for forecasting macroeconomic variables when interest rates hit the effective lower bound. We provide conjugate Normal-Inverse-Wishart priors with Minnesota-style shrinkage, latent shadow-rate data augmentation via Gibbs sampling, diagonal stochastic volatility using the Kim-Shephard-Chib mixture approximation, and stochastic search variable selection. Core dependencies are NumPy, SciPy, and Pandas, with optional extras for plotting and a configuration-driven command-line interface. We release the software under the MIT licence at https://github.com/shawcharles/srvar-toolkit.",
+        "translated": ""
+    },
+    {
+        "title": "Semiparametric Efficiency in Policy Learning with General Treatments",
+        "url": "http://arxiv.org/abs/2512.19230v1",
+        "pub_date": "2025-12-22",
+        "summary": "Recent literature on policy learning has primarily focused on regret bounds of the learned policy. We provide a new perspective by developing a unified semiparametric efficiency framework for policy learning, allowing for general treatments that are discrete, continuous, or mixed. We provide a characterization of the failure of pathwise differentiability for parameters arising from deterministic policies. We then establish efficiency bounds for pathwise differentiable parameters in randomized policies, both when the propensity score is known and when it must be estimated. Building on the convolution theorem, we introduce a notion of efficiency for the asymptotic distribution of welfare regret, showing that inefficient policy estimators not only inflate the variance of the asymptotic regret but also shift its mean upward. We derive the asymptotic theory of several common policy estimators, with a key contribution being a policy-learning analogue of the Hirano-Imbens-Ridder (HIR) phenomenon: the inverse propensity weighting estimator with an estimated propensity is efficient, whereas the same estimator using the true propensity is not. We illustrate the theoretical results with an empirically calibrated simulation study based on data from a job training program and an empirical application to a commitment savings program.",
+        "translated": ""
     }
 ]
