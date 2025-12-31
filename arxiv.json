@@ -60499,5 +60499,26 @@
         "pub_date": "2025-12-29",
         "summary": "Automatic Speech Recognition (ASR) in professional settings faces challenges that existing benchmarks underplay: dense domain terminology, formal register variation, and near-zero tolerance for critical entity errors. We present ProfASR-Bench, a professional-talk evaluation suite for high-stakes applications across finance, medicine, legal, and technology. Each example pairs a natural-language prompt (domain cue and/or speaker profile) with an entity-rich target utterance, enabling controlled measurement of context-conditioned recognition. The corpus supports conventional ASR metrics alongside entity-aware scores and slice-wise reporting by accent and gender. Using representative families Whisper (encoder-decoder ASR) and Qwen-Omni (audio language models) under matched no-context, profile, domain+profile, oracle, and adversarial conditions, we find a consistent pattern: lightweight textual context produces little to no change in average word error rate (WER), even with oracle prompts, and adversarial prompts do not reliably degrade performance. We term this the context-utilization gap (CUG): current systems are nominally promptable yet underuse readily available side information. ProfASR-Bench provides a standardized context ladder, entity- and slice-aware reporting with confidence intervals, and a reproducible testbed for comparing fusion strategies across model families.   Dataset: https://huggingface.co/datasets/prdeepakbabu/ProfASR-Bench   Code: https://github.com/prdeepakbabu/ProfASR-Bench",
         "translated": ""
+    },
+    {
+        "title": "Bellman Calibration for V-Learning in Offline Reinforcement Learning",
+        "url": "http://arxiv.org/abs/2512.23694v1",
+        "pub_date": "2025-12-29",
+        "summary": "We introduce Iterated Bellman Calibration, a simple, model-agnostic, post-hoc procedure for calibrating off-policy value predictions in infinite-horizon Markov decision processes. Bellman calibration requires that states with similar predicted long-term returns exhibit one-step returns consistent with the Bellman equation under the target policy. We adapt classical histogram and isotonic calibration to the dynamic, counterfactual setting by repeatedly regressing fitted Bellman targets onto a model's predictions, using a doubly robust pseudo-outcome to handle off-policy data. This yields a one-dimensional fitted value iteration scheme that can be applied to any value estimator. Our analysis provides finite-sample guarantees for both calibration and prediction under weak assumptions, and critically, without requiring Bellman completeness or realizability.",
+        "translated": ""
+    },
+    {
+        "title": "Panel Coupled Matrix-Tensor Clustering Model with Applications to Asset Pricing",
+        "url": "http://arxiv.org/abs/2512.23567v1",
+        "pub_date": "2025-12-29",
+        "summary": "We tackle the challenge of estimating grouping structures and factor loadings in asset pricing models, where traditional regressions struggle due to sparse data and high noise. Existing approaches, such as those using fused penalties and multi-task learning, often enforce coefficient homogeneity across cross-sectional units, reducing flexibility. Clustering methods (e.g., spectral clustering, Lloyd's algorithm) achieve consistent recovery under specific conditions but typically rely on a single data source. To address these limitations, we introduce the Panel Coupled Matrix-Tensor Clustering (PMTC) model, which simultaneously leverages a characteristics tensor and a return matrix to identify latent asset groups. By integrating these data sources, we develop computationally efficient tensor clustering algorithms that enhance both clustering accuracy and factor loading estimation. Simulations demonstrate that our methods outperform single-source alternatives in clustering accuracy and coefficient estimation, particularly under moderate signal-to-noise conditions. Empirical application to U.S. equities demonstrates the practical value of PMTC, yielding higher out-of-sample total $R^2$ and economically interpretable variation in factor exposures.",
+        "translated": ""
+    },
+    {
+        "title": "Impact of Volatility on Time-Based Transaction Ordering Policies",
+        "url": "http://arxiv.org/abs/2512.23386v1",
+        "pub_date": "2025-12-29",
+        "summary": "We study Arbitrum's Express Lane Auction (ELA), an ahead-of-time second-price auction that grants the winner an exclusive latency advantage for one minute. Building on a single-round model with risk-averse bidders, we propose a hypothesis that the value of priority access is discounted relative to risk-neutral valuation due to the difficulty of forecasting short-horizon volatility and bidders' risk aversion. We test these predictions using ELA bid records matched to high-frequency ETH prices and find that the result is consistent with the model.",
+        "translated": ""
     }
 ]
