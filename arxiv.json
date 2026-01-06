@@ -60765,5 +60765,12 @@
         "pub_date": "2026-01-01",
         "summary": "This paper addresses Named Entity Recognition (NER) in the domain of Vocational Education and Training (VET), focusing on historical, digitized documents that suffer from OCR-induced noise. We propose a robust NER approach leveraging Noise-Aware Training (NAT) with synthetically injected OCR errors, transfer learning, and multi-stage fine-tuning. Three complementary strategies, training on noisy, clean, and artificial data, are systematically compared. Our method is one of the first to recognize multiple entity types in VET documents. It is applied to German documents but transferable to arbitrary languages. Experimental results demonstrate that domain-specific and noise-aware fine-tuning substantially increases robustness and accuracy under noisy conditions. We provide publicly available code for reproducible noise-aware NER in domain-specific contexts.",
         "translated": ""
+    },
+    {
+        "title": "Wrinkles, rucks and folds formed in a heavy sheet on a frictional surface",
+        "url": "http://arxiv.org/abs/2601.00313v1",
+        "pub_date": "2026-01-01",
+        "summary": "Soft elastic sheets resting on rigid surfaces develop wrinkles, rucks, and folds due to the combined influence of elasticity, gravity, and contact interactions. Despite their ubiquity, the principles governing their morphology and transitions remain unclear. We introduce a minimal experiment in which the center of a gravity-loaded sheet is gradually lifted from the supporting plane. This operation generates a clear sequence of shapes: an axisymmetric uplift, a finite number of wrinkles, system-spanning rucks produced by global buckling, and folded states that can arise from ruck collapse upon unloading at larger lifts. Combining experiments, finite-element simulations, and Föppl-von Kármán theory, we establish a unified physical picture of this morphology sequence. In the frictionless case, elasticity and gravity alone govern the response, leading to a universal wrinkling threshold: the wrinkle number is fixed and the onset displacement scales linearly with the sheet thickness. With interfacial friction, the wrinkled state is described by introducing an additional nondimensional parameter that compares frictional and elastic-gravitational forces. These results suggest a simple route to programmable sheet morphogenesis via friction and gravity.",
+        "translated": ""
     }
 ]
