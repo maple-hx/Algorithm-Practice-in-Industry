@@ -60835,5 +60835,12 @@
         "pub_date": "2026-01-05",
         "summary": "In the early 1980s, Open Source Software emerged as a revolutionary concept amidst the dominance of proprietary software. What began as a revolutionary idea has now become the cornerstone of computer science. Amidst OSS projects, AI is increasing its presence and relevance. However, despite the growing popularity of AI, its adoption and impacts on OSS projects remain underexplored.   We aim to assess the adoption of AI libraries in Python and Java OSS projects and examine how they shape development, including the technical ecosystem and community engagement. To this end, we will perform a large-scale analysis on 157.7k potential OSS repositories, employing repository metrics and software metrics to compare projects adopting AI libraries against those that do not. We expect to identify measurable differences in development activity, community engagement, and code complexity between OSS projects that adopt AI libraries and those that do not, offering evidence-based insights into how AI integration reshapes software development practices.",
         "translated": ""
+    },
+    {
+        "title": "Forecasting ICT-Driven Trade Competitiveness 2024-2028: A Cluster and Scenario Analysis",
+        "url": "http://arxiv.org/abs/2601.00842v1",
+        "pub_date": "2025-12-28",
+        "summary": "This study introduces the Digital Competitiveness Index for Trade (DCIT), a composite metric integrating ICT readiness, broadband adoption, GDP per capita, foreign direct investment, government effectiveness, and trade volume to assess countries' digital trade competitiveness. The index captures the enabling conditions -- ICT innovation capacity, broadband diffusion, investment intensity, and macroeconomic fundamentals - that shape a nation's ability to participate in digital trade. Sensitivity analysis demonstrates strong robustness: adjusting ICT-FDI weights alters DCIT outcomes by only 26%, with near perfect linearity (R^2 = 0.9996). Predictive validation shows that DCIT is a strong explainer of trade connectivity growth (R^2 = 0.67) but a modest predictor of GDP expansion. Scenario simulations reveal that combined ICT and FDI acceleration consistently outperforms single-lever strategies, with gains increasing by cluster maturity (up to 10% in advanced clusters). High-growth scenarios generate a 50-60% uplift in competitiveness for mid-tier and advanced clusters, underscoring the importance of integrated digital investment strategies.",
+        "translated": ""
     }
 ]
