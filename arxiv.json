@@ -60961,5 +60961,33 @@
         "pub_date": "2026-01-06",
         "summary": "We present a theoretical analysis of decentralization of autoregressive generation. We define the Decentralized Discrete Flow Matching objective, by expressing probability generating velocity as a linear combination of expert flows. We also conduct experiments demonstrating the equivalence between decentralized and centralized training settings for multimodal language models across diverse set of benchmarks. Specifically, we compare two distinct paradigms: LLaVA and InternVL 2.5-1B, which uses a fixed CLIP vision encoder and performs full-parameter fine-tuning (ViT+MLP+LLM) during the instruction tuning stage.",
         "translated": ""
+    },
+    {
+        "title": "All That Glisters Is Not Gold: A Benchmark for Reference-Free Counterfactual Financial Misinformation Detection",
+        "url": "http://arxiv.org/abs/2601.04160v1",
+        "pub_date": "2026-01-07",
+        "summary": "We introduce RFC Bench, a benchmark for evaluating large language models on financial misinformation under realistic news. RFC Bench operates at the paragraph level and captures the contextual complexity of financial news where meaning emerges from dispersed cues. The benchmark defines two complementary tasks: reference free misinformation detection and comparison based diagnosis using paired original perturbed inputs. Experiments reveal a consistent pattern: performance is substantially stronger when comparative context is available, while reference free settings expose significant weaknesses, including unstable predictions and elevated invalid outputs. These results indicate that current models struggle to maintain coherent belief states without external grounding. By highlighting this gap, RFC Bench provides a structured testbed for studying reference free reasoning and advancing more reliable financial misinformation detection in real world settings.",
+        "translated": ""
+    },
+    {
+        "title": "FLEx: Language Modeling with Few-shot Language Explanations",
+        "url": "http://arxiv.org/abs/2601.04157v1",
+        "pub_date": "2026-01-07",
+        "summary": "Language models have become effective at a wide range of tasks, from math problem solving to open-domain question answering. However, they still make mistakes, and these mistakes are often repeated across related queries. Natural language explanations can help correct these errors, but collecting them at scale may be infeasible, particularly in domains where expert annotators are required. To address this issue, we introduce FLEx ($\\textbf{F}$ew-shot $\\textbf{L}$anguage $\\textbf{Ex}$planations), a method for improving model behavior using a small number of explanatory examples. FLEx selects representative model errors using embedding-based clustering, verifies that the associated explanations correct those errors, and summarizes them into a prompt prefix that is prepended at inference-time. This summary guides the model to avoid similar errors on new inputs, without modifying model weights. We evaluate FLEx on CounterBench, GSM8K, and ReasonIF. We find that FLEx consistently outperforms chain-of-thought (CoT) prompting across all three datasets and reduces up to 83\\% of CoT's remaining errors.",
+        "translated": ""
+    },
+    {
+        "title": "LLMberjack: Guided Trimming of Debate Trees for Multi-Party Conversation Creation",
+        "url": "http://arxiv.org/abs/2601.04135v1",
+        "pub_date": "2026-01-07",
+        "summary": "We present LLMberjack, a platform for creating multi-party conversations starting from existing debates, originally structured as reply trees. The system offers an interactive interface that visualizes discussion trees and enables users to construct coherent linearized dialogue sequences while preserving participant identity and discourse relations. It integrates optional large language model (LLM) assistance to support automatic editing of the messages and speakers' descriptions. We demonstrate the platform's utility by showing how tree visualization facilitates the creation of coherent, meaningful conversation threads and how LLM support enhances output quality while reducing human effort. The tool is open-source and designed to promote transparent and reproducible workflows to create multi-party conversations, addressing a lack of resources of this type.",
+        "translated": ""
+    },
+    {
+        "title": "ContextFocus: Activation Steering for Contextual Faithfulness in Large Language Models",
+        "url": "http://arxiv.org/abs/2601.04131v1",
+        "pub_date": "2026-01-07",
+        "summary": "Large Language Models (LLMs) encode vast amounts of parametric knowledge during pre-training. As world knowledge evolves, effective deployment increasingly depends on their ability to faithfully follow externally retrieved context. When such evidence conflicts with the model's internal knowledge, LLMs often default to memorized facts, producing unfaithful outputs. In this work, we introduce ContextFocus, a lightweight activation steering approach that improves context faithfulness in such knowledge-conflict settings while preserving fluency and efficiency. Unlike prior approaches, our solution requires no model finetuning and incurs minimal inference-time overhead, making it highly efficient. We evaluate ContextFocus on the ConFiQA benchmark, comparing it against strong baselines including ContextDPO, COIECD, and prompting-based methods. Furthermore, we show that our method is complementary to prompting strategies and remains effective on larger models. Extensive experiments show that ContextFocus significantly improves contextual-faithfulness. Our results highlight the effectiveness, robustness, and efficiency of ContextFocus in improving contextual-faithfulness of LLM outputs.",
+        "translated": ""
     }
 ]
