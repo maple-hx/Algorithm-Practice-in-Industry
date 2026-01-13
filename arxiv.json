@@ -61262,5 +61262,33 @@
         "pub_date": "2026-01-09",
         "summary": "Large language models (LLMs) often fail to learn effective long chain-of-thought (Long CoT) reasoning from human or non-Long-CoT LLMs imitation. To understand this, we propose that effective and learnable Long CoT trajectories feature stable molecular-like structures in unified view, which are formed by three interaction types: Deep-Reasoning (covalent-like), Self-Reflection (hydrogen-bond-like), and Self-Exploration (van der Waals-like). Analysis of distilled trajectories reveals these structures emerge from Long CoT fine-tuning, not keyword imitation. We introduce Effective Semantic Isomers and show that only bonds promoting fast entropy convergence support stable Long CoT learning, while structural competition impairs training. Drawing on these findings, we present Mole-Syn, a distribution-transfer-graph method that guides synthesis of effective Long CoT structures, boosting performance and RL stability across benchmarks.",
         "translated": ""
+    },
+    {
+        "title": "Empirical Bayes Estimation in Heterogeneous Coefficient Panel Models",
+        "url": "http://arxiv.org/abs/2601.07059v1",
+        "pub_date": "2026-01-11",
+        "summary": "We develop an empirical Bayes (EB) G-modeling framework for short-panel linear models with multidimensional heterogeneity and nonparametric prior. Specifically, we allow heterogeneous intercepts, slopes, dynamics, and a non-spherical error covariance structure. We establish identification and consistency of the nonparametric maximum likelihood estimator (NPMLE) under general conditions, and provide low-level sufficient conditions for several models of empirical interest. Conditions for regret consistency of the resulting EB estimators are also established. The NPMLE is computed using a Wasserstein-Fisher-Rao gradient flow algorithm adapted to panel regressions. Using data from the Panel Study of Income Dynamics, we find that the slope coefficient for potential experience is substantially heterogeneous and negatively correlated with the random intercept, and that error variances and autoregressive coefficients vary significantly across individuals. The EB estimates reduce mean squared prediction errors relative to individual maximum likelihood estimates.",
+        "translated": ""
+    },
+    {
+        "title": "Sign Accuracy, Mean-Squared Error and the Rate of Zero Crossings: a Generalized Forecast Approach",
+        "url": "http://arxiv.org/abs/2601.06547v1",
+        "pub_date": "2026-01-10",
+        "summary": "Forecasting entails a complex estimation challenge, as it requires balancing multiple, often conflicting, priorities and objectives. Traditional forecast optimization criteria typically focus on a single metric -such as minimizing the mean squared error (MSE)- which may overlook other important aspects of predictive performance. In response, we introduce a novel approach called the Smooth Sign Accuracy (SSA) framework, which simultaneously considers sign accuracy, MSE, and the frequency of sign changes in the predictor. This addresses a fundamental trade-off (the so-called accuracy-smoothness (AS) dilemma) in prediction. The SSA criterion thus enables the integration of various design objectives related to AS forecasting performance, effectively generalizing conventional MSE-based metrics. We further extend this methodology to accommodate non-stationary, integrated processes, with particular emphasis on controlling the predictor's monotonicity. Moreover, we demonstrate the broad applicability of our approach through an application to, and customization of, established business cycle analysis tools, highlighting its versatility across diverse forecasting contexts.",
+        "translated": ""
+    },
+    {
+        "title": "The Promise of Time-Series Foundation Models for Agricultural Forecasting: Evidence from Marketing Year Average Prices",
+        "url": "http://arxiv.org/abs/2601.06371v1",
+        "pub_date": "2026-01-10",
+        "summary": "Forecasting agricultural markets remains a core challenge in business analytics, where nonlinear dynamics, structural breaks, and sparse data have historically limited the gains from increasingly complex econometric and machine learning models. As a result, a long-standing belief in the literature is that simple time-series methods often outperform more advanced alternatives. This paper provides the first systematic evidence that this belief no longer holds in the modern era of time-series foundation models (TSFMs). Using USDA ERS data from 1997-2025, we evaluate 17 forecasting approaches across four model classes, assessing monthly forecasting performance and benchmarking against Market Year Average (MYA) price predictions. This period spans multiple agricultural cycles, major policy changes, and major market disruptions, with substantial cross-commodity price volatility. Focusing on five state-of-the-art TSFMs, we show that zero-shot foundation models (with only historical prices and without any additional covariates) consistently outperform traditional time-series methods, machine learning models, and deep learning architectures trained from scratch. Among them, Time-MoE delivers the largest accuracy gains, improving forecasts by 45% (MAE) overall and by more than 50% for corn and soybeans relative to USDA benchmarks. These results point to a paradigm shift in agricultural forecasting: while earlier generations of advanced models struggled to surpass simple benchmarks, modern pre-trained foundation models achieve substantial and robust improvements, offering a scalable and powerful new framework for highstakes predictive analytics.",
+        "translated": ""
+    },
+    {
+        "title": "Long-Term Causal Inference with Many Noisy Proxies",
+        "url": "http://arxiv.org/abs/2601.06359v1",
+        "pub_date": "2026-01-09",
+        "summary": "We propose a method for estimating long-term treatment effects with many short-term proxy outcomes: a central challenge when experimenting on digital platforms. We formalize this challenge as a latent variable problem where observed proxies are noisy measures of a low-dimensional set of unobserved surrogates that mediate treatment effects. Through theoretical analysis and simulations, we demonstrate that regularized regression methods substantially outperform naive proxy selection. We show in particular that the bias of Ridge regression decreases as more proxies are added, with closed-form expressions for the bias-variance tradeoff. We illustrate our method with an empirical application to the California GAIN experiment.",
+        "translated": ""
     }
 ]
