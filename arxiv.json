@@ -61325,5 +61325,61 @@
         "pub_date": "2026-01-07",
         "summary": "Procurement and inventory planning is governed not only by demand forecasts and bills of materials (BOMs), but also by operational terms in contracts and supplier documents (e.g., MOQs, lead times, price tiers, allocation caps, substitution approvals). LLM-based extraction can speed up structuring these terms, but extraction-only or LLM-only decision pipelines are brittle: missed clauses, unit errors, and unresolved conflicts can yield infeasible plans or silent contract violations, amplified by BOM coupling. We introduce Contract2Plan, a verified GenAI-to-optimizer pipeline that inserts a solver-based compliance gate before plans are emitted. The system retrieves clause evidence with provenance, extracts a typed constraint schema with evidence spans, compiles constraints into a BOM-aware MILP, and verifies grounding, eligibility, consistency, and feasibility using solver diagnostics, triggering targeted repair or abstention when automation is unsafe. We formalize which clause classes admit conservative repair with contract-safe feasibility guarantees and which require human confirmation. A self-contained synthetic micro-benchmark (500 instances; T=5) computed by exact enumeration under an execution model with MOQ uplift and emergency purchases shows heavy-tailed regret and nontrivial MOQ-violation incidence for extraction-only planning, motivating verification as a first-class component of contract-grounded planning systems.",
         "translated": ""
+    },
+    {
+        "title": "Automatic debiased machine learning and sensitivity analysis for sample selection models",
+        "url": "http://arxiv.org/abs/2601.08643v1",
+        "pub_date": "2026-01-13",
+        "summary": "In this paper, we extend the Riesz representation framework to causal inference under sample selection, where both treatment assignment and outcome observability are non-random. Formulating the problem in terms of a Riesz representer enables stable estimation and a transparent decomposition of omitted variable bias into three interpretable components: a data-identified scale factor, outcome confounding strength, and selection confounding strength. For estimation, we employ the ForestRiesz estimator, which accounts for selective outcome observability while avoiding the instability associated with direct propensity score inversion. We assess finite-sample performance through a simulation study and show that conventional double machine learning approaches can be highly sensitive to tuning parameters due to their reliance on inverse probability weighting, whereas the ForestRiesz estimator delivers more stable performance by leveraging automatic debiased machine learning. In an empirical application to the gender wage gap in the U.S., we find that our ForestRiesz approach yields larger treatment effect estimates than a standard double machine learning approach, suggesting that ignoring sample selection leads to an underestimation of the gender wage gap. Sensitivity analysis indicates that implausibly strong unobserved confounding would be required to overturn our results. Overall, our approach provides a unified, robust, and computationally attractive framework for causal inference under sample selection.",
+        "translated": ""
+    },
+    {
+        "title": "Systemic Risk Surveillance",
+        "url": "http://arxiv.org/abs/2601.08598v1",
+        "pub_date": "2026-01-13",
+        "summary": "Following several episodes of financial market turmoil in recent decades, changes in systemic risk have drawn growing attention. Therefore, we propose surveillance schemes for systemic risk, which allow to detect misspecified systemic risk forecasts in an \"online\" fashion. This enables daily monitoring of the forecasts while controlling for the accumulation of false test rejections. Such online schemes are vital in taking timely countermeasures to avoid financial distress. Our monitoring procedures allow multiple series at once to be monitored, thus increasing the likelihood and the speed at which early signs of trouble may be picked up. The tests hold size by construction, such that the null of correct systemic risk assessments is only rejected during the monitoring period with (at most) a pre-specified probability. Monte Carlo simulations illustrate the good finite-sample properties of our procedures. An empirical application to US banks during multiple crises demonstrates the usefulness of our surveillance schemes for both regulators and financial institutions.",
+        "translated": ""
+    },
+    {
+        "title": "Estimating Treatment Effects in Panel Data Without Parallel Trends",
+        "url": "http://arxiv.org/abs/2601.08281v1",
+        "pub_date": "2026-01-13",
+        "summary": "This paper proposes a novel approach for estimating treatment effects in panel data settings, addressing key limitations of the standard difference-in-differences (DID) approach. The standard approach relies on the parallel trends assumption, implicitly requiring that unobservable factors correlated with treatment assignment be unidimensional, time-invariant, and affect untreated potential outcomes in an additively separable manner. This paper introduces a more flexible framework that allows for multidimensional unobservables and non-additive separability, and provides sufficient conditions for identifying the average treatment effect on the treated. An empirical application to job displacement reveals substantially smaller long-run earnings losses compared to the standard DID approach, demonstrating the framework's ability to account for unobserved heterogeneity that manifests as differential outcome trajectories between treated and control groups.",
+        "translated": ""
+    },
+    {
+        "title": "A Blessing in Disguise: How DeFi Hacks Trigger Unintended Liquidity Injections into US Money Markets",
+        "url": "http://arxiv.org/abs/2601.08263v1",
+        "pub_date": "2026-01-13",
+        "summary": "Do vulnerabilities in Decentralized Finance (DeFi) destabilize traditional short-term funding markets? While the prevailing \"Contagion Hypothesis\" posits that the liquidation of stablecoin reserves triggers fire-sale spirals that transmit distress to traditional markets , we document a robust \"Flight-to-Quality\" effect to the contrary. In the wake of major DeFi exploits, spreads on 3-month AA-rated commercial paper (CP) exhibit a paradoxical narrowing. We identify a \"liquidity recycling\" mechanism driving this outcome: capital fleeing DeFi protocols is re-intermediated into the traditional financial system via Prime Money Market Funds (MMFs) , where strict regulatory constraints (e.g., SEC Rule 2a-7) compel these funds to purchase high-quality paper. Our estimates indicate that this institutional demand shock quantitatively overwhelms the supply shock driven by stablecoin issuer redemptions. Rather than acting as vectors of financial contagion , these crypto native shocks serve as an inadvertent \"safety valve\" in segmented markets , providing transient liquidity support and effectively subsidizing borrowing costs for high-grade issuers in the real economy.",
+        "translated": ""
+    },
+    {
+        "title": "Incorporating Cognitive Biases into Reinforcement Learning for Financial Decision-Making",
+        "url": "http://arxiv.org/abs/2601.08247v1",
+        "pub_date": "2026-01-13",
+        "summary": "Financial markets are influenced by human behavior that deviates from rationality due to cognitive biases. Traditional reinforcement learning (RL) models for financial decision-making assume rational agents, potentially overlooking the impact of psychological factors. This study integrates cognitive biases into RL frameworks for financial trading, hypothesizing that such models can exhibit human-like trading behavior and achieve better risk-adjusted returns than standard RL agents. We introduce biases, such as overconfidence and loss aversion, into reward structures and decision-making processes and evaluate their performance in simulated and real-world trading environments. Despite its inconclusive or negative results, this study provides insights into the challenges of incorporating human-like biases into RL, offering valuable lessons for developing robust financial AI systems.",
+        "translated": ""
+    },
+    {
+        "title": "Fake Date Tests: Can We Trust In-sample Accuracy of LLMs in Macroeconomic Forecasting?",
+        "url": "http://arxiv.org/abs/2601.07992v1",
+        "pub_date": "2026-01-12",
+        "summary": "Large language models (LLMs) are a type of machine learning tool that economists have started to apply in their empirical research. One such application is macroeconomic forecasting with backtesting of LLMs, even though they are trained on the same data that is used to estimate their forecasting performance. Can these in-sample accuracy results be extrapolated to the model's out-of-sample performance? To answer this question, we developed a family of prompt sensitivity tests and two members of this family, which we call the fake date tests. These tests aim to detect two types of biases in LLMs' in-sample forecasts: lookahead bias and context bias. According to the empirical results, none of the modern LLMs tested in this study passed our first test, signaling the presence of lookahead bias in their in-sample forecasts.",
+        "translated": ""
+    },
+    {
+        "title": "Riesz Representer Fitting under Bregman Divergence: A Unified Framework for Debiased Machine Learning",
+        "url": "http://arxiv.org/abs/2601.07752v1",
+        "pub_date": "2026-01-12",
+        "summary": "Estimating the Riesz representer is a central problem in debiased machine learning for causal and structural parameter estimation. Various methods for Riesz representer estimation have been proposed, including Riesz regression and covariate balancing. This study unifies these methods within a single framework. Our framework fits a Riesz representer model to the true Riesz representer under a Bregman divergence, which includes the squared loss and the Kullback--Leibler (KL) divergence as special cases. We show that the squared loss corresponds to Riesz regression, and the KL divergence corresponds to tailored loss minimization, where the dual solutions correspond to stable balancing weights and entropy balancing weights, respectively, under specific model specifications. We refer to our method as generalized Riesz regression, and we refer to the associated duality as automatic covariate balancing. Our framework also generalizes density ratio fitting under a Bregman divergence to Riesz representer estimation, and it includes various applications beyond density ratio estimation. We also provide a convergence analysis for both cases where the model class is a reproducing kernel Hilbert space (RKHS) and where it is a neural network.",
+        "translated": ""
+    },
+    {
+        "title": "Crypto Pricing with Hidden Factors",
+        "url": "http://arxiv.org/abs/2601.07664v1",
+        "pub_date": "2026-01-12",
+        "summary": "We estimate risk premia in the cross-section of cryptocurrency returns using the Giglio-Xiu (2021) three-pass approach, allowing for omitted latent factors alongside observed stock-market and crypto-market factors. Using weekly data on a broad universe of large cryptocurrencies, we find that crypto expected returns load on both crypto-specific factors and selected equity-industry factors associated with technology and profitability, consistent with increased integration between crypto and traditional markets. In addition, we study non-tradable state variables capturing investor sentiment (Fear and Greed), speculative rotation (Altcoin Season Index), and security shocks (hacked value scaled by market capitalization), which are new to the literature. Relative to conventional Fama-MacBeth estimates, the latent-factor approach yields materially different premia for key factors, highlighting the importance of controlling for unobserved risks in crypto asset pricing.",
+        "translated": ""
     }
 ]
