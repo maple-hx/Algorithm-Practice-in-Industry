@@ -61493,5 +61493,12 @@
         "pub_date": "2026-01-14",
         "summary": "Spatiotemporal vector retrieval has emerged as a critical paradigm in modern information retrieval, enabling efficient access to massive, heterogeneous data that evolve over both time and space. However, existing spatiotemporal retrieval methods are often extensions of conventional vector search systems that rely on external filters or specialized indices to incorporate temporal and spatial constraints, leading to inefficiency, architectural complexity, and limited flexibility in handling heterogeneous modalities. To overcome these challenges, we present a unified spatiotemporal vector retrieval framework that integrates temporal, spatial, and semantic cues within a coherent similarity space while maintaining scalability and adaptability to continuous data streams. Specifically, we propose (1) a Rotary-based Unified Encoding Method that embeds time and location into rotational position vectors for consistent spatiotemporal representation; (2) a Circular Incremental Update Mechanism that supports efficient sliding-window updates without global re-encoding or index reconstruction; and (3) a Weighted Interest-based Retrieval Algorithm that adaptively balances modality weights for context-aware and personalized retrieval. Extensive experiments across multiple real-world datasets demonstrate that our framework substantially outperforms state-of-the-art baselines in both retrieval accuracy and efficiency, while maintaining robustness under dynamic data evolution. These results highlight the effectiveness and practicality of the proposed approach for scalable spatiotemporal information retrieval in intelligent systems.",
         "translated": ""
+    },
+    {
+        "title": "Cosmological Cutting Rules from Flat-Space Unitarity via Dressing",
+        "url": "http://arxiv.org/abs/2601.08917v1",
+        "pub_date": "2026-01-13",
+        "summary": "Using cosmological dressing rules, we uplift flat-space unitarity cuts to discontinuity relations for dS/EAdS observables. In this representation, Cutkosky delta functions map directly to \"Disc\" operations in the exchanged energy variable. This provides a transparent diagram by diagram origin of cosmological cutting rules. We illustrate this with explicit examples at tree level and one loop for conformally coupled scalars.",
+        "translated": ""
     }
 ]
