@@ -61500,5 +61500,54 @@
         "pub_date": "2026-01-13",
         "summary": "Using cosmological dressing rules, we uplift flat-space unitarity cuts to discontinuity relations for dS/EAdS observables. In this representation, Cutkosky delta functions map directly to \"Disc\" operations in the exchanged energy variable. This provides a transparent diagram by diagram origin of cosmological cutting rules. We illustrate this with explicit examples at tree level and one loop for conformally coupled scalars.",
         "translated": ""
+    },
+    {
+        "title": "causalfe: Causal Forests with Fixed Effects in Python",
+        "url": "http://arxiv.org/abs/2601.10555v1",
+        "pub_date": "2026-01-15",
+        "summary": "The causalfe package provides a Python implementation of Causal Forests with Fixed Effects (CFFE) for estimating heterogeneous treatment effects in panel data settings. Standard causal forest methods struggle with panel data because unit and time fixed effects induce spurious heterogeneity in treatment effect estimates. The CFFE approach addresses this by performing node-level residualization during tree construction, removing fixed effects within each candidate split rather than globally. This paper describes the methodology, documents the software interface, and demonstrates the package through simulation studies that validate the estimator's performance under various data generating processes.",
+        "translated": ""
+    },
+    {
+        "title": "Semiparametric inference for inequality measures under nonignorable nonresponse using callback data",
+        "url": "http://arxiv.org/abs/2601.10501v1",
+        "pub_date": "2026-01-15",
+        "summary": "This paper develops semiparametric methods for estimation and inference of widely used inequality measures when survey data are subject to nonignorable nonresponse, a challenging setting in which response probabilities depend on the unobserved outcomes. Such nonresponse mechanisms are common in household surveys and invalidate standard inference procedures due to selection bias and lack of population representativeness. We address this problem by exploiting callback data from repeated contact attempts and adopting a semiparametric model that leaves the outcome distribution unspecified. We construct semiparametric full-likelihood estimators for the underlying distribution and the associated inequality measures, and establish their large-sample properties for a broad class of functionals, including quantiles, the Theil index, and the Gini index. Explicit asymptotic variance expressions are derived, enabling valid Wald-type inference under nonignorable nonresponse. To facilitate implementation, we propose a stable and computationally convenient expectation-maximization algorithm, whose steps either admit closed-form expressions or reduce to fitting a standard logistic regression model. Simulation studies demonstrate that the proposed procedures effectively correct nonresponse bias and achieve near-benchmark efficiency. An application to Consumer Expenditure Survey data illustrates the practical gains from incorporating callback information when making inference on inequality measures.",
+        "translated": ""
+    },
+    {
+        "title": "Chasing Opportunity: Spillovers and Drivers of U.S. State Population Growth",
+        "url": "http://arxiv.org/abs/2601.10444v1",
+        "pub_date": "2026-01-15",
+        "summary": "We study the drivers and spatial diffusion of U.S. state population growth using a dynamic spatial model for 49 states, 1965-2017. Methodologically, we recover the spatial network structure from the data, rather than imposing it a priori via contiguity or distance, and combine this with an IV estimator that permits heterogeneous slopes and interactive fixed effects. This unified design delivers consistent estimation and inference in a flexible spatial panel model with endogenous regressors, a data-inferred network structure, and pervasive cross-state dependence. To our knowledge, it is the first estimation framework in spatial econometrics to combine all three elements within a single setting. Empirically, population growth exhibits broad yet heterogeneous conditional convergence: about three-quarters of states converge, while a small high-growth group mildly diverges. Effects of the core drivers, amenities, labour income, migration frictions, are stable across various network specifications. On the other hand, the productivity effect emerges only when the network is estimated from the data. Spatial spillovers are sizable, with indirect effects roughly one-third of total impacts, and diffusion extending beyond contiguous neighbours.",
+        "translated": ""
+    },
+    {
+        "title": "Como medir o invisível? Guerras, pizzarias do Pentágono e o uso de variáveis proxy em econometria",
+        "url": "http://arxiv.org/abs/2601.10352v1",
+        "pub_date": "2026-01-15",
+        "summary": "Many economically relevant variables (risk, confidence, uncertainty) are latent and therefore not directly observable, which creates identification challenges in applied regressions. This text formalizes how omitting latent factors generates omitted-variable bias and discusses when including a proxy variable can mitigate it. We distinguish the case of a perfect proxy, which can eliminate the bias, from the more realistic case of an imperfect proxy, where residual bias remains and the estimated effect is attenuated. We propose a practical evaluation protocol based on four properties: relevance, conditional sufficiency, exogeneity, and stability. As an illustration, we use micromobility data from Arlington together with the U.S. Geopolitical Risk Index, estimating cointegration and a bivariate VEC model to interpret local activity as a high-frequency signal of the latent component of geopolitical tension.",
+        "translated": ""
+    },
+    {
+        "title": "Selecting and Testing Asset Pricing Models: A Stepwise Approach",
+        "url": "http://arxiv.org/abs/2601.10279v1",
+        "pub_date": "2026-01-15",
+        "summary": "The asset pricing literature emphasizes factor models that minimize pricing errors but overlooks unselected candidate factors that could enhance the performance of test assets. This paper proposes a framework for factor model selection and testing by (i) selecting the optimal model that spans the joint efficient frontier of test assets and all candidate factors, and (ii) testing pricing performance on both test assets and unselected candidate factors. Our framework updates a baseline model (e.g., CAPM) sequentially by adding or removing factors based on asset pricing tests. Ensuring model selection consistency, our framework utilizes the asset pricing duality: minimizing cross-sectionally unexplained pricing errors aligns with maximizing the Sharpe ratio of the selected factor model. Empirical evidence shows that workhorse factor models fail asset pricing tests, whereas our proposed 8-factor model is not rejected and exhibits robust out-of-sample performance.",
+        "translated": ""
+    },
+    {
+        "title": "Corrected Forecast Combinations",
+        "url": "http://arxiv.org/abs/2601.09999v1",
+        "pub_date": "2026-01-15",
+        "summary": "This paper proposes corrected forecast combinations when the original combined forecast errors are serially dependent. Motivated by the classic Bates and Granger (1969) example, we show that combined forecast errors can be strongly autocorrelated and that a simple correction--adding a fraction of the previous combined error to the next-period combined forecast--can deliver sizable improvements in forecast accuracy, often exceeding the original gains from combining. We formalize the approach within the conditional risk framework of Gibbs and Vasnev (2024), in which the combined error decomposes into a predictable component (measurable at the forecast origin) and an innovation. We then link this correction to efficient estimation of combination weights under time-series dependence via GLS, allowing joint estimation of weights and an error-covariance structure. Using the U.S. Survey of Professional Forecasters for major macroeconomic indices across various subsamples (including pre and post-2000, GFC, and COVID), we find that a parsimonious correction of the mean forecast with a coefficient around 0.5 is a robust starting point and often yields material improvements in forecast accuracy. For optimal-weight forecasts, the correction substantially mitigates the forecast combination puzzle by turning poorly performing out-of-sample optimal-weight combinations into competitive forecasts.",
+        "translated": ""
+    },
+    {
+        "title": "Learning about Treatment Effects with Prior Studies: A Bayesian Model Averaging Approach",
+        "url": "http://arxiv.org/abs/2601.09888v1",
+        "pub_date": "2026-01-14",
+        "summary": "We establish concentration rates for estimation of treatment effects in experiments that incorporate prior sources of information -- such as past pilots, related studies, or expert assessments -- whose external validity is uncertain. Each source is modeled as a Gaussian prior with its own mean and precision, and sources are combined using Bayesian model averaging (BMA), allowing data from the new experiment to update posterior weights. To capture empirically relevant settings in which prior studies may be as informative as the current experiment, we introduce a nonstandard asymptotic framework in which prior precisions grow with the experiment's sample size. In this regime, posterior weights are governed by an external-validity index that depends jointly on a source's bias and information content: biased sources are exponentially downweighted, while unbiased sources dominate. When at least one source is unbiased, our procedure concentrates on the unbiased set and achieves faster convergence than relying on new data alone. When all sources are biased, including a deliberately conservative (diffuse) prior guarantees robustness and recovers the standard convergence rate.",
+        "translated": ""
     }
 ]
