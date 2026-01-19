@@ -61689,5 +61689,33 @@
         "pub_date": "2026-01-15",
         "summary": "This study examines market behavior in critical mineral investments using a novel analytical framework that combines change-point detection (PELT algorithm) with cross-sectional analysis. This research analyzes ESG-ranked critical mineral ETFs from March 31, 2014, to April 19, 2024, using the S&amp;P 500 as a benchmark to evaluate market co-movements. The findings demonstrate that different critical mineral investments experienced change points at distinct times, but three major dates, July 23, 2015; March 17, 2020; and December 1, 2020, were common and aligned with global events such as the oil market shock, the COVID-19 pandemic, and later market adjustments. Herding behavior among investors increased after these shocks, following the 2015 and 2020 crises, but shifted to anti-herding after positive vaccine news in late 2020 and after the Russian invasion of Ukraine in 2022. The sensitivity analysis shows that investor coordination is strongest during market downturns but exhibits greater variation during stable periods or after major developments, with these dynamics sensitive to the length of the observation period. Additionally, anti-herding became more apparent during crises, suggesting investors reacted to specific risks rather than moving in lockstep, especially in response to geopolitical shocks.",
         "translated": ""
+    },
+    {
+        "title": "Interactive Narrative Analytics: Bridging Computational Narrative Extraction and Human Sensemaking",
+        "url": "http://arxiv.org/abs/2601.11459v1",
+        "pub_date": "2026-01-16",
+        "summary": "Information overload and misinformation create significant challenges in extracting meaningful narratives from large news collections. This paper defines the nascent field of Interactive Narrative Analytics (INA), which combines computational narrative extraction with interactive visual analytics to support sensemaking. INA approaches enable the interactive exploration of narrative structures through computational methods and visual interfaces that facilitate human interpretation. The field faces challenges in scalability, interactivity, knowledge integration, and evaluation standardization, yet offers promising opportunities across news analysis, intelligence, scientific literature exploration, and social media analysis. Through the combination of computational and human insight, INA addresses complex challenges in narrative sensemaking.",
+        "translated": ""
+    },
+    {
+        "title": "Isotropy-Optimized Contrastive Learning for Semantic Course Recommendation",
+        "url": "http://arxiv.org/abs/2601.11427v1",
+        "pub_date": "2026-01-16",
+        "summary": "This paper presents a semantic course recommendation system for students using a self-supervised contrastive learning approach built upon BERT (Bidirectional Encoder Representations from Transformers). Traditional BERT embeddings suffer from anisotropic representation spaces, where course descriptions exhibit high cosine similarities regardless of semantic relevance. To address this limitation, we propose a contrastive learning framework with data augmentation and isotropy regularization that produces more discriminative embeddings. Our system processes student text queries and recommends Top-N relevant courses from a curated dataset of over 500 engineering courses across multiple faculties. Experimental results demonstrate that our fine-tuned model achieves improved embedding separation and more accurate course recommendations compared to vanilla BERT baselines.",
+        "translated": ""
+    },
+    {
+        "title": "Validating Search Query Simulations: A Taxonomy of Measures",
+        "url": "http://arxiv.org/abs/2601.11412v1",
+        "pub_date": "2026-01-16",
+        "summary": "Assessing the validity of user simulators when used for the evaluation of information retrieval systems remains an open question, constraining their effective use and the reliability of simulation-based results. To address this issue, we conduct a comprehensive literature review with a particular focus on methods for the validation of simulated user queries with regard to real queries. Based on the review, we develop a taxonomy that structures the current landscape of available measures. We empirically corroborate the taxonomy by analyzing the relationships between the different measures applied to four different datasets representing diverse search scenarios. Finally, we provide concrete recommendations on which measures or combinations of measures should be considered when validating user simulation in different contexts. Furthermore, we release a dedicated library with the most commonly used measures to facilitate future research.",
+        "translated": ""
+    },
+    {
+        "title": "Seek and You Shall Find: Design &amp; Evaluation of a Context-Aware Interactive Search Companion",
+        "url": "http://arxiv.org/abs/2601.11287v1",
+        "pub_date": "2026-01-16",
+        "summary": "Many users struggle with effective online search and critical evaluation, especially in high-stakes domains like health, while often overestimating their digital literacy. Thus, in this demo, we present an interactive search companion that seamlessly integrates expert search strategies into existing search engine result pages. Providing context-aware tips on clarifying information needs, improving query formulation, encouraging result exploration, and mitigating biases, our companion aims to foster reflective search behaviour while minimising cognitive burden. A user study demonstrates the companion's successful encouragement of more active and exploratory search, leading users to submit 75 % more queries and view roughly twice as many results, as well as performance gains in difficult tasks. This demo illustrates how lightweight, contextual guidance can enhance search literacy and empower users through micro-learning opportunities. While the vision involves real-time LLM adaptivity, this study utilises a controlled implementation to test the underlying intervention strategies.",
+        "translated": ""
     }
 ]
