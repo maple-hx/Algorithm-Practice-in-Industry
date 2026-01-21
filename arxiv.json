@@ -61752,5 +61752,47 @@
         "pub_date": "2026-01-16",
         "summary": "The integration of AI agents into economic markets fundamentally alters the landscape of strategic interaction. We investigate the economic implications of expanding the set of available technologies in three canonical game-theoretic settings: bargaining (resource division), negotiation (asymmetric information trade), and persuasion (strategic information transmission). We find that simply increasing the choice of AI delegates can drastically shift equilibrium payoffs and regulatory outcomes, often creating incentives for regulators to proactively develop and release technologies. Conversely, we identify a strategic phenomenon termed the \"Poisoned Apple\" effect: an agent may release a new technology, which neither they nor their opponent ultimately uses, solely to manipulate the regulator's choice of market design in their favor. This strategic release improves the releaser's welfare at the expense of their opponent and the regulator's fairness objectives. Our findings demonstrate that static regulatory frameworks are vulnerable to manipulation via technology expansion, necessitating dynamic market designs that adapt to the evolving landscape of AI capabilities.",
         "translated": ""
+    },
+    {
+        "title": "Partial Identification under Stratified Randomization",
+        "url": "http://arxiv.org/abs/2601.12566v1",
+        "pub_date": "2026-01-18",
+        "summary": "This paper develops a unified framework for partial identification and inference in stratified experiments with attrition, accommodating both equal and heterogeneous treatment shares across strata. For equal-share designs, we apply recent theory for finely stratified experiments to Lee bounds, yielding closed-form, design-consistent variance estimators and properly sized confidence intervals. Simulations show that the conventional formula can overstate uncertainty, while our approach delivers tighter intervals. When treatment shares differ across strata, we propose a new strategy, which combines inverse probability weighting and global trimming to construct valid bounds even when strata are small or unbalanced. We establish identification, introduce a moment estimator, and extend existing inference results to stratified designs with heterogeneous shares, covering a broad class of moment-based estimators which includes the one we formulate. We also generalize our results to designs in which strata are defined solely by observed labels.",
+        "translated": ""
+    },
+    {
+        "title": "How Well Do LLMs Predict Human Behavior? A Measure of their Pretrained Knowledge",
+        "url": "http://arxiv.org/abs/2601.12343v1",
+        "pub_date": "2026-01-18",
+        "summary": "Large language models (LLMs) are increasingly used to predict human behavior. We propose a measure for evaluating how much knowledge a pretrained LLM brings to such a prediction: its equivalent sample size, defined as the amount of task-specific data needed to match the predictive accuracy of the LLM. We estimate this measure by comparing the prediction error of a fixed LLM in a given domain to that of flexible machine learning models trained on increasing samples of domain-specific data. We further provide a statistical inference procedure by developing a new asymptotic theory for cross-validated prediction error. Finally, we apply this method to the Panel Study of Income Dynamics. We find that LLMs encode considerable predictive information for some economic variables but much less for others, suggesting that their value as substitutes for domain-specific data differs markedly across settings.",
+        "translated": ""
+    },
+    {
+        "title": "A Robust Similarity Estimator",
+        "url": "http://arxiv.org/abs/2601.12198v1",
+        "pub_date": "2026-01-18",
+        "summary": "We construct and analyze an estimator of association between random variables based on their similarity in both direction and magnitude. Under special conditions, the proposed measure becomes a robust and consistent estimator of the linear correlation, for which an exact sampling distribution is available. This distribution is intrinsically insensitive to heavy tails and outliers, thereby facilitating robust inference for correlations. The measure can be naturally extended to higher dimensions, where it admits an interpretation as an indicator of joint similarity among multiple random variables. We investigate the empirical performance of the proposed measure with financial return data at both high and low frequencies. Specifically, we apply the new estimator to construct confidence intervals for correlations based on intraday returns and to develop a new specification for multivariate GARCH models.",
+        "translated": ""
+    },
+    {
+        "title": "Nonlinear Dynamic Factor Analysis With a Transformer Network",
+        "url": "http://arxiv.org/abs/2601.12039v1",
+        "pub_date": "2026-01-17",
+        "summary": "The paper develops a Transformer architecture for estimating dynamic factors from multivariate time series data under flexible identification assumptions. Performance on small datasets is improved substantially by using a conventional factor model as prior information via a regularization term in the training objective. The results are interpreted with Attention matrices that quantify the relative importance of variables and their lags for the factor estimate. Time variation in Attention patterns can help detect regime switches and evaluate narratives. Monte Carlo experiments suggest that the Transformer is more accurate than the linear factor model, when the data deviate from linear-Gaussian assumptions. An empirical application uses the Transformer to construct a coincident index of U.S. real economic activity.",
+        "translated": ""
+    },
+    {
+        "title": "Public Education Spending and Income Inequality",
+        "url": "http://arxiv.org/abs/2601.11928v1",
+        "pub_date": "2026-01-17",
+        "summary": "This paper investigates the relationship between public education spending and income inequality across U.S. counties from 2010 to 2022 using quantile regression methods. The analysis shows that total per pupil education spending is consistently associated with a small increase in income inequality, with stronger effects in high inequality counties. In contrast, the composition of education spending plays a substantially more important role. Reallocating budgets toward instructional, support service, and other current expenditures significantly reduces income inequality, particularly at the upper quantiles of the Gini distribution. Capital outlays and interest payments exhibit weaker and mixed effects. Economic and demographic factors, especially poverty, median income, and educational attainment, remain dominant drivers of inequality. Overall, the results demonstrate that how education funds are allocated matters more than how much is spent, underscoring the importance of budget composition in using public education policy to promote equity.",
+        "translated": ""
+    },
+    {
+        "title": "Reevaluating Causal Estimation Methods with Data from a Product Release",
+        "url": "http://arxiv.org/abs/2601.11845v1",
+        "pub_date": "2026-01-17",
+        "summary": "Recent developments in causal machine learning methods have made it easier to estimate flexible relationships between confounders, treatments and outcomes, making unconfoundedness assumptions in causal analysis more palatable. How successful are these approaches in recovering ground truth baselines? In this paper we analyze a new data sample including an experimental rollout of a new feature at a large technology company and a simultaneous sample of users who endogenously opted into the feature. We find that recovering ground truth causal effects is feasible -- but only with careful modeling choices. Our results build on the observational causal literature beginning with LaLonde (1986), offering best practices for more credible treatment effect estimation in modern, high-dimensional datasets.",
+        "translated": ""
     }
 ]
