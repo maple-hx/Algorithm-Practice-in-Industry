@@ -61822,5 +61822,12 @@
         "pub_date": "2026-01-20",
         "summary": "We study how document chunking choices impact the reliability of Retrieval-Augmented Generation (RAG) systems in industry. While practice often relies on heuristics, our end-to-end evaluation on Natural Questions systematically varies chunking method (token, sentence, semantic, code), chunk size, overlap, and context length. We use a standard industrial setup: SPLADE retrieval and a Mistral-8B generator. We derive actionable lessons for cost-efficient deployment: (i) overlap provides no measurable benefit and increases indexing cost; (ii) sentence chunking is the most cost-effective method, matching semantic chunking up to ~5k tokens; (iii) a \"context cliff\" reduces quality beyond ~2.5k tokens; and (iv) optimal context depends on the goal (semantic quality peaks at small contexts; exact match at larger ones).",
         "translated": ""
+    },
+    {
+        "title": "From Pixels to Purchase: Building and Evaluating a Taxonomy-Decoupled Visual Search Engine for Home Goods E-commerce",
+        "url": "http://arxiv.org/abs/2601.11769v1",
+        "pub_date": "2026-01-16",
+        "summary": "Visual search is critical for e-commerce, especially in style-driven domains where user intent is subjective and open-ended. Existing industrial systems typically couple object detection with taxonomy-based classification and rely on catalog data for evaluation, which is prone to noise that limits robustness and scalability. We propose a taxonomy-decoupled architecture that uses classification-free region proposals and unified embeddings for similarity retrieval, enabling a more flexible and generalizable visual search. To overcome the evaluation bottleneck, we propose an LLM-as-a-Judge framework that assesses nuanced visual similarity and category relevance for query-result pairs in a zero-shot manner, removing dependence on human annotations or noise-prone catalog data. Deployed at scale on a global home goods platform, our system improves retrieval quality and yields a measurable uplift in customer engagement, while our offline evaluation metrics strongly correlate with real-world outcomes.",
+        "translated": ""
     }
 ]
