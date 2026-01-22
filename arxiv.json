@@ -61829,5 +61829,68 @@
         "pub_date": "2026-01-16",
         "summary": "Visual search is critical for e-commerce, especially in style-driven domains where user intent is subjective and open-ended. Existing industrial systems typically couple object detection with taxonomy-based classification and rely on catalog data for evaluation, which is prone to noise that limits robustness and scalability. We propose a taxonomy-decoupled architecture that uses classification-free region proposals and unified embeddings for similarity retrieval, enabling a more flexible and generalizable visual search. To overcome the evaluation bottleneck, we propose an LLM-as-a-Judge framework that assesses nuanced visual similarity and category relevance for query-result pairs in a zero-shot manner, removing dependence on human annotations or noise-prone catalog data. Deployed at scale on a global home goods platform, our system improves retrieval quality and yields a measurable uplift in customer engagement, while our offline evaluation metrics strongly correlate with real-world outcomes.",
         "translated": ""
+    },
+    {
+        "title": "Implementing Substance Over Form: A Novel Metric for Taxing E-commerce to Address Deterritorialization",
+        "url": "http://arxiv.org/abs/2601.14616v1",
+        "pub_date": "2026-01-21",
+        "summary": "Against the backdrop of e-commerce restructuring consumption patterns, last-mile delivery stations have substantially fulfilled the function of community retail distribution. However, the current tax system only levies a low labor service tax on delivery fees, resulting in a tax contribution from the massive circulating goods value that is significantly lower than that of retail supermarkets of equivalent scale. This disparity not only triggers local tax base erosion but also fosters unfair competition. Based on the \"substance over form\" principle, this paper proposes a tax rate calculation method using \"delivery fee plus insurance premium\" as the base, corrected through \"goods value conversion.\" This method aims to align the substantive tax burden of e-commerce with that of community retail at the terminal stage, effectively internalizing the high negative externalities of delivery stations through fiscal instruments, addressing E-commerce Deterritorialization.",
+        "translated": ""
+    },
+    {
+        "title": "On the falsification of instrumental variable models for heterogeneous treatment effects",
+        "url": "http://arxiv.org/abs/2601.14464v1",
+        "pub_date": "2026-01-20",
+        "summary": "In this paper I derive a set of testable implications for econometric models defined by three assumptions: (i) the existence of strictly exogenous discrete instruments, (ii) restrictions on how the instruments affect adoption of a finite number of treatment types (such as monotonicity), and (iii) the assumption that the instruments only affect outcomes through their effect on treatment adoption (i.e. an exclusion restriction). The testable implications aggregate (via integration) an otherwise potentially infinite set of inequalities that must hold for every measurable subset of the outcome's support. For binary instruments the testable implications are sharp. Furthermore, I propose an implementation that links restrictions on latent response types to a generalization of first-order stochastic dominance and random utility models, allowing to distinguish violations of the exclusion restriction from violations of monotonicity-type assumptions. The testable implications extend naturally to the many instruments case.",
+        "translated": ""
+    },
+    {
+        "title": "On the Anchoring Effect of Monetary Policy on the Labor Share of Income and the Rationality of Its Setting Mechanism",
+        "url": "http://arxiv.org/abs/2601.13675v1",
+        "pub_date": "2026-01-20",
+        "summary": "Modern macroeconomic monetary theory suggests that the labor share of income has effectively become a core macroe-conomic parameter anchored by top policymakers through Open Market Operations (OMO). However, the setting of this parameter remains a subject of intense economic debate. This paper provides a detailed summary of these controversies, analyzes the scope of influence exerted by market agents other than the top policymakers on the labor share, and explores the rationality of its setting mechanism.",
+        "translated": ""
+    },
+    {
+        "title": "The Maintenance and Necessity of Universal Rules: Scale, Hierarchy, the Cost of Justice, and Civilizational Development",
+        "url": "http://arxiv.org/abs/2601.14325v1",
+        "pub_date": "2026-01-20",
+        "summary": "Building upon previous research, this paper further explores the topological foundations for maintaining universal rules within ultra-large-scale societies. It finds that in small-scale societies, absolute egalitarianism and the rule of law can be compatible through peer monitoring within a fully connected network. However, in ultra-large-scale societies, to maintain high-dimensional rules capable of protecting innovation and property rights, a complex hierarchical structure including \"high-fragility\" nodes must be constructed. Through quantitative analysis of power structures, this paper proves that a flattened, two-tier structure inevitably leads to the degradation of the rule of law. Only a social topology with sufficient hierarchical depth can escape the deathly trap of the Leviathan while expanding in scale, thereby sustaining the dynamic evolution of civilization.",
+        "translated": ""
+    },
+    {
+        "title": "The Collapse of Multilayer Predation and the Emergence of a Monolithic Leviathan",
+        "url": "http://arxiv.org/abs/2601.13544v1",
+        "pub_date": "2026-01-20",
+        "summary": "This paper constructs a multilayer recursive game model to demonstrate that in a rule vacuum environment, hierarchical predatory structures inevitably collapse into a monolithic political strongman system due to the conflict between exponentially growing rent dissipation and the rigidity of bottom-level survival constraints. We propose that the rise of a monolithic political strongman is essentially an \"algorithmic entropy reduction\" achieved through forceful means by the system to counteract the \"informational entropy increase\" generated by multilayer agency. However, the order gained at the expense of social complexity results in the stagnation of social evolutionary functions.",
+        "translated": ""
+    },
+    {
+        "title": "Spectral Dynamics and Regularization for High-Dimensional Copulas",
+        "url": "http://arxiv.org/abs/2601.13281v1",
+        "pub_date": "2026-01-19",
+        "summary": "We introduce a novel model for time-varying, asymmetric, tail-dependent copulas in high dimensions that incorporates both spectral dynamics and regularization. The dynamics of the dependence matrix' eigenvalues are modeled in a score-driven way, while biases in the unconditional eigenvalue spectrum are resolved by non-linear shrinkage. The dynamic parameterization of the copula dependence matrix ensures that it satisfies the appropriate restrictions at all times and for any dimension. The model is parsimonious, computationally efficient, easily scalable to high dimensions, and performs well for both simulated and empirical data. In an empirical application to financial market dynamics using 100 stocks from 10 different countries and 10 different industry sectors, we find that our copula model captures both geographic and industry related co-movements and outperforms recent computationally more intensive clustering-based factor copula alternatives. Both the spectral dynamics and the regularization contribute to the new model's performance. During periods of market stress, we find that the spectral dynamics reveal strong increases in international stock market dependence, which causes reductions in diversification potential and increases in systemic risk.",
+        "translated": ""
+    },
+    {
+        "title": "A machine learning approach to volatility forecasting",
+        "url": "http://arxiv.org/abs/2601.13014v1",
+        "pub_date": "2026-01-19",
+        "summary": "We inspect how accurate machine learning (ML) is at forecasting realized variance of the Dow Jones Industrial Average index constituents. We compare several ML algorithms, including regularization, regression trees, and neural networks, to multiple Heterogeneous AutoRegressive (HAR) models. ML is implemented with minimal hyperparameter tuning. In spite of this, ML is competitive and beats the HAR lineage, even when the only predictors are the daily, weekly, and monthly lags of realized variance. The forecast gains are more pronounced at longer horizons. We attribute this to higher persistence in the ML models, which helps to approximate the long-memory of realized variance. ML also excels at locating incremental information about future volatility from additional predictors. Lastly, we propose a ML measure of variable importance based on accumulated local effects. This shows that while there is agreement about the most important predictors, there is disagreement on their ranking, helping to reconcile our results.",
+        "translated": ""
+    },
+    {
+        "title": "Realised quantile-based estimation of the integrated variance",
+        "url": "http://arxiv.org/abs/2601.13006v1",
+        "pub_date": "2026-01-19",
+        "summary": "In this paper, we propose a new jump robust quantile-based realised variance measure of ex-post return variation that can be computed using potentially noisy data. The estimator is consistent for the integrated variance and we present feasible central limit theorems which show that it converges at the best attainable rate and has excellent efficiency. Asymptotically, the quantile-based realised variance is immune to finite activity jumps and outliers in the price series, while in modified form the estimator is applicable with market microstructure noise and therefore operational on high-frequency data. Simulations show that it has superior robustness properties in finite sample, while an empirical application illustrates its use on equity data.",
+        "translated": ""
+    },
+    {
+        "title": "Quantitative Methods in Finance",
+        "url": "http://arxiv.org/abs/2601.12896v1",
+        "pub_date": "2026-01-19",
+        "summary": "These lecture notes provide a comprehensive introduction to Quantitative Methods in Finance (QMF), designed for graduate students in finance and economics with heterogeneous programming backgrounds. The material develops a unified toolkit combining probability theory, statistics, numerical methods, and empirical modeling, with a strong emphasis on implementation in Python. Core topics include random variables and distributions, moments and dependence, simulation and Monte Carlo methods, numerical optimization, root-finding, and time-series models commonly used in finance and macro-finance. Particular attention is paid to translating theoretical concepts into reproducible code, emphasizing vectorization, numerical stability, and interpretation of outputs. The notes progressively bridge theory and practice through worked examples and exercises covering asset pricing intuition, risk measurement, forecasting, and empirical analysis. By focusing on clarity, minimal prerequisites, and hands-on computation, these lecture notes aim to serve both as a pedagogical entry point for non-programmers and as a practical reference for applied researchers seeking transparent and replicable quantitative methods in finance.",
+        "translated": ""
     }
 ]
