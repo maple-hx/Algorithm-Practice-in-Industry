@@ -61934,5 +61934,19 @@
         "pub_date": "2026-01-20",
         "summary": "Contextual Bandit (CB) algorithms are widely adopted for personalized recommendations but often struggle in dynamic environments typical of fantasy sports, where rapid changes in user behavior and dramatic shifts in reward distributions due to external influences necessitate frequent retraining. To address these challenges, we propose a Hierarchical Contextual Uplift Bandit framework. Our framework dynamically adjusts contextual granularity from broad, system-wide insights to detailed, user-specific contexts, using contextual similarity to facilitate effective policy transfer and mitigate cold-start issues. Additionally, we integrate uplift modeling principles into our approach. Results from large-scale A/B testing on the Dream11 fantasy sports platform show that our method significantly enhances recommendation quality, achieving a 0.4% revenue improvement while also improving user satisfaction metrics compared to the current production system. We subsequently deployed this system to production as the default catalog personalization system in May 2025 and observed a further 0.5% revenue improvement.",
         "translated": ""
+    },
+    {
+        "title": "Three's a crowd: Identification challenges in the triple difference model with spillover effects",
+        "url": "http://arxiv.org/abs/2601.15764v1",
+        "pub_date": "2026-01-22",
+        "summary": "The paper studies identification in triple-difference designs when spillover effects contaminate one or more control groups. We show that, under conventional identifying assumptions, the triple-difference model fails to identify both the treatment effect and the spillover effect under such interference. To overcome this limitation, we propose an alternative specification, the double-triple-difference model, and explicitly formalize identifying assumptions and spillover structures required for consistent identification of both effects. We derive formal identification results and assess the performance of the proposed model through Monte Carlo simulations. An empirical application evaluating a Special Economic Zone in Italy is provided.",
+        "translated": ""
+    },
+    {
+        "title": "Robust X-Learner: Breaking the Curse of Imbalance and Heavy Tails via Robust Cross-Imputation",
+        "url": "http://arxiv.org/abs/2601.15360v1",
+        "pub_date": "2026-01-21",
+        "summary": "Estimating Heterogeneous Treatment Effects (HTE) in industrial applications such as AdTech and healthcare presents a dual challenge: extreme class imbalance and heavy-tailed outcome distributions. While the X-Learner framework effectively addresses imbalance through cross-imputation, we demonstrate that it is fundamentally vulnerable to \"Outlier Smearing\" when reliant on Mean Squared Error (MSE) minimization. In this failure mode, the bias from a few extreme observations (\"whales\") in the minority group is propagated to the entire majority group during the imputation step, corrupting the estimated treatment effect structure. To resolve this, we propose the Robust X-Learner (RX-Learner). This framework integrates a redescending γ-divergence objective -- structurally equivalent to the Welsch loss under Gaussian assumptions -- into the gradient boosting machinery. We further stabilize the non-convex optimization using a Proxy Hessian strategy grounded in Majorization-Minimization (MM) principles. Empirical evaluation on a semi-synthetic Criteo Uplift dataset demonstrates that the RX-Learner reduces the Precision in Estimation of Heterogeneous Effect (PEHE) metric by 98.6% compared to the standard X-Learner, effectively decoupling the stable \"Core\" population from the volatile \"Periphery\".",
+        "translated": ""
     }
 ]
