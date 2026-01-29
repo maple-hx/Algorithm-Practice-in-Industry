@@ -62298,5 +62298,33 @@
         "pub_date": "2026-01-27",
         "summary": "This paper introduces a version of decoupling and randomization to establish concentration inequalities for double-indexed permutation statistics. The results yield, among other applications, a new combinatorial Hanson-Wright inequality and a new combinatorial Bennett inequality. Several illustrative examples from rank-based statistics, graph-based statistics, and causal inference are also provided.",
         "translated": ""
+    },
+    {
+        "title": "Post-Training Fairness Control: A Single-Train Framework for Dynamic Fairness in Recommendation",
+        "url": "http://arxiv.org/abs/2601.20848v1",
+        "pub_date": "2026-01-28",
+        "summary": "Despite growing efforts to mitigate unfairness in recommender systems, existing fairness-aware methods typically fix the fairness requirement at training time and provide limited post-training flexibility. However, in real-world scenarios, diverse stakeholders may demand differing fairness requirements over time, so retraining for different fairness requirements becomes prohibitive. To address this limitation, we propose Cofair, a single-train framework that enables post-training fairness control in recommendation. Specifically, Cofair introduces a shared representation layer with fairness-conditioned adapter modules to produce user embeddings specialized for varied fairness levels, along with a user-level regularization term that guarantees user-wise monotonic fairness improvements across these levels. We theoretically establish that the adversarial objective of Cofair upper bounds demographic parity and the regularization term enforces progressive fairness at user level. Comprehensive experiments on multiple datasets and backbone models demonstrate that our framework provides dynamic fairness at different levels, delivering comparable or better fairness-accuracy curves than state-of-the-art baselines, without the need to retrain for each new fairness requirement. Our code is publicly available at https://github.com/weixinchen98/Cofair.",
+        "translated": ""
+    },
+    {
+        "title": "$\\mathbb{R}^{2k}$ is Theoretically Large Enough for Embedding-based Top-$k$ Retrieval",
+        "url": "http://arxiv.org/abs/2601.20844v1",
+        "pub_date": "2026-01-28",
+        "summary": "This paper studies the minimal dimension required to embed subset memberships ($m$ elements and ${m\\choose k}$ subsets of at most $k$ elements) into vector spaces, denoted as Minimal Embeddable Dimension (MED). The tight bounds of MED are derived theoretically and supported empirically for various notions of \"distances\" or \"similarities,\" including the $\\ell_2$ metric, inner product, and cosine similarity. In addition, we conduct numerical simulation in a more achievable setting, where the ${m\\choose k}$ subset embeddings are chosen as the centroid of the embeddings of the contained elements. Our simulation easily realizes a logarithmic dependency between the MED and the number of elements to embed. These findings imply that embedding-based retrieval limitations stem primarily from learnability challenges, not geometric constraints, guiding future algorithm design.",
+        "translated": ""
+    },
+    {
+        "title": "MedViz: An Agent-based, Visual-guided Research Assistant for Navigating Biomedical Literature",
+        "url": "http://arxiv.org/abs/2601.20709v1",
+        "pub_date": "2026-01-28",
+        "summary": "Biomedical researchers face increasing challenges in navigating millions of publications in diverse domains. Traditional search engines typically return articles as ranked text lists, offering little support for global exploration or in-depth analysis. Although recent advances in generative AI and large language models have shown promise in tasks such as summarization, extraction, and question answering, their dialog-based implementations are poorly integrated with literature search workflows. To address this gap, we introduce MedViz, a visual analytics system that integrates multiple AI agents with interactive visualization to support the exploration of the large-scale biomedical literature. MedViz combines a semantic map of millions of articles with agent-driven functions for querying, summarizing, and hypothesis generation, allowing researchers to iteratively refine questions, identify trends, and uncover hidden connections. By bridging intelligent agents with interactive visualization, MedViz transforms biomedical literature search into a dynamic, exploratory process that accelerates knowledge discovery.",
+        "translated": ""
+    },
+    {
+        "title": "Overview of the TREC 2025 Tip-of-the-Tongue track",
+        "url": "http://arxiv.org/abs/2601.20671v1",
+        "pub_date": "2026-01-28",
+        "summary": "Tip-of-the-tongue (ToT) known-item retrieval involves re-finding an item for which the searcher does not reliably recall an identifier. ToT information requests (or queries) are verbose and tend to include several complex phenomena, making them especially difficult for existing information retrieval systems. The TREC 2025 ToT track focused on a single ad-hoc retrieval task. This year, we extended the track to general domain and incorporated different sets of test queries from diverse sources, namely from the MS-ToT dataset, manual topic development, and LLM-based synthetic query generation. This year, 9 groups (including the track coordinators) submitted 32 runs.",
+        "translated": ""
     }
 ]
