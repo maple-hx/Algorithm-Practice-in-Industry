@@ -62263,5 +62263,40 @@
         "pub_date": "2026-01-27",
         "summary": "Amazon published its Frontier Model Safety Framework (FMSF) as part of the Paris AI summit, following which we presented a report on Amazon's Premier model. In this report, we present an evaluation of Nova 2.0 Lite. Nova 2.0 Lite was made generally available from amongst the Nova 2.0 series and is one of its most capable reasoning models. The model processes text, images, and video with a context length of up to 1M tokens, enabling analysis of large codebases, documents, and videos in a single prompt. We present a comprehensive evaluation of Nova 2.0 Lite's critical risk profile under the FMSF. Evaluations target three high-risk domains-Chemical, Biological, Radiological and Nuclear (CBRN), Offensive Cyber Operations, and Automated AI R&amp;D-and combine automated benchmarks, expert red-teaming, and uplift studies to determine whether the model exceeds release thresholds. We summarize our methodology and report core findings. We will continue to enhance our safety evaluation and mitigation pipelines as new risks and capabilities associated with frontier models are identified.",
         "translated": ""
+    },
+    {
+        "title": "The realized empirical distribution function of stochastic variance with application to goodness-of-fit testing",
+        "url": "http://arxiv.org/abs/2601.20469v1",
+        "pub_date": "2026-01-28",
+        "summary": "We propose a nonparametric estimator of the empirical distribution function (EDF) of the latent spot variance of the log-price of a financial asset. We show that over a fixed time span our realized EDF (or REDF) -- inferred from noisy high-frequency data -- is consistent as the mesh of the observation grid goes to zero. In a double-asymptotic framework, with time also increasing to infinity, the REDF converges to the cumulative distribution function of volatility, if it exists. We exploit these results to construct some new goodness-of-fit tests for stochastic volatility models. In a Monte Carlo study, the REDF is found to be accurate over the entire support of volatility. This leads to goodness-of-fit tests that are both correctly sized and relatively powerful against common alternatives. In an empirical application, we recover the REDF from stock market high-frequency data. We inspect the goodness-of-fit of several two-parameter marginal distributions that are inherent in standard stochastic volatility models. The inverse Gaussian offers the best overall description of random equity variation, but the fit is less than perfect. This suggests an extra parameter (as available in, e.g., the generalized inverse Gaussian) is required to model stochastic variance.",
+        "translated": ""
+    },
+    {
+        "title": "Realized range-based estimation of integrated variance",
+        "url": "http://arxiv.org/abs/2601.20463v1",
+        "pub_date": "2026-01-28",
+        "summary": "We provide a set of probabilistic laws for estimating the quadratic variation of continuous semimartingales with realized range-based variance -- a statistic that replaces every squared return of realized variance with a normalized squared range. If the entire sample path of the process is available, and under a set of weak conditions, our statistic is consistent and has a mixed Gaussian limit, whose precision is five times greater than that of realized variance. In practice, of course, inference is drawn from discrete data and true ranges are unobserved, leading to downward bias. We solve this problem to get a consistent, mixed normal estimator, irrespective of non-trading effects. This estimator has varying degrees of efficiency over realized variance, depending on how many observations that are used to construct the high-low. The methodology is applied to TAQ data and compared with realized variance. Our findings suggest that the empirical path of quadratic variation is also estimated better with the realized range-based variance.",
+        "translated": ""
+    },
+    {
+        "title": "Bias-Reduced Estimation of Finite Mixtures: An Application to Latent Group Structures in Panel Data",
+        "url": "http://arxiv.org/abs/2601.20197v1",
+        "pub_date": "2026-01-28",
+        "summary": "Finite mixture models are widely used in econometric analyses to capture unobserved heterogeneity. This paper shows that maximum likelihood estimation of finite mixtures of parametric densities can suffer from substantial finite-sample bias in all parameters under mild regularity conditions. The bias arises from the influence of outliers in component densities with unbounded or large support and increases with the degree of overlap among mixture components. I show that maximizing the classification-mixture likelihood function, equipped with a consistent classifier, yields parameter estimates that are less biased than those obtained by standard maximum likelihood estimation (MLE). I then derive the asymptotic distribution of the resulting estimator and provide conditions under which oracle efficiency is achieved. Monte Carlo simulations show that conventional mixture MLE exhibits pronounced finite-sample bias, which diminishes as the sample size or the statistical distance between component densities tends to infinity. The simulations further show that the proposed estimation strategy generally outperforms standard MLE in finite samples in terms of both bias and mean squared errors under relatively weak assumptions. An empirical application to latent group panel structures using health administrative data shows that the proposed approach reduces out-of-sample prediction error by approximately 17.6% relative to the best results obtained from standard MLE procedures.",
+        "translated": ""
+    },
+    {
+        "title": "United in Currency, Divided in Growth: Dynamic Effects of Euro Adoption",
+        "url": "http://arxiv.org/abs/2601.20169v1",
+        "pub_date": "2026-01-28",
+        "summary": "Does euro adoption affect long-run economic growth? Existing evidence is mixed, reflecting limited treated countries, long horizons that challenge inference, and heterogeneity across member states. We estimate causal dynamic and heterogeneous treatment effects using Causal Forests with Fixed Effects (CFFE), a machine-learning approach that combines causal forests with two-way fixed effects. Under a conditional parallel-trends assumption, we find that euro adoption reduced annual GDP growth by 0.3-0.4 percentage points on average. Effects emerge shortly after adoption and stabilize after roughly a decade.   Average effects mask substantial heterogeneity. Countries with lower initial GDP per capita experience larger and more persistent growth shortfalls than core economies. Weaker consumption and productivity growth contribute to the overall effect, while improvements in net exports partially offset these declines.   A two-country New Keynesian DSGE model with hysteresis generates qualitatively similar patterns: one-size-fits-all monetary policy and scarring mechanisms produce larger output losses under monetary union than under flexible exchange rates. By jointly estimating dynamic and heterogeneous treatment effects, the analysis highlights the importance of country characteristics in assessing the long-run consequences of monetary union.",
+        "translated": ""
+    },
+    {
+        "title": "Decoupling and randomization for double-indexed permutation statistics",
+        "url": "http://arxiv.org/abs/2601.20018v1",
+        "pub_date": "2026-01-27",
+        "summary": "This paper introduces a version of decoupling and randomization to establish concentration inequalities for double-indexed permutation statistics. The results yield, among other applications, a new combinatorial Hanson-Wright inequality and a new combinatorial Bennett inequality. Several illustrative examples from rank-based statistics, graph-based statistics, and causal inference are also provided.",
+        "translated": ""
     }
 ]
