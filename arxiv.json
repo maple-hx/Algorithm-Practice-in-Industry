@@ -62620,5 +62620,54 @@
         "pub_date": "2026-02-02",
         "summary": "Large language models (LLMs) have demonstrated strong reasoning capabilities through step-by-step chain-of-thought (CoT) reasoning. Nevertheless, at the limits of model capability, CoT often proves insufficient, and its strictly sequential nature constrains test-time scalability. A potential alternative is divide-and-conquer (DAC) reasoning, which decomposes a complex problem into subproblems to facilitate more effective exploration of the solution. Although promising, our analysis reveals a fundamental misalignment between general-purpose post-training and DAC-style inference, which limits the model's capacity to fully leverage this potential. To bridge this gap and fully unlock LLMs' reasoning capabilities on the most challenging tasks, we propose an end-to-end reinforcement learning (RL) framework to enhance their DAC-style reasoning capacity. At each step, the policy decomposes a problem into a group of subproblems, solves them sequentially, and addresses the original one conditioned on the subproblem solutions, with both decomposition and solution integrated into RL training. Under comparable training, our DAC-style framework endows the model with a higher performance ceiling and stronger test-time scalability, surpassing CoT by 8.6% in Pass@1 and 6.3% in Pass@32 on competition-level benchmarks.",
         "translated": ""
+    },
+    {
+        "title": "Unbiased Estimation of Central Moments in Unbalanced Two- and Three-Level Models",
+        "url": "http://arxiv.org/abs/2602.03469v1",
+        "pub_date": "2026-02-03",
+        "summary": "This paper derives closed-form unbiased estimators of central moments in multilevel random-effects models with unbalanced group sizes. In a two-level model, we provide unbiased estimators for the second, third, and fourth central moments under both group-level and observation-level averaging. In a three-level model, we provide unbiased estimators for the second and third central moments.",
+        "translated": ""
+    },
+    {
+        "title": "Predicting Well-Being with Mobile Phone Data: Evidence from Four Countries",
+        "url": "http://arxiv.org/abs/2602.02805v1",
+        "pub_date": "2026-02-02",
+        "summary": "We provide systematic evidence on the potential for estimating household well-being from mobile phone data. Using data from four countries - Afghanistan, Cote d'Ivoire, Malawi, and Togo - we conduct parallel, standardized machine learning experiments to assess which measures of welfare can be most accurately predicted, which types of phone data are most useful, and how much training data is required. We find that long-term poverty measures such as wealth indices (Pearson's rho = 0.20-0.59) and multidimensional poverty (rho = 0.29-0.57) can be predicted more accurately than consumption (rho = 0.04 - 0.54); transient vulnerability measures like food security and mental health are very difficult to predict. Models using calls and text message behavior are more predictive than those using metadata on mobile internet usage, mobile money transactions, and airtime top-ups. Predictive accuracy improves rapidly through the first 1,000-2,000 training observations, with continued gains beyond 4,500 observations. Model performance depends strongly on sample heterogeneity: nationally-representative samples yield 20-70 percent higher accuracy than urban-only or rural-only samples.",
+        "translated": ""
+    },
+    {
+        "title": "Forecasting Oil Consumption: The Statistical Review of World Energy Meets Machine Learning",
+        "url": "http://arxiv.org/abs/2602.01963v1",
+        "pub_date": "2026-02-02",
+        "summary": "This paper studies whether a small set of dominant countries can account for most of the dynamics of regional oil demand and improve forecasting performance. We focus on dominant drivers within the OECD and a broad GVAR sample covering over 90\\% of world GDP. Our approach identifies dominant drivers from a high-dimensional concentration matrix estimated row by row using two complementary variable-selection methods, LASSO and the one-covariate-at-a-time multiple testing (OCMT) procedure. Dominant countries are selected by ordering the columns of the concentration matrix by their norms and applying a criterion based on consecutive norm ratios, combined with economically motivated restrictions to rule out pseudo-dominance. The United States emerges as a global dominant driver, while France and Japan act as robust regional hubs representing European and Asian components, respectively. Including these dominant drivers as regressors for all countries yields statistically significant forecast gains over autoregressive benchmarks and country-specific LASSO models, particularly during periods of heightened global volatility. The proposed framework is flexible and can be applied to other macroeconomic and energy variables with network structure or spatial dependence.",
+        "translated": ""
+    },
+    {
+        "title": "Do designated market makers provide liquidity during downward extreme price movements?",
+        "url": "http://arxiv.org/abs/2602.01817v1",
+        "pub_date": "2026-02-02",
+        "summary": "We study the trading activity of designated market makers (DMMs) in electronic markets using a unique dataset with audit-trail information on trader classification. DMMs may either adhere to their market-making agreements and offer immediacy during periods of heavy selling pressure, or they might lean-with-the-wind to profit from private information. We test these competing theories during extreme (downward) price movements, which we detect using a novel methodology. We show that DMMs provide liquidity when the selling pressure is concentrated on a single stock, but consume liquidity (leaving liquidity provision to slower traders) when several stocks are affected.",
+        "translated": ""
+    },
+    {
+        "title": "The Innovation Tax: Generative AI Adoption, Productivity Paradox, and Systemic Risk in the U.S. Banking Sector",
+        "url": "http://arxiv.org/abs/2602.02607v1",
+        "pub_date": "2026-02-02",
+        "summary": "This paper evaluates the causal impact of Generative Artificial Intelligence (GenAI) adoption on productivity and systemic risk in the U.S. banking sector. Using a novel dataset linking SEC 10-Q filings to Federal Reserve regulatory data for 809 financial institutions over 2018--2025, we employ two complementary identification strategies: Dynamic Spatial Durbin Models (DSDM) to capture network spillovers and Synthetic Difference-in-Differences (SDID) for causal inference using the November 2022 ChatGPT release as an exogenous shock. Our findings reveal a striking ``Productivity Paradox'': while DSDM estimates show that AI-adopting banks are high performers ($β&gt; 0$), the causal SDID analysis documents a significant ``Implementation Tax'' -- adopting banks experience a 428-basis-point decline in ROE as they absorb GenAI integration costs. This tax falls disproportionately on smaller institutions, with bottom-quartile banks suffering a 517-basis-point ROE decline compared to 129 basis points for larger banks, suggesting that economies of scale provide significant advantages in AI implementation. Most critically, our DSDM analysis reveals significant positive spillovers ($θ= 0.161$ for ROA, $p &lt; 0.01$; $θ= 0.679$ for ROE, $p &lt; 0.05$), with spillovers among large banks reaching $θ= 3.13$ for ROE, indicating that the U.S. banking system is becoming ``algorithmically coupled.'' This synchronization of AI-driven decision-making creates a new channel for systemic contagion: a technical failure in widely-adopted AI models could trigger correlated shocks across the entire financial network.",
+        "translated": ""
+    },
+    {
+        "title": "AI Assisted Economics Measurement From Survey: Evidence from Public Employee Pension Choice",
+        "url": "http://arxiv.org/abs/2602.02604v1",
+        "pub_date": "2026-02-02",
+        "summary": "We develop an iterative framework for economic measurement that leverages large language models to extract measurement structure directly from survey instruments. The approach maps survey items to a sparse distribution over latent constructs through what we term a soft mapping, aggregates harmonized responses into respondent level sub dimension scores, and disciplines the resulting taxonomy through out of sample incremental validity tests and discriminant validity diagnostics. The framework explicitly integrates iteration into the measurement construction process. Overlap and redundancy diagnostics trigger targeted taxonomy refinement and constrained remapping, ensuring that added measurement flexibility is retained only when it delivers stable out of sample performance gains. Applied to a large scale public employee retirement plan survey, the framework identifies which semantic components contain behavioral signal and clarifies the economic mechanisms, such as beliefs versus constraints, that matter for retirement choices. The methodology provides a portable measurement audit of survey instruments that can guide both empirical analysis and survey design.",
+        "translated": ""
+    },
+    {
+        "title": "Identification and Estimation in Fuzzy Regression Discontinuity Designs with Covariates",
+        "url": "http://arxiv.org/abs/2602.01417v1",
+        "pub_date": "2026-02-01",
+        "summary": "We study fuzzy regression discontinuity designs with covariates and characterize the weighted averages of conditional local average treatment effects (WLATEs) that are point identified. Any identified WLATE equals a Wald ratio of conditional reduced-form and first-stage discontinuities. We highlight the Compliance-Weighted LATE (CWLATE), which weights cells by squared first-stage discontinuities and maximizes first-stage strength. For discrete covariates, we provide simple estimators and robust bias-corrected inference. In simulations calibrated to common designs, CWLATE improves stability and reduces mean squared error relative to standard fuzzy RDD estimators when compliance varies. An application to Uruguayan cash transfers during pregnancy yields precise RDD-based effects on low birthweight.",
+        "translated": ""
     }
 ]
