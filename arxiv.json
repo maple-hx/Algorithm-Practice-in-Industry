@@ -62739,5 +62739,33 @@
         "pub_date": "2026-02-03",
         "summary": "Regression discontinuity (RD) designs with multiple running variables arise in a growing number of empirical applications, including geographic boundaries and multi-score assignment rules. Although recent methodological work has extended estimation and inference tools to multivariate settings, far less attention has been devoted to developing global testing methods that formally assess whether a discontinuity exists anywhere along a multivariate treatment boundary. Existing approaches perform well in large samples, but can exhibit severe size distortions in moderate or small samples due to the sparsity of observations near any particular boundary point. This paper introduces a complementary global testing procedure that mitigates the small-sample weaknesses of existing multivariate RD methods by integrating multivariate machine learning estimators with a distance-based aggregation strategy, yielding a test statistic that remains reliable with limited data. Simulations demonstrate that the proposed method maintains near-nominal size and strong power, including in settings where standard multivariate estimators break down. The procedure is applied to an empirical setting to demonstrate its implementation and to illustrate how it can complement existing multivariate RD estimators.",
         "translated": ""
+    },
+    {
+        "title": "Robust Generalizable Heterogeneous Legal Link Prediction",
+        "url": "http://arxiv.org/abs/2602.04812v1",
+        "pub_date": "2026-02-04",
+        "summary": "Recent work has applied link prediction to large heterogeneous legal citation networks \\new{with rich meta-features}. We find that this approach can be improved by including edge dropout and feature concatenation for the learning of more robust representations, which reduces error rates by up to 45%. We also propose an approach based on multilingual node features with an improved asymmetric decoder for compatibility, which allows us to generalize and extend the prediction to more, geographically and linguistically disjoint, data from New Zealand. Our adaptations also improve inductive transferability between these disjoint legal systems.",
+        "translated": ""
+    },
+    {
+        "title": "From Data to Behavior: Predicting Unintended Model Behaviors Before Training",
+        "url": "http://arxiv.org/abs/2602.04735v1",
+        "pub_date": "2026-02-04",
+        "summary": "Large Language Models (LLMs) can acquire unintended biases from seemingly benign training data even without explicit cues or malicious content. Existing methods struggle to detect such risks before fine-tuning, making post hoc evaluation costly and inefficient. To address this challenge, we introduce Data2Behavior, a new task for predicting unintended model behaviors prior to training. We also propose Manipulating Data Features (MDF), a lightweight approach that summarizes candidate data through their mean representations and injects them into the forward pass of a base model, allowing latent statistical signals in the data to shape model activations and reveal potential biases and safety risks without updating any parameters. MDF achieves reliable prediction while consuming only about 20% of the GPU resources required for fine-tuning. Experiments on Qwen3-14B, Qwen2.5-32B-Instruct, and Gemma-3-12b-it confirm that MDF can anticipate unintended behaviors and provide insight into pre-training vulnerabilities.",
+        "translated": ""
+    },
+    {
+        "title": "Addressing Corpus Knowledge Poisoning Attacks on RAG Using Sparse Attention",
+        "url": "http://arxiv.org/abs/2602.04711v1",
+        "pub_date": "2026-02-04",
+        "summary": "Retrieval Augmented Generation (RAG) is a highly effective paradigm for keeping LLM-based responses up-to-date and reducing the likelihood of hallucinations. Yet, RAG was recently shown to be quite vulnerable to corpus knowledge poisoning: an attacker injects misleading documents to the corpus to steer an LLMs' output to an undesired response. We argue that the standard causal attention mechanism in LLMs enables harmful cross-document interactions, specifically in cases of attacks. Accordingly, we introduce a novel defense approach for RAG: Sparse Document Attention RAG (SDAG). This is a block-sparse attention mechanism that disallows cross-attention between retrieved documents. SDAG requires a minimal inference-time change to the attention mask; furthermore, no fine-tuning or additional architectural changes are needed. We present an empirical evaluation of LLM-based question answering (QA) with a variety of attack strategies on RAG. We show that our SDAG method substantially outperforms the standard causal attention mechanism in terms of attack success rate. We further demonstrate the clear merits of integrating SDAG with state-of-the-art RAG defense methods. Specifically, the integration results in performance that is statistically significantly better than the state-of-the-art.",
+        "translated": ""
+    },
+    {
+        "title": "Multi-Source Retrieval and Reasoning for Legal Sentencing Prediction",
+        "url": "http://arxiv.org/abs/2602.04690v1",
+        "pub_date": "2026-02-04",
+        "summary": "Legal judgment prediction (LJP) aims to predict judicial outcomes from case facts and typically includes law article, charge, and sentencing prediction. While recent methods perform well on the first two subtasks, legal sentencing prediction (LSP) remains difficult due to its need for fine-grained objective knowledge and flexible subjective reasoning. To address these limitations, we propose $MSR^2$, a framework that integrates multi-source retrieval and reasoning in LLMs with reinforcement learning. $MSR^2$ enables LLMs to perform multi-source retrieval based on reasoning needs and applies a process-level reward to guide intermediate subjective reasoning steps. Experiments on two real-world datasets show that $MSR^2$ improves both accuracy and interpretability in LSP, providing a promising step toward practical legal AI. Our code is available at https://anonymous.4open.science/r/MSR2-FC3B.",
+        "translated": ""
     }
 ]
