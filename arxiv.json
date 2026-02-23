@@ -63719,5 +63719,26 @@
         "pub_date": "2026-02-19",
         "summary": "We find a large class of holographic solutions describing D4-branes wrapped on 4-manifolds $\\mathcal{M}_4$ with constant curvature leading to gravity duals of supersymmetric quantum mechanics in the IR via twisted compactifications. The manifolds $\\mathcal{M}_4$ considered here are four-dimensional spheres and hyperbolic spaces, products of two Riemann surfaces, and Kahler four-cycles. The solutions are obtained from the maximal gauged supergravity in six dimensions with $CSO(p,q,5-p-q)$ and $CSO(p,q,4-p-q)\\ltimes \\mathbb{R}^4$ gauge groups. These gauged supergravities can be embedded in type IIA theory via consistent truncations on $H^{p,q}\\times \\mathbb{R}^{5-p-q}$ and $H^{p,q}\\times\\mathbb{R}^{4-p-q}\\times S^1$, respectively. The solutions take the form of $t\\times \\mathcal{M}_4$-sliced domain walls interpolating between locally flat domain walls and singular geometries in the IR. Upon uplifted to type IIA theory, many solutions admit physical IR singularities and could holographically describe supersymmetric quantum mechanics arising from twisted compactifications of D4-branes on $\\mathcal{M}_4$.",
         "translated": ""
+    },
+    {
+        "title": "Sink-Aware Pruning for Diffusion Language Models",
+        "url": "http://arxiv.org/abs/2602.17664v1",
+        "pub_date": "2026-02-19",
+        "summary": "Diffusion Language Models (DLMs) incur high inference cost due to iterative denoising, motivating efficient pruning. Existing pruning heuristics largely inherited from autoregressive (AR) LLMs, typically preserve attention sink tokens because AR sinks serve as stable global anchors. We show that this assumption does not hold for DLMs: the attention-sink position exhibits substantially higher variance over the full generation trajectory (measured by how the dominant sink locations shift across timesteps), indicating that sinks are often transient and less structurally essential than in AR models. Based on this observation, we propose ${\\bf \\texttt{Sink-Aware Pruning}}$, which automatically identifies and prunes unstable sinks in DLMs (prior studies usually keep sinks for AR LLMs). Without retraining, our method achieves a better quality-efficiency trade-off and outperforms strong prior pruning baselines under matched compute. Our code is available at https://github.com/VILA-Lab/Sink-Aware-Pruning.",
+        "translated": ""
+    },
+    {
+        "title": "What Language is This? Ask Your Tokenizer",
+        "url": "http://arxiv.org/abs/2602.17655v1",
+        "pub_date": "2026-02-19",
+        "summary": "Language Identification (LID) is an important component of many multilingual natural language processing pipelines, where it facilitates corpus curation, training data analysis, and cross-lingual evaluation of large language models. Despite near-perfect performance on high-resource languages, existing systems remain brittle in low-resource and closely related language settings. We introduce UniLID, a simple and efficient LID method based on the UnigramLM tokenization algorithm, leveraging its probabilistic framing, parameter estimation technique and inference strategy. In short, we learn language-conditional unigram distributions over a shared tokenizer vocabulary but treat segmentation as a language-specific phenomenon. Our formulation is data- and compute-efficient, supports incremental addition of new languages without retraining existing models, and can naturally be integrated into existing language model tokenization pipelines. Empirical evaluations against widely used baselines, including fastText, GlotLID, and CLD3, show that UniLID achieves competitive performance on standard benchmarks, substantially improves sample efficiency in low-resource settings - surpassing 70% accuracy with as few as five labeled samples per language - and delivers large gains on fine-grained dialect identification.",
+        "translated": ""
+    },
+    {
+        "title": "Differences in Typological Alignment in Language Models' Treatment of Differential Argument Marking",
+        "url": "http://arxiv.org/abs/2602.17653v1",
+        "pub_date": "2026-02-19",
+        "summary": "Recent work has shown that language models (LMs) trained on synthetic corpora can exhibit typological preferences that resemble cross-linguistic regularities in human languages, particularly for syntactic phenomena such as word order. In this paper, we extend this paradigm to differential argument marking (DAM), a semantic licensing system in which morphological marking depends on semantic prominence. Using a controlled synthetic learning method, we train GPT-2 models on 18 corpora implementing distinct DAM systems and evaluate their generalization using minimal pairs. Our results reveal a dissociation between two typological dimensions of DAM. Models reliably exhibit human-like preferences for natural markedness direction, favoring systems in which overt marking targets semantically atypical arguments. In contrast, models do not reproduce the strong object preference in human languages, in which overt marking in DAM more often targets objects rather than subjects. These findings suggest that different typological tendencies may arise from distinct underlying sources.",
+        "translated": ""
     }
 ]
