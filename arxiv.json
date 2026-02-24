@@ -63782,5 +63782,47 @@
         "pub_date": "2026-02-20",
         "summary": "This paper presents a direct framework for sequence models with hidden states on closed subgroups of U(d). We use a minimal axiomatic setup and derive recurrent and transformer templates from a shared skeleton in which subgroup choice acts as a drop-in replacement for state space, tangent projection, and update map. We then specialize to O(d) and evaluate orthogonal-state RNN and transformer models on Tiny Shakespeare and Penn Treebank under parameter-matched settings. We also report a general linear-mixing extension in tangent space, which applies across subgroup choices and improves finite-budget performance in the current O(d) experiments.",
         "translated": ""
+    },
+    {
+        "title": "Distributional Discontinuity Design",
+        "url": "http://arxiv.org/abs/2602.19290v1",
+        "pub_date": "2026-02-22",
+        "summary": "Regression discontinuity and kink designs are typically analyzed through mean effects, even when treatment changes the shape of the entire outcome distribution. To address this, we introduce distributional discontinuity designs, a framework for estimating causal effects for a scalar outcome at the boundary of a discontinuity in treatment assignment. Our estimand is the Wasserstein distance between limiting conditional outcome distributions; a single scale-interpretable measure of distribution shift. We show that this weakly bounds the average treatment effect, where equality holds if and only if the treatment effect is purely additive; thus, departure from equality measures effect heterogeneity. To further encode effect heterogeneity we show that the Wasserstein distance admits an orthogonal decomposition into squared differences in $L$-moments, thereby quantifying the contribution from location, scale, skewness, and higher-order shape components to the overall distributional distance. Next, we extend this framework to distributional kink designs by evaluating the Wasserstein derivative at a policy kink; this describes the flow of probability mass through the kink. In the case of fuzzy kink designs, we derive new identification results. Finally, we apply our methods on real data by re-analyzing two natural experiments to compare our distributional effects to traditional causal estimands.",
+        "translated": ""
+    },
+    {
+        "title": "Asymptotic theory of range-based multipower variation",
+        "url": "http://arxiv.org/abs/2602.19287v1",
+        "pub_date": "2026-02-22",
+        "summary": "In this paper, we present a realized range-based multipower variation theory, which can be used to estimate return variation and draw jump-robust inference about the diffusive volatility component, when a high-frequency record of asset prices is available. The standard range-statistic -- routinely used in financial economics to estimate the variance of securities prices -- is shown to be biased when the price process contains jumps. We outline how the new theory can be applied to remove this bias by constructing a hybrid range-based estimator. Our asymptotic theory also reveals that when high-frequency data are sparsely sampled, as is often done in practice due to the presence of microstructure noise, the range-based multipower variations can produce significant efficiency gains over comparable subsampled return-based estimators. The analysis is supported by a simulation study and we illustrate the practical use of our framework on some recent TAQ equity data.",
+        "translated": ""
+    },
+    {
+        "title": "Distributional Effects in Censored Quantile Regressions with Endogeneity and Heteroskedasticity",
+        "url": "http://arxiv.org/abs/2602.19279v1",
+        "pub_date": "2026-02-22",
+        "summary": "Distributional effects, characterized by quantile frameworks, are well-known to capture heterogeneous impacts of economic factors across the unobserved relative ranks. Censored outcome, endogenous regressor and heteroskedastic error are prevalent in empirical work, yet challenge the consistency of existing quantile estimation methods. This paper develops a Sequential Control Function Censored Quantile (SCFCQ) estimator for distributional effects in censored quantile models with unbounded endogenous regressors. Our method combines the sequential analysis with the control function approach, particularly adapting for conditional heteroskedasticity in the endogenous regressor. The estimation algorithm is a two-step procedure composed of series quantile regressions, thereby providing applied researchers with a computationally tractable and practically feasible tool. We apply the SCFCQ method to estimate heterogeneous income elasticities over household preferences using data from the UK Family Expenditure Survey.",
+        "translated": ""
+    },
+    {
+        "title": "Panel Quantile Regression with Common Shocks",
+        "url": "http://arxiv.org/abs/2602.19201v1",
+        "pub_date": "2026-02-22",
+        "summary": "This paper develops an asymptotic and inferential theory for fixed-effects panel quantile regression (FEQR) that delivers inference robust to pervasive common shocks. Such shocks induce cross-sectional dependence that is central in many economic and financial panels but largely ignored in existing FEQR theory, which typically assumes cross-sectional independence and requires $T \\gg N$. We show that the standard FEQR estimator remains asymptotically normal under the mild condition $(\\log N)^2/T \\to 0$, thereby accommodating empirically relevant regimes, including those with $T \\ll N$. We further show that common shocks fundamentally alter the asymptotic covariance structure, rendering conventional covariance estimators inconsistent, and we propose a simple covariance estimator that remains consistent both in the presence and absence of common shocks. The proposed procedure therefore provides valid robust inference without requiring prior knowledge of the dependence structure, substantially expanding the applicability of FEQR methods in realistic panel data settings.",
+        "translated": ""
+    },
+    {
+        "title": "Demand estimation without outside good shares",
+        "url": "http://arxiv.org/abs/2602.19154v1",
+        "pub_date": "2026-02-22",
+        "summary": "The BLP model is the workhorse framework in empirical IO and enables estimation of demand models for differentiated products using aggregate product shares. In practice, however, the share of the outside good is often unobserved. This paper studies identification and inference in the BLP model when the share of the outside good is unobserved. We show that the model is partially identified, and we derive sharp identified sets for structural parameters and equilibrium objects. We also develop inference procedures based on moment inequalities that deliver valid confidence sets for these structural parameters and equilibrium objects.",
+        "translated": ""
+    },
+    {
+        "title": "A Roof Over Risk: A House Price-at-Risk Framework for Hungary",
+        "url": "http://arxiv.org/abs/2602.18592v1",
+        "pub_date": "2026-02-20",
+        "summary": "This paper develops a House Price-at-Risk framework to examine how housing subsidies, credit conditions, and supply factors influence the distribution of house price growth in Hungary. Using quantile regression with adaptive LASSO variable selection, we identify variables driving downside versus upside risks across multiple horizons. Financial stress dominates the lower tail at short horizons, while unemployment and affordability constraints become the primary drivers of downside risk at longer horizons. Housing subsidies exhibit pro-cyclical characteristics, concentrating significant positive effects on the upper quantiles while leaving the lower tail largely unaffected. Supply-side variables display horizon-dependent sign reversals, with construction permits exerting upward pressure on prices in the short run but moderating them as supply materialises. Uncertainty decomposition reveals persistent left-tail dominance across all horizons. These findings suggest that macroprudential frameworks should account for the distributional effects of housing subsidies, particularly their pro-cyclical influence on house price growth.",
+        "translated": ""
     }
 ]
