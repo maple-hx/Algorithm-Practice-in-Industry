@@ -64272,5 +64272,40 @@
         "pub_date": "2026-02-27",
         "summary": "We investigate several possible generalisations of $T\\overline{T}$ deformations to three- and higher-dimensional field theories. Starting from the two-dimensional $T\\overline{T}$ flow, we work out its higher-dimensional uplift, which results in a non-local and non-isotropic three-dimensional theory. Starting instead from the relation between the Nambu-Goto action and $T\\overline{T}$ in $d=2$, we study the flow equation obeyed by the Dirac-Nambu-Goto actions in $d&gt;2$ dimensions, written in terms of the stress-energy tensor only. Similarly, we derive the stress-tensor flow obeyed by the Born-Infeld actions in $d$ dimensions and by the Dirac-Born-Infeld actions in $d=2$ and $d=3$.",
         "translated": ""
+    },
+    {
+        "title": "A Joint Analysis of Sensitivity to Anticipation and Parallel Trends Violations",
+        "url": "http://arxiv.org/abs/2603.00868v1",
+        "pub_date": "2026-03-01",
+        "summary": "Two key identifying assumptions used to justify difference-in-differences are parallel trends and no anticipation, yet both may fail in practice. I propose a class of assumptions on anticipation and derive closed-form, sharp bounds on the average treatment effect on the treated while simultaneously relaxing parallel trends. Deviations from both assumptions are jointly disciplined using observed pre-trends. When some anticipation is imposed, the identified set under joint deviations can be shorter than under parallel trends violations alone. These bounds inform a sensitivity analysis assessing the robustness of qualitative conclusions to anticipation and parallel trends violations. I illustrate with an empirical application.",
+        "translated": ""
+    },
+    {
+        "title": "Robustifying Empirical Bayes",
+        "url": "http://arxiv.org/abs/2603.00704v1",
+        "pub_date": "2026-02-28",
+        "summary": "Two strategies are explored for robustifying classical denoising procedures for the   Gaussian sequence model. First, the Hodges and Lehmann (1952)   restricted Bayes approach is used to reduce sensitivity to the specification   of the initial prior distribution. Second, alternatives to the Gaussian   noise assumption are explored. In both cases proposals of Huber (1964)   and Mallows (1978) play a crucial role.",
+        "translated": ""
+    },
+    {
+        "title": "A Sensitivity Analysis of the Surrogate Index Approach for Estimating Long-Term Treatment Effects",
+        "url": "http://arxiv.org/abs/2603.00580v1",
+        "pub_date": "2026-02-28",
+        "summary": "This paper develops a sensitivity analysis of the surrogacy assumption for the surrogate index approach in Athey et al. [2025b]. We introduce \"Weighted Surrogate Indices (WSIs),\" the analog of the surrogate index under the surrogacy assumption. We show that under comparability, the ATE on WSI identifies the ATE on the long-term outcome when a copula of the treatment and the long-term outcome conditional on baseline covariates and surrogates is known. When the copula is unknown, we establish the identified set of the ATE on the long-term outcome. Furthermore, we construct debiased estimators of the ATE for any given copula and develop asymptotically valid inference in both point-identified and partially identified cases. Using data from a poverty alleviation program in Pakistan, we demonstrate the importance of sensitivity checks as well as the usefulness of our approach.",
+        "translated": ""
+    },
+    {
+        "title": "Anticorruption Enforcement and Sale Mechanism Choice in China's Land Market",
+        "url": "http://arxiv.org/abs/2603.00291v1",
+        "pub_date": "2026-02-27",
+        "summary": "Upon taking office in late 2012, Chinese President Xi Jinping launched one of the most intensive anticorruption campaigns in the history of the People's Republic of China. Prior to the campaign, China's land market suffered from corruption, particularly surrounding sale method selection (auction versus listing). Listing is a two-stage sale mechanism that prior research has identified as more susceptible to corruption, leading to lower prices. This paper examines the campaign's impact on land allocation, focusing on whether corruption influences the choice of sale method and, in turn, land sale prices. This paper is the first to utilize Blackwell and Yamauchi (2021, 2024)'s marginal structural model with fixed effects in the inverse probability of treatment weighting model; absorbing time-invariant unobserved confounding and utilizing a set of time-varying covariates as controls, this model can estimate causal effects in the land sale case. I find that indictments in a prefecture cause a statistically significant drop in the probability that land is sold via listing$\\unicode{x2014}$an effect that is further compounded when indictments occur in consecutive months. Sensitivity analyses indicate that any violations of the identification assumptions would bias estimates towards zero, confirming the negative effect. A second marginal structural model shows that both mean and median land sale prices increase in the presence of indictments. Together, these results suggest that the anticorruption campaign not only deterred actual corrupt allocation practices, but also impacted the discretionary use of listings.",
+        "translated": ""
+    },
+    {
+        "title": "Targeted Local Projections",
+        "url": "http://arxiv.org/abs/2603.00248v1",
+        "pub_date": "2026-02-27",
+        "summary": "Local projection (LP) and structural vector autoregression (SVAR) are commonly employed to estimate dynamic causal effects of macroeconomic policies at multiple horizons. With enough lags as controls, LP estimators have little bias but their variance can increase with the horizon due to accumulating additional shocks. Because they typically employ fewer lags or suffer from local misspecification, SVAR estimators typically incur higher bias, but their variance decreases with the horizon due to exponentiation. We propose to target the LP estimators towards their SVAR counterparts - constructed with fewer lags than LP at each horizon - to reduce their variance at the cost of incurring some bias. The resulting targeted LP estimator is a linear combination of the LP and SVAR estimators. We propose choosing this linear combination optimally to minimize the mean-squared error of the new estimator. Our simulations show that, under a locally misspecified SVAR model, targeting substantially reduces the LP variance at longer horizons while maintaining near-nominal coverage in small samples when a double bootstrap is employed.",
+        "translated": ""
     }
 ]
