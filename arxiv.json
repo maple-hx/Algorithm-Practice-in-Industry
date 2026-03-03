@@ -64265,5 +64265,12 @@
         "pub_date": "2026-02-27",
         "summary": "Identifying which Wikipedia articles are related to science fiction, fantasy, or their hybrids is challenging because genre boundaries are porous and frequently overlap. Wikipedia nonetheless offers machine-readable structure beyond text, including categories, internal links (wikilinks), and statements if corresponding Wikidata items. However, each of these signals reflects community conventions and can be biased or incomplete. This study examines structural and semantic features of Wikipedia articles that can be used to identify content related to science fiction and fantasy (SF/F).",
         "translated": ""
+    },
+    {
+        "title": "More on $T \\overline{T}$-like deformations in higher dimensions",
+        "url": "http://arxiv.org/abs/2602.24058v1",
+        "pub_date": "2026-02-27",
+        "summary": "We investigate several possible generalisations of $T\\overline{T}$ deformations to three- and higher-dimensional field theories. Starting from the two-dimensional $T\\overline{T}$ flow, we work out its higher-dimensional uplift, which results in a non-local and non-isotropic three-dimensional theory. Starting instead from the relation between the Nambu-Goto action and $T\\overline{T}$ in $d=2$, we study the flow equation obeyed by the Dirac-Nambu-Goto actions in $d&gt;2$ dimensions, written in terms of the stress-energy tensor only. Similarly, we derive the stress-tensor flow obeyed by the Born-Infeld actions in $d$ dimensions and by the Dirac-Born-Infeld actions in $d=2$ and $d=3$.",
+        "translated": ""
     }
 ]
