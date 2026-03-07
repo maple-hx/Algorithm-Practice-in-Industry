@@ -64531,5 +64531,40 @@
         "pub_date": "2026-02-27",
         "summary": "How carefully and unambiguously a question is phrased has a profound impact on the quality of the response, for Language Models (LMs) as well as people. While model capabilities continue to advance, the interplay between grounding context and query formulation remains under-explored. This work investigates how the quality of background grounding information in a model's context window affects accuracy. We find that combining well-grounded dynamic context construction (i.e, RAG) with query rewriting reduces question ambiguity, resulting in significant accuracy gains. Given a user question with associated answer-free grounding context, rewriting the question to reduce ambiguity produces benchmark improvements without changing the answer itself, even compared to prepending that context before the question. Using \\texttt{gpt-oss-20b} to rewrite a subset of Humanity's Last Exam using answer-free grounding context improves \\texttt{gpt-5-mini} accuracy from 0.14 to 0.37. We demonstrate that this accuracy improvement cannot be fully recovered just through prompting at inference time; rather, distinct rewriting and answering phases are required. Code and data are available at https://github.com/mmajurski/lm-rewrite-uplift",
         "translated": ""
+    },
+    {
+        "title": "Bayesian Indicator-Saturated Regression for Climate Policy Evaluation",
+        "url": "http://arxiv.org/abs/2603.04997v1",
+        "pub_date": "2026-03-05",
+        "summary": "Structural break identification methods are an important tool for evaluating the effectiveness of climate change mitigation policies. In this paper, we introduce a unified probabilistic framework for detecting structural breaks with unknown timing and arbitrary sequence in longitudinal data. The proposed Bayesian setup uses indicator-saturated regression and a spike-and-slab prior with an inverse-moment density as the slab component to ensure model selection consistency. Simulation results show that the method outperforms comparable frequentist approaches, particularly in environments with a high probability of structural breaks. We apply the framework to identify and evaluate the effects of climate policies in the European road transport sector.",
+        "translated": ""
+    },
+    {
+        "title": "Algorithmic Compliance and Regulatory Loss in Digital Assets",
+        "url": "http://arxiv.org/abs/2603.04328v1",
+        "pub_date": "2026-03-04",
+        "summary": "We study the deployment performance of machine learning based enforcement systems used in cryptocurrency anti money laundering (AML). Using forward looking and rolling evaluations on Bitcoin transaction data, we show that strong static classification metrics substantially overstate real world regulatory effectiveness. Temporal nonstationarity induces pronounced instability in cost sensitive enforcement thresholds, generating large and persistent excess regulatory losses relative to dynamically optimal benchmarks. The core failure arises from miscalibration of decision rules rather than from declining predictive accuracy per se. These findings underscore the fragility of fixed AML enforcement policies in evolving digital asset markets and motivate loss-based evaluation frameworks for regulatory oversight.",
+        "translated": ""
+    },
+    {
+        "title": "Causality Elicitation from Large Language Models",
+        "url": "http://arxiv.org/abs/2603.04276v1",
+        "pub_date": "2026-03-04",
+        "summary": "Large language models (LLMs) are trained on enormous amounts of data and encode knowledge in their parameters. We propose a pipeline to elicit causal relationships from LLMs. Specifically, (i) we sample many documents from LLMs on a given topic, (ii) we extract an event list from from each document, (iii) we group events that appear across documents into canonical events, (iv) we construct a binary indicator vector for each document over canonical events, and (v) we estimate candidate causal graphs using causal discovery methods. Our approach does not guarantee real-world causality. Rather, it provides a framework for presenting the set of causal hypotheses that LLMs can plausibly assume, as an inspectable set of variables and candidate graphs.",
+        "translated": ""
+    },
+    {
+        "title": "Statistical Inference for Score Decompositions",
+        "url": "http://arxiv.org/abs/2603.04275v1",
+        "pub_date": "2026-03-04",
+        "summary": "We introduce inference methods for score decompositions, which partition scoring functions for predictive assessment into three interpretable components: miscalibration, discrimination, and uncertainty. Our estimation and inference relies on a linear recalibration of the forecasts, which is applicable to general multi-step ahead point forecasts such as means and quantiles due to its validity for both smooth and non-smooth scoring functions. This approach ensures desirable finite-sample properties, enables asymptotic inference, and establishes a direct connection to the classical Mincer-Zarnowitz regression. The resulting inference framework facilitates tests for equal forecast calibration or discrimination, which yield three key advantages. They enhance the information content of predictive ability tests by decomposing scores, deliver higher statistical power in certain scenarios, and formally connect scoring-function-based evaluation to traditional calibration tests, such as financial backtests. Applications demonstrate the method's utility. We find that for survey inflation forecasts, discrimination abilities can differ significantly even when overall predictive ability does not. In an application to financial risk models, our tests provide deeper insights into the calibration and information content of volatility and Value-at-Risk forecasts. By disentangling forecast accuracy from backtest performance, the method exposes critical shortcomings in current banking regulation.",
+        "translated": ""
+    },
+    {
+        "title": "Testing Full Mediation of Treatment Effects and the Identifiability of Causal Mechanisms",
+        "url": "http://arxiv.org/abs/2603.04109v1",
+        "pub_date": "2026-03-04",
+        "summary": "In causal analysis, understanding the causal mechanisms through which an intervention or treatment affects an outcome is often of central interest. We propose a test to evaluate (i) whether the causal effect of a treatment that is randomly assigned conditional on covariates is fully mediated by, or operates exclusively through, observed intermediate outcomes (referred to as mediators or surrogate outcomes), and (ii) whether the various causal mechanisms operating through different mediators are identifiable conditional on covariates. We demonstrate that if both full mediation and identification of causal mechanisms hold, then the conditionally random treatment is conditionally independent of the outcome given the mediators and covariates. Furthermore, we extend our framework to settings with non-randomly assigned treatments. We show that, in this case, full mediation remains testable, while identification of causal mechanisms is no longer guaranteed. We propose a double machine learning framework for implementing the test that can incorporate high-dimensional covariates and is root-n consistent and asymptotically normal under specific regularity conditions. We also present a simulation study demonstrating good finite-sample performance of our method, along with two empirical applications revisiting randomized experiments on maternal mental health and social norms.",
+        "translated": ""
     }
 ]
