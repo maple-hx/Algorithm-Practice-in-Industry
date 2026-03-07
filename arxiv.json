@@ -64524,5 +64524,12 @@
         "pub_date": "2026-03-05",
         "summary": "Modern e-commerce search is inherently multimodal: customers make purchase decisions by jointly considering product text and visual informations. However, most industrial retrieval and ranking systems primarily rely on textual information, underutilizing the rich visual signals available in product images. In this work, we study unified text-image fusion for two-tower retrieval models in the e-commerce domain. We demonstrate that domain-specific fine-tuning and two stage alignment between query with product text and image modalities are both crucial for effective multimodal retrieval. Building on these insights, we propose a noval modality fusion network to fuse image and text information and capture cross-modal complementary information. Experiments on large-scale e-commerce datasets validate the effectiveness of the proposed approach.",
         "translated": ""
+    },
+    {
+        "title": "Query Disambiguation via Answer-Free Context: Doubling Performance on Humanity's Last Exam",
+        "url": "http://arxiv.org/abs/2603.04454v1",
+        "pub_date": "2026-02-27",
+        "summary": "How carefully and unambiguously a question is phrased has a profound impact on the quality of the response, for Language Models (LMs) as well as people. While model capabilities continue to advance, the interplay between grounding context and query formulation remains under-explored. This work investigates how the quality of background grounding information in a model's context window affects accuracy. We find that combining well-grounded dynamic context construction (i.e, RAG) with query rewriting reduces question ambiguity, resulting in significant accuracy gains. Given a user question with associated answer-free grounding context, rewriting the question to reduce ambiguity produces benchmark improvements without changing the answer itself, even compared to prepending that context before the question. Using \\texttt{gpt-oss-20b} to rewrite a subset of Humanity's Last Exam using answer-free grounding context improves \\texttt{gpt-5-mini} accuracy from 0.14 to 0.37. We demonstrate that this accuracy improvement cannot be fully recovered just through prompting at inference time; rather, distinct rewriting and answering phases are required. Code and data are available at https://github.com/mmajurski/lm-rewrite-uplift",
+        "translated": ""
     }
 ]
