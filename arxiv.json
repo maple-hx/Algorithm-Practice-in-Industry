@@ -64685,5 +64685,68 @@
         "pub_date": "2026-03-07",
         "summary": "Quality Estimation (QE) is essential for assessing machine translation quality in reference-less settings, particularly for domain-specific and low-resource language scenarios. In this paper, we investigate sentence-level QE for English to Indic machine translation across four domains (Healthcare, Legal, Tourism, and General) and five language pairs. We systematically compare zero-shot, few-shot, and guideline-anchored prompting across selected closed-weight and open-weight LLMs. Findings indicate that while closed-weight models achieve strong performance via prompting alone, prompt-only approaches remain fragile for open-weight models, especially in high-risk domains. To address this, we adopt ALOPE, a framework for LLM-based QE that uses Low-Rank Adaptation with regression heads attached to selected intermediate Transformer layers. We also extend ALOPE with recently proposed Low-Rank Multiplicative Adaptation (LoRMA). Our results show that intermediate-layer adaptation consistently improves QE performance, with gains in semantically complex domains, indicating a path toward more robust QE in practical scenarios. We release code and domain-specific QE datasets publicly to support further research.",
         "translated": ""
+    },
+    {
+        "title": "Event-Study Designs for Discrete Outcomes under Transition Independence",
+        "url": "http://arxiv.org/abs/2603.07914v1",
+        "pub_date": "2026-03-09",
+        "summary": "We develop a new identification strategy for average treatment effects on the treated (ATT) in panel data with discrete outcomes. Standard difference-in-differences (DiD) relies on parallel trends, which is frequently violated in categorical settings due to mean reversion, out-of-bounds counterfactuals, and ill-defined trends for multi-category outcomes. We propose an alternative identification strategy with transition independence: absent treatment, transition dynamics conditional on pre-treatment outcomes are identical between control and treated groups. To capture unobserved heterogeneity, we introduce a latent-type Markov structure delivering type-specific and aggregate treatment effects from short panels. Three empirical applications yield ATT estimates substantially different from conventional DiD.",
+        "translated": ""
+    },
+    {
+        "title": "At-Risk Transformation for U.S. Recession Prediction",
+        "url": "http://arxiv.org/abs/2603.07813v1",
+        "pub_date": "2026-03-08",
+        "summary": "We propose a simple binarization of predictors, an \"at-risk\" transformation, as an alternative to the standard practice of using continuous, standardized variables in recession forecasting models. By converting predictors into indicators of unusually weak states based on a thresholding rule estimated from training data, we demonstrate their ability to capture the discrete nature of rare events such as U.S. recessions. Using a large panel of monthly U.S. macroeconomic and financial data, we show that binarized predictors consistently improve out-of-sample forecasting performance, often making linear models competitive with flexible machine learning methods, and that the gains are particularly pronounced around the onset of recessions.",
+        "translated": ""
+    },
+    {
+        "title": "Testing for Endogeneity: A Moment-Based Bayesian Approach",
+        "url": "http://arxiv.org/abs/2603.07780v1",
+        "pub_date": "2026-03-08",
+        "summary": "A standard assumption in the Bayesian estimation of linear regression models is that the regressors are exogenous in the sense that they are uncorrelated with the model error term. In practice, however, this assumption can be invalid. In this paper, using the exponentially tilted empirical likelihood framework, we develop a Bayes factor test for endogeneity that compares a base model that is correctly specified under exogeneity but misspecified under endogeneity against an extended model that is correctly specified in either case. We provide a comprehensive study of the log-marginal exponentially tilted empirical likelihood. We demonstrate that our testing procedure is consistent from a frequentist point of view: as the sample grows, it almost surely selects the base model if and only if the regressors are exogenous, and the extended model if and only if the regressors are endogenous. The methods are illustrated with simulated data, and problems concerning the causal effect of automobile prices on automobile demand and the causal effect of potentially endogenous airplane ticket prices on passenger volume.",
+        "translated": ""
+    },
+    {
+        "title": "Identification and Counterfactual Analysis in Incomplete Models with Support and Moment Restrictions",
+        "url": "http://arxiv.org/abs/2603.07722v1",
+        "pub_date": "2026-03-08",
+        "summary": "This paper develops a unified identification framework for counterfactual analysis in incomplete models characterized by support and moment restrictions. I demonstrate that identifying structural parameters and conducting counterfactual analyses are isomorphic tasks. By embedding counterfactual restrictions within an augmented structural model specification, this approach bypasses the conventional \"estimate-then-simulate\" workflow and the need to simulate outcomes from models with set predictions. To make this approach operational, I extend sharp identification results for the support-function approach beyond the integrable boundedness condition that is imposed in sharp random-set characterizations but may be violated in economically relevant counterfactual analyses. Under minimal regularity conditions, I prove that the support-function approach remains sharp for the $moment$ $closure$ of the identified set. Furthermore, I introduce an irreducibility condition requiring all support implications to be made explicit. I show that for irreducible models, the identified set and its moment closure are statistically indistinguishable in finite samples. Together, these results justify using support-function methods in counterfactual settings where traditional sharpness fails and clarify the distinct roles of support and moment restrictions in empirical practice.",
+        "translated": ""
+    },
+    {
+        "title": "ForeComp: An R Package for Comparing Predictive Accuracy Using Fixed-Smoothing Asymptotics",
+        "url": "http://arxiv.org/abs/2603.07458v1",
+        "pub_date": "2026-03-08",
+        "summary": "We introduce ForeComp, an R package for comparing predictive accuracy using Diebold-Mariano type tests of equal predictive ability with standard and fixed smoothing inference. The package provides a common interface for loss differential based testing and includes Plot Tradeoff, a visual diagnostic for bandwidth sensitivity and the size-power tradeoff. We illustrate the toolkit with Survey of Professional Forecasters applications and Monte Carlo evidence on finite-sample performance.",
+        "translated": ""
+    },
+    {
+        "title": "On the Rates of Convergence of Induced Ordered Statistics and their Applications",
+        "url": "http://arxiv.org/abs/2603.07255v1",
+        "pub_date": "2026-03-07",
+        "summary": "Induced order statistics (IOS) arise when sample units are reordered according to the value of an auxiliary variable, and the associated responses are analyzed in that induced order. IOS play a central role in applications where the goal is to approximate the conditional distribution of an outcome at a fixed covariate value using observations whose covariates lie closest to that point, including regression discontinuity designs, k-nearest-neighbor methods, and distributionally robust optimization. Existing asymptotic results allow the dimension of the IOS vector to grow with the sample size only under smoothness conditions that are often too restrictive for practical data-generating processes. In particular, these conditions rule out boundary points, which are central to regression discontinuity designs. This paper develops general convergence rates for IOS under primitive and comparatively weak assumptions. We derive sharp marginal rates for the approximation of the target conditional distribution in Hellinger and total variation distances under quadratic mean differentiability and show how these marginal rates translate into joint convergence rates for the IOS vector. Our results are widely applicable: they rely on a standard smoothness condition and accommodate both interior and boundary conditioning points, as required in regression discontinuity and related settings. In the supplementary appendix, we provide complementary results under a Taylor/Holder remainder condition. Our results reveal a clear trade-off between smoothness and speed of convergence, identify regimes in which Hellinger and total variation distances behave differently, and provide explicit growth conditions on the number of nearest neighbors.",
+        "translated": ""
+    },
+    {
+        "title": "Integrating Heterogeneous Information in Randomized Experiments: A Unified Calibration Framework",
+        "url": "http://arxiv.org/abs/2603.07055v1",
+        "pub_date": "2026-03-07",
+        "summary": "In modern randomized experiments, large-scale data collection increasingly yields rich baseline covariates and auxiliary information from multiple sources. Such information offers opportunities for more precise treatment effect estimation, but it also raises the challenge of integrating heterogeneous information coherently without compromising validity. Covariate-adaptive randomization (CAR) is widely used to improve covariate balance at the design stage, but it typically balances only a small set of covariates used to form strata, making covariate adjustment at the analysis stage essential for more efficient estimation of treatment effects. Beyond standard covariate adjustment, it is often desirable to incorporate auxiliary information, including cross-stratum information, predictions from various machine learning models, and external data from historical trials or real-world sources. While this auxiliary information is widely available, existing covariate adjustment methods under CAR primarily exploit within-stratum covariates and do not provide a coherent mechanism for integrating it. We propose a unified calibration framework that integrates such information through an information proxy vector and calibration weights defined by a convex optimization problem. The resulting estimator recovers many recent covariate adjustment procedures as special cases while providing a systematic mechanism for both internal and external information borrowing within a single framework. We establish large-sample validity and a no-harm efficiency guarantee, showing that incorporating additional information sources cannot increase asymptotic variance, and we extend the theory to settings in which both the number of strata and the number of information sources grow with the sample size.",
+        "translated": ""
+    },
+    {
+        "title": "TEA-Time: Transporting Effects Across Time",
+        "url": "http://arxiv.org/abs/2603.07018v1",
+        "pub_date": "2026-03-07",
+        "summary": "Treatment effects estimated from randomized controlled trials are local not only to the study population but also to the time at which the trial was conducted. We develop a framework for temporal transportation: extrapolating treatment effects to time periods where no experiment was conducted. We target the transported average treatment effect (TATE) and show that under a separable temporal effects assumption, the TATE decomposes into an observed average treatment effect and a temporal ratio. We provide two identification strategies -- one using replicated trials comparing the same treatments at different times, another using common treatment arms observed across time -- and develop doubly robust, semiparametrically efficient estimators for each. Monte Carlo simulations confirm that both estimators achieve nominal coverage, with the common arm strategy yielding substantial efficiency gains when its stronger assumptions hold. We apply our methods to A/B tests from the Upworthy Research Archive, demonstrating that the two strategies exhibit a variance-bias tradeoff: the common arm approach offers greater precision but may incur bias when treatments interact heterogeneously with temporal factors.",
+        "translated": ""
+    },
+    {
+        "title": "Hippocratic Utility",
+        "url": "http://arxiv.org/abs/2603.06820v1",
+        "pub_date": "2026-03-06",
+        "summary": "A utility function has been proposed that values more those lives that are saved by not imposing a harmful treatment and values less those lives that could be saved by treating people who would otherwise die. I do not dispute the ethical motivation behind this kind of asymmetry. However, as my example illustrates, the scope of applicability of such a decision criterion may be limited.",
+        "translated": ""
     }
 ]
