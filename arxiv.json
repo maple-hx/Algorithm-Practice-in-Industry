@@ -64874,5 +64874,33 @@
         "pub_date": "2026-03-11",
         "summary": "Subject indexing is vital for discovery but hard to sustain at scale and across languages. We release a large bilingual (English/German) corpus of catalog records annotated with the Integrated Authority File (GND), plus a machine-actionable GND taxonomy. The resource enables ontology-aware multi-label classification, mapping text to authority terms, and agent-assisted cataloging with reproducible, authority-grounded evaluation. We provide a brief statistical profile and qualitative error analyses of three systems. We invite the community to assess not only accuracy but usefulness and transparency, toward authority-anchored AI co-pilots that amplify catalogers' work.",
         "translated": ""
+    },
+    {
+        "title": "Double Machine Learning for Time Series",
+        "url": "http://arxiv.org/abs/2603.10999v1",
+        "pub_date": "2026-03-11",
+        "summary": "We modify the Double Machine Learning estimator to broaden its applicability to macroeconomic time-series settings. A deterministic cross-fitting step, termed Reverse Cross-Fitting, leverages the time-reversibility of stationary series to improve sample utilization and efficiency. We detail and prove the conditions under which the estimator is asymptotically valid. We then demonstrate, through simulations, that its performance remains valid in realistic finite samples and is robust to model misspecification and violations of assumptions, such as heteroskedasticity. In high dimensions, predictive metrics for tuning nuisance learners do not generally minimize bias in the causal score. We propose a calibration rule targeting a \"Goldilocks zone\", a region of tuning parameters that delivers stable, partialled-out signals and reduced small-sample bias. Finally, we apply our procedure to residualized Local Projections to estimate the dynamic effects of a rise in Tier 1 regulatory capital. The results underscore the usefulness of the methodology for inference in macroeconomic applications.",
+        "translated": ""
+    },
+    {
+        "title": "Gimbal Regression: Orientation-Adaptive Local Linear Regression under Spatial Heterogeneity",
+        "url": "http://arxiv.org/abs/2603.10382v1",
+        "pub_date": "2026-03-11",
+        "summary": "Local regression is widely used to explore spatial heterogeneity, but anisotropic or effectively low-dimensional neighborhoods can produce ill-conditioned local solves, causing coefficient variation driven by numerical artifacts rather than substantive structure. Such instability is often hidden when estimation relies on implicit tuning or optimization without exposing local diagnostics.   This paper proposes Gimbal Regression (GR), a deterministic, geometry-aware local regression framework for stable and auditable estimation. GR constructs directional weights from neighborhood geometry using explicit orientation objects and deterministic safeguards, and computes local coefficients by a closed-form solve. Theoretical results are stated conditional on the realized neighborhood configuration, under which the estimator is a deterministic linear operator with finite-perturbation stability bounds. Simulations and empirical examples demonstrate predictable computation, transparent diagnostics, and improved numerical stability relative to common local regression baselines.",
+        "translated": ""
+    },
+    {
+        "title": "An operator-level ARCH Model",
+        "url": "http://arxiv.org/abs/2603.10272v1",
+        "pub_date": "2026-03-10",
+        "summary": "AutoRegressive Conditional Heteroscedasticity (ARCH) models are standard for modeling time series exhibiting volatility, with a rich literature in univariate and multivariate settings. In recent years, these models have been extended to function spaces. However, functional ARCH and generalized ARCH (GARCH) processes established in the literature have thus far been restricted to model ``pointwise'' variances. In this paper, we propose a new ARCH framework for data residing in general separable Hilbert spaces that accounts for the full evolution of the conditional covariance operator. We define a general operator-level ARCH model. For a simplified Constant Conditional Correlation version of the model, we establish conditions under which such models admit strictly and weakly stationary solutions, finite moments, and weak serial dependence. Additionally, we derive consistent Yule--Walker-type estimators of the infinite-dimensional model parameters. The practical relevance of the model is illustrated through simulations and a data application to high-frequency cumulative intraday returns.",
+        "translated": ""
+    },
+    {
+        "title": "Shrinkage Regularization for (Non)Linear Serial Dependence Test",
+        "url": "http://arxiv.org/abs/2603.10152v1",
+        "pub_date": "2026-03-10",
+        "summary": "This paper introduces a regularized test of the null hypothesis of the absence of linear and nonlinear serial dependence for high-dimensional non-Gaussian time series. Our approach extends the portmanteau test introduced in Jasiak and Neyazi (2023) to the high-dimensional setting.",
+        "translated": ""
     }
 ]
