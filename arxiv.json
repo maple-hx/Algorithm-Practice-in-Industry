@@ -64916,5 +64916,33 @@
         "pub_date": "2026-03-11",
         "summary": "Human uplift studies - or studies that measure AI effects on human performance relative to a status quo, typically using randomized controlled trial (RCT) methodology - are increasingly used to inform deployment, governance, and safety decisions for frontier AI systems. While the methods underlying these studies are well-established, their interaction with the distinctive properties of frontier AI systems remains underexamined, particularly when results are used to inform high-stakes decisions. We present findings from interviews with 16 expert practitioners with experience conducting human uplift studies in domains including biosecurity, cybersecurity, education, and labor. Across interviews, experts described a recurring tension between standard causal inference assumptions and the object of study itself. Rapidly evolving AI systems, shifting baselines, heterogeneous and changing user proficiency, and porous real-world settings strain assumptions underlying internal, external, and construct validity, complicating the interpretation and appropriate use of uplift evidence. We synthesize these challenges across key stages of the human uplift research lifecycle and map them to practitioner-reported solutions, clarifying both the limits and the appropriate uses of evidence from human uplift studies in high-stakes decision-making.",
         "translated": ""
+    },
+    {
+        "title": "Variance Estimation with Dependence and Heterogeneous Means",
+        "url": "http://arxiv.org/abs/2603.11497v1",
+        "pub_date": "2026-03-12",
+        "summary": "This paper considers the problem of estimating the variance of a sum of a triangular array of random vectors with heterogeneous means. When random vectors exhibit two-way cluster dependence or weak dependence, standard variance estimators designed under homogeneous means can underestimate the true variance, which results in subsequent tests being oversized. To restore validity, this paper proposes a simple conservative variance estimator robust to heterogeneous means and shows its asymptotic validity.",
+        "translated": ""
+    },
+    {
+        "title": "Bayesian Modular Inference for Copula Models with Potentially Misspecified Marginals",
+        "url": "http://arxiv.org/abs/2603.11457v1",
+        "pub_date": "2026-03-12",
+        "summary": "Copula models of multivariate data are popular because they allow separate specification of marginal distributions and the copula function. These components can be treated as inter-related modules in a modified Bayesian inference approach called ''cutting feedback'' that is robust to their misspecification. Recent work uses a two module approach, where all $d$ marginals form a single module, to robustify inference for the marginals against copula function misspecification, or vice versa. However, marginals can exhibit differing levels of misspecification, making it attractive to assign each its own module with an individual influence parameter controlling its contribution to a joint semi-modular inference (SMI) posterior. This generalizes existing two module SMI methods, which interpolate between cut and conventional posteriors using a single influence parameter. We develop a novel copula SMI method and select the influence parameters using Bayesian optimization. It provides an efficient continuous relaxation of the discrete optimization problem over $2^d$ cut/uncut configurations. We establish theoretical properties of the resulting semi-modular posterior and demonstrate the approach on simulated and real data. The real data application uses a skew-normal copula model of asymmetric dependence between equity volatility and bond yields, where robustifying copula estimation against marginal misspecification is strongly motivated.",
+        "translated": ""
+    },
+    {
+        "title": "On the Use of Design-Based Simulations",
+        "url": "http://arxiv.org/abs/2603.11381v1",
+        "pub_date": "2026-03-11",
+        "summary": "Design-based simulations - procedures that hold realized outcomes fixed and generate variation by resampling treatment assignment or shocks - are widely used in both methodological and applied work to assess inference procedures. This paper studies the extent to which such simulations are informative about inference validity. Focusing on shift-share designs, we show that standard simulations that fix outcomes and resample shocks may rely on a data-generating process that is not aligned with the true one. In particular, these simulations confound true treatment effects with error dependence, potentially overstating inference distortions due to spatial correlation. We propose alternative simulation designs that circumvent this problem and illustrate their use in prominent empirical applications. Our results highlight that the usefulness of design-based simulations depends critically on how closely the simulated data-generating process aligns with the true one.",
+        "translated": ""
+    },
+    {
+        "title": "Spatially Robust Inference with Predicted and Missing at Random Labels",
+        "url": "http://arxiv.org/abs/2603.11368v1",
+        "pub_date": "2026-03-11",
+        "summary": "When outcome data are expensive or onerous to collect, scientists increasingly substitute predictions from machine learning and AI models for unlabeled cases, a process which has consequences for downstream statistical inference. While recent methods provide valid uncertainty quantification under independent sampling, real-world applications involve missing at random (MAR) labeling and spatial dependence. For inference in this setting, we propose a doubly robust estimator with cross-fit nuisances. We show that cross-fitting induces fold-level correlation that distorts spatial variance estimators, producing unstable or overly conservative confidence intervals. To address this, we propose a jackknife spatial heteroscedasticity and autocorrelation consistent (HAC) variance correction that separates spatial dependence from fold-induced noise. Under standard identification and dependence conditions, the resulting intervals are asymptotically valid. Simulations and benchmark datasets show substantial improvement in finite-sample calibration, particularly under MAR labeling and clustered sampling.",
+        "translated": ""
     }
 ]
