@@ -64902,5 +64902,19 @@
         "pub_date": "2026-03-10",
         "summary": "This paper introduces a regularized test of the null hypothesis of the absence of linear and nonlinear serial dependence for high-dimensional non-Gaussian time series. Our approach extends the portmanteau test introduced in Jasiak and Neyazi (2023) to the high-dimensional setting.",
         "translated": ""
+    },
+    {
+        "title": "A Cloudy Fit to the Atmosphere of WASP-107 b",
+        "url": "http://arxiv.org/abs/2603.12047v1",
+        "pub_date": "2026-03-12",
+        "summary": "Context. WASP-107 b has been observed comprehensively by JWST in the near- and mid-IR bands, making it an ideal planet to probe the composition and internal dynamics. Recent analysis reveals a 8-10 um silicate feature, but it still remains uncertain how silicate clouds form on this planet. Aims. We aim at fitting the complete JWST spectrum of WASP-107 b, from 0.9 um to 12 um with a physically motivated cloud model and self-consistent temperature profile. Methods. Two-stream radiative transfer is coupled to a cloud formation model until convergence between cloud and temperature profiles is reached. We search a model grid spanning metallicity, turbulent diffusivity, internal heat flux and nucleation parameters to find the best fit model. Results. The silicate cloud feature at 10 um and the near-IR molecular band strength can be simultaneously and naturally explained without assuming a parametrized temperature profile. A moderate vertical diffusivity of Kzz = 10^9 cm^2 s^-1 is needed to bring the cloud particles to the upper atmosphere of WASP-107 b. This Kzz is favored by the joint fitting of the near-IR water feature and mid-IR silicate feature -- both sensitive to clouds. From the strength of H2O and CO2 bands, our model suggests a metallicity 17 times solar. Conclusions. Even in warm planets such as WASP-107 b, silicate clouds can form in the relatively cool upper atmosphere because turbulence uplifts vapor and cloud particles. Despite having considerably fewer degrees of freedom, the self-consistent modeling approach successfully fits WASP-107 b's multi-wavelength data, instilling confidence in the derived physical parameters.",
+        "translated": ""
+    },
+    {
+        "title": "RCTs &amp; Human Uplift Studies: Methodological Challenges and Practical Solutions for Frontier AI Evaluation",
+        "url": "http://arxiv.org/abs/2603.11001v1",
+        "pub_date": "2026-03-11",
+        "summary": "Human uplift studies - or studies that measure AI effects on human performance relative to a status quo, typically using randomized controlled trial (RCT) methodology - are increasingly used to inform deployment, governance, and safety decisions for frontier AI systems. While the methods underlying these studies are well-established, their interaction with the distinctive properties of frontier AI systems remains underexamined, particularly when results are used to inform high-stakes decisions. We present findings from interviews with 16 expert practitioners with experience conducting human uplift studies in domains including biosecurity, cybersecurity, education, and labor. Across interviews, experts described a recurring tension between standard causal inference assumptions and the object of study itself. Rapidly evolving AI systems, shifting baselines, heterogeneous and changing user proficiency, and porous real-world settings strain assumptions underlying internal, external, and construct validity, complicating the interpretation and appropriate use of uplift evidence. We synthesize these challenges across key stages of the human uplift research lifecycle and map them to practitioner-reported solutions, clarifying both the limits and the appropriate uses of evidence from human uplift studies in high-stakes decision-making.",
+        "translated": ""
     }
 ]
