@@ -65168,5 +65168,26 @@
         "pub_date": "2026-03-14",
         "summary": "Textual Emotion Classification (TEC) is one of the most difficult NLP tasks. State of the art approaches rely on Large language models (LLMs) and multi-model ensembles. In this study, we challenge the assumption that larger scale or more complex models are necessary for improved performance. In order to improve logical consistency, We introduce CMHL, a novel single-model architecture that explicitly models the logical structure of emotions through three key innovations: (1) multi-task learning that jointly predicts primary emotions, valence, and intensity, (2) psychologically-grounded auxiliary supervision derived from Russell's circumplex model, and (3) a novel contrastive contradiction loss that enforces emotional consistency by penalizing mutually incompatible predictions (e.g., simultaneous high confidence in joy and anger). With just 125M parameters, our model outperforms 56x larger LLMs and sLM ensembles with a new state-of-the-art F1 score of 93.75\\% compared to (86.13\\%-93.2\\%) on the dair-ai Emotion dataset. We further show cross domain generalization on the Reddit Suicide Watch and Mental Health Collection dataset (SWMH), outperforming domain-specific models like MentalBERT and MentalRoBERTa with an F1 score of 72.50\\% compared to (68.16\\%-72.16\\%) + a 73.30\\% recall compared to (67.05\\%-70.89\\%) that translates to enhanced sensitivity for detecting mental health distress. Our work establishes that architectural intelligence (not parameter count) drives progress in TEC. By embedding psychological priors and explicit consistency constraints, a well-designed single model can outperform both massive LLMs and complex ensembles, offering a efficient, interpretable, and clinically-relevant paradigm for affective computing.",
         "translated": ""
+    },
+    {
+        "title": "Enhancing the Accuracy of Regional Input-Output Table Estimation: A Deep Learning Approach",
+        "url": "http://arxiv.org/abs/2603.13823v1",
+        "pub_date": "2026-03-14",
+        "summary": "Non-survey methods have been developed and applied for estimating regional input-output tables. However, there is an ongoing debate about the assumptions necessary for these methods and their accuracy.   To address these issues, this study presents a deep learning method for estimating regional input-output tables. First, the quantitative economic data for regions is augmented by linear combinations. Then, deep learning is performed on each item in the input-output table, treating these items as target variables. Finally, regional input-output tables are estimated through matrix balancing to the predicted values from the trained model.   The estimation accuracy of this method is verified using the 2015 input-output table for Japan as a benchmark. Compared to matrix balancing under the ideal assumption of known row and column sums, our method generally demonstrates higher estimation accuracy. Thus, this method is anticipated to provide a foundation for deriving more precise estimates of regional input-output tables.",
+        "translated": ""
+    },
+    {
+        "title": "Estimating Earth's Temperature Response with Transformed and Augmented OLS",
+        "url": "http://arxiv.org/abs/2603.13766v1",
+        "pub_date": "2026-03-14",
+        "summary": "The long-term relationship between radiative forcing and surface temperature is imperative for predicting the impacts of climate change. This study employs multicointegration to characterize this relationship and uses Transformed and Augmented Ordinary Least Squares (TAOLS) to estimate the model. The main goal is to estimate the Equilibrium Climate Sensitivity (ECS), defined as the global mean surface air temperature increase following a doubling of atmospheric carbon dioxide. Our results show that the ECS lies between $2.12^{\\circ}$C and $2.49^{\\circ}$C, which is lower than the existing maximum likelihood estimate of $2.8^{\\circ}$C. TAOLS offers a more robust and accessible tool for climate research, providing novel insights for ongoing debates about Earth's warming trajectory.",
+        "translated": ""
+    },
+    {
+        "title": "Testing the Exclusion Restriction in IV Models Using Non-Gaussianity: A LiNGAM-Based Approach",
+        "url": "http://arxiv.org/abs/2603.13505v1",
+        "pub_date": "2026-03-13",
+        "summary": "Instrumental variable (IV) methods rely critically on the exclusion restriction, which is untestable in exactly-identified models under standard assumptions. We propose a framework combining IV analysis with the LiNGAM method to test this restriction by exploiting non-Gaussianity in the data. Under non-Gaussian structural errors, the exclusion violation parameter is point-identified without additional instruments. Five complementary tests (bootstrap percentile, asymptotic normal, permutation, likelihood ratio, and independence-based) are introduced to assess the restriction under varying data conditions. Monte Carlo simulations and an empirical application to the Card (1995) dataset demonstrate controlled Type I error rates and reasonable power against economically relevant violations.",
+        "translated": ""
     }
 ]
