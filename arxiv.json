@@ -65294,5 +65294,26 @@
         "pub_date": "2026-03-18",
         "summary": "Language models struggle to generalize beyond pretraining context lengths, limiting long-horizon reasoning and retrieval. Continued pretraining on long-context data can help but is expensive due to the quadratic scaling of Attention. We observe that most tokens do not require (Global) Attention over the entire sequence and can rely on local context. Based on this, we propose L2A (Learning To Attend), a layer that enables conditional (token-wise) long-range memory access by deciding when to invoke global attention. We evaluate L2A on Qwen 2.5 and Qwen 3 models, extending their effective context length from 32K to 128K tokens. L2A matches the performance of standard long-context training to within 3% while skipping Global Attention for $\\sim$80% of tokens, outperforming prior baselines. We also design custom Triton kernels to efficiently implement this token-wise conditional Attention on GPUs, achieving up to $\\sim$2x improvements in training throughput and time-to-first-token over FlashAttention. Moreover, L2A enables post-training pruning of highly sparse Global Attention layers, reducing KV cache memory by up to 50% with negligible performance loss.",
         "translated": ""
+    },
+    {
+        "title": "Towards Measuring Disruptive Innovation Across Countries",
+        "url": "http://arxiv.org/abs/2603.17881v1",
+        "pub_date": "2026-03-18",
+        "summary": "The CD index is a widely used measure of disruptive inventions. Most studies compute it using USPTO data. This creates a puzzle because the US appears less disruptive than European and Asian countries. We show that this largely stems from missing international citations. Using a global citation network, we quantify and correct this bias. The disruptiveness advantage of non-US inventors drops by 64% to 148% of the US baseline mean. The US emerges as a disruption leader over Europe, with Asia's advantage substantially reduced. Globally integrated citation data are essential for credible measurement of disruptive innovation in international contexts.",
+        "translated": ""
+    },
+    {
+        "title": "Multivariate GARCH and portfolio variance prediction: A forecast reconciliation perspective",
+        "url": "http://arxiv.org/abs/2603.17463v1",
+        "pub_date": "2026-03-18",
+        "summary": "We assess the advantage of combining univariate and multivariate portfolio risk forecasts with the aid of forecast reconciliation techniques. In our analyzes, we assume knowledge of portfolio weights, a standard for portfolio risk management applications. With an extensive simulation experiment, we show that, if the true covariance is known, forecast reconciliation improves over a standard multivariate approach, in particular when the adopted multivariate model is misspecified. However, if noisy proxies are used, correctly specified models and the misspecified ones (for instance, neglecting spillovers) turn out to be, in several cases, indistinguishable, with forecast reconciliation still providing improvements. The noise in the covariance proxy plays a crucial role in determining the improvement of both the forecast reconciliation and the correct model specification. An empirical analysis shows how forecast reconciliation can be adopted with real data to improve traditional GARCH-based portfolio variance forecasts.",
+        "translated": ""
+    },
+    {
+        "title": "An Auditable AI Agent Loop for Empirical Economics: A Case Study in Forecast Combination",
+        "url": "http://arxiv.org/abs/2603.17381v1",
+        "pub_date": "2026-03-18",
+        "summary": "AI coding agents make empirical specification search fast and cheap, but they also widen hidden researcher degrees of freedom. Building on an open-source agent-loop architecture, this paper recasts a minimal coding loop as a transparent protocol for empirical economics. In a forecast-combination illustration, multiple independent agent runs outperform standard benchmarks in the original rolling evaluation, but not all continue to do so on a post-search holdout. Logged search and holdout evaluation together make adaptive specification search visible and help distinguish robust improvements from sample-specific discoveries.",
+        "translated": ""
     }
 ]
