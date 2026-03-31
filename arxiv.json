@@ -65910,5 +65910,40 @@
         "pub_date": "2026-03-27",
         "summary": "Motivated by the question of whether scale-separated AdS$_3$ flux vacua arising from G$_2$ compactifications admit an uplift to eleven-dimensional supergravity, we construct scale-separated AdS$_3$ flux vacua in massless type IIA with only O6-planes. We first present new scale-separated solutions in massive type IIA on a G$_2$ holonomy toroidal orbifold with four smeared O6-planes, analyze their properties, and then perform a double T-duality to obtain the corresponding massless backgrounds. In the dual frame, the internal space is locally given by a six-dimensional quotient space $X_6$ with an $\\mathrm{SU}(3)$ structure of Iwasawa type times an untwisted circle $S^1$, while globally it is further modded out by a non-trivial $\\mathbb{Z}_2$ quotient inherited from the G$_2$ orbifold action. Finally, we use T-duality to derive the corresponding superpotential in massless type IIA and identify parametrically classical, scale-separated families of solutions, as well as a family with parametrically large radii, scale separation, and strong coupling, thus allowing for an uplift to eleven-dimensional supergravity.",
         "translated": ""
+    },
+    {
+        "title": "Counterfactual Density Effects and the German East--West Income Gap",
+        "url": "http://arxiv.org/abs/2603.28470v1",
+        "pub_date": "2026-03-30",
+        "summary": "We propose a novel framework for conducting causal inference based on counterfactual densities. While the current paradigm of causal inference is mostly focused on estimating average treatment effects (ATEs), which restricts the analysis to the first moment of the outcome variable, our density-based approach is able to detect causal effects based on general distributional characteristics. Following the Oaxaca-Blinder decomposition approach, we consider two types of counterfactual density effects that together explain observed discrepancies between the densities of the treated and control group. First, the distribution effect is the counterfactual effect of changing the conditional density of the control group to that of the treatment group, while keeping the covariates fixed at the treatment group distribution. Second, the covariate effect represents the effect of a hypothetical change in the covariate distribution. Both effects have a causal interpretation under the classical unconfoundedness and overlap assumptions. Methodologically, our approach is based on analyzing the conditional densities as elements of a Bayes Hilbert space, which preserves the non-negativity and integration-to-one constraints. We specify a flexible functional additive regression model estimating the conditional densities. We apply our method to analyze the German East--West income gap, i.e., the observed differences in wages between East Germans and West Germans. While most of the existing studies focus on the average differences and neglect other distributional characteristics, our density-based approach is suited to detect all nuances of the counterfactual distributions, including differences in probability masses at zero.",
+        "translated": ""
+    },
+    {
+        "title": "A Simple and Powerful Diagnostic Test for Binary Choice Models",
+        "url": "http://arxiv.org/abs/2603.27881v1",
+        "pub_date": "2026-03-29",
+        "summary": "This paper proposes a specification test for the conventional distributional assumptions of error terms in binary choice models, focusing on its tail properties. Based on extreme value theory, we first establish that the tail index of the unobserved error can be recovered by that of the observed covariates. The null hypothesis of the index being zero essentially covers the widely used probit and logit models. We then construct a simple and powerful statistical test for both cross-sectional and panel data, requiring no model estimation and no parametric assumptions. Monte Carlo simulations demonstrate that our test performs well in size and power, and applications to three empirical examples on firm export and innovation decisions and female labor force participation illustrate its general applicability.",
+        "translated": ""
+    },
+    {
+        "title": "When \"Normalization Without Loss of Generality\" Loses Generality",
+        "url": "http://arxiv.org/abs/2603.27762v1",
+        "pub_date": "2026-03-29",
+        "summary": "Normalization is ubiquitous in economics, and a growing literature shows that ``normalizations'' can matter for interpretation, counterfactual analysis, misspecification, and inference. This paper provides a general framework for these issues, based on the formalized notion of modeling equivalence that partitions the space of unknowns into equivalence classes, and defines normalization as a WLOG selection of one representative from each class. A counterfactual parameter is normalization-free if and only if it is constant on equivalence classes; otherwise any point identification is created by the normalization rather than by the model. Applications to discrete choice, demand estimation, and network formation illustrate the insights made explicit through this criterion. We then study two further sources of fragility: an extension trilemma establishes that fidelity, invariance, and regularity cannot simultaneously hold at a boundary singularity, while a normalization can itself introduce a coordinate singularity that distorts the topological and metric structures of the parameter space, with consequences for estimation and inference.",
+        "translated": ""
+    },
+    {
+        "title": "Fast Posterior Sampling in Tightly Identified SVARs Using 'Soft' Sign Restrictions",
+        "url": "http://arxiv.org/abs/2603.27088v1",
+        "pub_date": "2026-03-28",
+        "summary": "We propose algorithms for conducting Bayesian inference in structural vector autoregressions identified using sign restrictions. The key feature of our approach is a sampling step based on 'soft' sign restrictions. This step draws from a target density that smoothly penalises parameter values that violate the restrictions, facilitating the use of computationally efficient Markov chain Monte Carlo sampling algorithms. An importance-sampling step yields draws conditional on the 'hard' sign restrictions. Relative to standard accept-reject sampling, the method substantially speeds up sampling when identification is tight. It also facilitates implementing prior-robust Bayesian methods. We illustrate the broad applicability of the approach in an oil-market model identified using a rich set of sign, elasticity and narrative restrictions.",
+        "translated": ""
+    },
+    {
+        "title": "Randomization Inference For the Always-Reporter Average Treatment Effect",
+        "url": "http://arxiv.org/abs/2603.24970v2",
+        "pub_date": "2026-03-26",
+        "summary": "This article studies randomization inference for treatment effects in randomized controlled trials with attrition, where outcomes are observed for only a subset of units. We assume monotonicity in reporting behavior as in \\cite{lee2009training} and focus on the average treatment effect for always-reporters (AR-ATE), defined as units whose outcomes are observed under both treatment and control. Because always-reporter status is only partially revealed by observed assignment and response patterns, we propose a worst-case randomization test that maximizes the randomization p-value over all always-reporter configurations consistent with the data, with an optional pretest to prune implausible configurations. Using studentized Hajek- and chi-square-type statistics, we show the resulting procedure is finite-sample valid for the sharp null and asymptotically valid for the weak null. We also discuss computational implementations for discrete outcomes and integer-programming-based bounds for continuous outcomes.",
+        "translated": ""
     }
 ]
