@@ -66078,5 +66078,33 @@
         "pub_date": "2026-04-01",
         "summary": "Attrition in survey and field experiments presents a challenge for social science research. Common approaches to deal with this problem -- such as complete case analysis, multiple imputation, and weighting methods -- rely on strong assumptions that may not hold in practice. This paper introduces a new method that combines recent advances in statistical inference with established tools for handling missing data. The approach produces prediction intervals for treatment effects that are both robust and precise. Evidence from simulation studies shows that the method achieves better coverage and produces narrower intervals than common alternatives. The reanalysis of two recently published experiment studies illustrates how this framework allows researchers to compare treatment effects across participants who remain in the study, those who drop out, and the full sample. Taken together, these results highlight how the proposed approach provides a stronger foundation for causal inference in the presence of attrition.",
         "translated": ""
+    },
+    {
+        "title": "ORBIT: Scalable and Verifiable Data Generation for Search Agents on a Tight Budget",
+        "url": "http://arxiv.org/abs/2604.01195v1",
+        "pub_date": "2026-04-01",
+        "summary": "Search agents, which integrate language models (LMs) with web search, are becoming crucial for answering complex user queries. Constructing training datasets for deep research tasks, involving multi-step retrieval and reasoning, remains challenging due to expensive human annotation, or cumbersome prerequisites. In this work, we introduce ORBIT, a training dataset with 20K reasoning-intensive queries with short verifiable answers, generated using a frugal framework without relying on paid API services. The modular framework relies on four stages: seed creation, question--answer pair generation, and two stages of verification: self and external. ORBIT spans 15 domains and each training pair requires 4--5 reasoning steps, with external search verification required from the complete web. We train Qwen3-4B as the base model on ORBIT using GRPO and evaluate it on Wikipedia question answering tasks. Extensive experiment results demonstrate that ORBIT-4B achieves strong performance among sub-4B LLMs as search agents, proving the utility of synthetic datasets. Our framework, code and datasets are open-sourced and available publicly.",
+        "translated": ""
+    },
+    {
+        "title": "From Validity to Inter-Subjectivity: An Argument for Reliability Signals in Search Environments",
+        "url": "http://arxiv.org/abs/2604.01186v1",
+        "pub_date": "2026-04-01",
+        "summary": "Search engines and information platforms are increasingly scrutinized for their role in spreading misinformation. Traditional responses often focus on detecting falsehoods or verifying the ultimate validity of claims. This paper argues that such a validity-centered framing is inadequate for the epistemic challenges of search environments.",
+        "translated": ""
+    },
+    {
+        "title": "Narrative Fingerprints: Multi-Scale Author Identification via Novelty Curve Dynamics",
+        "url": "http://arxiv.org/abs/2604.01073v1",
+        "pub_date": "2026-04-01",
+        "summary": "We test whether authors have characteristic \"fingerprints\" in the information-theoretic novelty curves of their published works. Working with two corpora -- Books3 (52,796 books, 759 qualifying authors) and PG-19 (28,439 books, 1,821 qualifying authors) -- we find that authorial voice leaves measurable traces in how novelty unfolds across a text. The signal is multi-scale: at book level, scalar dynamics (mean novelty, speed, volume, circuitousness) identify 43% of authors significantly above chance; at chapter level, SAX motif patterns in sliding windows achieve 30x-above-chance attribution, far exceeding the scalar features that dominate at book level. These signals are complementary, not redundant. We show that the fingerprint is partly confounded with genre but persists within-genre for approximately one-quarter of authors. Classical authors (Twain, Austen, Kipling) show fingerprints comparable in strength to modern authors, suggesting the phenomenon is not an artifact of contemporary publishing conventions.",
+        "translated": ""
+    },
+    {
+        "title": "Aligning Recommendations with User Popularity Preferences",
+        "url": "http://arxiv.org/abs/2604.01036v1",
+        "pub_date": "2026-04-01",
+        "summary": "Popularity bias is a pervasive problem in recommender systems, where recommendations disproportionately favor popular items. This not only results in \"rich-get-richer\" dynamics and a homogenization of visible content, but can also lead to misalignment of recommendations with individual users' preferences for popular or niche content. This work studies popularity bias through the lens of user-recommender alignment. To this end, we introduce Popularity Quantile Calibration, a measurement framework that quantifies misalignment between a user's historical popularity preference and the popularity of their recommendations. Building on this notion of popularity alignment, we propose SPREE, an inference-time mitigation method for sequential recommenders based on activation steering. SPREE identifies a popularity direction in representation space and adaptively steers model activations based on an estimate of each user's personal popularity bias, allowing both the direction and magnitude of steering to vary across users. Unlike global debiasing approaches, SPREE explicitly targets alignment rather than uniformly reducing popularity. Experiments across multiple datasets show that SPREE consistently improves user-level popularity alignment while preserving recommendation quality.",
+        "translated": ""
     }
 ]
