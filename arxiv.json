@@ -66540,5 +66540,33 @@
         "pub_date": "2026-04-08",
         "summary": "As large language models (LLMs) evolve from static chatbots into autonomous agents, the primary vulnerability surface shifts from final outputs to intermediate execution traces. While safety guardrails are well-benchmarked for natural language responses, their efficacy remains largely unexplored within multi-step tool-use trajectories. To address this gap, we introduce TraceSafe-Bench, the first comprehensive benchmark specifically designed to assess mid-trajectory safety. It encompasses 12 risk categories, ranging from security threats (e.g., prompt injection, privacy leaks) to operational failures (e.g., hallucinations, interface inconsistencies), featuring over 1,000 unique execution instances. Our evaluation of 13 LLM-as-a-guard models and 7 specialized guardrails yields three critical findings: 1) Structural Bottleneck: Guardrail efficacy is driven more by structural data competence (e.g., JSON parsing) than semantic safety alignment. Performance correlates strongly with structured-to-text benchmarks ($ρ=0.79$) but shows near-zero correlation with standard jailbreak robustness. 2) Architecture over Scale: Model architecture influences risk detection performance more significantly than model size, with general-purpose LLMs consistently outperforming specialized safety guardrails in trajectory analysis. 3) Temporal Stability: Accuracy remains resilient across extended trajectories. Increased execution steps allow models to pivot from static tool definitions to dynamic execution behaviors, actually improving risk detection performance in later stages. Our findings suggest that securing agentic workflows requires jointly optimizing for structural reasoning and safety alignment to effectively mitigate mid-trajectory risks.",
         "translated": ""
+    },
+    {
+        "title": "Better Measurement or Larger Samples? Data Collection for Policy Learning with Unobserved Heterogeneity",
+        "url": "http://arxiv.org/abs/2604.07181v1",
+        "pub_date": "2026-04-08",
+        "summary": "Empirical research shows that individuals' responses to treatments vary along latent characteristics, such as innate ability or motivation. Therefore, a policymaker seeking to maximize welfare may consider designing policies based on observed characteristics and estimated latent traits. I characterize how the estimates' precision affects the worst-case performance of policies, deriving rate-sharp regret bounds for assignment rules that include or exclude them, highlighting new trade-offs with the policy space complexity. I then study how a policymaker can solve such trade-offs by designing tailored data collections, and derive the minimax optimal collection plan. In an empirical application in development economics, I show that including a proxy for entrepreneurs' business skills in targeting cash transfers increases welfare by 5%, and halves the probability of generating welfare losses. Moreover, I estimate the optimal allocation of resources between improving the precision of the proxy via repeated measurements and increasing sample size.",
+        "translated": ""
+    },
+    {
+        "title": "Representativeness and Efficiency in Overidentified IV",
+        "url": "http://arxiv.org/abs/2604.07131v1",
+        "pub_date": "2026-04-08",
+        "summary": "Under heterogeneous treatment effects, the GMM weighting matrix in overidentified IV models dictates the estimand. We show that efficient GMM downeights high-variance instruments and frequently assigning negative weights that undermine causal interpretation. Moreover, GMM cannot simultaneously achieve efficiency and accommodate researcher-specified weights. We resolve this trade-off by developing the Representative Targeting (RT) estimator. By averaging instrument-specific Wald estimators under Positive Regression Dependence, RT ensures non-negative weights while achieving the semiparametric efficiency bound for its targeted estimand. We demonstrate the heterogeneity penalty empirically in a class-size experiment and apply RT to recover the Policy-Relevant Treatment Effect within a patent leniency design.",
+        "translated": ""
+    },
+    {
+        "title": "Seasonality in Mixed Causal-Noncausal Processes",
+        "url": "http://arxiv.org/abs/2604.07040v1",
+        "pub_date": "2026-04-08",
+        "summary": "This paper investigates the role of complex and negative roots in mixed causal-noncausal autoregressive (MAR) models. Using partial fraction decompositions, we show that seasonal roots can always be isolated in the moving average representation of purely causal and noncausal AR models. We find that this result extends to the MAR model, which means that no new joint seasonal effects can be generated despite the multiplicative structure of the causal and noncausal polynomials. This results has important consequences for the MAR model selection procedure and these are extensively studied in a Monte Carlo simulation study. An empirical application on COVID-19 and soybean data illustrates the main findings of the paper.",
+        "translated": ""
+    },
+    {
+        "title": "Testing for Monotone Equilibrium Strategies in Games of Incomplete Information",
+        "url": "http://arxiv.org/abs/2604.06643v1",
+        "pub_date": "2026-04-08",
+        "summary": "This paper develops a unified framework for testing monotonicity of Bayesian Nash equilibrium strategies in unobserved types in games of incomplete information. We show that, under symmetric independent private types, monotonicity of differentiable equilibrium strategies is equivalent to monotonicity of a quasi-inverse strategy identified from observed actions. This allows the problem to be reformulated as testing a countable set of moment inequalities involving unconditional expectations. We propose a Cramer-von Mises-type statistic with bootstrap critical values. The method accommodates covariates and game heterogeneity. Monte Carlo simulations demonstrate finite-sample performance, and an application to procurement auctions illustrates cartel detection.",
+        "translated": ""
     }
 ]
