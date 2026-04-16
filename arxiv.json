@@ -67009,5 +67009,26 @@
         "pub_date": "2026-04-15",
         "summary": "Diffusion language models have recently emerged as a leading alternative to standard language models, due to their ability for bidirectional attention and parallel text generation. In this work, we explore variants for their use in speech recognition. Specifically, we introduce a comprehensive guide to incorporating masked diffusion language models (MDLM) and uniform-state diffusion models (USDMs) for rescoring ASR hypotheses. Additionally, we design a new joint-decoding method that combines CTC and USDM by integrating the framewise probability distributions derived from CTC with the labelwise probability distributions computed by USDM at each decoding step, thereby generating new candidates that combine strong language knowledge from USDM and acoustic information from CTC. Our findings reveal that USDM, as well as MDLM, can significantly improve the accuracy of recognized text. We publish all our code and recipes.",
         "translated": ""
+    },
+    {
+        "title": "Sandpile Economics: Theory, Identification, and Evidence",
+        "url": "http://arxiv.org/abs/2604.13890v1",
+        "pub_date": "2026-04-15",
+        "summary": "Why do capitalist economies recurrently generate crises whose severity is disproportionate to the size of the triggering shock? This paper proposes a structural answer grounded in the evolutionary geometry of production networks. As economies evolve through specialization, integration, and competitive selection, their inter-sectoral linkages drift toward configurations of increasing geometric fragility, eventually crossing a threshold beyond which small disturbances generate disproportionately large cascades.   We introduce Sandpile Economics, a formal framework that interprets macroeconomic instability as an emergent property of disequilibrium production networks. The key state variable is the Forman--Ricci curvature of the input--output graph, capturing local substitution possibilities when supply chains are disrupted. We show that when curvature falls below an endogenous threshold, the distribution of cascade sizes follows a power law with tail index $α\\in (1,2)$, implying a regime of unbounded amplification.   The underlying mechanism is evolutionary: specialization reduces input substitutability, pushing the economy toward criticality, while crisis episodes induce endogenous network reconfiguration and path dependence. These dynamics are inherently non-ergodic and cannot be captured by representative-agent frameworks.   Empirically, using global input--output data, we document that production networks operate in persistently negative curvature regimes and that curvature robustly predicts medium-run output dynamics. A one-standard-deviation increase in curvature is associated with higher cumulative growth over three-year horizons, and curvature systematically outperforms standard network metrics in explaining cross-country differences in resilience.",
+        "translated": ""
+    },
+    {
+        "title": "Root-$n$ Asymptotically Normal Maximum Score Estimation",
+        "url": "http://arxiv.org/abs/2604.13399v1",
+        "pub_date": "2026-04-15",
+        "summary": "The maximum score method (Manski, 1975, 1985) is a powerful approach for binary choice models, yet it is known to face both practical and theoretical challenges. In particular, the estimator converges at a slower-than-root-$n$ rate to a nonstandard limiting distribution. We investigate conditions under which strictly concave surrogate score functions can be employed to achieve identification through a smooth criterion function. This criterion enables root-$n$ convergence to a normal limiting distribution. While the conditions to guarantee these desired properties are nontrivial, we characterize them in terms of primitive conditions. Extensive simulation studies support, the root-$n$ convergence rate, the asymptotic normality, and the validity of the standard inference methods.",
+        "translated": ""
+    },
+    {
+        "title": "Is Productivity Advantage of Cities Really Down To Mean and Variance?",
+        "url": "http://arxiv.org/abs/2604.13188v1",
+        "pub_date": "2026-04-14",
+        "summary": "Firms in denser areas are more productive, a pattern attributed to agglomeration economies and firm selection. To disentangle these two channels, the popular approach of Combes et al. (2012, ECTA) critically assumes that total factor productivity (TFP) distributions between denser and less dense areas are the same up to mean, variance, and left-tail truncation. We empirically validate this assumption using Spanish administrative firm-level data and recent econometric methods adapted to noisy TFP estimates. Our results find that TFP distributions are indeed statistically identical up to these parameters, validating the use of such productivity decompositions. Furthermore, using only the mean and variance is sufficient to capture differences for all sectors. Accordingly, the productivity advantage of cities may be entirely due to agglomeration rather than stronger selection, suggesting that policymakers should focus on policies targeting agglomeration. Finally, our approach extends to related contexts like differences in worker skill distributions.",
+        "translated": ""
     }
 ]
