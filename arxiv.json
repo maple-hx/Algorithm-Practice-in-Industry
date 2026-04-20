@@ -67156,5 +67156,54 @@
         "pub_date": "2026-04-17",
         "summary": "Recent works proposed test-time alignment methods that rely on a small aligned model as a proxy that guides the generation of a larger base (unaligned) model. The implicit reward approach skews the large model distribution, whereas the nudging approach defers the generation of the next token to the small aligned model when the large base one is unconfident about its outcome. In this work, we first show that both approaches can be reduced to sampling from similar graphical models, where they differ only in the definition of a rejection criterion (or distribution). Moreover, we argue that the confidence criterion is ill-motivated due to linguistic phenomena like ambiguous phrasing. We propose a novel rejection criterion based on a conservative confidence bet. Experimentally, our novel approach outperforms previous work on several datasets.",
         "translated": ""
+    },
+    {
+        "title": "Path-Explosive Behaviour in Economic Time Series: A Realization-Centred Exploratory Framework",
+        "url": "http://arxiv.org/abs/2604.16186v1",
+        "pub_date": "2026-04-17",
+        "summary": "We propose a descriptive, realization-centred framework for detecting and characterising explosive and co-explosive behaviour in economic time series, which we term path-explosive behaviour. Departing from the data-generating-process (DGP) perspective that underlies recursive unit root testing, the approach operates directly on observable path properties of the realised series. Four diagnostic layers -- level geometry, growth rate dynamics, normalised curvature, and log-space behaviour -- yield statistics that discriminate between genuine self-reinforcing multiplicative growth and I(2) dynamics without distributional assumptions or asymptotic critical values. Two theoretically motivated absolute gate thresholds screen detected episodes before a composite intensity score is assigned. Co-explosive behaviour between pairs of series is assessed at the episode level through a Jaccard co-occurrence index and non-parametric intensity concordance measures. The theoretical motivation draws on the path dependence and planning irreversibility literatures to argue that, in settings where discrete institutional decisions shape growth trajectories, a realization-centred characterisation is epistemically more appropriate than a DGP-based test. A simulation study across four DGP regimes validates the framework's discriminating power and conservatism. An empirical application to real house prices, commodity prices, public debt, and Spanish tourism destinations illustrates the empirical content of the path-explosive concept and distinguishes it from speculative bubble detection.",
+        "translated": ""
+    },
+    {
+        "title": "The Econometrics of Matching with Transferable Utility: A Progress Report",
+        "url": "http://arxiv.org/abs/2604.16127v1",
+        "pub_date": "2026-04-17",
+        "summary": "Since Choo and Siow (2006), a burgeoning literature has analyzed matching markets when utility is perfectly transferable and the joint surplus is separable. We take stock of recent methodological developments in this area. Combining theoretical arguments and simulations, we show that the separable approach is reasonably robust to omitted variables and/or non-separabilities. We conclude with a caveat on data requirements and imbalanced datasets.",
+        "translated": ""
+    },
+    {
+        "title": "The realized copula of volatility",
+        "url": "http://arxiv.org/abs/2604.15811v1",
+        "pub_date": "2026-04-17",
+        "summary": "We study a new measure of codependency in the second moment of a continuous-time multivariate asset price process, which we name the realized copula of volatility. The statistic is based on local volatility estimates constructed from high-frequency asset returns and affords a nonparametric estimator of the empirical copula of the latent stochastic volatility. We show consistency of our estimator with in-fill asymptotic theory, either with a fixed or increasing time span. In the latter setting, we derive a functional central limit theorem for the empirical process associated with the measurement error of the time-invariant marginal copula of volatility. We also develop a goodness-of-fit test to evaluate hypothesis about the shape of the latter. In a simulation study, we demonstrate that our estimator is a good proxy of both the empirical and marginal copula of volatility, even with a moderate amount of high-frequency data recorded over a relatively short sample. The goodness-of-fit test is found to exhibit size control and excellent power. We implement our framework on high-frequency transaction data from futures contracts that track the U.S. equity and treasury bond market. A Gumbel copula is found to offer a near-perfect bind between the realized variance processes in these data.",
+        "translated": ""
+    },
+    {
+        "title": "Informativeness under Model Uncertainty: Shadow Prices and Ridge Penalties",
+        "url": "http://arxiv.org/abs/2604.15571v1",
+        "pub_date": "2026-04-16",
+        "summary": "We develop inference under model uncertainty due to weak, noisy, multiple candidate restrictions and theories, and nuisance control covariates. A unified framework is given with degrees of misspecification and corresponding shadow prices, based on a Lagrangian constrained optimization approach, and a data$-$driven tolerance parameter selected via a Stein$-$type (shrinkage) risk criterion. A debiasing step is based on Karush$-$Kuhn$-$Tucker conditions. We introduce individual shadow prices (ISP) for different restrictions to measure empirical relevance and propose a plateau rule to separate signal from noise. We establish consistency and asymptotic normality of the estimators and characterize the ISP. Simulations and an application to a Solow growth model illustrate the method$^{\\prime}$s practical usefulness.",
+        "translated": ""
+    },
+    {
+        "title": "Mobility Behaviour of Immigrants in Canada: Analyzing Mode Choice Using GPS Panel Data and Mixed Logit Models",
+        "url": "http://arxiv.org/abs/2604.15564v1",
+        "pub_date": "2026-04-16",
+        "summary": "We examine these relationships using a panel dataset of more than 80,000 trip observations from 100 participants through a custom-built mobile application. A joint revealed preference (RP) and stated preference (SP) framework is used to estimate multinomial logit (MNL) and mixed logit (MXL) models. The level of integration is represented through a composite index capturing economic, social, civic, and health dimensions of integration. Results indicate two distinct patterns. First, the estimated models suggest that new immigrants in the sample exhibit lower sensitivity to in-vehicle travel time than Canadian-born respondents. The mixed logit specification suggests that the value of travel time for the sampled immigrants is approximately 66% lower than that of Canadian-born residents, with a immigrant-to-Canadian-born ratio of 0.34 that is consistent across both MXL specifications. Second, higher levels of integration are associated with reduced transit use and greater car reliance. A one standard deviation increase in the integration index decreases the probability of choosing public transit by approximately five percentage points. The joint RP-SP specification allows the inclusion of emerging e-mobility alternatives not yet observed in revealed behaviour; these face no inherent preference penalty, competing purely on their level-of-service attributes. Out-of-sample validation using five-fold cross-validation produces a mean prediction accuracy between 80% and 82% across model specifications. The findings suggest that transit policies in immigrant-receiving cities could prioritize service quality improvements, particularly reductions in access time, which are approximately three times more effective than fare reductions in shifting immigrants toward transit use.",
+        "translated": ""
+    },
+    {
+        "title": "True and Pseudo-True Parameters",
+        "url": "http://arxiv.org/abs/2604.15563v1",
+        "pub_date": "2026-04-16",
+        "summary": "Parameter estimates in misspecified models converge to pseudo-true parameter values, which minimize a population objective function. Pseudo-true values often differ from quantities of economic interest, raising questions of how, if at all, they are relevant for decision-making. To study this question we consider Bayesian decision-makers facing a linear population minimum distance problem. Within a class of priors motivated by the minimum distance objective, we characterize prior sequences under which posteriors concentrate on the pseudo-true value. This convergence is fragile to small changes in priors, implying that pseudo-true values are relevant for decision-making only in special cases. Constructive results are nevertheless possible in this setting, and we derive simple confidence intervals that guarantee correct average coverage for the true parameter under every prior in the class we study, with no bound on the magnitude of misspecification.",
+        "translated": ""
+    },
+    {
+        "title": "Jackknife Instrumental Variable Inference",
+        "url": "http://arxiv.org/abs/2604.15437v1",
+        "pub_date": "2026-04-16",
+        "summary": "This paper introduces a class of jackknife-based test statistics for linear regression models with endogeneity and heteroskedasticity in the presence of many potentially weak instrumental variables. The tests may be used when considering hypotheses on the full parameter vector or hypotheses defined as linear restrictions. We show that in the limit and under the null the proposed statistics are distributed as a combination of chi squares but by modifying the objective function we derive more familiar chi square limits. An extensive simulation study shows the competitive finite sample properties of the proposed tests in particular against Anderson-Rubin-type of statistics. Finally, we provide an empirical illustration that applies the proposed tests to study the effect of alcohol consumption on body mass index using genetic variants as instrumental variables using the UK Biobank.",
+        "translated": ""
     }
 ]
