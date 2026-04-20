@@ -67128,5 +67128,33 @@
         "pub_date": "2026-04-15",
         "summary": "Online A/B testing at scale relies on proxy metrics -- short-term, easily-measured signals used in place of slow-moving long-term outcomes. When the proxy-outcome relationship is heterogeneous across user segments, aggregate correlation can mask directional failures akin to Simpson's Paradox, leading to costly ship/no-ship errors. We introduce PROXIMA (Proxy Metric Validation Framework for Online Experiments), a lightweight diagnostic framework that scores proxy reliability through a composite of three complementary dimensions: normalised effect correlation, directional accuracy, and segment-level fragility rate. Unlike surrogate-index approaches that predict long-term treatment effects, PROXIMA directly audits whether a candidate proxy leads to correct launch decisions and flags the user segments where it fails. We validate PROXIMA on two public datasets -- the Criteo Uplift corpus (14M observations, advertising) and KuaiRec (7K users, video recommendation) -- using 80 simulated A/B tests. Early engagement metrics achieve a composite reliability of 0.80 on Criteo and 0.62 on KuaiRec, yielding 98.4% average decision agreement with an oracle policy. Fragility analysis reveals that recommendation domains exhibit substantially higher segment-level heterogeneity (68% fragility) than advertising (13%), yet directional accuracy remains above 96% in both cases. A sensitivity analysis over the weight space confirms that no single component suffices and that the composite provides substantially better discrimination between reliable and unreliable proxies than correlation alone. Code and reproduction scripts are available at: https://github.com/Avinash-Amudala/PROXIMA",
         "translated": ""
+    },
+    {
+        "title": "Beyond Surface Statistics: Robust Conformal Prediction for LLMs via Internal Representations",
+        "url": "http://arxiv.org/abs/2604.16217v1",
+        "pub_date": "2026-04-17",
+        "summary": "Large language models are increasingly deployed in settings where reliability matters, yet output-level uncertainty signals such as token probabilities, entropy, and self-consistency can become brittle under calibration--deployment mismatch. Conformal prediction provides finite-sample validity under exchangeability, but its practical usefulness depends on the quality of the nonconformity score. We propose a conformal framework for LLM question answering that uses internal representations rather than output-facing statistics: specifically, we introduce Layer-Wise Information (LI) scores, which measure how conditioning on the input reshapes predictive entropy across model depth, and use them as nonconformity scores within a standard split conformal pipeline. Across closed-ended and open-domain QA benchmarks, with the clearest gains under cross-domain shift, our method achieves a better validity--efficiency trade-off than strong text-level baselines while maintaining competitive in-domain reliability at the same nominal risk level. These results suggest that internal representations can provide more informative conformal scores when surface-level uncertainty is unstable under distribution shift.",
+        "translated": ""
+    },
+    {
+        "title": "JumpLoRA: Sparse Adapters for Continual Learning in Large Language Models",
+        "url": "http://arxiv.org/abs/2604.16171v1",
+        "pub_date": "2026-04-17",
+        "summary": "Adapter-based methods have become a cost-effective approach to continual learning (CL) for Large Language Models (LLMs), by sequentially learning a low-rank update matrix for each task. To mitigate catastrophic forgetting, state-of-the-art approaches impose constraints on new adapters with respect to the previous ones, by targeting either subspace or coordinate-wise interference. In this paper, we propose JumpLoRA, a novel framework to adaptively induce sparsity in the Low-Rank Adaptation (LoRA) blocks through the use of JumpReLU gating. The method achieves dynamic parameter isolation, which helps prevent task interference. We demonstrate that our method is highly modular and compatible with LoRA-based CL approaches. Specifically, it significantly boosts the performance of IncLoRA and outperforms the leading state-of-the-art CL method, ELLA.",
+        "translated": ""
+    },
+    {
+        "title": "AtManRL: Towards Faithful Reasoning via Differentiable Attention Saliency",
+        "url": "http://arxiv.org/abs/2604.16158v1",
+        "pub_date": "2026-04-17",
+        "summary": "Large language models (LLMs) increasingly rely on chain-of-thought (CoT) reasoning to solve complex tasks. Yet ensuring that the reasoning trace both contributes to and faithfully reflects the processes underlying the model's final answer, rather than merely accompanying it, remains challenging. We introduce AtManRL, a method that leverages differentiable attention manipulation to learn more faithful reasoning through reinforcement learning. By training an additive attention mask that identifies tokens in the CoT crucial for producing correct answers, we derive a saliency reward signal that encourages the model to generate reasoning traces that genuinely influence its final predictions. We integrate this saliency reward with outcome-based rewards within the GRPO framework to jointly optimize for correctness and interpretability. Experiments on GSM8K and MMLU with Llama-3.2-3B-Instruct demonstrate that our approach can identify influential reasoning tokens and enable training more transparent reasoning models.",
+        "translated": ""
+    },
+    {
+        "title": "On the Rejection Criterion for Proxy-based Test-time Alignment",
+        "url": "http://arxiv.org/abs/2604.16146v1",
+        "pub_date": "2026-04-17",
+        "summary": "Recent works proposed test-time alignment methods that rely on a small aligned model as a proxy that guides the generation of a larger base (unaligned) model. The implicit reward approach skews the large model distribution, whereas the nudging approach defers the generation of the next token to the small aligned model when the large base one is unconfident about its outcome. In this work, we first show that both approaches can be reduced to sampling from similar graphical models, where they differ only in the definition of a rejection criterion (or distribution). Moreover, we argue that the confidence criterion is ill-motivated due to linguistic phenomena like ambiguous phrasing. We propose a novel rejection criterion based on a conservative confidence bet. Experimentally, our novel approach outperforms previous work on several datasets.",
+        "translated": ""
     }
 ]
