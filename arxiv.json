@@ -67233,5 +67233,54 @@
         "pub_date": "2026-04-17",
         "summary": "Despite the importance of open-ended event forecasting for risk management, current LLM-based methods predominantly target only the most probable outcomes, neglecting the intrinsic uncertainty of real-world events. To bridge this gap, we advance open-ended event forecasting from pinpoint forecasting to scatter forecasting by introducing the proxy task of hypothesis generation. This paradigm aims to generate an inclusive and diverse set of hypotheses that broadly cover the space of plausible future events. To this end, we propose SCATTER, a reinforcement learning framework that jointly optimizes inclusiveness and diversity of the hypothesis. Specifically, we design a novel hybrid reward that consists of three components: 1) a validity reward that measures semantic alignment with observed events, 2) an intra-group diversity reward to encourage variation within sampled responses, and 3) an inter-group diversity reward to promote exploration across distinct modes. By integrating the validity-gated score into the overall objective, we confine the exploration of wildly diversified outcomes to contextually plausible futures, preventing the mode collapse issue. Experiments on two real-world benchmark datasets, i.e., OpenForecast and OpenEP, demonstrate that SCATTER significantly outperforms strong baselines. Our code is available at https://github.com/Sambac1/SCATTER.",
         "translated": ""
+    },
+    {
+        "title": "Factor-Augmented Panel Regressions and Variance-Weighted Treatment Effects",
+        "url": "http://arxiv.org/abs/2604.18078v1",
+        "pub_date": "2026-04-20",
+        "summary": "We revisit panel regressions with unobserved heterogeneity through the lens of variance-weighted average treatment effects. Building on established results for cross-sectional OLS and one-way fixed effects panels, we show that two-way panel estimators with latent factors, specifically the principal components estimator of Greenaway-McGrevy, Han and Sul (2012) and the interactive fixed effects estimator of Bai (2009), also converge to interpretable estimands under fully nonparametric assumptions. Both estimators consistently estimate the same variance-weighted average of unit-time-specific treatment effects, where the weights are proportional to the conditional variance of the regressor given the unobserved heterogeneity. The result requires the number of estimated factors to grow with the sample size and applies to the single regressor case. We discuss the challenges that arise when extending to multiple regressors and to inference.",
+        "translated": ""
+    },
+    {
+        "title": "Causal inference for social network formation",
+        "url": "http://arxiv.org/abs/2604.17952v1",
+        "pub_date": "2026-04-20",
+        "summary": "This paper develops a framework for identification, estimation, and inference on the causal mechanisms driving endogenous social network formation. Identification is challenging because of unobserved confounders and reverse causality; inference is complicated by questions of equilibrium and sampling. We leverage repeated observations of a network over time and random variation in initial ties to address challenges to causal identification. Our design-based approach sidesteps questions of sampling and asymptotics by treating both the set of nodes (individuals) and potential outcomes as non-random. We apply our approach to data from a large professional services firm, where new hires are randomly assigned to project teams within offices. We estimate the causal effect on tie formation of indirect ties, network degree, and local network density. Indirect ties have a strong and significant positive effect on tie formation, while the effects of degree and density are smaller and less robust.",
+        "translated": ""
+    },
+    {
+        "title": "Subsample-based Estimation under Dynamic Contamination",
+        "url": "http://arxiv.org/abs/2604.17676v1",
+        "pub_date": "2026-04-20",
+        "summary": "Subsample-based estimation is a standard tool for achieving robustness to outliers in econometric models. This paper shows that, in dynamic time series settings, such procedures are fundamentally invalid under contamination, even under oracle knowledge of contamination locations. The key issue is that contamination propagates through the model's residual filter and distorts the estimation criterion itself. As a result, removing contaminated observations does not, in general, restore the uncontaminated objective or ensure consistency. We characterise this failure as a structural incompatibility between pointwise subsampling and residual propagation. To address it, we propose a propagation-compatible transformation of index sets, formalised through a patch removal operator that removes the residual footprint of contamination. Under suitable conditions, the proposed operator leaves the estimator asymptotically unchanged under the uncontaminated model, while restoring consistency for the clean-data parameter under contamination. The results apply to a broad class of residual-based estimators and show that valid subsample-based estimation in dynamic models requires explicit control of residual propagation.",
+        "translated": ""
+    },
+    {
+        "title": "Bootstrap consistency for general double/debiased machine learning estimators",
+        "url": "http://arxiv.org/abs/2604.17239v1",
+        "pub_date": "2026-04-19",
+        "summary": "Double/debiased machine learning (DML) provides a general framework for inference with high-dimensional or otherwise complex nuisance parameters by combining Neyman-orthogonal scores with cross-fitting, thereby circumventing classical Donsker-type conditions in many modern machine-learning settings. Despite its strong empirical performance, bootstrap inference for DML estimators has received little theoretical justification. This is particularly noteworthy since bootstrap methods are suggested ad used for inference on DML estimators, even though bootstrap procedures can fail for estimators that are root-$n$ consistent and asymptotically normal. This paper fills this gap by establishing bootstrap validity for DML estimators under general exchangeably weighted resampling schemes, with Efron's bootstrap as a special case. Under exactly the same conditions required for the validity of DML itself, we prove that the bootstrap law converges conditionally weakly to the sampling law of the original estimator.",
+        "translated": ""
+    },
+    {
+        "title": "A Model and Estimation of the Bitcoin Transaction Fee",
+        "url": "http://arxiv.org/abs/2604.17183v1",
+        "pub_date": "2026-04-19",
+        "summary": "Bitcoin transaction fees will become more important as the block subsidy declines, but fee formation is hard to study with blockchain data alone because the relevant queueing environment is unobserved. We develop and estimate a structural model of Bitcoin fee choice that treats the mempool as a market for scarce blockspace. We assemble a novel, high-frequency mempool panel, from a self-run Bitcoin node that records transaction arrivals, exits, block inclusion, fee-bumping events, and congestion snapshots. We characterize the fee market as a Vickery-Clarke-Groves mechanism and derive an equation to estimate fees. In the first-stage we estimate a monotone delay technology linking fee-rate priority and network state to expected confirmation delay. We then estimate how fees respond to that delay technology and to transaction characteristics. We find that congestion is the main determinant of delay; that the marginal value of priority is priced in fees, which is increasing in the gradient of confirmation time reduction per movement up in the fee queue; and that transactor choice of RBF, CPFP, and block conditions have economically important effects on fees.",
+        "translated": ""
+    },
+    {
+        "title": "The Virtue of Sparsity in Complexity",
+        "url": "http://arxiv.org/abs/2604.17166v1",
+        "pub_date": "2026-04-18",
+        "summary": "Sparsity or complexity? In modern high-dimensional asset pricing, these are often viewed as competing principles: richer feature spaces appear to favor complexity, while economic intuition has long favored parsimony. We show that this tension is misplaced. We distinguish capacity sparsity-the dimensionality of the candidate feature space-from factor sparsity-the parsimonious structure of priced risks-and argue that the two are complements: expanding capacity enables the discovery of factor sparsity. Revisiting the benchmark empirical design of Didisheim et al. (2025) and pushing it to higher complexity regimes, we show that nonlinear feature expansions combined with basis pursuit yield portfolios whose out-of-sample performance dominates ridgeless benchmarks beyond a critical complexity threshold. The evidence shows that the gains from complexity arise not from retaining more factors, but from enlarging the space from which a sparse structure of priced risks can be identified. The virtue of complexity in asset pricing operates through factor sparsity.",
+        "translated": ""
+    },
+    {
+        "title": "Integrating Diagnostic Checks into Estimation",
+        "url": "http://arxiv.org/abs/2604.16690v1",
+        "pub_date": "2026-04-17",
+        "summary": "Empirical researchers often use diagnostic checks to assess the plausibility of their modeling assumptions, such as testing for covariate balance in RCTs, pre-trends in event studies, or instrument validity in IV designs. While these checks are traditionally treated as external hurdles to estimation, we argue they should be integrated into the estimation process itself. In particular, we propose residualizing one's baseline estimator against the vector of diagnostic check statistics to remove the component of baseline sampling variation explained by the diagnostic checks. This residualized estimator offers researchers a \"free lunch,\" delivering three properties simultaneously: (i) eliminating inference distortions from check-based selective reporting; (ii) reducing variance without changing the estimand when the baseline model is correctly specified; and (iii) minimizing worst-case bias under bounded local misspecification within the class of linear adjustments. We apply our method to the RCT in Kaur et al. (2024) and find that, even in a setting where all balance checks pass comfortably, residualization increases the magnitude of the baseline point estimate and reduces its standard error, equivalent to approximately a 10% increase in sample size.",
+        "translated": ""
     }
 ]
