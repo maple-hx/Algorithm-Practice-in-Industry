@@ -67359,5 +67359,19 @@
         "pub_date": "2026-04-22",
         "summary": "We introduce SuperIgor, a framework for instruction-following tasks. Unlike prior methods that rely on predefined subtasks, SuperIgor enables a language model to generate and refine high-level plans through a self-learning mechanism, reducing the need for manual dataset annotation. Our approach involves iterative co-training: an RL agent is trained to follow the generated plans, while the language model adapts and modifies these plans based on RL feedback and preferences. This creates a feedback loop where both the agent and the planner improve jointly. We validate our framework in environments with rich dynamics and stochasticity. Results show that SuperIgor agents adhere to instructions more strictly than baseline methods, while also demonstrating strong generalization to previously unseen instructions.",
         "translated": ""
+    },
+    {
+        "title": "On-chain Peak Shaving",
+        "url": "http://arxiv.org/abs/2604.19956v1",
+        "pub_date": "2026-04-21",
+        "summary": "Blockchain technology is widely expected to reduce transaction costs by automating contract enforcement and eliminating intermediaries; yet, the execution costs imposed by network congestion have received little attention in the operations management literature. We study on-chain peak shaving, the systematic scheduling of Ethereum transactions toward low-congestion windows to reduce gas fee exposure. We use transaction-level data from seven firms across seven industries (N = 62,142 transactions, January-March 2026).   Gas fees vary significantly throughout the day: the peak-hour premium at 10 AM Eastern Time reaches USD 0.220 per transaction above the overnight baseline, driven primarily by speculative-arbitrage demand rather than operational activity. Firm-level scheduling responses are heterogeneous and not uniformly disciplined. Only three of seven firms transact disproportionately during off-peak hours; four transact counter-cyclically, concentrated in peak windows due to external deadlines or governance cycles. This heterogeneity is explained by two moderators: transaction deferrability and gas intensity. We formalize these into an On-Chain Scheduling Matrix that maps firms to four regimes: 1) full peak shaving, 2) selective peak shaving, 3) cost provisioning, and 4) accept-market-rate, with regime membership predicting both fee savings and residual cost floors (40-92 percent of actual expenditure).   Theoretically, we extend Transaction Cost Economics to account for time-varying execution costs imposed by congestion externalities. In addition to extending Williamson's original cost taxonomy, we introduce a dual classification of gas fees as execution costs in timing but maladaptation costs in origin. The findings reposition on-chain gas-fee management alongside energy procurement and foreign exchange hedging as a domain requiring systematic operational planning.",
+        "translated": ""
+    },
+    {
+        "title": "From Clerks to Agentic-AI: How will Technology Change Labor Market in Finance?",
+        "url": "http://arxiv.org/abs/2604.19833v1",
+        "pub_date": "2026-04-21",
+        "summary": "Financial firms have gone through three major technological waves: computerization in the 1980s and 1990s, the rise of indexing and passive investing in the 2000s and 2010s, and the AI and automation wave from roughly 2015 to the present. This project studies how much labor is required to manage capital across those waves by tracking a simple productivity measure: assets under management per employee. Using a small panel of representative firms, we compare changes in AUM per employee, revenue per employee, and operating expense intensity over time. The goal is not to identify causal effects, but to document stylized facts about how technology changes the scale of asset management work.",
+        "translated": ""
     }
 ]
