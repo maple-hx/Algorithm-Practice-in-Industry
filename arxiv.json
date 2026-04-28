@@ -67625,5 +67625,75 @@
         "pub_date": "2026-04-26",
         "summary": "Recent large audio language models (LALMs) demonstrate remarkable capabilities in processing extended multi-modal sequences, yet incur high inference costs. Token compression is an effective method that directly reduces redundant tokens in the sequence. Existing compression methods usually assume that all attention heads in LALMs contribute equally to various audio tasks and calculate token importance by averaging scores across all heads. However, our analysis demonstrates that attention heads exhibit distinct behaviors across diverse audio domains. We further reveal that only a sparse subset of attention heads actively responds to audio, with completely different performance when handling semantic and acoustic tasks. In light of this observation, we propose HeadRouter, a head-importance-aware token pruning method that perceives the varying importance of attention heads in different audio tasks to maximize the retention of crucial tokens. HeadRouter is training-free and can be applied to various LALMs. Extensive experiments on the AudioMarathon and MMAU-Pro benchmarks demonstrate that HeadRouter achieves state-of-the-art compression performance, exceeding the baseline model even when retaining 70% of the audio tokens and achieving 101.8% and 103.0% of the vanilla average on Qwen2.5-Omni-3B and Qwen2.5-Omni-7B, respectively.",
         "translated": ""
+    },
+    {
+        "title": "Energy-Arena: A Dynamic Benchmark for Operational Energy Forecasting",
+        "url": "http://arxiv.org/abs/2604.24705v1",
+        "pub_date": "2026-04-27",
+        "summary": "Energy forecasting research faces a persistent comparability gap that makes it difficult to measure consistent progress over time. Reported accuracy gains are often not directly comparable because models are evaluated under study-specific datasets, time periods, information sets, and scoring setups, while widely used benchmarks and competition datasets are typically tied to fixed historical windows. This paper introduces the Energy-Arena, a dynamic benchmarking platform for operational energy time series forecasting that provides a continuously updated reference point as energy systems evolve. The platform operates as an open, API-based submission system and standardizes challenge definitions and submission deadlines aligned with operational constraints. Performance is reported on rolling evaluation windows via persistent leaderboards. By moving from retrospective backtesting to forward-looking benchmarking, the Energy-Arena enforces standardized ex-ante submission and ex-post evaluation, thereby improving transparency by preventing information leakage and retroactive tuning. The platform is publicly available at Energy-Arena.org.",
+        "translated": ""
+    },
+    {
+        "title": "Benefits and Costs of Adaptive Sampling",
+        "url": "http://arxiv.org/abs/2604.24652v1",
+        "pub_date": "2026-04-27",
+        "summary": "Multi-armed bandits are widely used for sequential experimentation in clinical trials, recommendation systems, and online platforms. While regret minimization and valid inference from adaptively collected data have each been studied extensively, a basic question remains: when does adaptivity \\emph{improve estimation precision} relative to uniform designs, and how should inference be balanced against the online cost of experimentation? We first study arm-level mean estimation under mean-squared-error (MSE) objectives. We characterize when an adaptive Neyman allocation, which allocates samples according to arm variance, yields strict MSE improvements over uniform sampling. When there is variance heterogeneity across arms, these improvements arise at modest sample sizes, clarifying that adaptivity can be preferable for inference not only asymptotically, but also in many practical finite-sample settings. We then study a joint inference-regret objective that accounts for the cost of assigning units to inferior arms during experimentation. We propose the Static-Allocation Rate Policy (SARP) and Neyman-Adaptive Rate Policy (NARP), which interpolates between inference- and regret-oriented policies by adjusting exploration to the local structure of the instance. We show that SARP and NARP converge to the complete-information benchmark at the optimal rate as the sampling budget grows. Our proposed policies are practically attractive as it linearly interpolates between any standard regret-minimizing algorithm and inference-targeting adaptive policies. Yet we show it still enjoys the oracle-based asymptotic optimal rate. Simulations support the theory by demonstrating improved precision over uniform allocation while controlling performance loss across a range of instances.",
+        "translated": ""
+    },
+    {
+        "title": "Linear estimations of dynamic fixed effects logit models only with time effects",
+        "url": "http://arxiv.org/abs/2604.24150v1",
+        "pub_date": "2026-04-27",
+        "summary": "This paper proposes linear estimation methods for dynamic fixed effects logit models only with time effects (i.e., those only with time dummies and only with time trends). The linear estimators point-identify transformations of parameters of interest for the models if five or more time periods are provided and then point-identify the parameters of interest. What it boils down to is that root-N consistent estimations are attainable for these models. Monte Carlo results corroborate this conclusion.",
+        "translated": ""
+    },
+    {
+        "title": "Difference-in-differences with a mediator",
+        "url": "http://arxiv.org/abs/2604.24049v1",
+        "pub_date": "2026-04-27",
+        "summary": "Causal mediation analysis is a powerful tool for disentangling the total effect of a treatment into its direct effect on the outcome and its indirect effect mediated through an intermediate variable. However, in observational studies, confounding between treatment and potential outcomes typically renders the total and natural effects non-identifiable. In this work, we advance mediation analysis within the difference-in-differences framework. Under a mediator-adjusted parallel trends assumption and additional conditions, we demonstrate that natural indirect, direct, and total effects are identifiable in the treated group. We further derive efficient influence functions for these estimands, enabling the construction of multiply robust and nonparametrically efficient estimators. We establish the asymptotic properties of these estimators. Applying our methodology to data from the Job Corps Study, we find that job training significantly increases both short-term and long-term earnings, after controlling for the indirect effect through the proportion of weeks employed.",
+        "translated": ""
+    },
+    {
+        "title": "Bootstrapping with AI/ML-generated labels",
+        "url": "http://arxiv.org/abs/2604.23770v1",
+        "pub_date": "2026-04-26",
+        "summary": "AI/ML methods are increasingly used in economics to generate binary variables (or labels) via classification algorithms. When these generated variables are included as covariates in regressions, even small misclassification errors can induce large biases in OLS estimators and invalidate standard inference. We study whether the bootstrap can correct this bias and deliver valid inference. We first show that a seemingly natural fixed-label bootstrap, which generates data using estimated labels but relies on a corrupted version in estimation, is generally invalid unless a strong independence condition between the latent true labels and other covariates holds. We then propose a coupled-label bootstrap that jointly resamples the true and imputed labels, and show it is valid without this condition. Two finite-sample adjustments further improve coverage: a variance correction for uncertainty in estimated misclassification rates and a Hessian rotation for near-singular designs. We illustrate the methods in simulations and apply them to investigate the relationship between wages and remote work status.",
+        "translated": ""
+    },
+    {
+        "title": "Estimation of MIDAS Regressions with Errors-in-the-Variables",
+        "url": "http://arxiv.org/abs/2604.23469v1",
+        "pub_date": "2026-04-25",
+        "summary": "In this paper, a Mixed Data Sampling (MIDAS) model is studied when both low and high frequency variables are contaminated with measurement error. It is shown that the profile likelihood estimator becomes inconsistent in the presence of measurement error. Using the corrected score approach along with profile likelihood approach, a consistent estimator for parameters of MIDAS Measurement Error model is proposed. Small and large sample properties of the estimator are examined by performing a monte carlo simulation study and considering the effect of sample size, number of lags and profiling parameter.",
+        "translated": ""
+    },
+    {
+        "title": "Misspecification-Averse Estimation",
+        "url": "http://arxiv.org/abs/2604.23176v1",
+        "pub_date": "2026-04-25",
+        "summary": "We study optimal estimation when the likelihood may be misspecified. Building on tools from the theory of decision-making under uncertainty, we analyze a class of axiomatically grounded optimality criteria which nests several existing misspecification-robust objectives. Within this class, we introduce the constrained multiplier criterion, which allows for flexible misspecification attitudes. We prove a local asymptotic minimax theorem for this criterion, extending a classical efficiency bound to a limit experiment which incorporates moment-constrained misspecification concerns. We characterize asymptotically optimal estimators as Bayes decision rules under a flat prior and an exponentially tilted likelihood that incorporates the moment constraints, and show that feasible plug-in analogs are asymptotically optimal.",
+        "translated": ""
+    },
+    {
+        "title": "Realized Regularized Regressions",
+        "url": "http://arxiv.org/abs/2604.23023v1",
+        "pub_date": "2026-04-24",
+        "summary": "We develop a continuous-time penalized regression framework for the estimation of time-varying coefficients and variable selection when both the response and covariates are Itô semimartingales with jumps. The coefficient paths are approximated by spline basis expansions and estimated via least squares from truncated high-frequency increments. In a finite-dimensional setting, we establish consistency and derive a feasible asymptotic distribution for the integrated coefficient estimator under infill asymptotics. We then extend the framework to high-dimensional settings in which the number of candidate covariates diverges, and show that a group-wise penalized estimator with a truncated $\\ell_1$-penalty attains the oracle property, which delivers both consistent model selection and coefficient estimation. An empirical application to a large panel of more than two hundred high-frequency factors documents sparse factor structure across a large cross-section of stocks and industry portfolios.",
+        "translated": ""
+    },
+    {
+        "title": "Stacked Triple Differences",
+        "url": "http://arxiv.org/abs/2604.22982v1",
+        "pub_date": "2026-04-24",
+        "summary": "Triple differences (DDD) is a workhorse quasi-experimental design in applied economics. But, under staggered adoption, its conventional three-way fixed-effects (3WFE) implementation inherits the forbidden-comparison and interpretation issues now well understood in the difference-in-differences literature. To resolve these issues, I introduce stacked DDD. I extend the stacked difference-in-differences approach to the DDD setting by creating self-contained stacks, each consisting of four cells over an event window: treated and clean comparison cohorts, each with treatment-eligible and treatment-ineligible units. Appending these stacks yields a unified dataset for estimating treatment effects without making forbidden comparisons. I prove that, at each post-treatment event-time, a linear regression with fully saturated fixed-effects applied to the stacked dataset identifies a strictly positive, cell-size-weighted average of stack-level conditional average treatment effects, with stack weights proportional to stack-level cell sizes. Building on this characterization, I outline alternative weighting schemes that recover distinct, transparent causal estimands with clear interpretations. Stacked DDD complements recent GMM and imputation-based frameworks by trading efficiency for regression-based transparency, pairwise (rather than global) parallel trends, and direct control over aggregation weights. I provide two empirical illustrations where stacked DDD yields substantially different quantitative conclusions compared to existing procedures.",
+        "translated": ""
+    },
+    {
+        "title": "Machine Learning Forecasts of Asymmetric Betas Using Firm-Specific Information",
+        "url": "http://arxiv.org/abs/2604.22933v1",
+        "pub_date": "2026-04-24",
+        "summary": "We demonstrate that machine learning methods provide a powerful framework for modelling conditional asymmetric risk. Using a large cross-section of US stocks and a comprehensive set of firm characteristics, we show that allowing for nonlinearities significantly increases the out-of-sample performance across a wide range of asymmetric beta measures and forecasting horizons. Trading frictions, followed by characteristics related to intangibles, momentum and growth, emerge as the most important drivers of future risk dynamics. Reconstructing CAPM beta from forecasts of asymmetric beta components indicates that a more granular decomposition of systematic risk yields a more accurate representation of market beta. We also find that incorporating conditional beta forecasts into discounted cash flow models that account for the term structure of betas enhances equity valuation accuracy. Finally, we show that the statistical outperformance of conditional betas translates into economically significant benefits for market-neutral portfolio investors.",
+        "translated": ""
     }
 ]
