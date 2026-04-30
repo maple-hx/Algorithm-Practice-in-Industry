@@ -67905,5 +67905,47 @@
         "pub_date": "2026-04-29",
         "summary": "This paper proposes a novel algorithm for semisupervised learning. This algorithm learns graph cuts that maximize the margin with respect to the labels induced by the harmonic function solution. We motivate the approach, compare it to existing work, and prove a bound on its generalization error. The quality of our solutions is evaluated on a synthetic problem and three UCI ML repository datasets. In most cases, we outperform manifold regularization of support vector machines, which is a state-of-the-art approach to semi-supervised max-margin learning.",
         "translated": ""
+    },
+    {
+        "title": "Bootstrap Inference in Nonlinear Panel Data Models with Interactive Fixed Effects",
+        "url": "http://arxiv.org/abs/2604.26826v1",
+        "pub_date": "2026-04-29",
+        "summary": "The maximum likelihood estimator in nonlinear panel data models with interactive fixed effects is biased. Several bias correction methods, such as analytical and jackknife approaches, have been proposed to enable valid inference. This paper shows that the parametric bootstrap also enables valid inference in such models. In particular, we show that the parametric bootstrap replicates the asymptotic distribution of the maximum likelihood estimator. Therefore, it yields asymptotically unbiased estimates and confidence sets with asymptotically correct coverage. We also propose a transformation-based bootstrap confidence interval that delivers improved finite-sample performance. Simulation results support the theoretical findings. Finally, we apply the proposed method to examine technological and product market spillover effects on firms' innovation behavior.",
+        "translated": ""
+    },
+    {
+        "title": "Do News and Social Media Tell the Same Story? Constructing and Comparing Sentiment Spillover Networks",
+        "url": "http://arxiv.org/abs/2604.26811v1",
+        "pub_date": "2026-04-29",
+        "summary": "Investor sentiment reflects the collective attitude of investors towards the asset, whether positive, negative or neutral. Market information, such as news and relevant social media posts, plays a significant role in shaping investor sentiment, which influences investment decisions accordingly. The sentiment for one single company may spill over to other relevant companies which are in the same industry. The information spillover network pattern between news and social media may also differ, as they are two different media sources. In this study, we introduce a network-based transfer entropy method to measure and compare the information transmission of news and social media sentiment across the technology companies. We examine whether and to what extent sentiment information from one company can transfer to other companies, and how different the spillover effect is for news and social media. The result signifies a stronger intensity of news information flow among the tech companies after COVID-19. We also highlight the companies which act as information hubs in the sentiment network. Furthermore, we identify the companies which lead the strongest information flow chain. Overall, this study provides a novel perspective in modelling sentiment spillover under two different media sources, and we find that news and social media show a different information transmission pattern during the studied period.",
+        "translated": ""
+    },
+    {
+        "title": "Sequential Estimation of Dynamic Discrete Choice Models with Unobserved Heterogeneity",
+        "url": "http://arxiv.org/abs/2604.26205v1",
+        "pub_date": "2026-04-29",
+        "summary": "Estimating dynamic discrete choice models with unobserved heterogeneity is computationally costly because it requires repeatedly solving fixed-point equations for all unobserved types. We develop the EM-NPL(q) framework that combines the Expectation-Maximization (EM) algorithm with an inner fixed-point solver truncated to q iterations. For the workhorse class of linear-in-parameters models, we establish a truncation-invariance result: for any q$\\geq$1, EM-NPL(q) is numerically identical to the EM-NPL estimator that solves the inner fixed-point problem to convergence. Therefore, the choice of q affects computation but not statistical properties. We also establish consistency, asymptotic normality of our estimator, and local convergence of the EM-NPL(q) algorithm. In Monte Carlo simulations, EM-NPL(q) reduces runtime by at least 20% and can be 3--5 times faster. In an application to cola demand, we show that ignoring unobserved heterogeneity understates long-run own-price elasticities by up to 60%, short-run elasticities by up to 85%, and compensating variation from a soda tax by up to 90%.",
+        "translated": ""
+    },
+    {
+        "title": "Budget-Constrained Causal Bandits: Bridging Uplift Modeling and Sequential Decision-Making",
+        "url": "http://arxiv.org/abs/2604.26169v1",
+        "pub_date": "2026-04-28",
+        "summary": "Treatment allocation under budget constraints is a central challenge in digital advertising: advertisers must decide which users to show ads to while spending a limited budget wisely. The standard approach follows a two-stage offline pipeline - first collect historical data to estimate heterogeneous treatment effects (HTE), then solve a constrained optimization to allocate the budget. This works well with abundant data, but fails in cold-start settings such as new campaigns, new markets, or new customer segments where little historical data exists. We propose Budget-Constrained Causal Bandits (BCCB), an online framework that learns which users respond to ads while simultaneously spending the budget, making treatment decisions one user at a time. BCCB unifies three components into a single sequential process: learning individual-level ad effectiveness, exploring users whose response is uncertain, and pacing the budget over time. We evaluated on the Criteo Uplift dataset, a large-scale advertising dataset from a real randomized controlled trial. Our key finding is a data-efficiency crossover: offline methods require approximately 10,000 historical observations to produce reliable results, while BCCB operates effectively from the very first user. Furthermore, BCCB exhibits 3-5x lower performance variance between runs, making it more practical for real campaign planning. Among purely online methods, BCCB consistently outperforms standard Thompson Sampling, budgeted Thompson Sampling, and greedy HTE estimation across all budget levels tested.",
+        "translated": ""
+    },
+    {
+        "title": "Stochastic Frontier meets Breakdown Frontier",
+        "url": "http://arxiv.org/abs/2604.26088v1",
+        "pub_date": "2026-04-28",
+        "summary": "This paper studies sensitivity analysis of Stochastic Frontier Models. We elaborate relaxations of the baseline assumptions in the Stochastic Frontier Models and characterize the identified set under this relaxations. Furthermore, we derive the breakdown frontier for a relevant parameter of interest, the average inefficiency of a production unit. We show an application of the procedures on a well known dataset, and make the code available for the interested practitioner.",
+        "translated": ""
+    },
+    {
+        "title": "Auditing Marketing Budget Allocation with Hindsight Regret",
+        "url": "http://arxiv.org/abs/2604.25977v1",
+        "pub_date": "2026-04-28",
+        "summary": "Organizations routinely make strategic budget allocations under operational constraints, but often lack a principled way to assess whether realized allocations were close to the best feasible choices in hindsight. We present a retrospective auditing framework based on hindsight regret, defined as the opportunity cost of the realized allocation relative to a constraint-faithful benchmark under the same budget and stability guardrails. The framework estimates regime-specific spend--response functions from historical logs, computes feasible hindsight allocations via constrained optimization, and propagates uncertainty through Monte Carlo evaluation to produce regret distributions, expected lift, and probability-of-improvement summaries. This separates allocation inefficiency from uncertainty in the estimated response surfaces. Experiments on real marketing allocation logs show that the framework yields interpretable post-hoc diagnostics and reveals a practical trade-off between allocation flexibility and detectability: moderate feasible reallocations often capture most measurable gain, while larger shifts move into weak-support regions with higher uncertainty. The result is a practical method for auditing historical budget decisions when online experimentation is costly or infeasible.",
+        "translated": ""
     }
 ]
