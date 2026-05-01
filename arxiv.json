@@ -67975,5 +67975,26 @@
         "pub_date": "2026-04-29",
         "summary": "Large reasoning models such as DeepSeek-R1 and OpenAI o1 generate extended chains of thought spanning thousands of tokens, yet their integration with retrieval-augmented generation (RAG) remains fundamentally misaligned. Current RAG systems optimize for providing context before reasoning begins, while reasoning models require evidence injection during multi-step inference chains. We introduce ReaLM-Retrieve, a reasoning-aware retrieval framework that addresses this mismatch through three key innovations: (1) a step-level uncertainty detector that identifies knowledge gaps at reasoning-step granularity rather than token or sentence level; (2) a retrieval intervention policy that learns when external evidence maximally benefits ongoing reasoning; and (3) an efficiency-optimized integration mechanism that reduces per-retrieval overhead by 3.2x compared to naive integration. Experiments on MuSiQue, HotpotQA, and 2WikiMultiHopQA demonstrate that ReaLM-Retrieve achieves on average 10.1% absolute improvement in answer F1 over standard RAG (range: 9.0-11.8% across the three benchmarks) while reducing retrieval calls by 47% compared to fixed-interval approaches like IRCoT (all improvements significant at p&lt;0.01, paired bootstrap). On the challenging MuSiQue benchmark requiring 2-4 hop reasoning, our method achieves 71.2% F1 with an average of only 1.8 retrieval calls per question. Analysis shows that ReaLM-Retrieve also improves retrieval quality itself, achieving 81.3% Recall@5 with consistently higher precision and MRR than fixed-interval baselines on supporting evidence, establishing new state-of-the-art efficiency-accuracy trade-offs for reasoning-intensive retrieval tasks.",
         "translated": ""
+    },
+    {
+        "title": "Subsampling Under Two-way Clustering with Serial Correlation",
+        "url": "http://arxiv.org/abs/2604.27215v1",
+        "pub_date": "2026-04-29",
+        "summary": "We prove the validity of using subsampling method for inference under a two-way clustered panel in which the time effects are serially correlated. Subsamples should be drawn without replacement from randomly partitioned individual index set and consecutive blocks of time effects. We present two subsampling inference methods: estimating the quantiles directly and constructing the confidence interval by first estimating the asymptotic variance. The quantile method is very adaptive, allowing for non-Gaussian limit which invalidates all existing methods in two-way clustering with serial correlation. Although the variance method only works under Gaussian limit, it comes with a data-driven bandwidth selection algorithm and a bias-correction under suitable estimators. Monte Carlo simulations demonstrate our methods exhibiting the desired coverage level in the finite sample except when the serial correlation is extremely strong. This paper is the first one that allows for inference on non-Gaussian asymptotics under two-way clustering with serial correlation.",
+        "translated": ""
+    },
+    {
+        "title": "Treatment-effect heterogeneity and interactive fixed effects: Can we control for too much?",
+        "url": "http://arxiv.org/abs/2604.27187v1",
+        "pub_date": "2026-04-29",
+        "summary": "This paper studies the interactive fixed effects (IFE) estimator in a panel-data setting with heterogeneous treatment effects. We show that, if the treatment-effect heterogeneity admits a linear factor structure, the IFE estimator could fail to recover the average treatment effect on the treated units. The problem arises because the interactive fixed effects absorb the heterogeneity in the treatment effect, creating a \\textit{bad-control} problem. With time-invariant factors or unit-invariant loadings in the treatment effect heterogeneity, identification may further break down due to multicollinearity. These problems are not present in alternative estimation methods that exclude treated units in post-treatment periods from the factor estimation.",
+        "translated": ""
+    },
+    {
+        "title": "Doubly robust local projections difference-in-differences",
+        "url": "http://arxiv.org/abs/2604.27035v1",
+        "pub_date": "2026-04-29",
+        "summary": "This paper develops a doubly robust extension of local-projections difference-in-differences (LP-DiD) for staggered absorbing treatments. The resulting estimator, DRLPDID, preserves the LP-DiD local-stack ATT target and is consistent when either the local untreated-outcome regression or the local treatment-probability model is correctly specified. It also delivers influence-function-based inference for post-treatment summaries and multiplier-bootstrap bands for dynamic paths. In Monte Carlo designs with covariate-driven selection, DRLPDID matches regression-adjusted LP-DiD under outcome-model alignment and clearly outperforms the IPT-only variant under propensity-score misspecification. In the no-fault-divorce application, DRLPDID tracks robust staggered-adoption estimators and is less negative than unadjusted LP-DiD.",
+        "translated": ""
     }
 ]
